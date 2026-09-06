@@ -1,0 +1,14 @@
+﻿{
+  "name": "Vokabeltrainer ES -> DE",
+  "short_name": "Vokabeln",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f4f2",
+  "theme_color": "#f4f4f2",
+  "icons": [
+    {"src": "icon-180.png", "sizes": "180x180", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
