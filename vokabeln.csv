@@ -1,0 +1,337 @@
+﻿typ;es;art;de;plural;kasus;perfekt;bsp;alt;thema
+nomen;la familia;die;Familie;Familien;;;;;Menschen
+nomen;el hombre;der;Mann;Männer;;;;;Menschen
+nomen;la mujer;die;Frau;Frauen;;;;;Menschen
+nomen;el niño / la niña;das;Kind;Kinder;;;;Junge|Mädchen;Menschen
+nomen;el amigo;der;Freund;Freunde;;;;;Menschen
+nomen;la amiga;die;Freundin;Freundinnen;;;;;Menschen
+nomen;los padres;die;Eltern;nur Plural;;;;;Menschen
+nomen;la madre;die;Mutter;Mütter;;;;Mama;Menschen
+nomen;el padre;der;Vater;Väter;;;;Papa;Menschen
+nomen;el hermano;der;Bruder;Brüder;;;;;Menschen
+nomen;la hermana;die;Schwester;Schwestern;;;;;Menschen
+nomen;el abuelo;der;Großvater;Großväter;;;;Opa;Menschen
+nomen;la abuela;die;Großmutter;Großmütter;;;;Oma;Menschen
+nomen;el marido / el esposo;der;Ehemann;Ehemänner;;;;Mann;Menschen
+nomen;la esposa;die;Ehefrau;Ehefrauen;;;;Frau;Menschen
+nomen;el vecino;der;Nachbar;Nachbarn;;;;;Menschen
+nomen;el nombre;der;Name;Namen;;;;Vorname;Menschen
+nomen;el apellido;der;Nachname;Nachnamen;;;;Familienname;Menschen
+nomen;la edad;das;Alter;nur Singular;;;;;Menschen
+nomen;el cumpleaños;der;Geburtstag;Geburtstage;;;;;Menschen
+nomen;la casa;das;Haus;Häuser;;;;;Wohnen
+nomen;el piso / el apartamento;die;Wohnung;Wohnungen;;;;;Wohnen
+nomen;la habitación;das;Zimmer;Zimmer;;;;Raum;Wohnen
+nomen;la cocina;die;Küche;Küchen;;;;;Wohnen
+nomen;el baño;das;Badezimmer;Badezimmer;;;;Bad;Wohnen
+nomen;el dormitorio;das;Schlafzimmer;Schlafzimmer;;;;;Wohnen
+nomen;el salón;das;Wohnzimmer;Wohnzimmer;;;;;Wohnen
+nomen;la mesa;der;Tisch;Tische;;;;;Wohnen
+nomen;la silla;der;Stuhl;Stühle;;;;;Wohnen
+nomen;la cama;das;Bett;Betten;;;;;Wohnen
+nomen;el armario;der;Schrank;Schränke;;;;;Wohnen
+nomen;la puerta;die;Tür;Türen;;;;;Wohnen
+nomen;la ventana;das;Fenster;Fenster;;;;;Wohnen
+nomen;la llave;der;Schlüssel;Schlüssel;;;;;Wohnen
+nomen;el alquiler;die;Miete;Mieten;;;;;Wohnen
+nomen;el jardín;der;Garten;Gärten;;;;;Wohnen
+nomen;la lámpara;die;Lampe;Lampen;;;;;Wohnen
+nomen;la pared;die;Wand;Wände;;;;;Wohnen
+nomen;el ascensor;der;Aufzug;Aufzüge;;;;Lift;Wohnen
+nomen;la escalera;die;Treppe;Treppen;;;;;Wohnen
+nomen;el edificio;das;Gebäude;Gebäude;;;;;Wohnen
+nomen;la mudanza;der;Umzug;Umzüge;;;;;Wohnen
+nomen;el pan;das;Brot;Brote;;;;;Essen
+nomen;el panecillo;das;Brötchen;Brötchen;;;;;Essen
+nomen;la mantequilla;die;Butter;nur Singular;;;;;Essen
+nomen;el queso;der;Käse;Käse;;;;;Essen
+nomen;la leche;die;Milch;nur Singular;;;;;Essen
+nomen;el huevo;das;Ei;Eier;;;;;Essen
+nomen;la carne;das;Fleisch;nur Singular;;;;;Essen
+nomen;el pescado;der;Fisch;Fische;;;;;Essen
+nomen;la verdura;das;Gemüse;nur Singular;;;;;Essen
+nomen;la fruta;das;Obst;nur Singular;;;;Frucht;Essen
+nomen;la manzana;der;Apfel;Äpfel;;;;;Essen
+nomen;el plátano;die;Banane;Bananen;;;;;Essen
+nomen;la naranja;die;Orange;Orangen;;;;;Essen
+nomen;la patata;die;Kartoffel;Kartoffeln;;;;;Essen
+nomen;el tomate;die;Tomate;Tomaten;;;;;Essen
+nomen;el arroz;der;Reis;nur Singular;;;;;Essen
+nomen;la sal;das;Salz;nur Singular;;;;;Essen
+nomen;el azúcar;der;Zucker;nur Singular;;;;;Essen
+nomen;el aceite;das;Öl;Öle;;;;;Essen
+nomen;el agua;das;Wasser;nur Singular;;;;;Essen
+nomen;el café;der;Kaffee;nur Singular;;;;;Essen
+nomen;el té;der;Tee;nur Singular;;;;;Essen
+nomen;el vino;der;Wein;Weine;;;;;Essen
+nomen;la cerveza;das;Bier;Biere;;;;;Essen
+nomen;el zumo / el jugo;der;Saft;Säfte;;;;;Essen
+nomen;el desayuno;das;Frühstück;nur Singular;;;;;Essen
+nomen;el almuerzo;das;Mittagessen;nur Singular;;;;;Essen
+nomen;la cena;das;Abendessen;nur Singular;;;;;Essen
+nomen;el plato (vajilla);der;Teller;Teller;;;;;Essen
+nomen;el plato (comida);das;Gericht;Gerichte;;;;;Essen
+nomen;el vaso;das;Glas;Gläser;;;;;Essen
+nomen;la taza;die;Tasse;Tassen;;;;;Essen
+nomen;el cuchillo;das;Messer;Messer;;;;;Essen
+nomen;el tenedor;die;Gabel;Gabeln;;;;;Essen
+nomen;la cuchara;der;Löffel;Löffel;;;;;Essen
+nomen;la cuenta;die;Rechnung;Rechnungen;;;;;Essen
+nomen;la propina;das;Trinkgeld;Trinkgelder;;;;;Essen
+nomen;el restaurante;das;Restaurant;Restaurants;;;;;Essen
+nomen;el pastel;der;Kuchen;Kuchen;;;;Torte;Essen
+nomen;la sopa;die;Suppe;Suppen;;;;;Essen
+nomen;el trabajo;die;Arbeit;Arbeiten;;;;;Arbeit
+nomen;la profesión;der;Beruf;Berufe;;;;;Arbeit
+nomen;la empresa;die;Firma;Firmen;;;;Unternehmen;Arbeit
+nomen;la oficina;das;Büro;Büros;;;;;Arbeit
+nomen;el jefe;der;Chef;Chefs;;;;;Arbeit
+nomen;el compañero de trabajo;der;Kollege;Kollegen;;;;;Arbeit
+nomen;el sueldo;das;Gehalt;Gehälter;;;;Lohn;Arbeit
+nomen;la reunión;die;Besprechung;Besprechungen;;;;Sitzung|Meeting;Arbeit
+nomen;la solicitud (de empleo);die;Bewerbung;Bewerbungen;;;;;Arbeit
+nomen;las vacaciones;der;Urlaub;Urlaube;;;;Ferien;Arbeit
+nomen;el contrato;der;Vertrag;Verträge;;;;;Arbeit
+nomen;la formación;die;Ausbildung;Ausbildungen;;;;;Arbeit
+nomen;la cita;der;Termin;Termine;;;;;Arbeit
+nomen;el cliente;der;Kunde;Kunden;;;;;Arbeit
+nomen;la tienda;das;Geschäft;Geschäfte;;;;Laden;Einkaufen
+nomen;el supermercado;der;Supermarkt;Supermärkte;;;;;Einkaufen
+nomen;el mercado;der;Markt;Märkte;;;;;Einkaufen
+nomen;el precio;der;Preis;Preise;;;;;Einkaufen
+nomen;el dinero;das;Geld;nur Singular;;;;;Einkaufen
+nomen;la caja;die;Kasse;Kassen;;;;;Einkaufen
+nomen;el descuento;der;Rabatt;Rabatte;;;;;Einkaufen
+nomen;el recibo;die;Quittung;Quittungen;;;;;Einkaufen
+nomen;la tarjeta de crédito;die;Kreditkarte;Kreditkarten;;;;;Einkaufen
+nomen;la panadería;die;Bäckerei;Bäckereien;;;;;Einkaufen
+nomen;la carnicería;die;Metzgerei;Metzgereien;;;;;Einkaufen
+nomen;la ropa;die;Kleidung;nur Singular;;;;;Einkaufen
+nomen;la camisa;das;Hemd;Hemden;;;;;Einkaufen
+nomen;los pantalones;die;Hose;Hosen;;;;;Einkaufen
+nomen;el vestido;das;Kleid;Kleider;;;;;Einkaufen
+nomen;el zapato;der;Schuh;Schuhe;;;;;Einkaufen
+nomen;la chaqueta;die;Jacke;Jacken;;;;;Einkaufen
+nomen;el bolso;die;Tasche;Taschen;;;;;Einkaufen
+nomen;la talla;die;Größe;Größen;;;;;Einkaufen
+nomen;el coche;das;Auto;Autos;;;;Wagen;Verkehr
+nomen;el tren;der;Zug;Züge;;;;;Verkehr
+nomen;el autobús;der;Bus;Busse;;;;;Verkehr
+nomen;el avión;das;Flugzeug;Flugzeuge;;;;;Verkehr
+nomen;la bicicleta;das;Fahrrad;Fahrräder;;;;Velo|Rad;Verkehr
+nomen;la estación (de tren);der;Bahnhof;Bahnhöfe;;;;;Verkehr
+nomen;la parada;die;Haltestelle;Haltestellen;;;;;Verkehr
+nomen;el billete;die;Fahrkarte;Fahrkarten;;;;Ticket|Fahrschein;Verkehr
+nomen;el viaje;die;Reise;Reisen;;;;;Verkehr
+nomen;el aeropuerto;der;Flughafen;Flughäfen;;;;;Verkehr
+nomen;la maleta;der;Koffer;Koffer;;;;;Verkehr
+nomen;el camino;der;Weg;Wege;;;;;Verkehr
+nomen;la calle;die;Straße;Straßen;;;;Strasse;Verkehr
+nomen;el semáforo;die;Ampel;Ampeln;;;;;Verkehr
+nomen;el carnet de conducir;der;Führerschein;Führerscheine;;;;Fahrausweis;Verkehr
+nomen;la gasolina;das;Benzin;nur Singular;;;;;Verkehr
+nomen;el retraso;die;Verspätung;Verspätungen;;;;;Verkehr
+nomen;el hotel;das;Hotel;Hotels;;;;;Verkehr
+nomen;la reserva;die;Reservierung;Reservierungen;;;;Buchung;Verkehr
+nomen;el mapa;die;Karte;Karten;;;;Landkarte;Verkehr
+nomen;el día;der;Tag;Tage;;;;;Zeit
+nomen;la semana;die;Woche;Wochen;;;;;Zeit
+nomen;el mes;der;Monat;Monate;;;;;Zeit
+nomen;el año;das;Jahr;Jahre;;;;;Zeit
+nomen;la hora (60 min);die;Stunde;Stunden;;;;;Zeit
+nomen;el minuto;die;Minute;Minuten;;;;;Zeit
+nomen;la mañana;der;Morgen;Morgen;;;;Vormittag;Zeit
+nomen;la tarde;der;Nachmittag;Nachmittage;;;;;Zeit
+nomen;la noche;die;Nacht;Nächte;;;;;Zeit
+nomen;el fin de semana;das;Wochenende;Wochenenden;;;;;Zeit
+nomen;el reloj;die;Uhr;Uhren;;;;;Zeit
+nomen;el cuerpo;der;Körper;Körper;;;;;Gesundheit
+nomen;la cabeza;der;Kopf;Köpfe;;;;;Gesundheit
+nomen;la mano;die;Hand;Hände;;;;;Gesundheit
+nomen;el pie;der;Fuß;Füße;;;;Fuss;Gesundheit
+nomen;el ojo;das;Auge;Augen;;;;;Gesundheit
+nomen;la oreja;das;Ohr;Ohren;;;;;Gesundheit
+nomen;la boca;der;Mund;Münder;;;;;Gesundheit
+nomen;el diente;der;Zahn;Zähne;;;;;Gesundheit
+nomen;la espalda;der;Rücken;Rücken;;;;;Gesundheit
+nomen;el brazo;der;Arm;Arme;;;;;Gesundheit
+nomen;la pierna;das;Bein;Beine;;;;;Gesundheit
+nomen;el médico;der;Arzt;Ärzte;;;;;Gesundheit
+nomen;el hospital;das;Krankenhaus;Krankenhäuser;;;;Spital;Gesundheit
+nomen;la farmacia;die;Apotheke;Apotheken;;;;;Gesundheit
+nomen;el medicamento;das;Medikament;Medikamente;;;;;Gesundheit
+nomen;el dolor;der;Schmerz;Schmerzen;;;;;Gesundheit
+nomen;la enfermedad;die;Krankheit;Krankheiten;;;;;Gesundheit
+nomen;la fiebre;das;Fieber;nur Singular;;;;;Gesundheit
+nomen;el resfriado;die;Erkältung;Erkältungen;;;;;Gesundheit
+nomen;el seguro;die;Versicherung;Versicherungen;;;;;Gesundheit
+nomen;el tiempo libre;die;Freizeit;nur Singular;;;;;Freizeit
+nomen;la película;der;Film;Filme;;;;;Freizeit
+nomen;el libro;das;Buch;Bücher;;;;;Freizeit
+nomen;la música;die;Musik;nur Singular;;;;;Freizeit
+nomen;la canción;das;Lied;Lieder;;;;;Freizeit
+nomen;el deporte;der;Sport;nur Singular;;;;;Freizeit
+nomen;el partido / el juego;das;Spiel;Spiele;;;;;Freizeit
+nomen;la fiesta;das;Fest;Feste;;;;Party|Feier;Freizeit
+nomen;el periódico;die;Zeitung;Zeitungen;;;;;Freizeit
+nomen;la foto;das;Foto;Fotos;;;;Bild;Freizeit
+nomen;el regalo;das;Geschenk;Geschenke;;;;;Freizeit
+nomen;la piscina;das;Schwimmbad;Schwimmbäder;;;;;Freizeit
+nomen;el museo;das;Museum;Museen;;;;;Freizeit
+nomen;el tiempo (clima);das;Wetter;nur Singular;;;;;Natur
+nomen;el sol;die;Sonne;Sonnen;;;;;Natur
+nomen;la lluvia;der;Regen;nur Singular;;;;;Natur
+nomen;la nieve;der;Schnee;nur Singular;;;;;Natur
+nomen;el viento;der;Wind;Winde;;;;;Natur
+nomen;la nube;die;Wolke;Wolken;;;;;Natur
+nomen;el árbol;der;Baum;Bäume;;;;;Natur
+nomen;la flor;die;Blume;Blumen;;;;;Natur
+nomen;la montaña;der;Berg;Berge;;;;;Natur
+nomen;el lago;der;See;Seen;;;;;Natur
+nomen;el mar;das;Meer;Meere;;;;;Natur
+nomen;el río;der;Fluss;Flüsse;;;;;Natur
+nomen;el bosque;der;Wald;Wälder;;;;;Natur
+nomen;el animal;das;Tier;Tiere;;;;;Natur
+nomen;el perro;der;Hund;Hunde;;;;;Natur
+nomen;el gato;die;Katze;Katzen;;;;;Natur
+nomen;la ciudad;die;Stadt;Städte;;;;;Stadt
+nomen;el pueblo;das;Dorf;Dörfer;;;;;Stadt
+nomen;el país;das;Land;Länder;;;;;Stadt
+nomen;la plaza;der;Platz;Plätze;;;;;Stadt
+nomen;la iglesia;die;Kirche;Kirchen;;;;;Stadt
+nomen;el banco (dinero);die;Bank;Banken;;;;;Stadt
+nomen;el correo;die;Post;nur Singular;;;;;Stadt
+nomen;la escuela;die;Schule;Schulen;;;;;Stadt
+nomen;la universidad;die;Universität;Universitäten;;;;Uni;Stadt
+nomen;la biblioteca;die;Bibliothek;Bibliotheken;;;;;Stadt
+nomen;el ayuntamiento;das;Rathaus;Rathäuser;;;;;Stadt
+nomen;el permiso de residencia;die;Aufenthaltsbewilligung;Aufenthaltsbewilligungen;;;;;Stadt
+nomen;el formulario;das;Formular;Formulare;;;;;Stadt
+nomen;el documento de identidad;der;Ausweis;Ausweise;;;;;Stadt
+nomen;la solicitud (trámite);der;Antrag;Anträge;;;;;Stadt
+verb;comprar;;kaufen;;Akkusativ;hat gekauft;Ich kaufe einen Mantel.;;Verben
+verb;ver;;sehen;;Akkusativ;hat gesehen;Ich sehe den Bus.;;Verben
+verb;oír / escuchar;;hören;;Akkusativ;hat gehört;Ich höre die Musik.;;Verben
+verb;leer;;lesen;;Akkusativ;hat gelesen;Sie liest das Buch.;;Verben
+verb;escribir;;schreiben;;Akkusativ;hat geschrieben;Er schreibt eine E-Mail.;;Verben
+verb;comer;;essen;;Akkusativ;hat gegessen;Wir essen einen Salat.;;Verben
+verb;beber;;trinken;;Akkusativ;hat getrunken;Ich trinke einen Kaffee.;;Verben
+verb;necesitar;;brauchen;;Akkusativ;hat gebraucht;Ich brauche einen Termin.;;Verben
+verb;buscar;;suchen;;Akkusativ;hat gesucht;Sie sucht die Schlüssel.;;Verben
+verb;encontrar;;finden;;Akkusativ;hat gefunden;Ich finde den Weg nicht.;;Verben
+verb;tomar / coger;;nehmen;;Akkusativ;hat genommen;Nimm den Zug!;;Verben
+verb;visitar;;besuchen;;Akkusativ;hat besucht;Wir besuchen die Großeltern.;;Verben
+verb;preguntar;;fragen;;Akkusativ;hat gefragt;Ich frage den Lehrer. (nicht: dem Lehrer!);;Verben
+verb;entender;;verstehen;;Akkusativ;hat verstanden;Ich verstehe die Frage.;;Verben
+verb;aprender;;lernen;;Akkusativ;hat gelernt;Sie lernt Deutsch.;;Verben
+verb;pagar;;bezahlen;;Akkusativ;hat bezahlt;Ich bezahle die Rechnung.;;Verben
+verb;pedir (en un restaurante);;bestellen;;Akkusativ;hat bestellt;Wir bestellen eine Suppe.;;Verben
+verb;abrir;;öffnen;;Akkusativ;hat geöffnet;Öffne bitte das Fenster!;aufmachen;Verben
+verb;cerrar;;schließen;;Akkusativ;hat geschlossen;Ich schließe die Tür.;zumachen;Verben
+verb;olvidar;;vergessen;;Akkusativ;hat vergessen;Ich habe den Termin vergessen.;;Verben
+verb;perder;;verlieren;;Akkusativ;hat verloren;Er hat den Schlüssel verloren.;;Verben
+verb;conocer;;kennen;;Akkusativ;hat gekannt;Ich kenne die Stadt gut.;;Verben
+verb;amar;;lieben;;Akkusativ;hat geliebt;Ich liebe dich.;;Verben
+verb;usar;;benutzen;;Akkusativ;hat benutzt;Ich benutze den Bus.;;Verben
+verb;limpiar;;putzen;;Akkusativ;hat geputzt;Sie putzt die Wohnung.;;Verben
+verb;cocinar;;kochen;;Akkusativ;hat gekocht;Er kocht das Essen.;;Verben
+verb;llevar (ropa);;tragen;;Akkusativ;hat getragen;Sie trägt einen Mantel.;;Verben
+verb;repetir;;wiederholen;;Akkusativ;hat wiederholt;Wiederholen Sie den Satz!;;Verben
+verb;reservar;;reservieren;;Akkusativ;hat reserviert;Ich reserviere einen Tisch.;;Verben
+verb;llamar (por teléfono);;anrufen;;Akkusativ;hat angerufen;Ich rufe dich an. (aber: telefonieren mit + Dativ);;Verben
+verb;ayudar;;helfen;;Dativ;hat geholfen;Ich helfe meiner Frau.;;Verben
+verb;agradecer;;danken;;Dativ;hat gedankt;Ich danke dir.;;Verben
+verb;gustar;;gefallen;;Dativ;hat gefallen;Das Kleid gefällt mir.;;Verben
+verb;pertenecer;;gehören;;Dativ;hat gehört;Das Buch gehört meinem Bruder.;;Verben
+verb;quedar bien (ropa);;passen;;Dativ;hat gepasst;Die Hose passt mir nicht.;;Verben
+verb;saber (a algo);;schmecken;;Dativ;hat geschmeckt;Die Suppe schmeckt mir.;;Verben
+verb;responder;;antworten;;Dativ;hat geantwortet;Ich antworte dem Chef.;;Verben
+verb;creer (a alguien);;glauben;;Dativ;hat geglaubt;Ich glaube dir.;;Verben
+verb;felicitar;;gratulieren;;Dativ;hat gratuliert;Wir gratulieren dir zum Geburtstag.;;Verben
+verb;escuchar (a alguien);;zuhören;;Dativ;hat zugehört;Hör mir bitte zu!;;Verben
+verb;faltar;;fehlen;;Dativ;hat gefehlt;Du fehlst mir.;;Verben
+verb;doler;;wehtun;;Dativ;hat wehgetan;Mein Kopf tut mir weh.;;Verben
+verb;seguir;;folgen;;Dativ;ist gefolgt;Folgen Sie dem Auto!;;Verben
+verb;encontrarse con;;begegnen;;Dativ;ist begegnet;Ich bin meinem Nachbarn begegnet.;;Verben
+verb;suceder / pasar;;passieren;;Dativ;ist passiert;Was ist dir passiert?;;Verben
+verb;dar;;geben;;Dativ + Akkusativ;hat gegeben;Ich gebe dir das Buch.;;Verben
+verb;mostrar;;zeigen;;Dativ + Akkusativ;hat gezeigt;Er zeigt mir die Stadt.;;Verben
+verb;regalar;;schenken;;Dativ + Akkusativ;hat geschenkt;Sie schenkt ihm eine Uhr.;;Verben
+verb;enviar;;schicken;;Dativ + Akkusativ;hat geschickt;Ich schicke dir eine Karte.;senden;Verben
+verb;explicar;;erklären;;Dativ + Akkusativ;hat erklärt;Er erklärt mir die Regel.;;Verben
+verb;recomendar;;empfehlen;;Dativ + Akkusativ;hat empfohlen;Ich empfehle Ihnen das Hotel.;;Verben
+verb;contar (una historia);;erzählen;;Dativ + Akkusativ;hat erzählt;Sie erzählt uns eine Geschichte.;;Verben
+verb;prestar;;leihen;;Dativ + Akkusativ;hat geliehen;Leihst du mir dein Auto?;;Verben
+verb;vender;;verkaufen;;Dativ + Akkusativ;hat verkauft;Er verkauft mir sein Fahrrad.;;Verben
+verb;traer;;bringen;;Dativ + Akkusativ;hat gebracht;Bring mir bitte einen Kaffee!;;Verben
+verb;esperar (a alguien);;warten;;warten auf + Akkusativ;hat gewartet;Ich warte auf den Bus.;;Verben
+verb;pensar en;;denken;;denken an + Akkusativ;hat gedacht;Ich denke an dich.;;Verben
+verb;alegrarse de;;sich freuen;;sich freuen auf/über + Akkusativ;hat sich gefreut;Ich freue mich auf das Wochenende.;freuen;Verben
+verb;interesarse por;;sich interessieren;;sich interessieren für + Akkusativ;hat sich interessiert;Sie interessiert sich für Musik.;interessieren;Verben
+verb;participar en;;teilnehmen;;teilnehmen an + Dativ;hat teilgenommen;Er nimmt an dem Kurs teil.;;Verben
+verb;empezar;;anfangen;;anfangen mit + Dativ;hat angefangen;Wir fangen mit der Arbeit an.;beginnen;Verben
+verb;terminar;;aufhören;;aufhören mit + Dativ;hat aufgehört;Hör mit dem Lärm auf!;;Verben
+verb;hablar con;;sprechen;;sprechen mit + Dativ;hat gesprochen;Ich spreche mit dem Arzt.;;Verben
+verb;pedir (algo a alguien);;bitten;;bitten um + Akkusativ;hat gebeten;Ich bitte dich um Hilfe.;;Verben
+verb;acordarse de;;sich erinnern;;sich erinnern an + Akkusativ;hat sich erinnert;Ich erinnere mich an den Tag.;erinnern;Verben
+verb;cuidar de;;sich kümmern;;sich kümmern um + Akkusativ;hat sich gekümmert;Sie kümmert sich um die Kinder.;kümmern;Verben
+verb;ir;;gehen;;ohne Objekt;ist gegangen;Ich gehe nach Hause.;;Verben
+verb;venir;;kommen;;ohne Objekt;ist gekommen;Sie kommt aus Kolumbien.;;Verben
+verb;ir en (coche, tren);;fahren;;ohne Objekt;ist gefahren;Wir fahren mit dem Zug.;;Verben
+verb;dormir;;schlafen;;ohne Objekt;hat geschlafen;Das Kind schläft.;;Verben
+verb;quedarse;;bleiben;;ohne Objekt;ist geblieben;Ich bleibe zu Hause.;;Verben
+verb;vivir (residir);;wohnen;;ohne Objekt;hat gewohnt;Wir wohnen in Baden.;;Verben
+verb;trabajar;;arbeiten;;ohne Objekt;hat gearbeitet;Er arbeitet bei DECTRIS.;;Verben
+verb;correr;;laufen;;ohne Objekt;ist gelaufen;Sie läuft schnell.;rennen;Verben
+verb;levantarse;;aufstehen;;ohne Objekt;ist aufgestanden;Ich stehe um sechs Uhr auf.;;Verben
+verb;volar;;fliegen;;ohne Objekt;ist geflogen;Wir fliegen nach Bogotá.;;Verben
+verb;nadar;;schwimmen;;ohne Objekt;ist geschwommen;Er schwimmt gern.;;Verben
+verb;reír;;lachen;;ohne Objekt;hat gelacht;Die Kinder lachen laut.;;Verben
+adjektiv;grande;;groß;;;;Das Haus ist groß.;gross;Adjektive
+adjektiv;pequeño;;klein;;;;Die Wohnung ist klein.;;Adjektive
+adjektiv;nuevo;;neu;;;;Ich habe ein neues Auto.;;Adjektive
+adjektiv;viejo;;alt;;;;Der Mantel ist alt.;;Adjektive
+adjektiv;bueno;;gut;;;;Das Essen ist gut.;;Adjektive
+adjektiv;malo;;schlecht;;;;Das Wetter ist schlecht.;;Adjektive
+adjektiv;caro;;teuer;;;;Die Miete ist teuer.;;Adjektive
+adjektiv;barato;;billig;;;;Das Ticket ist billig.;günstig;Adjektive
+adjektiv;rápido;;schnell;;;;Der Zug ist schnell.;;Adjektive
+adjektiv;lento;;langsam;;;;Sie spricht langsam.;;Adjektive
+adjektiv;fácil;;einfach;;;;Die Aufgabe ist einfach.;leicht;Adjektive
+adjektiv;difícil;;schwierig;;;;Deutsch ist schwierig.;schwer;Adjektive
+adjektiv;bonito;;schön;;;;Der Garten ist schön.;hübsch;Adjektive
+adjektiv;feo;;hässlich;;;;Das Gebäude ist hässlich.;;Adjektive
+adjektiv;largo;;lang;;;;Der Weg ist lang.;;Adjektive
+adjektiv;corto;;kurz;;;;Die Hose ist kurz.;;Adjektive
+adjektiv;alto;;hoch;;;;Der Berg ist hoch.;;Adjektive
+adjektiv;bajo;;niedrig;;;;Der Tisch ist niedrig.;;Adjektive
+adjektiv;frío;;kalt;;;;Das Wasser ist kalt.;;Adjektive
+adjektiv;caliente;;heiß;;;;Der Kaffee ist heiß.;heiss;Adjektive
+adjektiv;lleno;;voll;;;;Der Bus ist voll.;;Adjektive
+adjektiv;vacío;;leer;;;;Das Glas ist leer.;;Adjektive
+adjektiv;importante;;wichtig;;;;Der Termin ist wichtig.;;Adjektive
+adjektiv;cansado;;müde;;;;Ich bin sehr müde.;;Adjektive
+adjektiv;feliz;;glücklich;;;;Wir sind glücklich.;froh;Adjektive
+adjektiv;triste;;traurig;;;;Sie ist traurig.;;Adjektive
+adjektiv;enfermo;;krank;;;;Mein Sohn ist krank.;;Adjektive
+adjektiv;sano;;gesund;;;;Obst ist gesund.;;Adjektive
+adjektiv;libre;;frei;;;;Ist der Platz frei?;;Adjektive
+adjektiv;ocupado;;besetzt;;;;Die Toilette ist besetzt.;beschäftigt;Adjektive
+adjektiv;limpio;;sauber;;;;Die Küche ist sauber.;;Adjektive
+adjektiv;sucio;;schmutzig;;;;Die Schuhe sind schmutzig.;dreckig;Adjektive
+adjektiv;ruidoso;;laut;;;;Die Straße ist laut.;;Adjektive
+adjektiv;tranquilo;;ruhig;;;;Das Zimmer ist ruhig.;leise;Adjektive
+adjektiv;peligroso;;gefährlich;;;;Das ist gefährlich.;;Adjektive
+adjektiv;seguro;;sicher;;;;Hier ist es sicher.;;Adjektive
+adjektiv;amable;;freundlich;;;;Der Kollege ist freundlich.;nett;Adjektive
+adjektiv;divertido;;lustig;;;;Der Film ist lustig.;witzig;Adjektive
+adverb;hoy;;heute;;;;Heute habe ich frei.;;Zeit
+adverb;mañana (adv.);;morgen;;;;Morgen fahren wir nach Zürich.;;Zeit
+adverb;ayer;;gestern;;;;Gestern war ich krank.;;Zeit
+adverb;siempre;;immer;;;;Er kommt immer zu spät.;;Zeit
+adverb;nunca;;nie;;;;Ich trinke nie Alkohol.;niemals;Zeit
+adverb;a menudo;;oft;;;;Wir gehen oft ins Kino.;;Zeit
+adverb;a veces;;manchmal;;;;Manchmal regnet es.;;Zeit
+adverb;ahora;;jetzt;;;;Ich muss jetzt gehen.;;Zeit
+adverb;temprano;;früh;;;;Ich stehe früh auf.;;Zeit
+adverb;tarde (adv.);;spät;;;;Es ist schon spät.;;Zeit
