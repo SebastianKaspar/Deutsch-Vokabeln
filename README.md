@@ -27,8 +27,14 @@ Zwei Fassungen, eine gemeinsame Quelle:
 | Redemittel | 24 |
 | Konnektoren und Präpositionen | 24 |
 
-Nach Niveau: 759 A1, 572 A2, 343 darüber hinaus. Der Filter unten links schaltet zwischen
-`todo`, `A1` und `A2`.
+Nach Niveau: 759 A1, 572 A2, 343 darüber hinaus.
+
+Unten links stehen zwei Filter. **nivel** schaltet zwischen `todo`, `A1` und `A2`.
+**tema** wählt eines von 31 Themengebieten, jeweils mit Kartenzahl — von `Verben (300)`
+über `Essen (95)` bis `Farben (11)`. `todos` mischt alles zufällig durch. Beide Filter
+wirken zusammen; ergibt eine Kombination keine Karten (etwa `Zahlen` + `A2`), meldet das
+Programm das statt eine leere Runde zu starten. Die Themenliste wird aus der Spalte
+`thema` erzeugt — ein neues Thema in der CSV erscheint automatisch im Menü.
 
 ## Vier Kartentypen
 

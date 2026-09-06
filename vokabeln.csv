@@ -1137,7 +1137,7 @@ adverb;encima de eso;;darauf;;;;Der Tisch ist frei, stell es darauf.;;Adverbien;
 adverb;sobre eso;;darüber;;;;Wir sprechen später darüber.;;Adverbien;;A2
 adjektiv;alemán (adj.);;deutsch;;;;Sie lernt die deutsche Sprache.;;Adjektive;;A1
 nomen;el alemán (persona);der;Deutsche;Deutschen;;;;;Menschen;;A1
-nomen;Alemania;das;Deutschland;nur Singular;;;;;Länder;;A1
+nomen;Alemania;das;Deutschland;nur Singular;;;;;Stadt;;A1
 nomen;la cosa;das;Ding;Dinge;;;;;Abstrakt;;A2
 adjektiv;directo;;direkt;;;;Der Zug fährt direkt nach Bern.;;Adjektive;;A2
 nomen;la discoteca;die;Disco;Discos;;;;;Freizeit;;A2
@@ -1179,8 +1179,8 @@ verb;alcanzar / localizar;;erreichen;;Akkusativ;hat erreicht;Ich erreiche ihn ni
 adverb;apenas / recién;;erst;;;;Sie ist erst gestern angekommen.;;Adverbien;;A2
 nomen;el adulto;der;Erwachsene;Erwachsenen;;;;;Menschen;;A1
 nomen;el euro;der;Euro;Euro;;;;;Geld;;A1
-nomen;Europa;das;Europa;nur Singular;;;;;Länder;;A1
-nomen;el europeo;der;Europäer;Europäer;;;;;Länder;;A1
+nomen;Europa;das;Europa;nur Singular;;;;;Stadt;;A1
+nomen;el europeo;der;Europäer;Europäer;;;;;Stadt;;A1
 adjektiv;europeo (adj.);;europäisch;;;;Das ist eine europäische Firma.;;Adjektive;;A1
 nomen;la asignatura;das;Fach;Fächer;;;;;Bildung;;A2
 nomen;el horario (transporte);der;Fahrplan;Fahrpläne;;;;;Verkehr;;A2

@@ -462,6 +462,7 @@ class Trainer:
         self.index = 0
         self.treffer = 0
         self.niveau = "alle"
+        self.thema = "alle"
         self.aufgeloest = False
         self.karte = None
 
@@ -561,8 +562,26 @@ class Trainer:
         self.v_niveau = tk.StringVar(value="alle")
         stufe = ttk.Combobox(fuss, textvariable=self.v_niveau, state="readonly",
                              values=["alle", "A1", "A2"], width=5, font=self.f_klein)
-        stufe.pack(side="left", padx=(4, 14))
+        stufe.pack(side="left", padx=(4, 12))
         stufe.bind("<<ComboboxSelected>>", self._niveau_gewechselt)
+
+        zaehler = {}
+        for k in self.karten:
+            zaehler[k["thema"]] = zaehler.get(k["thema"], 0) + 1
+        alle_label = f"todos ({len(self.karten)})"
+        self.themen_zu_label = {alle_label: "alle"}
+        labels = [alle_label]
+        for name in sorted(zaehler, key=lambda n: (-zaehler[n], n)):
+            label = f"{name} ({zaehler[name]})"
+            self.themen_zu_label[label] = name
+            labels.append(label)
+        tk.Label(fuss, text="tema:", font=self.f_klein, bg=FARBE_BG,
+                 fg=FARBE_GRAU).pack(side="left")
+        self.v_thema = tk.StringVar(value=alle_label)
+        bereich = ttk.Combobox(fuss, textvariable=self.v_thema, state="readonly",
+                               values=labels, width=18, font=self.f_klein)
+        bereich.pack(side="left", padx=(4, 12))
+        bereich.bind("<<ComboboxSelected>>", self._thema_gewechselt)
         tk.Label(fuss, text="voz:", font=self.f_klein, bg=FARBE_BG,
                  fg=FARBE_GRAU).pack(side="left")
         if self.sprecher.stimmen:
@@ -586,6 +605,18 @@ class Trainer:
         self.w.bind("<KP_Enter>", lambda e: self._weiter())
         self.w.bind("<Escape>", lambda e: self.w.destroy())
 
+    def _gefiltert(self):
+        karten = self.karten
+        if self.niveau in ("A1", "A2"):
+            karten = [k for k in karten if k["niveau"] == self.niveau]
+        if self.thema != "alle":
+            karten = [k for k in karten if k["thema"] == self.thema]
+        return karten
+
+    def _thema_gewechselt(self, _ereignis=None):
+        self.thema = self.themen_zu_label.get(self.v_thema.get(), "alle")
+        self._runde_starten()
+
     def _niveau_gewechselt(self, _ereignis=None):
         self.niveau = self.v_niveau.get()
         self._runde_starten()
@@ -604,13 +635,12 @@ class Trainer:
     # ---------------------------------------------------------- Ablauf
 
     def _runde_starten(self):
-        auswahl = ([k for k in self.karten if k["niveau"] == self.niveau]
-                   if self.niveau in ("A1", "A2") else self.karten)
+        auswahl = self._gefiltert()
         self.runde = runde_zusammenstellen(auswahl, self.fortschritt)
         self.index = 0
         self.treffer = 0
         if not self.runde:
-            self._alles_erledigt()
+            self._alles_erledigt(bool(auswahl))
             return
         self._frage_zeigen()
 
@@ -719,11 +749,16 @@ class Trainer:
         self.b_pruefen.config(command=self._weiter)
         self._runde_starten()
 
-    def _alles_erledigt(self):
+    def _alles_erledigt(self, gab_es_karten=True):
         self.l_typ.config(text="")
-        self.l_frage.config(text="¡Todo repasado por hoy!")
-        self.l_extra.config(text="Vuelve mañana — las tarjetas están programadas.",
-                            fg=FARBE_GRAU)
+        if gab_es_karten:
+            self.l_frage.config(text="¡Todo repasado por hoy!")
+            self.l_extra.config(text="Vuelve mañana — las tarjetas están programadas.",
+                                fg=FARBE_GRAU)
+        else:
+            self.l_frage.config(text="Sin tarjetas")
+            self.l_extra.config(text="Este filtro no tiene tarjetas. Elige otro tema o nivel.",
+                                fg=FARBE_GRAU)
         self.e_antwort.config(state="disabled")
         self.b_pruefen.config(state="disabled")
 
