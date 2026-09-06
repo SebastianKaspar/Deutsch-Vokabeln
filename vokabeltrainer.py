@@ -73,6 +73,7 @@ KASUS_FARBE = {
     "Akkusativ": FARBE_BLAU,
     "Dativ": FARBE_GELB,
     "Dativ + Akkusativ": "#6b3fa0",
+    "Modalverb": "#0d7a6f",
     "ohne Objekt": FARBE_GRAU,
 }
 
@@ -81,6 +82,11 @@ TYP_ES = {
     "verb": "verbo",
     "adjektiv": "adjetivo",
     "adverb": "adverbio",
+    "konnektor": "conector",
+    "praeposition": "preposición",
+    "luecke": "completa la frase",
+    "zahl": "número",
+    "wendung": "expresión",
 }
 
 # ------------------------------------------------------------------- Pfade
@@ -295,8 +301,15 @@ class Sprecher:
                            capture_output=True, timeout=30)
 
 
+def geloester_satz(karte) -> str:
+    """Lückensatz mit eingesetzter Lösung."""
+    return karte["satz"].replace("___", karte["de"])
+
+
 def sprechtext(karte) -> str:
     """Text, der vorgelesen wird: Nomen mit Artikel und Plural."""
+    if karte["satz"]:
+        return geloester_satz(karte)
     if karte["typ"] == "nomen":
         wort = f"{karte['art']} {karte['de']}" if karte["art"] else karte["de"]
         if karte["plural"] and karte["plural"] not in ("nur Plural", "nur Singular"):
@@ -328,6 +341,8 @@ def vokabeln_laden(pfad: Path):
                 "bsp": (zeile.get("bsp") or "").strip(),
                 "alt": [a.strip() for a in (zeile.get("alt") or "").split("|") if a.strip()],
                 "thema": (zeile.get("thema") or "").strip(),
+                "satz": (zeile.get("satz") or "").strip(),
+                "niveau": (zeile.get("niveau") or "").strip(),
             })
     if not karten:
         raise ValueError("Keine Vokabeln gefunden.")
@@ -446,6 +461,7 @@ class Trainer:
         self.runde = []
         self.index = 0
         self.treffer = 0
+        self.niveau = "alle"
         self.aufgeloest = False
         self.karte = None
 
@@ -540,6 +556,13 @@ class Trainer:
 
         fuss = tk.Frame(self.w, bg=FARBE_BG)
         fuss.pack(fill="x", padx=24, pady=(4, 14))
+        tk.Label(fuss, text="nivel:", font=self.f_klein, bg=FARBE_BG,
+                 fg=FARBE_GRAU).pack(side="left")
+        self.v_niveau = tk.StringVar(value="alle")
+        stufe = ttk.Combobox(fuss, textvariable=self.v_niveau, state="readonly",
+                             values=["alle", "A1", "A2"], width=5, font=self.f_klein)
+        stufe.pack(side="left", padx=(4, 14))
+        stufe.bind("<<ComboboxSelected>>", self._niveau_gewechselt)
         tk.Label(fuss, text="voz:", font=self.f_klein, bg=FARBE_BG,
                  fg=FARBE_GRAU).pack(side="left")
         if self.sprecher.stimmen:
@@ -563,6 +586,10 @@ class Trainer:
         self.w.bind("<KP_Enter>", lambda e: self._weiter())
         self.w.bind("<Escape>", lambda e: self.w.destroy())
 
+    def _niveau_gewechselt(self, _ereignis=None):
+        self.niveau = self.v_niveau.get()
+        self._runde_starten()
+
     def _stimme_gewechselt(self, _ereignis=None):
         self.sprecher.waehlen(self.v_stimme.get())
         self._stimme_testen()
@@ -577,7 +604,9 @@ class Trainer:
     # ---------------------------------------------------------- Ablauf
 
     def _runde_starten(self):
-        self.runde = runde_zusammenstellen(self.karten, self.fortschritt)
+        auswahl = ([k for k in self.karten if k["niveau"] == self.niveau]
+                   if self.niveau in ("A1", "A2") else self.karten)
+        self.runde = runde_zusammenstellen(auswahl, self.fortschritt)
         self.index = 0
         self.treffer = 0
         if not self.runde:
@@ -591,8 +620,11 @@ class Trainer:
         self.l_zaehler.config(
             text=f"Tarjeta {self.index + 1} / {len(self.runde)}  ·  {self.karte['thema']}")
         self.l_punkte.config(text=f"Aciertos: {self.treffer}")
-        self.l_typ.config(text=TYP_ES.get(self.karte["typ"], ""))
-        self.l_frage.config(text=self.karte["es"])
+        hinweis = TYP_ES.get(self.karte["typ"], "")
+        if self.karte["satz"]:
+            hinweis += "   ·   " + self.karte["es"]
+        self.l_typ.config(text=hinweis)
+        self.l_frage.config(text=self.karte["satz"] or self.karte["es"])
         for etikett in (self.l_urteil, self.l_wort, self.l_grammatik, self.l_extra):
             etikett.config(text="")
         self.b_ton_wort.pack_forget()
@@ -628,7 +660,10 @@ class Trainer:
         fortschritt_speichern(self.pfad_fortschritt, self.fortschritt)
 
         k = self.karte
-        self.l_wort.config(text=(f"{k['art']} {k['de']}" if k["art"] else k["de"]))
+        if k["satz"]:
+            self.l_wort.config(text=geloester_satz(k))
+        else:
+            self.l_wort.config(text=(f"{k['art']} {k['de']}" if k["art"] else k["de"]))
 
         if k["typ"] == "nomen":
             plural = k["plural"]
@@ -640,6 +675,8 @@ class Trainer:
             kasus = k["kasus"]
             farbe = KASUS_FARBE.get(kasus, FARBE_GRUEN)
             self.l_grammatik.config(text=f"→  {kasus}", fg=farbe)
+        elif k["kasus"]:
+            self.l_grammatik.config(text=k["kasus"], fg=FARBE_GRAU)
         else:
             self.l_grammatik.config(text="", fg=FARBE_GRAU)
 

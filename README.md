@@ -1,41 +1,139 @@
-# Vokabeltrainer ES → DE (A2)
+# Vokabeltrainer Spanisch → Deutsch (A1 + A2)
 
-Standalone-Desktop-Programm (tkinter), kein Browser. 336 Karten: 210 Nomen mit Artikel
-und Plural, 78 Verben mit Kasus, 38 Adjektive, 10 Adverbien.
+1674 Karten. Der Wortschatz der Goethe-Wortlisten A1 und A2 ist vollständig abgedeckt
+(1356 von 1362 Lemmata; die restlichen sechs sind Wortstämme wie `all` oder `best`, die
+als Vollform enthalten sind).
 
-## Start
+Zwei Fassungen, eine gemeinsame Quelle:
+
+| Datei | Zweck |
+|---|---|
+| `vokabeltrainer.py` | Desktop-Programm (tkinter), kein Browser |
+| `index.html` | Web-App fürs iPhone, Karten fest eingebettet |
+| `vokabeln.csv` | einzige Quelle für beide |
+| `build_ios.py` | schreibt die Karten aus der CSV neu in `index.html` |
+| `manifest.webmanifest`, `sw.js`, `icon-*.png` | Home-Screen-Symbol und Offline-Betrieb |
+
+## Inhalt
+
+| Kartentyp | Anzahl |
+|---|---|
+| Nomen (Artikel + Plural) | 929 |
+| Verben (Kasus + Perfekt + Beispielsatz) | 300 |
+| Adjektive | 189 |
+| Adverbien | 86 |
+| Lückensätze (Funktionswörter) | 84 |
+| Zahlen | 38 |
+| Redemittel | 24 |
+| Konnektoren und Präpositionen | 24 |
+
+Nach Niveau: 759 A1, 572 A2, 343 darüber hinaus. Der Filter unten links schaltet zwischen
+`todo`, `A1` und `A2`.
+
+## Vier Kartentypen
+
+**Wortkarte** — spanisches Wort, deutsches Wort tippen. Bei Nomen erscheint Artikel und
+Plural, bei Verben der Kasus (Akkusativ, Dativ, Dativ + Akkusativ, feste Präposition,
+Modalverb, ohne Objekt), das Perfekt und ein Beispielsatz.
+
+**Lückensatz** — für Funktionswörter, bei denen eine reine Übersetzung nichts bringt:
+
+```
+Kannst du ___ bitte helfen?          a mí (dativo)
+→  mir          Personalpronomen Dativ
+```
+
+Vorgelesen wird der vollständige Satz.
+
+**Zahlkarte** — Ziffer vorn, Schreibweise hinten. `17 → siebzehn`, `21 → einundzwanzig`.
+
+**Redemittel** — ganze Wendungen: `Lo siento → Es tut mir leid`.
+
+## Start am PC
 
 ```
 C:\Python314\python.exe vokabeltrainer.py
 ```
 
-Alle drei Dateien im selben Ordner lassen. `fortschritt.json` und `audio\` legt das
-Programm selbst an.
+`vokabeltrainer.py` und `vokabeln.csv` im selben Ordner lassen. `fortschritt.json` und
+`audio\` legt das Programm selbst an.
 
-## Aussprache — Hochdeutsch erzwingen
+Enter prüft die Antwort und springt zur nächsten Karte. Für ä ö ü ß gibt es Knöpfe unter
+dem Eingabefeld; Eingaben ohne Umlaute (`Kueche`, `gross`) gelten ebenfalls als richtig,
+weil die spanische Tastatur kein ä hat.
 
-Das Programm liest **nie** mit einer englischen Stimme vor. Findet es keine deutsche
-Stimme, bleibt es stumm und zeigt den Hinweis in der Fusszeile.
+## Aussprache
 
-**Empfohlen (neuronale de-DE-Stimme, klingt nahezu muttersprachlich):**
+Das Programm liest **nie** mit einer englischen Stimme vor. Ohne deutsche Stimme bleibt es
+stumm und zeigt einen Hinweis.
+
+**PC, empfohlen:**
 
 ```
 C:\Python314\python.exe -m pip install edge-tts
 ```
 
-Danach stehen Katja, Conrad, Amala und Killian in der Auswahl unten links. Braucht beim
-ersten Vorlesen eines Wortes Internet; die Datei landet in `audio\` und wird danach
-offline wiederverwendet. Sprechtempo ist auf −10 % gesetzt.
+Danach stehen die neuronalen de-DE-Stimmen Katja, Conrad, Amala und Killian zur Wahl.
+Das erste Vorlesen eines Wortes braucht Internet, danach liegt die Datei in `audio\`.
+Offline-Alternative: Settings → Time & language → Speech → Manage voices → *German (Germany)*.
 
-**Offline-Alternative (Windows-Systemstimme, robotischer):**
-Settings → Time & language → Speech → Manage voices → Add voices → *German (Germany)*.
-Danach Windows neu starten. Erscheint die Stimme in den Windows-Einstellungen, aber nicht
-in der Auswahl des Programms, ist sie nur als OneCore-Stimme registriert und für SAPI5
-unsichtbar — dann bei edge-tts bleiben.
+**iPhone:** Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen → Deutsch.
+Die Siri-Stimmen (Helena, Martin) klingen deutlich besser als Anna. iOS spricht erst nach
+einer Berührung — deshalb kommt der Ton beim Tippen auf *Comprobar*.
 
-Mit dem Knopf **probar** die gewählte Stimme prüfen.
+## iPhone-Fassung veröffentlichen
 
-## Echte .exe (ohne Python auf ihrem Rechner)
+Alle Dateien liegen im Wurzelverzeichnis des Repos, GitHub Pages ist auf `main` / `(root)`
+gestellt. Adresse:
+
+```
+https://sebastiankaspar.github.io/Deutsch-Vokabeln/
+```
+
+In **Safari** öffnen → Teilen → Zum Home-Bildschirm. Ab dem zweiten Start ohne Internet
+nutzbar. `sw.js` holt `index.html` immer frisch aus dem Netz, sobald eine Verbindung
+besteht — ein Update ist also nach dem Push sofort da.
+
+## Wiederholungslogik
+
+Leitner-Kasten mit fünf Fächern. Richtig → nächstes Fach, Wiedervorlage nach
+0 / 1 / 3 / 7 / 21 Tagen. Falsch → zurück auf Fach 1. „Fast" (ein Tippfehler oder ein
+falscher Artikel) lässt das Fach stehen. Eine Runde umfasst 20 Karten: erst die fälligen,
+aufsteigend nach Fach, dann mit neuen aufgefüllt.
+
+Der Fortschritt am PC (`fortschritt.json`) und auf dem iPhone (Safari-Speicher) sind
+getrennt, es gibt keine Synchronisation.
+
+## Wortschatz erweitern
+
+`vokabeln.csv` mit Excel öffnen — Semikolon-getrennt, UTF-8 mit BOM — und Zeilen anhängen.
+
+| Spalte | Inhalt |
+|---|---|
+| `typ` | nomen / verb / adjektiv / adverb / konnektor / praeposition / luecke / zahl / wendung |
+| `es` | spanische Vorderseite, muss eindeutig sein |
+| `art` | der / die / das (nur Nomen) |
+| `de` | deutsche Lösung |
+| `plural` | Pluralform oder `nur Singular` / `nur Plural` |
+| `kasus` | `Akkusativ`, `Dativ`, `Dativ + Akkusativ`, `warten auf + Akkusativ`, `Modalverb`, `ohne Objekt`; bei Lückenkarten der Grammatikhinweis |
+| `perfekt` | `hat gekauft`, `ist gefahren` |
+| `bsp` | Beispielsatz, wird auf Knopfdruck vorgelesen |
+| `alt` | weitere gültige Antworten, mit `\|` getrennt |
+| `thema` | frei |
+| `satz` | Lückensatz mit `___` an der Stelle der Lösung; leer bei Wortkarten |
+| `niveau` | `A1`, `A2` oder `extra` |
+
+Kein Semikolon in den Textfeldern. Danach:
+
+```
+C:\Python314\python.exe build_ios.py
+git add . ; git commit -m "neue Woerter" ; git push
+```
+
+Die Karten-IDs hängen an der Zeilennummer. Zeilen anhängen ist unproblematisch —
+Zeilen löschen oder umsortieren verschiebt die IDs und setzt den Fortschritt zurück.
+
+## .exe für den PC bauen
 
 ```
 C:\Python314\python.exe -m pip install pyinstaller edge-tts
@@ -44,31 +142,3 @@ C:\Python314\python.exe -m PyInstaller --onefile --noconsole --name Vokabeltrain
 ```
 
 `Vokabeltrainer.exe` aus `dist\` zusammen mit `vokabeln.csv` weitergeben.
-
-## Wortschatz erweitern
-
-`vokabeln.csv` mit Excel öffnen (Semikolon-getrennt, UTF-8 mit BOM) und Zeilen anhängen.
-
-| Spalte | Inhalt |
-|---|---|
-| `typ` | nomen / verb / adjektiv / adverb |
-| `es` | spanische Vorderseite |
-| `art` | der / die / das (nur Nomen) |
-| `de` | deutsche Lösung |
-| `plural` | Pluralform, oder `nur Singular` / `nur Plural` |
-| `kasus` | z. B. `Akkusativ`, `Dativ`, `Dativ + Akkusativ`, `warten auf + Akkusativ`, `ohne Objekt` |
-| `perfekt` | `hat gekauft`, `ist gefahren` |
-| `bsp` | Beispielsatz (wird auf Knopf vorgelesen) |
-| `alt` | weitere gültige Antworten, mit `\|` getrennt |
-| `thema` | frei |
-
-Kein Semikolon in den Textfeldern verwenden.
-
-## Bewertung und Wiederholung
-
-`richtig` / `fast` (Artikel oder ein Tippfehler) / `falsch`. Eingaben ohne Umlaute
-(`Kueche`, `gross`) gelten als richtig — die spanische Tastatur hat kein ä/ö.
-Für ä ö ü ß gibt es Knöpfe unter dem Eingabefeld.
-
-Leitner-Kasten mit 5 Fächern: richtig → nächstes Fach (0 / 1 / 3 / 7 / 21 Tage),
-falsch → zurück auf Fach 1. 20 Karten pro Runde, fällige zuerst.
