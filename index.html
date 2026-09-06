@@ -326,7 +326,7 @@ function terminarRonda(){
   resuelto = false;
   $("haupt").onclick = () => {
     document.querySelector(".tonos").hidden = false;
-    $("haupt").onclick = siguiente;
+    $("haupt").onclick = () => { $("haupt").blur(); siguiente(); };
     empezarRonda();
   };
 }
@@ -350,8 +350,16 @@ function siguiente(){
   $("umlaute").appendChild(b);
 });
 
-$("haupt").onclick = siguiente;
-document.addEventListener("keydown", e => { if(e.key === "Enter"){ e.preventDefault(); siguiente(); } });
+$("haupt").onclick = () => { $("haupt").blur(); siguiente(); };
+let ultimoEnter = 0;
+document.addEventListener("keydown", e => {
+  if(e.key !== "Enter") return;
+  e.preventDefault();
+  const ahora = Date.now();
+  if(ahora - ultimoEnter < 150) return;     // Doppelauslösung abfangen
+  ultimoEnter = ahora;
+  siguiente();
+});
 $("ton-palabra").onclick = () => hablar(textoHablado(ronda[indice]));
 $("ton-frase").onclick = () => hablar(ronda[indice].bsp);
 $("voz").onchange = () => {
