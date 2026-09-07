@@ -30,8 +30,10 @@ Zwei Fassungen, eine gemeinsame Quelle:
 Nach Niveau: 759 A1, 572 A2, 343 darüber hinaus.
 
 Unten links stehen zwei Filter. **nivel** schaltet zwischen `todo`, `A1` und `A2`.
-**tema** wählt eines von 31 Themengebieten, jeweils mit Kartenzahl — von `Verben (300)`
-über `Essen (95)` bis `Farben (11)`. `todos` mischt alles zufällig durch. Beide Filter
+**tema** wählt eines von 30 Sachgebieten, jeweils mit Kartenzahl — von `Abstrakt (159)`
+über `Menschen (121)` und `Essen (116)` bis `Farben (11)`. Jedes Gebiet enthält alle
+Wortarten: unter `Gefühle` stehen `die Angst`, `sich freuen` und `traurig` nebeneinander,
+denn die Wortart steht bereits in der Spalte `typ` und gehört nicht ins Thema. `todos` mischt alles zufällig durch. Beide Filter
 wirken zusammen; ergibt eine Kombination keine Karten (etwa `Zahlen` + `A2`), meldet das
 Programm das statt eine leere Runde zu starten. Die Themenliste wird aus der Spalte
 `thema` erzeugt — ein neues Thema in der CSV erscheint automatisch im Menü.

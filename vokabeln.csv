@@ -209,122 +209,122 @@ nomen;el permiso de residencia;die;Aufenthaltsbewilligung;Aufenthaltsbewilligung
 nomen;el formulario;das;Formular;Formulare;;;;;Stadt;;A1
 nomen;el documento de identidad;der;Ausweis;Ausweise;;;;;Stadt;;A1
 nomen;la solicitud (trámite);der;Antrag;Anträge;;;;;Stadt;;extra
-verb;comprar;;kaufen;;Akkusativ;hat gekauft;Ich kaufe einen Mantel.;;Verben;;A1
-verb;ver;;sehen;;Akkusativ;hat gesehen;Ich sehe den Bus.;;Verben;;A1
-verb;oír / escuchar;;hören;;Akkusativ;hat gehört;Ich höre die Musik.;;Verben;;A1
-verb;leer;;lesen;;Akkusativ;hat gelesen;Sie liest das Buch.;;Verben;;A1
-verb;escribir;;schreiben;;Akkusativ;hat geschrieben;Er schreibt eine E-Mail.;;Verben;;A1
-verb;comer;;essen;;Akkusativ;hat gegessen;Wir essen einen Salat.;;Verben;;A1
-verb;beber;;trinken;;Akkusativ;hat getrunken;Ich trinke einen Kaffee.;;Verben;;A1
-verb;necesitar;;brauchen;;Akkusativ;hat gebraucht;Ich brauche einen Termin.;;Verben;;A1
-verb;buscar;;suchen;;Akkusativ;hat gesucht;Sie sucht die Schlüssel.;;Verben;;A1
-verb;encontrar;;finden;;Akkusativ;hat gefunden;Ich finde den Weg nicht.;;Verben;;A1
-verb;tomar / coger;;nehmen;;Akkusativ;hat genommen;Nimm den Zug!;;Verben;;A1
-verb;visitar;;besuchen;;Akkusativ;hat besucht;Wir besuchen die Großeltern.;;Verben;;A1
-verb;preguntar;;fragen;;Akkusativ;hat gefragt;Ich frage den Lehrer. (nicht: dem Lehrer!);;Verben;;A1
-verb;entender;;verstehen;;Akkusativ;hat verstanden;Ich verstehe die Frage.;;Verben;;A1
-verb;aprender;;lernen;;Akkusativ;hat gelernt;Sie lernt Deutsch.;;Verben;;A1
-verb;pagar;;bezahlen;;Akkusativ;hat bezahlt;Ich bezahle die Rechnung.;;Verben;;A1
-verb;pedir (en un restaurante);;bestellen;;Akkusativ;hat bestellt;Wir bestellen eine Suppe.;;Verben;;A1
-verb;abrir;;öffnen;;Akkusativ;hat geöffnet;Öffne bitte das Fenster!;aufmachen;Verben;;A1
-verb;cerrar;;schließen;;Akkusativ;hat geschlossen;Ich schließe die Tür.;zumachen;Verben;;A1
-verb;olvidar;;vergessen;;Akkusativ;hat vergessen;Ich habe den Termin vergessen.;;Verben;;A2
-verb;perder;;verlieren;;Akkusativ;hat verloren;Er hat den Schlüssel verloren.;;Verben;;A2
-verb;conocer;;kennen;;Akkusativ;hat gekannt;Ich kenne die Stadt gut.;;Verben;;A1
-verb;amar;;lieben;;Akkusativ;hat geliebt;Ich liebe dich.;;Verben;;A1
-verb;usar;;benutzen;;Akkusativ;hat benutzt;Ich benutze den Bus.;;Verben;;A1
-verb;limpiar;;putzen;;Akkusativ;hat geputzt;Sie putzt die Wohnung.;;Verben;;A2
-verb;cocinar;;kochen;;Akkusativ;hat gekocht;Er kocht das Essen.;;Verben;;A1
-verb;llevar (ropa);;tragen;;Akkusativ;hat getragen;Sie trägt einen Mantel.;;Verben;;A2
-verb;repetir;;wiederholen;;Akkusativ;hat wiederholt;Wiederholen Sie den Satz!;;Verben;;A1
-verb;reservar;;reservieren;;Akkusativ;hat reserviert;Ich reserviere einen Tisch.;;Verben;;A2
-verb;llamar (por teléfono);;anrufen;;Akkusativ;hat angerufen;Ich rufe dich an. (aber: telefonieren mit + Dativ);;Verben;;A1
-verb;ayudar;;helfen;;Dativ;hat geholfen;Ich helfe meiner Frau.;;Verben;;A1
-verb;agradecer;;danken;;Dativ;hat gedankt;Ich danke dir.;;Verben;;A1
-verb;gustar;;gefallen;;Dativ;hat gefallen;Das Kleid gefällt mir.;;Verben;;A1
-verb;pertenecer;;gehören;;Dativ;hat gehört;Das Buch gehört meinem Bruder.;;Verben;;A1
-verb;quedar bien (ropa);;passen;;Dativ;hat gepasst;Die Hose passt mir nicht.;;Verben;;A2
-verb;saber (a algo);;schmecken;;Dativ;hat geschmeckt;Die Suppe schmeckt mir.;;Verben;;A1
-verb;responder;;antworten;;Dativ;hat geantwortet;Ich antworte dem Chef.;;Verben;;A1
-verb;creer (a alguien);;glauben;;Dativ;hat geglaubt;Ich glaube dir.;;Verben;;A1
-verb;felicitar;;gratulieren;;Dativ;hat gratuliert;Wir gratulieren dir zum Geburtstag.;;Verben;;A1
-verb;escuchar (a alguien);;zuhören;;Dativ;hat zugehört;Hör mir bitte zu!;;Verben;;A2
-verb;faltar;;fehlen;;Dativ;hat gefehlt;Du fehlst mir.;;Verben;;A1
-verb;doler;;wehtun;;Dativ;hat wehgetan;Mein Kopf tut mir weh.;;Verben;;A1
-verb;seguir;;folgen;;Dativ;ist gefolgt;Folgen Sie dem Auto!;;Verben;;extra
-verb;encontrarse con;;begegnen;;Dativ;ist begegnet;Ich bin meinem Nachbarn begegnet.;;Verben;;extra
-verb;suceder / pasar;;passieren;;Dativ;ist passiert;Was ist dir passiert?;;Verben;;A2
-verb;dar;;geben;;Dativ + Akkusativ;hat gegeben;Ich gebe dir das Buch.;;Verben;;A1
-verb;mostrar;;zeigen;;Dativ + Akkusativ;hat gezeigt;Er zeigt mir die Stadt.;;Verben;;A2
-verb;regalar;;schenken;;Dativ + Akkusativ;hat geschenkt;Sie schenkt ihm eine Uhr.;;Verben;;A2
-verb;enviar;;schicken;;Dativ + Akkusativ;hat geschickt;Ich schicke dir eine Karte.;senden;Verben;;A1
-verb;explicar;;erklären;;Dativ + Akkusativ;hat erklärt;Er erklärt mir die Regel.;;Verben;;A1
-verb;recomendar;;empfehlen;;Dativ + Akkusativ;hat empfohlen;Ich empfehle Ihnen das Hotel.;;Verben;;A1
-verb;contar (una historia);;erzählen;;Dativ + Akkusativ;hat erzählt;Sie erzählt uns eine Geschichte.;;Verben;;A1
-verb;prestar;;leihen;;Dativ + Akkusativ;hat geliehen;Leihst du mir dein Auto?;;Verben;;A2
-verb;vender;;verkaufen;;Dativ + Akkusativ;hat verkauft;Er verkauft mir sein Fahrrad.;;Verben;;A1
-verb;traer;;bringen;;Dativ + Akkusativ;hat gebracht;Bring mir bitte einen Kaffee!;;Verben;;A1
-verb;esperar (a alguien);;warten;;warten auf + Akkusativ;hat gewartet;Ich warte auf den Bus.;;Verben;;A1
-verb;pensar en;;denken;;denken an + Akkusativ;hat gedacht;Ich denke an dich.;;Verben;;A2
-verb;alegrarse de;;sich freuen;;sich freuen auf/über + Akkusativ;hat sich gefreut;Ich freue mich auf das Wochenende.;freuen;Verben;;A1
-verb;interesarse por;;sich interessieren;;sich interessieren für + Akkusativ;hat sich interessiert;Sie interessiert sich für Musik.;interessieren;Verben;;A2
-verb;participar en;;teilnehmen;;teilnehmen an + Dativ;hat teilgenommen;Er nimmt an dem Kurs teil.;;Verben;;A2
-verb;empezar;;anfangen;;anfangen mit + Dativ;hat angefangen;Wir fangen mit der Arbeit an.;beginnen;Verben;;A1
-verb;terminar;;aufhören;;aufhören mit + Dativ;hat aufgehört;Hör mit dem Lärm auf!;;Verben;;A1
-verb;hablar con;;sprechen;;sprechen mit + Dativ;hat gesprochen;Ich spreche mit dem Arzt.;;Verben;;A1
-verb;pedir (algo a alguien);;bitten;;bitten um + Akkusativ;hat gebeten;Ich bitte dich um Hilfe.;;Verben;;A1
-verb;acordarse de;;sich erinnern;;sich erinnern an + Akkusativ;hat sich erinnert;Ich erinnere mich an den Tag.;erinnern;Verben;;A2
-verb;cuidar de;;sich kümmern;;sich kümmern um + Akkusativ;hat sich gekümmert;Sie kümmert sich um die Kinder.;kümmern;Verben;;A1
-verb;ir;;gehen;;ohne Objekt;ist gegangen;Ich gehe nach Hause.;;Verben;;A1
-verb;venir;;kommen;;ohne Objekt;ist gekommen;Sie kommt aus Kolumbien.;;Verben;;A1
-verb;ir en (coche, tren);;fahren;;ohne Objekt;ist gefahren;Wir fahren mit dem Zug.;;Verben;;A1
-verb;dormir;;schlafen;;ohne Objekt;hat geschlafen;Das Kind schläft.;;Verben;;A1
-verb;quedarse;;bleiben;;ohne Objekt;ist geblieben;Ich bleibe zu Hause.;;Verben;;A1
-verb;vivir (residir);;wohnen;;ohne Objekt;hat gewohnt;Wir wohnen in Baden.;;Verben;;A1
-verb;trabajar;;arbeiten;;ohne Objekt;hat gearbeitet;Er arbeitet bei DECTRIS.;;Verben;;A1
-verb;correr;;laufen;;ohne Objekt;ist gelaufen;Sie läuft schnell.;rennen;Verben;;A1
-verb;levantarse;;aufstehen;;ohne Objekt;ist aufgestanden;Ich stehe um sechs Uhr auf.;;Verben;;A1
-verb;volar;;fliegen;;ohne Objekt;ist geflogen;Wir fliegen nach Bogotá.;;Verben;;A1
-verb;nadar;;schwimmen;;ohne Objekt;ist geschwommen;Er schwimmt gern.;;Verben;;A1
-verb;reír;;lachen;;ohne Objekt;hat gelacht;Die Kinder lachen laut.;;Verben;;A1
-adjektiv;grande;;groß;;;;Das Haus ist groß.;gross;Adjektive;;A1
-adjektiv;pequeño;;klein;;;;Die Wohnung ist klein.;;Adjektive;;A1
-adjektiv;nuevo;;neu;;;;Ich habe ein neues Auto.;;Adjektive;;A1
-adjektiv;viejo;;alt;;;;Der Mantel ist alt.;;Adjektive;;A1
-adjektiv;bueno;;gut;;;;Das Essen ist gut.;;Adjektive;;A1
-adjektiv;malo;;schlecht;;;;Das Wetter ist schlecht.;;Adjektive;;A1
-adjektiv;caro;;teuer;;;;Die Miete ist teuer.;;Adjektive;;A1
-adjektiv;barato;;billig;;;;Das Ticket ist billig.;günstig;Adjektive;;A1
-adjektiv;rápido;;schnell;;;;Der Zug ist schnell.;;Adjektive;;A1
-adjektiv;lento;;langsam;;;;Sie spricht langsam.;;Adjektive;;A1
-adjektiv;fácil;;einfach;;;;Die Aufgabe ist einfach.;leicht;Adjektive;;A1
-adjektiv;difícil;;schwierig;;;;Deutsch ist schwierig.;schwer;Adjektive;;A1
-adjektiv;bonito;;schön;;;;Der Garten ist schön.;hübsch;Adjektive;;A1
-adjektiv;feo;;hässlich;;;;Das Gebäude ist hässlich.;;Adjektive;;A2
-adjektiv;largo;;lang;;;;Der Weg ist lang.;;Adjektive;;A1
-adjektiv;corto;;kurz;;;;Die Hose ist kurz.;;Adjektive;;A1
-adjektiv;alto;;hoch;;;;Der Berg ist hoch.;;Adjektive;;A1
-adjektiv;bajo;;niedrig;;;;Der Tisch ist niedrig.;;Adjektive;;extra
-adjektiv;frío;;kalt;;;;Das Wasser ist kalt.;;Adjektive;;A2
-adjektiv;caliente;;heiß;;;;Der Kaffee ist heiß.;heiss;Adjektive;;A2
-adjektiv;lleno;;voll;;;;Der Bus ist voll.;;Adjektive;;A2
-adjektiv;vacío;;leer;;;;Das Glas ist leer.;;Adjektive;;A2
-adjektiv;importante;;wichtig;;;;Der Termin ist wichtig.;;Adjektive;;A1
-adjektiv;cansado;;müde;;;;Ich bin sehr müde.;;Adjektive;;A1
-adjektiv;feliz;;glücklich;;;;Wir sind glücklich.;froh;Adjektive;;A1
-adjektiv;triste;;traurig;;;;Sie ist traurig.;;Adjektive;;A2
-adjektiv;enfermo;;krank;;;;Mein Sohn ist krank.;;Adjektive;;A1
-adjektiv;sano;;gesund;;;;Obst ist gesund.;;Adjektive;;A2
-adjektiv;libre;;frei;;;;Ist der Platz frei?;;Adjektive;;A1
-adjektiv;ocupado;;besetzt;;;;Die Toilette ist besetzt.;beschäftigt;Adjektive;;A1
-adjektiv;limpio;;sauber;;;;Die Küche ist sauber.;;Adjektive;;A2
-adjektiv;sucio;;schmutzig;;;;Die Schuhe sind schmutzig.;dreckig;Adjektive;;A2
-adjektiv;ruidoso;;laut;;;;Die Straße ist laut.;;Adjektive;;A1
-adjektiv;tranquilo;;ruhig;;;;Das Zimmer ist ruhig.;leise;Adjektive;;A1
-adjektiv;peligroso;;gefährlich;;;;Das ist gefährlich.;;Adjektive;;A2
-adjektiv;seguro;;sicher;;;;Hier ist es sicher.;;Adjektive;;extra
-adjektiv;amable;;freundlich;;;;Der Kollege ist freundlich.;nett;Adjektive;;A2
-adjektiv;divertido;;lustig;;;;Der Film ist lustig.;witzig;Adjektive;;A1
+verb;comprar;;kaufen;;Akkusativ;hat gekauft;Ich kaufe einen Mantel.;;Einkaufen;;A1
+verb;ver;;sehen;;Akkusativ;hat gesehen;Ich sehe den Bus.;;Freizeit;;A1
+verb;oír / escuchar;;hören;;Akkusativ;hat gehört;Ich höre die Musik.;;Freizeit;;A1
+verb;leer;;lesen;;Akkusativ;hat gelesen;Sie liest das Buch.;;Bildung;;A1
+verb;escribir;;schreiben;;Akkusativ;hat geschrieben;Er schreibt eine E-Mail.;;Bildung;;A1
+verb;comer;;essen;;Akkusativ;hat gegessen;Wir essen einen Salat.;;Essen;;A1
+verb;beber;;trinken;;Akkusativ;hat getrunken;Ich trinke einen Kaffee.;;Essen;;A1
+verb;necesitar;;brauchen;;Akkusativ;hat gebraucht;Ich brauche einen Termin.;;Abstrakt;;A1
+verb;buscar;;suchen;;Akkusativ;hat gesucht;Sie sucht die Schlüssel.;;Abstrakt;;A1
+verb;encontrar;;finden;;Akkusativ;hat gefunden;Ich finde den Weg nicht.;;Abstrakt;;A1
+verb;tomar / coger;;nehmen;;Akkusativ;hat genommen;Nimm den Zug!;;Abstrakt;;A1
+verb;visitar;;besuchen;;Akkusativ;hat besucht;Wir besuchen die Großeltern.;;Menschen;;A1
+verb;preguntar;;fragen;;Akkusativ;hat gefragt;Ich frage den Lehrer. (nicht: dem Lehrer!);;Bildung;;A1
+verb;entender;;verstehen;;Akkusativ;hat verstanden;Ich verstehe die Frage.;;Bildung;;A1
+verb;aprender;;lernen;;Akkusativ;hat gelernt;Sie lernt Deutsch.;;Bildung;;A1
+verb;pagar;;bezahlen;;Akkusativ;hat bezahlt;Ich bezahle die Rechnung.;;Geld;;A1
+verb;pedir (en un restaurante);;bestellen;;Akkusativ;hat bestellt;Wir bestellen eine Suppe.;;Essen;;A1
+verb;abrir;;öffnen;;Akkusativ;hat geöffnet;Öffne bitte das Fenster!;aufmachen;Wohnen;;A1
+verb;cerrar;;schließen;;Akkusativ;hat geschlossen;Ich schließe die Tür.;zumachen;Wohnen;;A1
+verb;olvidar;;vergessen;;Akkusativ;hat vergessen;Ich habe den Termin vergessen.;;Abstrakt;;A2
+verb;perder;;verlieren;;Akkusativ;hat verloren;Er hat den Schlüssel verloren.;;Abstrakt;;A2
+verb;conocer;;kennen;;Akkusativ;hat gekannt;Ich kenne die Stadt gut.;;Menschen;;A1
+verb;amar;;lieben;;Akkusativ;hat geliebt;Ich liebe dich.;;Menschen;;A1
+verb;usar;;benutzen;;Akkusativ;hat benutzt;Ich benutze den Bus.;;Technik;;A1
+verb;limpiar;;putzen;;Akkusativ;hat geputzt;Sie putzt die Wohnung.;;Haushalt;;A2
+verb;cocinar;;kochen;;Akkusativ;hat gekocht;Er kocht das Essen.;;Essen;;A1
+verb;llevar (ropa);;tragen;;Akkusativ;hat getragen;Sie trägt einen Mantel.;;Kleidung;;A2
+verb;repetir;;wiederholen;;Akkusativ;hat wiederholt;Wiederholen Sie den Satz!;;Bildung;;A1
+verb;reservar;;reservieren;;Akkusativ;hat reserviert;Ich reserviere einen Tisch.;;Verkehr;;A2
+verb;llamar (por teléfono);;anrufen;;Akkusativ;hat angerufen;Ich rufe dich an. (aber: telefonieren mit + Dativ);;Technik;;A1
+verb;ayudar;;helfen;;Dativ;hat geholfen;Ich helfe meiner Frau.;;Menschen;;A1
+verb;agradecer;;danken;;Dativ;hat gedankt;Ich danke dir.;;Menschen;;A1
+verb;gustar;;gefallen;;Dativ;hat gefallen;Das Kleid gefällt mir.;;Abstrakt;;A1
+verb;pertenecer;;gehören;;Dativ;hat gehört;Das Buch gehört meinem Bruder.;;Abstrakt;;A1
+verb;quedar bien (ropa);;passen;;Dativ;hat gepasst;Die Hose passt mir nicht.;;Kleidung;;A2
+verb;saber (a algo);;schmecken;;Dativ;hat geschmeckt;Die Suppe schmeckt mir.;;Essen;;A1
+verb;responder;;antworten;;Dativ;hat geantwortet;Ich antworte dem Chef.;;Bildung;;A1
+verb;creer (a alguien);;glauben;;Dativ;hat geglaubt;Ich glaube dir.;;Bildung;;A1
+verb;felicitar;;gratulieren;;Dativ;hat gratuliert;Wir gratulieren dir zum Geburtstag.;;Menschen;;A1
+verb;escuchar (a alguien);;zuhören;;Dativ;hat zugehört;Hör mir bitte zu!;;Menschen;;A2
+verb;faltar;;fehlen;;Dativ;hat gefehlt;Du fehlst mir.;;Gefühle;;A1
+verb;doler;;wehtun;;Dativ;hat wehgetan;Mein Kopf tut mir weh.;;Gesundheit;;A1
+verb;seguir;;folgen;;Dativ;ist gefolgt;Folgen Sie dem Auto!;;Abstrakt;;extra
+verb;encontrarse con;;begegnen;;Dativ;ist begegnet;Ich bin meinem Nachbarn begegnet.;;Menschen;;extra
+verb;suceder / pasar;;passieren;;Dativ;ist passiert;Was ist dir passiert?;;Abstrakt;;A2
+verb;dar;;geben;;Dativ + Akkusativ;hat gegeben;Ich gebe dir das Buch.;;Abstrakt;;A1
+verb;mostrar;;zeigen;;Dativ + Akkusativ;hat gezeigt;Er zeigt mir die Stadt.;;Abstrakt;;A2
+verb;regalar;;schenken;;Dativ + Akkusativ;hat geschenkt;Sie schenkt ihm eine Uhr.;;Menschen;;A2
+verb;enviar;;schicken;;Dativ + Akkusativ;hat geschickt;Ich schicke dir eine Karte.;senden;Verkehr;;A1
+verb;explicar;;erklären;;Dativ + Akkusativ;hat erklärt;Er erklärt mir die Regel.;;Bildung;;A1
+verb;recomendar;;empfehlen;;Dativ + Akkusativ;hat empfohlen;Ich empfehle Ihnen das Hotel.;;Abstrakt;;A1
+verb;contar (una historia);;erzählen;;Dativ + Akkusativ;hat erzählt;Sie erzählt uns eine Geschichte.;;Menschen;;A1
+verb;prestar;;leihen;;Dativ + Akkusativ;hat geliehen;Leihst du mir dein Auto?;;Menschen;;A2
+verb;vender;;verkaufen;;Dativ + Akkusativ;hat verkauft;Er verkauft mir sein Fahrrad.;;Einkaufen;;A1
+verb;traer;;bringen;;Dativ + Akkusativ;hat gebracht;Bring mir bitte einen Kaffee!;;Verkehr;;A1
+verb;esperar (a alguien);;warten;;warten auf + Akkusativ;hat gewartet;Ich warte auf den Bus.;;Zeit;;A1
+verb;pensar en;;denken;;denken an + Akkusativ;hat gedacht;Ich denke an dich.;;Bildung;;A2
+verb;alegrarse de;;sich freuen;;sich freuen auf/über + Akkusativ;hat sich gefreut;Ich freue mich auf das Wochenende.;freuen;Gefühle;;A1
+verb;interesarse por;;sich interessieren;;sich interessieren für + Akkusativ;hat sich interessiert;Sie interessiert sich für Musik.;interessieren;Freizeit;;A2
+verb;participar en;;teilnehmen;;teilnehmen an + Dativ;hat teilgenommen;Er nimmt an dem Kurs teil.;;Freizeit;;A2
+verb;empezar;;anfangen;;anfangen mit + Dativ;hat angefangen;Wir fangen mit der Arbeit an.;beginnen;Zeit;;A1
+verb;terminar;;aufhören;;aufhören mit + Dativ;hat aufgehört;Hör mit dem Lärm auf!;;Zeit;;A1
+verb;hablar con;;sprechen;;sprechen mit + Dativ;hat gesprochen;Ich spreche mit dem Arzt.;;Menschen;;A1
+verb;pedir (algo a alguien);;bitten;;bitten um + Akkusativ;hat gebeten;Ich bitte dich um Hilfe.;;Menschen;;A1
+verb;acordarse de;;sich erinnern;;sich erinnern an + Akkusativ;hat sich erinnert;Ich erinnere mich an den Tag.;erinnern;Bildung;;A2
+verb;cuidar de;;sich kümmern;;sich kümmern um + Akkusativ;hat sich gekümmert;Sie kümmert sich um die Kinder.;kümmern;Menschen;;A1
+verb;ir;;gehen;;ohne Objekt;ist gegangen;Ich gehe nach Hause.;;Verkehr;;A1
+verb;venir;;kommen;;ohne Objekt;ist gekommen;Sie kommt aus Kolumbien.;;Verkehr;;A1
+verb;ir en (coche, tren);;fahren;;ohne Objekt;ist gefahren;Wir fahren mit dem Zug.;;Verkehr;;A1
+verb;dormir;;schlafen;;ohne Objekt;hat geschlafen;Das Kind schläft.;;Gesundheit;;A1
+verb;quedarse;;bleiben;;ohne Objekt;ist geblieben;Ich bleibe zu Hause.;;Zeit;;A1
+verb;vivir (residir);;wohnen;;ohne Objekt;hat gewohnt;Wir wohnen in Baden.;;Wohnen;;A1
+verb;trabajar;;arbeiten;;ohne Objekt;hat gearbeitet;Er arbeitet bei DECTRIS.;;Arbeit;;A1
+verb;correr;;laufen;;ohne Objekt;ist gelaufen;Sie läuft schnell.;rennen;Verkehr;;A1
+verb;levantarse;;aufstehen;;ohne Objekt;ist aufgestanden;Ich stehe um sechs Uhr auf.;;Gesundheit;;A1
+verb;volar;;fliegen;;ohne Objekt;ist geflogen;Wir fliegen nach Bogotá.;;Verkehr;;A1
+verb;nadar;;schwimmen;;ohne Objekt;ist geschwommen;Er schwimmt gern.;;Natur;;A1
+verb;reír;;lachen;;ohne Objekt;hat gelacht;Die Kinder lachen laut.;;Gefühle;;A1
+adjektiv;grande;;groß;;;;Das Haus ist groß.;gross;Menge & Grad;;A1
+adjektiv;pequeño;;klein;;;;Die Wohnung ist klein.;;Menge & Grad;;A1
+adjektiv;nuevo;;neu;;;;Ich habe ein neues Auto.;;Abstrakt;;A1
+adjektiv;viejo;;alt;;;;Der Mantel ist alt.;;Abstrakt;;A1
+adjektiv;bueno;;gut;;;;Das Essen ist gut.;;Abstrakt;;A1
+adjektiv;malo;;schlecht;;;;Das Wetter ist schlecht.;;Abstrakt;;A1
+adjektiv;caro;;teuer;;;;Die Miete ist teuer.;;Einkaufen;;A1
+adjektiv;barato;;billig;;;;Das Ticket ist billig.;günstig;Einkaufen;;A1
+adjektiv;rápido;;schnell;;;;Der Zug ist schnell.;;Menge & Grad;;A1
+adjektiv;lento;;langsam;;;;Sie spricht langsam.;;Menge & Grad;;A1
+adjektiv;fácil;;einfach;;;;Die Aufgabe ist einfach.;leicht;Bildung;;A1
+adjektiv;difícil;;schwierig;;;;Deutsch ist schwierig.;schwer;Bildung;;A1
+adjektiv;bonito;;schön;;;;Der Garten ist schön.;hübsch;Abstrakt;;A1
+adjektiv;feo;;hässlich;;;;Das Gebäude ist hässlich.;;Abstrakt;;A2
+adjektiv;largo;;lang;;;;Der Weg ist lang.;;Menge & Grad;;A1
+adjektiv;corto;;kurz;;;;Die Hose ist kurz.;;Menge & Grad;;A1
+adjektiv;alto;;hoch;;;;Der Berg ist hoch.;;Menge & Grad;;A1
+adjektiv;bajo;;niedrig;;;;Der Tisch ist niedrig.;;Menge & Grad;;extra
+adjektiv;frío;;kalt;;;;Das Wasser ist kalt.;;Natur;;A2
+adjektiv;caliente;;heiß;;;;Der Kaffee ist heiß.;heiss;Natur;;A2
+adjektiv;lleno;;voll;;;;Der Bus ist voll.;;Menge & Grad;;A2
+adjektiv;vacío;;leer;;;;Das Glas ist leer.;;Menge & Grad;;A2
+adjektiv;importante;;wichtig;;;;Der Termin ist wichtig.;;Abstrakt;;A1
+adjektiv;cansado;;müde;;;;Ich bin sehr müde.;;Gefühle;;A1
+adjektiv;feliz;;glücklich;;;;Wir sind glücklich.;froh;Gefühle;;A1
+adjektiv;triste;;traurig;;;;Sie ist traurig.;;Gefühle;;A2
+adjektiv;enfermo;;krank;;;;Mein Sohn ist krank.;;Gesundheit;;A1
+adjektiv;sano;;gesund;;;;Obst ist gesund.;;Gesundheit;;A2
+adjektiv;libre;;frei;;;;Ist der Platz frei?;;Arbeit;;A1
+adjektiv;ocupado;;besetzt;;;;Die Toilette ist besetzt.;beschäftigt;Arbeit;;A1
+adjektiv;limpio;;sauber;;;;Die Küche ist sauber.;;Haushalt;;A2
+adjektiv;sucio;;schmutzig;;;;Die Schuhe sind schmutzig.;dreckig;Haushalt;;A2
+adjektiv;ruidoso;;laut;;;;Die Straße ist laut.;;Wohnen;;A1
+adjektiv;tranquilo;;ruhig;;;;Das Zimmer ist ruhig.;leise;Wohnen;;A1
+adjektiv;peligroso;;gefährlich;;;;Das ist gefährlich.;;Abstrakt;;A2
+adjektiv;seguro;;sicher;;;;Hier ist es sicher.;;Abstrakt;;extra
+adjektiv;amable;;freundlich;;;;Der Kollege ist freundlich.;nett;Menschen;;A2
+adjektiv;divertido;;lustig;;;;Der Film ist lustig.;witzig;Menschen;;A1
 adverb;hoy;;heute;;;;Heute habe ich frei.;;Zeit;;A1
 adverb;mañana (adv.);;morgen;;;;Morgen fahren wir nach Zürich.;;Zeit;;A1
 adverb;ayer;;gestern;;;;Gestern war ich krank.;;Zeit;;A1
@@ -779,131 +779,131 @@ nomen;la distancia;die;Entfernung;Entfernungen;;;;Distanz;Abstrakt;;extra
 nomen;el color;die;Farbe;Farben;;;;;Abstrakt;;A1
 nomen;la forma;die;Form;Formen;;;;;Abstrakt;;extra
 nomen;el tipo;die;Art;Arten;;;;Sorte;Abstrakt;;extra
-verb;poder;;können;;Modalverb;hat gekonnt;Ich kann gut schwimmen.;;Verben;;A1
-verb;tener que;;müssen;;Modalverb;hat gemusst;Ich muss heute arbeiten.;;Verben;;A1
-verb;querer (hacer algo);;wollen;;Modalverb;hat gewollt;Sie will nach Hause gehen.;;Verben;;A1
-verb;deber (permiso);;dürfen;;Modalverb;hat gedurft;Hier darf man nicht rauchen.;;Verben;;A1
-verb;deber (consejo);;sollen;;Modalverb;hat gesollt;Du sollst mehr schlafen.;;Verben;;A1
-verb;gustar (algo);;mögen;;Modalverb;hat gemocht;Ich mag keinen Kaffee.;;Verben;;A1
-verb;hacer;;machen;;Akkusativ;hat gemacht;Ich mache die Hausaufgaben.;;Verben;;A1
-verb;tener;;haben;;Akkusativ;hat gehabt;Wir haben eine Wohnung.;;Verben;;A1
-verb;ser / estar;;sein;;ohne Objekt;ist gewesen;Ich bin müde.;;Verben;;A1
-verb;llegar a ser;;werden;;ohne Objekt;ist geworden;Es wird kalt.;;Verben;;A1
-verb;decir;;sagen;;Akkusativ;hat gesagt;Sag mir die Wahrheit!;;Verben;;A1
-verb;saber (un dato);;wissen;;Akkusativ;hat gewusst;Ich weiss die Antwort.;;Verben;;A1
-verb;quedar con;;treffen;;Akkusativ;hat getroffen;Ich treffe meine Freundin.;;Verben;;A1
-verb;dejar (un lugar);;verlassen;;Akkusativ;hat verlassen;Er verlässt das Haus.;;Verben;;extra
-verb;recibir;;bekommen;;Akkusativ;hat bekommen;Ich bekomme einen Brief.;erhalten;Verben;;A1
-verb;ir a buscar;;holen;;Akkusativ;hat geholt;Ich hole das Paket.;;Verben;;A1
-verb;poner (acostado);;legen;;Akkusativ;hat gelegt;Ich lege das Buch auf den Tisch.;;Verben;;A1
-verb;poner (de pie);;stellen;;Akkusativ;hat gestellt;Stell die Flasche in den Kühlschrank!;;Verben;;A1
-verb;colgar;;hängen;;Akkusativ;hat gehängt;Sie hängt das Bild an die Wand.;;Verben;;A2
-verb;lavar;;waschen;;Akkusativ;hat gewaschen;Ich wasche die Wäsche.;;Verben;;A1
-verb;cortar;;schneiden;;Akkusativ;hat geschnitten;Schneide das Brot!;;Verben;;A2
-verb;hornear;;backen;;Akkusativ;hat gebacken;Sie backt einen Kuchen.;;Verben;;A2
-verb;freír;;braten;;Akkusativ;hat gebraten;Er brät das Fleisch.;;Verben;;A2
-verb;probar (sabor);;probieren;;Akkusativ;hat probiert;Probier die Suppe!;;Verben;;A2
-verb;construir;;bauen;;Akkusativ;hat gebaut;Sie bauen ein Haus.;;Verben;;A2
-verb;reparar;;reparieren;;Akkusativ;hat repariert;Er repariert das Fahrrad.;;Verben;;A1
-verb;pintar;;malen;;Akkusativ;hat gemalt;Das Kind malt ein Bild.;;Verben;;A2
-verb;dibujar;;zeichnen;;Akkusativ;hat gezeichnet;Sie zeichnet einen Plan.;;Verben;;A2
-verb;cantar;;singen;;Akkusativ;hat gesungen;Wir singen ein Lied.;;Verben;;A2
-verb;jugar / tocar;;spielen;;Akkusativ;hat gespielt;Er spielt Gitarre.;;Verben;;A1
-verb;practicar;;üben;;Akkusativ;hat geübt;Sie übt die Vokabeln.;;Verben;;A2
-verb;comprobar;;prüfen;;Akkusativ;hat geprüft;Prüfe die Rechnung!;kontrollieren;Verben;;A2
-verb;cambiar (algo);;ändern;;Akkusativ;hat geändert;Ich ändere den Termin.;;Verben;;A2
-verb;mejorar;;verbessern;;Akkusativ;hat verbessert;Sie verbessert ihr Deutsch.;;Verben;;extra
-verb;planificar;;planen;;Akkusativ;hat geplant;Wir planen die Reise.;;Verben;;A2
-verb;organizar;;organisieren;;Akkusativ;hat organisiert;Er organisiert das Fest.;;Verben;;A2
-verb;decidir;;entscheiden;;Akkusativ;hat entschieden;Das musst du selbst entscheiden.;;Verben;;extra
-verb;elegir;;wählen;;Akkusativ;hat gewählt;Wählen Sie ein Gericht!;;Verben;;A2
-verb;comparar;;vergleichen;;Akkusativ;hat verglichen;Vergleich die Preise!;;Verben;;A2
-verb;describir;;beschreiben;;Akkusativ;hat beschrieben;Beschreib das Bild!;;Verben;;A2
-verb;traducir;;übersetzen;;Akkusativ;hat übersetzt;Sie übersetzt den Text.;;Verben;;A2
-verb;deletrear;;buchstabieren;;Akkusativ;hat buchstabiert;Buchstabieren Sie Ihren Namen!;;Verben;;A1
-verb;firmar;;unterschreiben;;Akkusativ;hat unterschrieben;Bitte unterschreiben Sie den Vertrag.;;Verben;;A1
-verb;rellenar;;ausfüllen;;Akkusativ;hat ausgefüllt;Füllen Sie das Formular aus!;;Verben;;A1
-verb;recoger (a alguien);;abholen;;Akkusativ;hat abgeholt;Ich hole dich am Bahnhof ab.;;Verben;;A1
-verb;invitar;;einladen;;Akkusativ;hat eingeladen;Wir laden euch ein.;;Verben;;A1
-verb;visitar (un lugar);;besichtigen;;Akkusativ;hat besichtigt;Wir besichtigen das Schloss.;;Verben;;A1
-verb;conocer (a alguien nuevo);;kennenlernen;;Akkusativ;hat kennengelernt;Ich habe sie in Bern kennengelernt.;;Verben;;A1
-verb;casarse;;heiraten;;Akkusativ;hat geheiratet;Sie heiratet ihren Freund.;;Verben;;A1
-verb;ganar (dinero);;verdienen;;Akkusativ;hat verdient;Er verdient genug Geld.;;Verben;;A1
-verb;gastar;;ausgeben;;Akkusativ;hat ausgegeben;Wir geben zu viel Geld aus.;;Verben;;A2
-verb;ahorrar;;sparen;;Akkusativ;hat gespart;Sie sparen Geld für ein Haus.;;Verben;;A2
-verb;alquilar (tomar);;mieten;;Akkusativ;hat gemietet;Wir mieten eine Wohnung.;;Verben;;A1
-verb;alquilar (dar);;vermieten;;Dativ + Akkusativ;hat vermietet;Er vermietet uns das Zimmer.;;Verben;;A1
-verb;cancelar;;absagen;;Akkusativ;hat abgesagt;Ich muss den Termin absagen.;;Verben;;extra
-verb;aplazar;;verschieben;;Akkusativ;hat verschoben;Wir verschieben das Treffen.;;Verben;;A2
-verb;molestar;;stören;;Akkusativ;hat gestört;Der Lärm stört mich.;;Verben;;A2
-verb;echar de menos;;vermissen;;Akkusativ;hat vermisst;Ich vermisse meine Familie.;;Verben;;extra
-verb;llevar consigo;;mitnehmen;;Akkusativ;hat mitgenommen;Nimm den Schirm mit!;;Verben;;A1
-verb;encender;;anmachen;;Akkusativ;hat angemacht;Mach bitte das Licht an!;einschalten;Verben;;A1
-verb;apagar;;ausmachen;;Akkusativ;hat ausgemacht;Mach den Fernseher aus!;ausschalten;Verben;;A1
-verb;costar;;kosten;;Akkusativ;hat gekostet;Das Ticket kostet zehn Franken.;;Verben;;A1
-verb;fumar;;rauchen;;Akkusativ;hat geraucht;Hier darf man nicht rauchen.;;Verben;;A1
-verb;traer consigo;;mitbringen;;Dativ + Akkusativ;hat mitgebracht;Ich bringe dir einen Kaffee mit.;;Verben;;A1
-verb;devolver;;zurückgeben;;Dativ + Akkusativ;hat zurückgegeben;Gib mir das Buch zurück!;;Verben;;A2
-verb;prometer;;versprechen;;Dativ + Akkusativ;hat versprochen;Er verspricht ihr eine Reise.;;Verben;;extra
-verb;prohibir;;verbieten;;Dativ + Akkusativ;hat verboten;Der Arzt verbietet ihm den Zucker.;;Verben;;A2
-verb;permitir;;erlauben;;Dativ + Akkusativ;hat erlaubt;Die Eltern erlauben dem Kind das Spiel.;;Verben;;A1
-verb;desear;;wünschen;;Dativ + Akkusativ;hat gewünscht;Ich wünsche dir viel Glück.;;Verben;;A2
-verb;ofrecer;;anbieten;;Dativ + Akkusativ;hat angeboten;Sie bietet uns einen Tee an.;;Verben;;A1
-verb;comunicar;;mitteilen;;Dativ + Akkusativ;hat mitgeteilt;Teilen Sie uns die Adresse mit!;;Verben;;extra
-verb;perjudicar;;schaden;;Dativ;hat geschadet;Rauchen schadet der Gesundheit.;;Verben;;extra
-verb;confiar en;;vertrauen;;Dativ;hat vertraut;Ich vertraue meinem Mann.;;Verben;;extra
-verb;contradecir;;widersprechen;;Dativ;hat widersprochen;Sie widerspricht dem Chef.;;Verben;;extra
-verb;estar de acuerdo;;zustimmen;;Dativ;hat zugestimmt;Ich stimme dir zu.;;Verben;;extra
-verb;salir bien;;gelingen;;Dativ;ist gelungen;Der Kuchen ist mir gelungen.;;Verben;;extra
-verb;bastar;;reichen;;Dativ;hat gereicht;Das Geld reicht mir nicht.;;Verben;;extra
-verb;darse prisa;;sich beeilen;;ohne Objekt;hat sich beeilt;Beeil dich, der Zug fährt!;beeilen;Verben;;A2
-verb;descansar;;sich ausruhen;;ohne Objekt;hat sich ausgeruht;Ich ruhe mich kurz aus.;ausruhen;Verben;;A2
-verb;vestirse;;sich anziehen;;Akkusativ;hat sich angezogen;Zieh dich warm an!;anziehen;Verben;;A1
-verb;desvestirse;;sich ausziehen;;Akkusativ;hat sich ausgezogen;Er zieht die Schuhe aus.;ausziehen;Verben;;A1
-verb;sentirse;;sich fühlen;;ohne Objekt;hat sich gefühlt;Ich fühle mich gut.;fühlen;Verben;;A2
-verb;sentarse;;sich setzen;;ohne Objekt;hat sich gesetzt;Setz dich bitte!;setzen;Verben;;A2
-verb;quedar con alguien;;sich verabreden;;sich verabreden mit + Dativ;hat sich verabredet;Ich verabrede mich mit Anna.;verabreden;Verben;;A2
-verb;pelearse;;sich streiten;;sich streiten mit + Dativ;hat sich gestritten;Sie streitet sich mit dem Nachbarn.;streiten;Verben;;A2
-verb;disculparse;;sich entschuldigen;;sich entschuldigen bei + Dativ;hat sich entschuldigt;Ich entschuldige mich bei dir.;entschuldigen;Verben;;A1
-verb;quejarse;;sich beschweren;;sich beschweren über + Akkusativ;hat sich beschwert;Er beschwert sich über den Lärm.;beschweren;Verben;;A2
-verb;acostumbrarse a;;sich gewöhnen;;sich gewöhnen an + Akkusativ;hat sich gewöhnt;Ich gewöhne mich an das Wetter.;gewöhnen;Verben;;extra
-verb;presentarse;;sich vorstellen;;sich vorstellen bei + Dativ;hat sich vorgestellt;Sie stellt sich bei der Firma vor.;vorstellen;Verben;;A1
-verb;informarse sobre;;sich informieren;;sich informieren über + Akkusativ;hat sich informiert;Wir informieren uns über den Kurs.;informieren;Verben;;A2
-verb;solicitar (un empleo);;sich bewerben;;sich bewerben um + Akkusativ;hat sich beworben;Er bewirbt sich um die Stelle.;bewerben;Verben;;A2
-verb;inscribirse;;sich anmelden;;sich anmelden bei + Dativ;hat sich angemeldet;Ich melde mich bei der Schule an.;anmelden;Verben;;A1
-verb;agradecer (formal);;sich bedanken;;sich bedanken für + Akkusativ;hat sich bedankt;Sie bedankt sich für das Geschenk.;bedanken;Verben;;A2
-verb;esperar (desear);;hoffen;;hoffen auf + Akkusativ;hat gehofft;Wir hoffen auf gutes Wetter.;;Verben;;A2
-verb;prestar atención;;achten;;achten auf + Akkusativ;hat geachtet;Achte auf die Kinder!;;Verben;;extra
-verb;ocuparse de;;sorgen;;sorgen für + Akkusativ;hat gesorgt;Er sorgt für die Familie.;;Verben;;extra
-verb;consistir en;;bestehen;;bestehen aus + Dativ;hat bestanden;Das Team besteht aus zehn Personen.;;Verben;;A2
-verb;soñar con;;träumen;;träumen von + Dativ;hat geträumt;Sie träumt von einem Haus.;;Verben;;A2
-verb;debatir;;diskutieren;;diskutieren über + Akkusativ;hat diskutiert;Wir diskutieren über den Preis.;;Verben;;A2
-verb;charlar;;reden;;reden mit + Dativ;hat geredet;Ich rede mit dem Lehrer.;;Verben;;A2
-verb;subir (a un vehículo);;einsteigen;;ohne Objekt;ist eingestiegen;Wir steigen in den Bus ein.;;Verben;;A1
-verb;bajar (de un vehículo);;aussteigen;;ohne Objekt;ist ausgestiegen;Steig hier aus!;;Verben;;A1
-verb;hacer transbordo;;umsteigen;;ohne Objekt;ist umgestiegen;In Zürich musst du umsteigen.;;Verben;;A2
-verb;llegar;;ankommen;;ohne Objekt;ist angekommen;Der Zug kommt um acht an.;;Verben;;A1
-verb;salir (un vehículo);;abfahren;;ohne Objekt;ist abgefahren;Der Bus fährt gleich ab.;;Verben;;A1
-verb;volver;;zurückkommen;;ohne Objekt;ist zurückgekommen;Sie kommt am Montag zurück.;;Verben;;A2
-verb;irse;;weggehen;;ohne Objekt;ist weggegangen;Er ist früh weggegangen.;;Verben;;extra
-verb;pasear;;spazieren gehen;;ohne Objekt;ist spazieren gegangen;Wir gehen im Park spazieren.;spazieren;Verben;;A2
-verb;hacer senderismo;;wandern;;ohne Objekt;ist gewandert;Sie wandern in den Bergen.;;Verben;;A1
-verb;viajar;;reisen;;ohne Objekt;ist gereist;Wir reisen nach Italien.;;Verben;;A1
-verb;mudarse;;umziehen;;ohne Objekt;ist umgezogen;Sie ziehen nach Baden um.;;Verben;;A1
-verb;crecer;;wachsen;;ohne Objekt;ist gewachsen;Die Kinder wachsen schnell.;;Verben;;extra
-verb;morir;;sterben;;ohne Objekt;ist gestorben;Ihr Grossvater ist letztes Jahr gestorben.;;Verben;;A2
-verb;estar sentado;;sitzen;;ohne Objekt;hat gesessen;Ich sitze am Tisch.;;Verben;;A1
-verb;estar de pie;;stehen;;ohne Objekt;hat gestanden;Er steht vor der Tür.;;Verben;;A1
-verb;estar tumbado;;liegen;;ohne Objekt;hat gelegen;Das Buch liegt auf dem Bett.;;Verben;;A1
-verb;vivir (existir);;leben;;ohne Objekt;hat gelebt;Meine Eltern leben in Kolumbien.;;Verben;;A1
-verb;llorar;;weinen;;ohne Objekt;hat geweint;Das Kind weint.;;Verben;;A2
-verb;bailar;;tanzen;;ohne Objekt;hat getanzt;Wir tanzen gern.;;Verben;;A1
-verb;funcionar;;funktionieren;;ohne Objekt;hat funktioniert;Der Drucker funktioniert nicht.;;Verben;;extra
-verb;durar;;dauern;;ohne Objekt;hat gedauert;Der Kurs dauert zwei Stunden.;;Verben;;A1
-verb;llover;;regnen;;ohne Objekt;hat geregnet;Es regnet seit gestern.;;Verben;;A1
-verb;nevar;;schneien;;ohne Objekt;hat geschneit;Im Januar schneit es oft.;;Verben;;A2
-verb;brillar;;scheinen;;ohne Objekt;hat geschienen;Die Sonne scheint.;;Verben;;A1
-verb;tener lugar;;stattfinden;;ohne Objekt;hat stattgefunden;Das Fest findet am Samstag statt.;;Verben;;A2
+verb;poder;;können;;Modalverb;hat gekonnt;Ich kann gut schwimmen.;;Abstrakt;;A1
+verb;tener que;;müssen;;Modalverb;hat gemusst;Ich muss heute arbeiten.;;Abstrakt;;A1
+verb;querer (hacer algo);;wollen;;Modalverb;hat gewollt;Sie will nach Hause gehen.;;Abstrakt;;A1
+verb;deber (permiso);;dürfen;;Modalverb;hat gedurft;Hier darf man nicht rauchen.;;Abstrakt;;A1
+verb;deber (consejo);;sollen;;Modalverb;hat gesollt;Du sollst mehr schlafen.;;Abstrakt;;A1
+verb;gustar (algo);;mögen;;Modalverb;hat gemocht;Ich mag keinen Kaffee.;;Gefühle;;A1
+verb;hacer;;machen;;Akkusativ;hat gemacht;Ich mache die Hausaufgaben.;;Abstrakt;;A1
+verb;tener;;haben;;Akkusativ;hat gehabt;Wir haben eine Wohnung.;;Abstrakt;;A1
+verb;ser / estar;;sein;;ohne Objekt;ist gewesen;Ich bin müde.;;Abstrakt;;A1
+verb;llegar a ser;;werden;;ohne Objekt;ist geworden;Es wird kalt.;;Abstrakt;;A1
+verb;decir;;sagen;;Akkusativ;hat gesagt;Sag mir die Wahrheit!;;Abstrakt;;A1
+verb;saber (un dato);;wissen;;Akkusativ;hat gewusst;Ich weiss die Antwort.;;Bildung;;A1
+verb;quedar con;;treffen;;Akkusativ;hat getroffen;Ich treffe meine Freundin.;;Menschen;;A1
+verb;dejar (un lugar);;verlassen;;Akkusativ;hat verlassen;Er verlässt das Haus.;;Wohnen;;extra
+verb;recibir;;bekommen;;Akkusativ;hat bekommen;Ich bekomme einen Brief.;erhalten;Geld;;A1
+verb;ir a buscar;;holen;;Akkusativ;hat geholt;Ich hole das Paket.;;Verkehr;;A1
+verb;poner (acostado);;legen;;Akkusativ;hat gelegt;Ich lege das Buch auf den Tisch.;;Wohnen;;A1
+verb;poner (de pie);;stellen;;Akkusativ;hat gestellt;Stell die Flasche in den Kühlschrank!;;Wohnen;;A1
+verb;colgar;;hängen;;Akkusativ;hat gehängt;Sie hängt das Bild an die Wand.;;Wohnen;;A2
+verb;lavar;;waschen;;Akkusativ;hat gewaschen;Ich wasche die Wäsche.;;Haushalt;;A1
+verb;cortar;;schneiden;;Akkusativ;hat geschnitten;Schneide das Brot!;;Haushalt;;A2
+verb;hornear;;backen;;Akkusativ;hat gebacken;Sie backt einen Kuchen.;;Essen;;A2
+verb;freír;;braten;;Akkusativ;hat gebraten;Er brät das Fleisch.;;Essen;;A2
+verb;probar (sabor);;probieren;;Akkusativ;hat probiert;Probier die Suppe!;;Essen;;A2
+verb;construir;;bauen;;Akkusativ;hat gebaut;Sie bauen ein Haus.;;Wohnen;;A2
+verb;reparar;;reparieren;;Akkusativ;hat repariert;Er repariert das Fahrrad.;;Wohnen;;A1
+verb;pintar;;malen;;Akkusativ;hat gemalt;Das Kind malt ein Bild.;;Freizeit;;A2
+verb;dibujar;;zeichnen;;Akkusativ;hat gezeichnet;Sie zeichnet einen Plan.;;Freizeit;;A2
+verb;cantar;;singen;;Akkusativ;hat gesungen;Wir singen ein Lied.;;Freizeit;;A2
+verb;jugar / tocar;;spielen;;Akkusativ;hat gespielt;Er spielt Gitarre.;;Freizeit;;A1
+verb;practicar;;üben;;Akkusativ;hat geübt;Sie übt die Vokabeln.;;Bildung;;A2
+verb;comprobar;;prüfen;;Akkusativ;hat geprüft;Prüfe die Rechnung!;kontrollieren;Bildung;;A2
+verb;cambiar (algo);;ändern;;Akkusativ;hat geändert;Ich ändere den Termin.;;Abstrakt;;A2
+verb;mejorar;;verbessern;;Akkusativ;hat verbessert;Sie verbessert ihr Deutsch.;;Abstrakt;;extra
+verb;planificar;;planen;;Akkusativ;hat geplant;Wir planen die Reise.;;Arbeit;;A2
+verb;organizar;;organisieren;;Akkusativ;hat organisiert;Er organisiert das Fest.;;Arbeit;;A2
+verb;decidir;;entscheiden;;Akkusativ;hat entschieden;Das musst du selbst entscheiden.;;Bildung;;extra
+verb;elegir;;wählen;;Akkusativ;hat gewählt;Wählen Sie ein Gericht!;;Bildung;;A2
+verb;comparar;;vergleichen;;Akkusativ;hat verglichen;Vergleich die Preise!;;Bildung;;A2
+verb;describir;;beschreiben;;Akkusativ;hat beschrieben;Beschreib das Bild!;;Bildung;;A2
+verb;traducir;;übersetzen;;Akkusativ;hat übersetzt;Sie übersetzt den Text.;;Bildung;;A2
+verb;deletrear;;buchstabieren;;Akkusativ;hat buchstabiert;Buchstabieren Sie Ihren Namen!;;Bildung;;A1
+verb;firmar;;unterschreiben;;Akkusativ;hat unterschrieben;Bitte unterschreiben Sie den Vertrag.;;Arbeit;;A1
+verb;rellenar;;ausfüllen;;Akkusativ;hat ausgefüllt;Füllen Sie das Formular aus!;;Arbeit;;A1
+verb;recoger (a alguien);;abholen;;Akkusativ;hat abgeholt;Ich hole dich am Bahnhof ab.;;Verkehr;;A1
+verb;invitar;;einladen;;Akkusativ;hat eingeladen;Wir laden euch ein.;;Menschen;;A1
+verb;visitar (un lugar);;besichtigen;;Akkusativ;hat besichtigt;Wir besichtigen das Schloss.;;Stadt;;A1
+verb;conocer (a alguien nuevo);;kennenlernen;;Akkusativ;hat kennengelernt;Ich habe sie in Bern kennengelernt.;;Menschen;;A1
+verb;casarse;;heiraten;;Akkusativ;hat geheiratet;Sie heiratet ihren Freund.;;Menschen;;A1
+verb;ganar (dinero);;verdienen;;Akkusativ;hat verdient;Er verdient genug Geld.;;Arbeit;;A1
+verb;gastar;;ausgeben;;Akkusativ;hat ausgegeben;Wir geben zu viel Geld aus.;;Geld;;A2
+verb;ahorrar;;sparen;;Akkusativ;hat gespart;Sie sparen Geld für ein Haus.;;Geld;;A2
+verb;alquilar (tomar);;mieten;;Akkusativ;hat gemietet;Wir mieten eine Wohnung.;;Wohnen;;A1
+verb;alquilar (dar);;vermieten;;Dativ + Akkusativ;hat vermietet;Er vermietet uns das Zimmer.;;Wohnen;;A1
+verb;cancelar;;absagen;;Akkusativ;hat abgesagt;Ich muss den Termin absagen.;;Arbeit;;extra
+verb;aplazar;;verschieben;;Akkusativ;hat verschoben;Wir verschieben das Treffen.;;Arbeit;;A2
+verb;molestar;;stören;;Akkusativ;hat gestört;Der Lärm stört mich.;;Gefühle;;A2
+verb;echar de menos;;vermissen;;Akkusativ;hat vermisst;Ich vermisse meine Familie.;;Gefühle;;extra
+verb;llevar consigo;;mitnehmen;;Akkusativ;hat mitgenommen;Nimm den Schirm mit!;;Verkehr;;A1
+verb;encender;;anmachen;;Akkusativ;hat angemacht;Mach bitte das Licht an!;einschalten;Wohnen;;A1
+verb;apagar;;ausmachen;;Akkusativ;hat ausgemacht;Mach den Fernseher aus!;ausschalten;Wohnen;;A1
+verb;costar;;kosten;;Akkusativ;hat gekostet;Das Ticket kostet zehn Franken.;;Geld;;A1
+verb;fumar;;rauchen;;Akkusativ;hat geraucht;Hier darf man nicht rauchen.;;Gesundheit;;A1
+verb;traer consigo;;mitbringen;;Dativ + Akkusativ;hat mitgebracht;Ich bringe dir einen Kaffee mit.;;Verkehr;;A1
+verb;devolver;;zurückgeben;;Dativ + Akkusativ;hat zurückgegeben;Gib mir das Buch zurück!;;Abstrakt;;A2
+verb;prometer;;versprechen;;Dativ + Akkusativ;hat versprochen;Er verspricht ihr eine Reise.;;Menschen;;extra
+verb;prohibir;;verbieten;;Dativ + Akkusativ;hat verboten;Der Arzt verbietet ihm den Zucker.;;Menschen;;A2
+verb;permitir;;erlauben;;Dativ + Akkusativ;hat erlaubt;Die Eltern erlauben dem Kind das Spiel.;;Menschen;;A1
+verb;desear;;wünschen;;Dativ + Akkusativ;hat gewünscht;Ich wünsche dir viel Glück.;;Menschen;;A2
+verb;ofrecer;;anbieten;;Dativ + Akkusativ;hat angeboten;Sie bietet uns einen Tee an.;;Menschen;;A1
+verb;comunicar;;mitteilen;;Dativ + Akkusativ;hat mitgeteilt;Teilen Sie uns die Adresse mit!;;Arbeit;;extra
+verb;perjudicar;;schaden;;Dativ;hat geschadet;Rauchen schadet der Gesundheit.;;Abstrakt;;extra
+verb;confiar en;;vertrauen;;Dativ;hat vertraut;Ich vertraue meinem Mann.;;Menschen;;extra
+verb;contradecir;;widersprechen;;Dativ;hat widersprochen;Sie widerspricht dem Chef.;;Menschen;;extra
+verb;estar de acuerdo;;zustimmen;;Dativ;hat zugestimmt;Ich stimme dir zu.;;Menschen;;extra
+verb;salir bien;;gelingen;;Dativ;ist gelungen;Der Kuchen ist mir gelungen.;;Abstrakt;;extra
+verb;bastar;;reichen;;Dativ;hat gereicht;Das Geld reicht mir nicht.;;Abstrakt;;extra
+verb;darse prisa;;sich beeilen;;ohne Objekt;hat sich beeilt;Beeil dich, der Zug fährt!;beeilen;Gesundheit;;A2
+verb;descansar;;sich ausruhen;;ohne Objekt;hat sich ausgeruht;Ich ruhe mich kurz aus.;ausruhen;Gesundheit;;A2
+verb;vestirse;;sich anziehen;;Akkusativ;hat sich angezogen;Zieh dich warm an!;anziehen;Kleidung;;A1
+verb;desvestirse;;sich ausziehen;;Akkusativ;hat sich ausgezogen;Er zieht die Schuhe aus.;ausziehen;Kleidung;;A1
+verb;sentirse;;sich fühlen;;ohne Objekt;hat sich gefühlt;Ich fühle mich gut.;fühlen;Gesundheit;;A2
+verb;sentarse;;sich setzen;;ohne Objekt;hat sich gesetzt;Setz dich bitte!;setzen;Gesundheit;;A2
+verb;quedar con alguien;;sich verabreden;;sich verabreden mit + Dativ;hat sich verabredet;Ich verabrede mich mit Anna.;verabreden;Menschen;;A2
+verb;pelearse;;sich streiten;;sich streiten mit + Dativ;hat sich gestritten;Sie streitet sich mit dem Nachbarn.;streiten;Menschen;;A2
+verb;disculparse;;sich entschuldigen;;sich entschuldigen bei + Dativ;hat sich entschuldigt;Ich entschuldige mich bei dir.;entschuldigen;Menschen;;A1
+verb;quejarse;;sich beschweren;;sich beschweren über + Akkusativ;hat sich beschwert;Er beschwert sich über den Lärm.;beschweren;Menschen;;A2
+verb;acostumbrarse a;;sich gewöhnen;;sich gewöhnen an + Akkusativ;hat sich gewöhnt;Ich gewöhne mich an das Wetter.;gewöhnen;Abstrakt;;extra
+verb;presentarse;;sich vorstellen;;sich vorstellen bei + Dativ;hat sich vorgestellt;Sie stellt sich bei der Firma vor.;vorstellen;Menschen;;A1
+verb;informarse sobre;;sich informieren;;sich informieren über + Akkusativ;hat sich informiert;Wir informieren uns über den Kurs.;informieren;Bildung;;A2
+verb;solicitar (un empleo);;sich bewerben;;sich bewerben um + Akkusativ;hat sich beworben;Er bewirbt sich um die Stelle.;bewerben;Arbeit;;A2
+verb;inscribirse;;sich anmelden;;sich anmelden bei + Dativ;hat sich angemeldet;Ich melde mich bei der Schule an.;anmelden;Amt;;A1
+verb;agradecer (formal);;sich bedanken;;sich bedanken für + Akkusativ;hat sich bedankt;Sie bedankt sich für das Geschenk.;bedanken;Menschen;;A2
+verb;esperar (desear);;hoffen;;hoffen auf + Akkusativ;hat gehofft;Wir hoffen auf gutes Wetter.;;Gefühle;;A2
+verb;prestar atención;;achten;;achten auf + Akkusativ;hat geachtet;Achte auf die Kinder!;;Abstrakt;;extra
+verb;ocuparse de;;sorgen;;sorgen für + Akkusativ;hat gesorgt;Er sorgt für die Familie.;;Menschen;;extra
+verb;consistir en;;bestehen;;bestehen aus + Dativ;hat bestanden;Das Team besteht aus zehn Personen.;;Einkaufen;;A2
+verb;soñar con;;träumen;;träumen von + Dativ;hat geträumt;Sie träumt von einem Haus.;;Gefühle;;A2
+verb;debatir;;diskutieren;;diskutieren über + Akkusativ;hat diskutiert;Wir diskutieren über den Preis.;;Bildung;;A2
+verb;charlar;;reden;;reden mit + Dativ;hat geredet;Ich rede mit dem Lehrer.;;Menschen;;A2
+verb;subir (a un vehículo);;einsteigen;;ohne Objekt;ist eingestiegen;Wir steigen in den Bus ein.;;Verkehr;;A1
+verb;bajar (de un vehículo);;aussteigen;;ohne Objekt;ist ausgestiegen;Steig hier aus!;;Verkehr;;A1
+verb;hacer transbordo;;umsteigen;;ohne Objekt;ist umgestiegen;In Zürich musst du umsteigen.;;Verkehr;;A2
+verb;llegar;;ankommen;;ohne Objekt;ist angekommen;Der Zug kommt um acht an.;;Verkehr;;A1
+verb;salir (un vehículo);;abfahren;;ohne Objekt;ist abgefahren;Der Bus fährt gleich ab.;;Verkehr;;A1
+verb;volver;;zurückkommen;;ohne Objekt;ist zurückgekommen;Sie kommt am Montag zurück.;;Verkehr;;A2
+verb;irse;;weggehen;;ohne Objekt;ist weggegangen;Er ist früh weggegangen.;;Verkehr;;extra
+verb;pasear;;spazieren gehen;;ohne Objekt;ist spazieren gegangen;Wir gehen im Park spazieren.;spazieren;Stadt;;A2
+verb;hacer senderismo;;wandern;;ohne Objekt;ist gewandert;Sie wandern in den Bergen.;;Verkehr;;A1
+verb;viajar;;reisen;;ohne Objekt;ist gereist;Wir reisen nach Italien.;;Verkehr;;A1
+verb;mudarse;;umziehen;;ohne Objekt;ist umgezogen;Sie ziehen nach Baden um.;;Wohnen;;A1
+verb;crecer;;wachsen;;ohne Objekt;ist gewachsen;Die Kinder wachsen schnell.;;Natur;;extra
+verb;morir;;sterben;;ohne Objekt;ist gestorben;Ihr Grossvater ist letztes Jahr gestorben.;;Natur;;A2
+verb;estar sentado;;sitzen;;ohne Objekt;hat gesessen;Ich sitze am Tisch.;;Wohnen;;A1
+verb;estar de pie;;stehen;;ohne Objekt;hat gestanden;Er steht vor der Tür.;;Wohnen;;A1
+verb;estar tumbado;;liegen;;ohne Objekt;hat gelegen;Das Buch liegt auf dem Bett.;;Wohnen;;A1
+verb;vivir (existir);;leben;;ohne Objekt;hat gelebt;Meine Eltern leben in Kolumbien.;;Menschen;;A1
+verb;llorar;;weinen;;ohne Objekt;hat geweint;Das Kind weint.;;Gefühle;;A2
+verb;bailar;;tanzen;;ohne Objekt;hat getanzt;Wir tanzen gern.;;Freizeit;;A1
+verb;funcionar;;funktionieren;;ohne Objekt;hat funktioniert;Der Drucker funktioniert nicht.;;Technik;;extra
+verb;durar;;dauern;;ohne Objekt;hat gedauert;Der Kurs dauert zwei Stunden.;;Zeit;;A1
+verb;llover;;regnen;;ohne Objekt;hat geregnet;Es regnet seit gestern.;;Natur;;A1
+verb;nevar;;schneien;;ohne Objekt;hat geschneit;Im Januar schneit es oft.;;Natur;;A2
+verb;brillar;;scheinen;;ohne Objekt;hat geschienen;Die Sonne scheint.;;Natur;;A1
+verb;tener lugar;;stattfinden;;ohne Objekt;hat stattgefunden;Das Fest findet am Samstag statt.;;Zeit;;A2
 adjektiv;rojo;;rot;;;;Der Wein ist rot.;;Farben;;A1
 adjektiv;azul;;blau;;;;Der Himmel ist blau.;;Farben;;A1
 adjektiv;verde;;grün;;;;Die Blätter sind grün.;;Farben;;A1
@@ -915,71 +915,71 @@ adjektiv;marrón;;braun;;;;Sie hat braune Augen.;;Farben;;A1
 adjektiv;rosa;;rosa;;;;Das Kleid ist rosa.;;Farben;;extra
 adjektiv;claro;;hell;;;;Das Zimmer ist hell.;;Farben;;A1
 adjektiv;oscuro;;dunkel;;;;Draussen ist es schon dunkel.;;Farben;;A2
-adjektiv;joven;;jung;;;;Sie ist noch jung.;;Adjektive;;A1
-adjektiv;delgado;;dünn;;;;Das Papier ist dünn.;schlank;Adjektive;;A2
-adjektiv;gordo;;dick;;;;Das Buch ist dick.;;Adjektive;;A2
-adjektiv;ancho;;breit;;;;Die Strasse ist breit.;;Adjektive;;A1
-adjektiv;profundo;;tief;;;;Der See ist tief.;;Adjektive;;A2
-adjektiv;fuerte;;stark;;;;Der Kaffee ist stark.;;Adjektive;;A2
-adjektiv;débil;;schwach;;;;Ich fühle mich schwach.;;Adjektive;;A2
-adjektiv;duro;;hart;;;;Das Brot ist hart.;;Adjektive;;A2
-adjektiv;blando;;weich;;;;Das Bett ist weich.;;Adjektive;;A2
-adjektiv;dulce;;süss;;;;Der Kuchen ist süss.;süß;Adjektive;;A2
-adjektiv;ácido;;sauer;;;;Die Zitrone ist sauer.;;Adjektive;;A2
-adjektiv;salado;;salzig;;;;Die Suppe ist zu salzig.;;Adjektive;;extra
-adjektiv;picante;;scharf;;;;Das Essen ist scharf.;;Adjektive;;A2
-adjektiv;fresco;;frisch;;;;Das Brot ist frisch.;;Adjektive;;A2
-adjektiv;seco;;trocken;;;;Die Wäsche ist trocken.;;Adjektive;;A2
-adjektiv;mojado;;nass;;;;Meine Schuhe sind nass.;;Adjektive;;A2
-adjektiv;moderno;;modern;;;;Die Wohnung ist modern.;;Adjektive;;A2
-adjektiv;cómodo;;bequem;;;;Der Sessel ist bequem.;;Adjektive;;A2
-adjektiv;práctico;;praktisch;;;;Die Tasche ist praktisch.;;Adjektive;;A2
-adjektiv;útil;;nützlich;;;;Der Kurs war sehr nützlich.;;Adjektive;;A2
-adjektiv;necesario;;nötig;;;;Das ist nicht nötig.;notwendig;Adjektive;;A2
-adjektiv;posible;;möglich;;;;Ist das möglich?;;Adjektive;;A1
-adjektiv;imposible;;unmöglich;;;;Das ist leider unmöglich.;;Adjektive;;extra
-adjektiv;correcto;;richtig;;;;Die Antwort ist richtig.;;Adjektive;;A1
-adjektiv;incorrecto;;falsch;;;;Die Nummer ist falsch.;;Adjektive;;A1
-adjektiv;igual;;gleich;;;;Wir haben die gleiche Idee.;;Adjektive;;A1
-adjektiv;parecido;;ähnlich;;;;Die Wörter sind ähnlich.;;Adjektive;;extra
-adjektiv;diferente;;verschieden;;;;Die Preise sind verschieden.;unterschiedlich;Adjektive;;A2
-adjektiv;entero;;ganz;;;;Ich habe den ganzen Tag gearbeitet.;;Adjektive;;A2
-adjektiv;medio;;halb;;;;Ich warte eine halbe Stunde.;;Adjektive;;A1
-adjektiv;solo;;allein;;;;Sie wohnt allein.;;Adjektive;;A1
-adjektiv;listo (terminado);;fertig;;;;Das Essen ist fertig.;;Adjektive;;A1
-adjektiv;abierto;;offen;;;;Die Tür ist offen.;geöffnet;Adjektive;;A2
-adjektiv;puntual;;pünktlich;;;;Der Zug ist pünktlich.;;Adjektive;;A1
-adjektiv;trabajador;;fleissig;;;;Sie ist eine fleissige Schülerin.;fleißig;Adjektive;;A2
-adjektiv;perezoso;;faul;;;;Heute bin ich faul.;;Adjektive;;A2
-adjektiv;inteligente;;klug;;;;Das Kind ist sehr klug.;intelligent;Adjektive;;A2
-adjektiv;tonto;;dumm;;;;Das war eine dumme Idee.;;Adjektive;;A2
-adjektiv;cortés;;höflich;;;;Er ist immer höflich.;;Adjektive;;extra
-adjektiv;honesto;;ehrlich;;;;Sei bitte ehrlich!;;Adjektive;;extra
-adjektiv;estricto;;streng;;;;Der Lehrer ist streng.;;Adjektive;;A2
-adjektiv;paciente;;geduldig;;;;Sie ist sehr geduldig.;;Adjektive;;extra
-adjektiv;nervioso;;nervös;;;;Vor der Prüfung bin ich nervös.;;Adjektive;;A2
-adjektiv;orgulloso;;stolz;;;;Ich bin stolz auf dich.;;Adjektive;;extra
-adjektiv;curioso;;neugierig;;;;Die Kinder sind neugierig.;;Adjektive;;extra
-adjektiv;satisfecho;;zufrieden;;;;Der Chef ist zufrieden.;;Adjektive;;A1
-adjektiv;aburrido;;langweilig;;;;Der Film war langweilig.;;Adjektive;;A2
-adjektiv;interesante;;interessant;;;;Das Buch ist interessant.;;Adjektive;;extra
-adjektiv;emocionante;;spannend;;;;Die Geschichte ist spannend.;;Adjektive;;A2
-adjektiv;extraño;;seltsam;;;;Das klingt seltsam.;komisch;Adjektive;;A2
-adjektiv;famoso;;berühmt;;;;Der Maler ist berühmt.;;Adjektive;;A2
-adjektiv;pobre;;arm;;;;Die Familie ist arm.;;Adjektive;;A1
-adjektiv;rico;;reich;;;;Sein Onkel ist reich.;;Adjektive;;A2
-adjektiv;gratis;;kostenlos;;;;Der Eintritt ist kostenlos.;gratis;Adjektive;;A2
-adjektiv;lleno (comido);;satt;;;;Ich bin satt, danke.;;Adjektive;;extra
-adjektiv;hambriento;;hungrig;;;;Die Kinder sind hungrig.;;Adjektive;;extra
-adjektiv;sediento;;durstig;;;;Nach dem Sport bin ich durstig.;;Adjektive;;extra
-adjektiv;casado;;verheiratet;;;;Wir sind seit August verheiratet.;;Adjektive;;A1
-adjektiv;soltero;;ledig;;;;Er ist noch ledig.;;Adjektive;;A1
-adjektiv;claro (evidente);;deutlich;;;;Sprich bitte deutlich!;;Adjektive;;A2
-adjektiv;exacto;;genau;;;;Ich brauche die genaue Adresse.;;Adjektive;;A2
-adjektiv;urgente;;dringend;;;;Der Anruf ist dringend.;;Adjektive;;A2
-adjektiv;ordenado;;ordentlich;;;;Ihr Zimmer ist ordentlich.;;Adjektive;;extra
-adjektiv;lejano;;weit;;;;Der Weg ist weit.;;Adjektive;;A1
-adjektiv;cercano;;nah;;;;Der Bahnhof ist nah.;;Adjektive;;extra
+adjektiv;joven;;jung;;;;Sie ist noch jung.;;Menschen;;A1
+adjektiv;delgado;;dünn;;;;Das Papier ist dünn.;schlank;Menge & Grad;;A2
+adjektiv;gordo;;dick;;;;Das Buch ist dick.;;Menge & Grad;;A2
+adjektiv;ancho;;breit;;;;Die Strasse ist breit.;;Menge & Grad;;A1
+adjektiv;profundo;;tief;;;;Der See ist tief.;;Menge & Grad;;A2
+adjektiv;fuerte;;stark;;;;Der Kaffee ist stark.;;Gesundheit;;A2
+adjektiv;débil;;schwach;;;;Ich fühle mich schwach.;;Gesundheit;;A2
+adjektiv;duro;;hart;;;;Das Brot ist hart.;;Menge & Grad;;A2
+adjektiv;blando;;weich;;;;Das Bett ist weich.;;Menge & Grad;;A2
+adjektiv;dulce;;süss;;;;Der Kuchen ist süss.;süß;Essen;;A2
+adjektiv;ácido;;sauer;;;;Die Zitrone ist sauer.;;Essen;;A2
+adjektiv;salado;;salzig;;;;Die Suppe ist zu salzig.;;Essen;;extra
+adjektiv;picante;;scharf;;;;Das Essen ist scharf.;;Essen;;A2
+adjektiv;fresco;;frisch;;;;Das Brot ist frisch.;;Essen;;A2
+adjektiv;seco;;trocken;;;;Die Wäsche ist trocken.;;Natur;;A2
+adjektiv;mojado;;nass;;;;Meine Schuhe sind nass.;;Natur;;A2
+adjektiv;moderno;;modern;;;;Die Wohnung ist modern.;;Wohnen;;A2
+adjektiv;cómodo;;bequem;;;;Der Sessel ist bequem.;;Wohnen;;A2
+adjektiv;práctico;;praktisch;;;;Die Tasche ist praktisch.;;Wohnen;;A2
+adjektiv;útil;;nützlich;;;;Der Kurs war sehr nützlich.;;Bildung;;A2
+adjektiv;necesario;;nötig;;;;Das ist nicht nötig.;notwendig;Abstrakt;;A2
+adjektiv;posible;;möglich;;;;Ist das möglich?;;Abstrakt;;A1
+adjektiv;imposible;;unmöglich;;;;Das ist leider unmöglich.;;Abstrakt;;extra
+adjektiv;correcto;;richtig;;;;Die Antwort ist richtig.;;Bildung;;A1
+adjektiv;incorrecto;;falsch;;;;Die Nummer ist falsch.;;Bildung;;A1
+adjektiv;igual;;gleich;;;;Wir haben die gleiche Idee.;;Bildung;;A1
+adjektiv;parecido;;ähnlich;;;;Die Wörter sind ähnlich.;;Bildung;;extra
+adjektiv;diferente;;verschieden;;;;Die Preise sind verschieden.;unterschiedlich;Bildung;;A2
+adjektiv;entero;;ganz;;;;Ich habe den ganzen Tag gearbeitet.;;Menge & Grad;;A2
+adjektiv;medio;;halb;;;;Ich warte eine halbe Stunde.;;Menge & Grad;;A1
+adjektiv;solo;;allein;;;;Sie wohnt allein.;;Abstrakt;;A1
+adjektiv;listo (terminado);;fertig;;;;Das Essen ist fertig.;;Arbeit;;A1
+adjektiv;abierto;;offen;;;;Die Tür ist offen.;geöffnet;Wohnen;;A2
+adjektiv;puntual;;pünktlich;;;;Der Zug ist pünktlich.;;Arbeit;;A1
+adjektiv;trabajador;;fleissig;;;;Sie ist eine fleissige Schülerin.;fleißig;Menschen;;A2
+adjektiv;perezoso;;faul;;;;Heute bin ich faul.;;Menschen;;A2
+adjektiv;inteligente;;klug;;;;Das Kind ist sehr klug.;intelligent;Menschen;;A2
+adjektiv;tonto;;dumm;;;;Das war eine dumme Idee.;;Menschen;;A2
+adjektiv;cortés;;höflich;;;;Er ist immer höflich.;;Menschen;;extra
+adjektiv;honesto;;ehrlich;;;;Sei bitte ehrlich!;;Menschen;;extra
+adjektiv;estricto;;streng;;;;Der Lehrer ist streng.;;Menschen;;A2
+adjektiv;paciente;;geduldig;;;;Sie ist sehr geduldig.;;Menschen;;extra
+adjektiv;nervioso;;nervös;;;;Vor der Prüfung bin ich nervös.;;Gefühle;;A2
+adjektiv;orgulloso;;stolz;;;;Ich bin stolz auf dich.;;Gefühle;;extra
+adjektiv;curioso;;neugierig;;;;Die Kinder sind neugierig.;;Gefühle;;extra
+adjektiv;satisfecho;;zufrieden;;;;Der Chef ist zufrieden.;;Gefühle;;A1
+adjektiv;aburrido;;langweilig;;;;Der Film war langweilig.;;Freizeit;;A2
+adjektiv;interesante;;interessant;;;;Das Buch ist interessant.;;Freizeit;;extra
+adjektiv;emocionante;;spannend;;;;Die Geschichte ist spannend.;;Freizeit;;A2
+adjektiv;extraño;;seltsam;;;;Das klingt seltsam.;komisch;Abstrakt;;A2
+adjektiv;famoso;;berühmt;;;;Der Maler ist berühmt.;;Menschen;;A2
+adjektiv;pobre;;arm;;;;Die Familie ist arm.;;Menschen;;A1
+adjektiv;rico;;reich;;;;Sein Onkel ist reich.;;Menschen;;A2
+adjektiv;gratis;;kostenlos;;;;Der Eintritt ist kostenlos.;gratis;Einkaufen;;A2
+adjektiv;lleno (comido);;satt;;;;Ich bin satt, danke.;;Essen;;extra
+adjektiv;hambriento;;hungrig;;;;Die Kinder sind hungrig.;;Essen;;extra
+adjektiv;sediento;;durstig;;;;Nach dem Sport bin ich durstig.;;Essen;;extra
+adjektiv;casado;;verheiratet;;;;Wir sind seit August verheiratet.;;Menschen;;A1
+adjektiv;soltero;;ledig;;;;Er ist noch ledig.;;Menschen;;A1
+adjektiv;claro (evidente);;deutlich;;;;Sprich bitte deutlich!;;Bildung;;A2
+adjektiv;exacto;;genau;;;;Ich brauche die genaue Adresse.;;Bildung;;A2
+adjektiv;urgente;;dringend;;;;Der Anruf ist dringend.;;Arbeit;;A2
+adjektiv;ordenado;;ordentlich;;;;Ihr Zimmer ist ordentlich.;;Haushalt;;extra
+adjektiv;lejano;;weit;;;;Der Weg ist weit.;;Ort & Richtung;;A1
+adjektiv;cercano;;nah;;;;Der Bahnhof ist nah.;;Ort & Richtung;;extra
 konnektor;porque;;weil;;Nebensatz — Verb ans Ende;;Ich bleibe zu Hause, weil ich krank bin.;;Konnektoren;;A2
 konnektor;pues / ya que;;denn;;Hauptsatz — normale Wortstellung;;Ich bleibe zu Hause, denn ich bin krank.;;Konnektoren;;A1
 konnektor;por eso;;deshalb;;Verb direkt danach;;Ich bin krank, deshalb bleibe ich zu Hause.;darum|deswegen;Konnektoren;;A2
@@ -992,37 +992,37 @@ konnektor;cuando (una vez);;als;;Nebensatz — Verb ans Ende;;Als ich klein war,
 konnektor;que (conjunción);;dass;;Nebensatz — Verb ans Ende;;Ich weiss, dass du kommst.;;Konnektoren;;A2
 konnektor;para que;;damit;;Nebensatz — Verb ans Ende;;Ich lerne, damit ich die Prüfung bestehe.;;Konnektoren;;extra
 konnektor;además;;ausserdem;;Verb direkt danach;;Es ist teuer, ausserdem ist es weit.;außerdem;Konnektoren;;A2
-adverb;quizás;;vielleicht;;;;Vielleicht kommt sie später.;;Adverbien;;A1
-adverb;claro que sí;;natürlich;;;;Natürlich helfe ich dir.;;Adverbien;;A2
-adverb;lamentablemente;;leider;;;;Leider habe ich keine Zeit.;;Adverbien;;A1
-adverb;ojalá;;hoffentlich;;;;Hoffentlich regnet es nicht.;;Adverbien;;A2
-adverb;de verdad;;wirklich;;;;Das ist wirklich schön.;;Adverbien;;A2
-adverb;aproximadamente;;ungefähr;;;;Es dauert ungefähr zehn Minuten.;etwa;Adverbien;;extra
-adverb;por lo menos;;mindestens;;;;Wir brauchen mindestens zwei Stunden.;;Adverbien;;A2
-adverb;especialmente;;besonders;;;;Heute ist es besonders kalt.;;Adverbien;;A2
-adverb;incluso;;sogar;;;;Sogar der Chef war da.;;Adverbien;;A2
-adverb;ya;;schon;;;;Bist du schon fertig?;;Adverbien;;A1
-adverb;todavía;;noch;;;;Ich bin noch nicht fertig.;;Adverbien;;A1
-adverb;otra vez;;wieder;;;;Er kommt wieder zu spät.;nochmal;Adverbien;;A1
-adverb;por fin;;endlich;;;;Endlich ist das Wetter schön.;;Adverbien;;A2
-adverb;enseguida;;sofort;;;;Ich komme sofort.;gleich;Adverbien;;A1
-adverb;pronto;;bald;;;;Wir sehen uns bald.;;Adverbien;;A1
-adverb;antes;;früher;;;;Früher habe ich in Cali gewohnt.;;Adverbien;;A1
-adverb;después;;später;;;;Wir reden später.;;Adverbien;;A1
-adverb;en todas partes;;überall;;;;Überall liegt Schnee.;;Adverbien;;A2
-adverb;en algún sitio;;irgendwo;;;;Der Schlüssel liegt irgendwo hier.;;Adverbien;;extra
-adverb;arriba;;oben;;;;Das Bad ist oben.;;Adverbien;;A1
-adverb;abajo;;unten;;;;Die Küche ist unten.;;Adverbien;;A1
-adverb;a la izquierda;;links;;;;Die Post ist links.;;Adverbien;;A1
-adverb;a la derecha;;rechts;;;;Gehen Sie rechts!;;Adverbien;;A1
-adverb;todo recto;;geradeaus;;;;Fahren Sie geradeaus!;;Adverbien;;A1
-adverb;fuera;;draussen;;;;Die Kinder spielen draussen.;draußen;Adverbien;;A1
-adverb;dentro;;drinnen;;;;Drinnen ist es warm.;;Adverbien;;A2
-adverb;juntos;;zusammen;;;;Wir lernen zusammen.;;Adverbien;;A1
-adverb;con gusto;;gern;;;;Ich trinke gern Tee.;gerne;Adverbien;;A1
-adverb;más bien;;lieber;;;;Ich trinke lieber Kaffee.;;Adverbien;;A1
-adverb;bastante;;ziemlich;;;;Es ist ziemlich kalt.;;Adverbien;;extra
-adverb;suficiente;;genug;;;;Wir haben genug Zeit.;;Adverbien;;A2
+adverb;quizás;;vielleicht;;;;Vielleicht kommt sie später.;;Abstrakt;;A1
+adverb;claro que sí;;natürlich;;;;Natürlich helfe ich dir.;;Abstrakt;;A2
+adverb;lamentablemente;;leider;;;;Leider habe ich keine Zeit.;;Abstrakt;;A1
+adverb;ojalá;;hoffentlich;;;;Hoffentlich regnet es nicht.;;Abstrakt;;A2
+adverb;de verdad;;wirklich;;;;Das ist wirklich schön.;;Abstrakt;;A2
+adverb;aproximadamente;;ungefähr;;;;Es dauert ungefähr zehn Minuten.;etwa;Menge & Grad;;extra
+adverb;por lo menos;;mindestens;;;;Wir brauchen mindestens zwei Stunden.;;Menge & Grad;;A2
+adverb;especialmente;;besonders;;;;Heute ist es besonders kalt.;;Menge & Grad;;A2
+adverb;incluso;;sogar;;;;Sogar der Chef war da.;;Menge & Grad;;A2
+adverb;ya;;schon;;;;Bist du schon fertig?;;Zeit;;A1
+adverb;todavía;;noch;;;;Ich bin noch nicht fertig.;;Zeit;;A1
+adverb;otra vez;;wieder;;;;Er kommt wieder zu spät.;nochmal;Zeit;;A1
+adverb;por fin;;endlich;;;;Endlich ist das Wetter schön.;;Zeit;;A2
+adverb;enseguida;;sofort;;;;Ich komme sofort.;gleich;Zeit;;A1
+adverb;pronto;;bald;;;;Wir sehen uns bald.;;Zeit;;A1
+adverb;antes;;früher;;;;Früher habe ich in Cali gewohnt.;;Zeit;;A1
+adverb;después;;später;;;;Wir reden später.;;Zeit;;A1
+adverb;en todas partes;;überall;;;;Überall liegt Schnee.;;Ort & Richtung;;A2
+adverb;en algún sitio;;irgendwo;;;;Der Schlüssel liegt irgendwo hier.;;Ort & Richtung;;extra
+adverb;arriba;;oben;;;;Das Bad ist oben.;;Ort & Richtung;;A1
+adverb;abajo;;unten;;;;Die Küche ist unten.;;Ort & Richtung;;A1
+adverb;a la izquierda;;links;;;;Die Post ist links.;;Ort & Richtung;;A1
+adverb;a la derecha;;rechts;;;;Gehen Sie rechts!;;Ort & Richtung;;A1
+adverb;todo recto;;geradeaus;;;;Fahren Sie geradeaus!;;Ort & Richtung;;A1
+adverb;fuera;;draussen;;;;Die Kinder spielen draussen.;draußen;Ort & Richtung;;A1
+adverb;dentro;;drinnen;;;;Drinnen ist es warm.;;Ort & Richtung;;A2
+adverb;juntos;;zusammen;;;;Wir lernen zusammen.;;Abstrakt;;A1
+adverb;con gusto;;gern;;;;Ich trinke gern Tee.;gerne;Abstrakt;;A1
+adverb;más bien;;lieber;;;;Ich trinke lieber Kaffee.;;Abstrakt;;A1
+adverb;bastante;;ziemlich;;;;Es ist ziemlich kalt.;;Menge & Grad;;extra
+adverb;suficiente;;genug;;;;Wir haben genug Zeit.;;Menge & Grad;;A2
 praeposition;sin;;ohne;;immer Akkusativ;;Ich trinke den Kaffee ohne Zucker.;;Präpositionen;;A1
 praeposition;contra;;gegen;;immer Akkusativ;;Wir sind gegen den Plan.;;Präpositionen;;A1
 praeposition;a través de;;durch;;immer Akkusativ;;Wir gehen durch den Park.;;Präpositionen;;A1
@@ -1037,198 +1037,198 @@ praeposition;encima de;;über;;Wechselpräposition;;Die Lampe hängt über dem T
 praeposition;debajo de;;unter;;Wechselpräposition;;Die Schuhe stehen unter dem Bett.;;Präpositionen;;A1
 nomen;el atardecer;der;Abend;Abende;;;;;Zeit;;A1
 nomen;la salida del tren;die;Abfahrt;Abfahrten;;;;;Verkehr;;A1
-verb;despegar;;abfliegen;;ohne Objekt;ist abgeflogen;Das Flugzeug fliegt um acht ab.;;Verben;;A1
-verb;entregar;;abgeben;;Dativ + Akkusativ;hat abgegeben;Gib mir bitte das Formular ab!;;Verben;;A1
-verb;cerrar con llave;;abschliessen;;Akkusativ;hat abgeschlossen;Schliess bitte die Tür ab!;abschließen;Verben;;A2
+verb;despegar;;abfliegen;;ohne Objekt;ist abgeflogen;Das Flugzeug fliegt um acht ab.;;Verkehr;;A1
+verb;entregar;;abgeben;;Dativ + Akkusativ;hat abgegeben;Gib mir bitte das Formular ab!;;Geld;;A1
+verb;cerrar con llave;;abschliessen;;Akkusativ;hat abgeschlossen;Schliess bitte die Tür ab!;abschließen;Wohnen;;A2
 nomen;el remitente;der;Absender;Absender;;;;;Amt;;A1
 nomen;la atención (¡cuidado!);die;Achtung;nur Singular;;;;;Amt;;A1
 nomen;la noción;die;Ahnung;Ahnungen;;;;;Abstrakt;;A2
-adjektiv;activo;;aktiv;;;;Sie ist sehr aktiv.;;Adjektive;;A2
-adjektiv;actual;;aktuell;;;;Das ist die aktuelle Version.;;Adjektive;;A2
-adverb;de otra manera;;anders;;;;Das machen wir anders.;;Adverbien;;A2
-verb;hacer clic en;;anklicken;;Akkusativ;hat angeklickt;Klick den Link an!;;Verben;;A1
-verb;marcar con una cruz;;ankreuzen;;Akkusativ;hat angekreuzt;Kreuzen Sie die richtige Antwort an!;;Verben;;A1
+adjektiv;activo;;aktiv;;;;Sie ist sehr aktiv.;;Abstrakt;;A2
+adjektiv;actual;;aktuell;;;;Das ist die aktuelle Version.;;Abstrakt;;A2
+adverb;de otra manera;;anders;;;;Das machen wir anders.;;Abstrakt;;A2
+verb;hacer clic en;;anklicken;;Akkusativ;hat angeklickt;Klick den Link an!;;Bildung;;A1
+verb;marcar con una cruz;;ankreuzen;;Akkusativ;hat angekreuzt;Kreuzen Sie die richtige Antwort an!;;Bildung;;A1
 nomen;el tratamiento (Sr./Sra.);die;Anrede;Anreden;;;;;Bildung;;A1
 nomen;el contestador;der;Anrufbeantworter;Anrufbeantworter;;;;;Technik;;A1
 nomen;el aviso por megafonía;die;Ansage;Ansagen;;;;;Verkehr;;A1
 nomen;el enlace (transbordo);der;Anschluss;Anschlüsse;;;;;Verkehr;;A1
-verb;mirar detenidamente;;ansehen;;Akkusativ;hat angesehen;Ich sehe mir den Film an.;;Verben;;A2
+verb;mirar detenidamente;;ansehen;;Akkusativ;hat angesehen;Ich sehe mir den Film an.;;Abstrakt;;A2
 nomen;el estudio (vivienda);das;Apartment;Apartments;;;;;Wohnen;;A1
 nomen;el aparato telefónico;der;Apparat;Apparate;;;;;Technik;;A2
 nomen;el apetito;der;Appetit;nur Singular;;;;;Essen;;A1
 adjektiv;desempleado;;arbeitslos;;;;Er ist seit Mai arbeitslos.;;Arbeit;;A1
 nomen;el puesto de trabajo;der;Arbeitsplatz;Arbeitsplätze;;;;;Arbeit;;A1
 nomen;el artículo;der;Artikel;Artikel;;;;;Bildung;;A2
-verb;vigilar;;aufpassen;;aufpassen auf + Akkusativ;hat aufgepasst;Pass auf die Kinder auf!;;Verben;;A2
-verb;alterarse;;sich aufregen;;sich aufregen über + Akkusativ;hat sich aufgeregt;Er regt sich über den Lärm auf.;aufregen;Verben;;A2
-verb;ordenar (la casa);;aufräumen;;Akkusativ;hat aufgeräumt;Räum bitte dein Zimmer auf!;;Verben;;A2
-verb;salir (de fiesta);;ausgehen;;ohne Objekt;ist ausgegangen;Am Samstag gehen wir aus.;;Verben;;A2
+verb;vigilar;;aufpassen;;aufpassen auf + Akkusativ;hat aufgepasst;Pass auf die Kinder auf!;;Abstrakt;;A2
+verb;alterarse;;sich aufregen;;sich aufregen über + Akkusativ;hat sich aufgeregt;Er regt sich über den Lärm auf.;aufregen;Gefühle;;A2
+verb;ordenar (la casa);;aufräumen;;Akkusativ;hat aufgeräumt;Räum bitte dein Zimmer auf!;;Wohnen;;A2
+verb;salir (de fiesta);;ausgehen;;ohne Objekt;ist ausgegangen;Am Samstag gehen wir aus.;;Freizeit;;A2
 nomen;la información (mostrador);die;Auskunft;Auskünfte;;;;;Verkehr;;A1
 nomen;el extranjero (país);das;Ausland;nur Singular;;;;;Stadt;;A1
 nomen;el extranjero (persona);der;Ausländer;Ausländer;;;;;Stadt;;A1
-adjektiv;extranjero (adj.);;ausländisch;;;;Sie hat einen ausländischen Ausweis.;;Adjektive;;A1
-verb;desempaquetar;;auspacken;;Akkusativ;hat ausgepackt;Ich packe den Koffer aus.;;Verben;;A2
+adjektiv;extranjero (adj.);;ausländisch;;;;Sie hat einen ausländischen Ausweis.;;Menschen;;A1
+verb;desempaquetar;;auspacken;;Akkusativ;hat ausgepackt;Ich packe den Koffer aus.;;Haushalt;;A2
 nomen;la declaración;die;Aussage;Aussagen;;;;;Amt;;A1
-verb;tener aspecto;;aussehen;;ohne Objekt;hat ausgesehen;Du siehst müde aus.;;Verben;;A1
-adverb;fuera (de la ciudad);;ausserhalb;;;;Wir wohnen ausserhalb.;außerhalb;Adverbien;;A2
-verb;pronunciar;;aussprechen;;Akkusativ;hat ausgesprochen;Wie spricht man das Wort aus?;;Verben;;A2
-verb;intercambiar;;austauschen;;Akkusativ;hat ausgetauscht;Wir tauschen die Nummern aus.;;Verben;;A2
-verb;repartir (periódicos);;austragen;;Akkusativ;hat ausgetragen;Er trägt die Zeitungen aus.;;Verben;;A2
+verb;tener aspecto;;aussehen;;ohne Objekt;hat ausgesehen;Du siehst müde aus.;;Abstrakt;;A1
+adverb;fuera (de la ciudad);;ausserhalb;;;;Wir wohnen ausserhalb.;außerhalb;Ort & Richtung;;A2
+verb;pronunciar;;aussprechen;;Akkusativ;hat ausgesprochen;Wie spricht man das Wort aus?;;Bildung;;A2
+verb;intercambiar;;austauschen;;Akkusativ;hat ausgetauscht;Wir tauschen die Nummern aus.;;Abstrakt;;A2
+verb;repartir (periódicos);;austragen;;Akkusativ;hat ausgetragen;Er trägt die Zeitungen aus.;;Abstrakt;;A2
 nomen;la autopista;die;Autobahn;Autobahnen;;;;;Verkehr;;A1
 nomen;la máquina expendedora;der;Automat;Automaten;;;;;Technik;;A1
-adjektiv;automático;;automatisch;;;;Die Tür ist automatisch.;;Adjektive;;A1
+adjektiv;automático;;automatisch;;;;Die Tür ist automatisch.;;Technik;;A1
 nomen;el bebé;das;Baby;Babys;;;;;Menschen;;A1
 nomen;el/la canguro;der;Babysitter;Babysitter;;;;;Menschen;;A2
-verb;bañarse;;baden;;ohne Objekt;hat gebadet;Die Kinder baden im See.;;Verben;;A1
+verb;bañarse;;baden;;ohne Objekt;hat gebadet;Die Kinder baden im See.;;Gesundheit;;A1
 nomen;el ferrocarril;die;Bahn;Bahnen;;;;;Verkehr;;A1
 nomen;el andén;der;Bahnsteig;Bahnsteige;;;;;Verkehr;;A1
 nomen;la pelota;der;Ball;Bälle;;;;;Freizeit;;A2
 nomen;el grupo (música);die;Band;Bands;;;;;Freizeit;;A2
 adverb;en efectivo;;bar;;;;Ich zahle bar.;;Geld;;A1
 nomen;el baloncesto;der;Basketball;nur Singular;;;;;Freizeit;;A2
-verb;hacer manualidades;;basteln;;Akkusativ;hat gebastelt;Die Kinder basteln eine Karte.;;Verben;;A2
+verb;hacer manualidades;;basteln;;Akkusativ;hat gebastelt;Die Kinder basteln eine Karte.;;Haushalt;;A2
 nomen;la obra (construcción);die;Baustelle;Baustellen;;;;;Stadt;;A2
-verb;responder a algo;;beantworten;;Akkusativ;hat beantwortet;Ich beantworte die Frage. (aber: antworten + Dativ);;Verben;;A2
-verb;significar;;bedeuten;;Akkusativ;hat bedeutet;Was bedeutet dieses Wort?;;Verben;;A1
-verb;finalizar;;beenden;;Akkusativ;hat beendet;Wir beenden das Projekt heute.;;Verben;;A2
-verb;justificar;;begründen;;Akkusativ;hat begründet;Begründen Sie Ihre Meinung!;;Verben;;A2
-adjektiv;conocido;;bekannt;;;;Das Restaurant ist bekannt.;;Adjektive;;A1
+verb;responder a algo;;beantworten;;Akkusativ;hat beantwortet;Ich beantworte die Frage. (aber: antworten + Dativ);;Bildung;;A2
+verb;significar;;bedeuten;;Akkusativ;hat bedeutet;Was bedeutet dieses Wort?;;Bildung;;A1
+verb;finalizar;;beenden;;Akkusativ;hat beendet;Wir beenden das Projekt heute.;;Zeit;;A2
+verb;justificar;;begründen;;Akkusativ;hat begründet;Begründen Sie Ihre Meinung!;;Bildung;;A2
+adjektiv;conocido;;bekannt;;;;Das Restaurant ist bekannt.;;Menschen;;A1
 nomen;el conocido (persona);der;Bekannte;Bekannten;;;;;Menschen;;A1
-adjektiv;popular;;beliebt;;;;Der Lehrer ist sehr beliebt.;;Adjektive;;A2
-verb;asesorar;;beraten;;Akkusativ;hat beraten;Die Bank berät uns gut.;;Verben;;A2
-verb;informar sobre;;berichten;;berichten über + Akkusativ;hat berichtet;Sie berichtet über die Reise.;;Verben;;A2
+adjektiv;popular;;beliebt;;;;Der Lehrer ist sehr beliebt.;;Menschen;;A2
+verb;asesorar;;beraten;;Akkusativ;hat beraten;Die Bank berät uns gut.;;Arbeit;;A2
+verb;informar sobre;;berichten;;berichten über + Akkusativ;hat berichtet;Sie berichtet über die Reise.;;Bildung;;A2
 nomen;la notificación oficial;der;Bescheid;Bescheide;;;;;Amt;;A2
-verb;confirmar;;bestätigen;;Akkusativ;hat bestätigt;Bitte bestätigen Sie den Termin.;;Verben;;A2
+verb;confirmar;;bestätigen;;Akkusativ;hat bestätigt;Bitte bestätigen Sie den Termin.;;Arbeit;;A2
 nomen;la visita;der;Besuch;Besuche;;;;;Menschen;;A2
 adjektiv;nublado;;bewölkt;;;;Heute ist es bewölkt.;;Natur;;A2
-adverb;un poco;;bisschen;;;;Ich spreche ein bisschen Deutsch.;;Adverbien;;A1
-adjektiv;amargo;;bitter;;;;Der Kaffee ist bitter.;;Adjektive;;A1
+adverb;un poco;;bisschen;;;;Ich spreche ein bisschen Deutsch.;;Menge & Grad;;A1
+adjektiv;amargo;;bitter;;;;Der Kaffee ist bitter.;;Essen;;A1
 nomen;la mirada;der;Blick;Blicke;;;;;Abstrakt;;A1
 nomen;el blog;der;Blog;Blogs;;;;;Technik;;A2
-adjektiv;rubio;;blond;;;;Sie hat blonde Haare.;;Adjektive;;A2
+adjektiv;rubio;;blond;;;;Sie hat blonde Haare.;;Menschen;;A2
 nomen;la blusa;die;Bluse;Blusen;;;;;Kleidung;;A2
-adjektiv;bobo;;blöd;;;;Das war eine blöde Idee.;;Adjektive;;A2
+adjektiv;bobo;;blöd;;;;Das war eine blöde Idee.;;Menschen;;A2
 nomen;la hoja de respuestas;der;Bogen;Bögen;;;;;Bildung;;A1
 nomen;la judía;die;Bohne;Bohnen;;;;Frijol;Essen;;A2
 nomen;la carta (correo);der;Brief;Briefe;;;;;Amt;;A1
 nomen;el sello (correo);die;Briefmarke;Briefmarken;;;;;Amt;;A1
-verb;reservar un vuelo;;buchen;;Akkusativ;hat gebucht;Wir buchen den Flug morgen.;;Verben;;A2
+verb;reservar un vuelo;;buchen;;Akkusativ;hat gebucht;Wir buchen den Flug morgen.;;Verkehr;;A2
 nomen;la letra (del alfabeto);der;Buchstabe;Buchstaben;;;;;Bildung;;A1
-adjektiv;de colores;;bunt;;;;Der Markt ist sehr bunt.;;Adjektive;;A2
-adjektiv;enfadado;;böse;;;;Bist du böse auf mich?;;Adjektive;;A1
+adjektiv;de colores;;bunt;;;;Der Markt ist sehr bunt.;;Kleidung;;A2
+adjektiv;enfadado;;böse;;;;Bist du böse auf mich?;;Menschen;;A1
 nomen;la cafetería (comedor);die;Cafeteria;Cafeterias;;;;;Essen;;A2
 nomen;el café (local);das;Café;Cafés;;;;;Essen;;A1
 nomen;el CD;die;CD;CDs;;;;;Technik;;A1
 nomen;el céntimo;der;Cent;Cent;;;;;Geld;;A1
-verb;chatear;;chatten;;ohne Objekt;hat gechattet;Sie chattet mit ihrer Schwester.;;Verben;;A2
+verb;chatear;;chatten;;ohne Objekt;hat gechattet;Sie chattet mit ihrer Schwester.;;Technik;;A2
 nomen;la jefa;die;Chefin;Chefinnen;;;;;Arbeit;;A2
 nomen;el club (nocturno);der;Club;Clubs;;;;;Freizeit;;A2
 nomen;el cómic;der;Comic;Comics;;;;;Freizeit;;A2
 nomen;la crema;die;Creme;Cremes;;;;;Gesundheit;;A2
-adverb;consigo;;dabei;;;;Hast du den Ausweis dabei?;;Adverbien;;A2
-adverb;a favor de eso;;dafür;;;;Ich bin dafür.;;Adverbien;;A2
-adverb;en contra de eso;;dagegen;;;;Sie ist dagegen.;;Adverbien;;A2
-adverb;en aquel entonces;;damals;;;;Damals war ich noch klein.;;Adverbien;;A2
+adverb;consigo;;dabei;;;;Hast du den Ausweis dabei?;;Abstrakt;;A2
+adverb;a favor de eso;;dafür;;;;Ich bin dafür.;;Abstrakt;;A2
+adverb;en contra de eso;;dagegen;;;;Sie ist dagegen.;;Abstrakt;;A2
+adverb;en aquel entonces;;damals;;;;Damals war ich noch klein.;;Zeit;;A2
 nomen;la señora (dama);die;Dame;Damen;;;;;Menschen;;A2
-adverb;al lado de eso;;daneben;;;;Die Post ist daneben.;;Adverbien;;A1
+adverb;al lado de eso;;daneben;;;;Die Post ist daneben.;;Ort & Richtung;;A1
 nomen;el agradecimiento;der;Dank;nur Singular;;;;;Abstrakt;;A1
-adverb;entonces;;dann;;;;Zuerst esse ich, dann lerne ich.;;Adverbien;;A1
-adverb;encima de eso;;darauf;;;;Der Tisch ist frei, stell es darauf.;;Adverbien;;A2
-adverb;sobre eso;;darüber;;;;Wir sprechen später darüber.;;Adverbien;;A2
-adjektiv;alemán (adj.);;deutsch;;;;Sie lernt die deutsche Sprache.;;Adjektive;;A1
+adverb;entonces;;dann;;;;Zuerst esse ich, dann lerne ich.;;Zeit;;A1
+adverb;encima de eso;;darauf;;;;Der Tisch ist frei, stell es darauf.;;Abstrakt;;A2
+adverb;sobre eso;;darüber;;;;Wir sprechen später darüber.;;Abstrakt;;A2
+adjektiv;alemán (adj.);;deutsch;;;;Sie lernt die deutsche Sprache.;;Menschen;;A1
 nomen;el alemán (persona);der;Deutsche;Deutschen;;;;;Menschen;;A1
 nomen;Alemania;das;Deutschland;nur Singular;;;;;Stadt;;A1
 nomen;la cosa;das;Ding;Dinge;;;;;Abstrakt;;A2
-adjektiv;directo;;direkt;;;;Der Zug fährt direkt nach Bern.;;Adjektive;;A2
+adjektiv;directo;;direkt;;;;Der Zug fährt direkt nach Bern.;;Abstrakt;;A2
 nomen;la discoteca;die;Disco;Discos;;;;;Freizeit;;A2
 nomen;el doctor (título);der;Doktor;Doktoren;;;;;Bildung;;A1
 nomen;la habitación doble;das;Doppelzimmer;Doppelzimmer;;;;;Verkehr;;A1
-adverb;allí;;dort;;;;Dort ist die Apotheke.;;Adverbien;;A1
-adverb;hacia allí;;dorthin;;;;Wie komme ich dorthin?;;Adverbien;;A2
-verb;imprimir;;drucken;;Akkusativ;hat gedruckt;Ich drucke den Vertrag.;;Verben;;A1
-adverb;al otro lado;;drüben;;;;Der Bahnhof ist da drüben.;;Adverbien;;A2
-verb;pulsar;;drücken;;Akkusativ;hat gedrückt;Drücken Sie den Knopf!;;Verben;;A1
+adverb;allí;;dort;;;;Dort ist die Apotheke.;;Ort & Richtung;;A1
+adverb;hacia allí;;dorthin;;;;Wie komme ich dorthin?;;Ort & Richtung;;A2
+verb;imprimir;;drucken;;Akkusativ;hat gedruckt;Ich drucke den Vertrag.;;Technik;;A1
+adverb;al otro lado;;drüben;;;;Der Bahnhof ist da drüben.;;Ort & Richtung;;A2
+verb;pulsar;;drücken;;Akkusativ;hat gedrückt;Drücken Sie den Knopf!;;Wohnen;;A1
 nomen;el aviso por altavoz;die;Durchsage;Durchsagen;;;;;Verkehr;;A1
-verb;ducharse;;duschen;;ohne Objekt;hat geduscht;Ich dusche jeden Morgen.;;Verben;;A1
+verb;ducharse;;duschen;;ohne Objekt;hat geduscht;Ich dusche jeden Morgen.;;Gesundheit;;A1
 nomen;el libro electrónico;das;E-Book;E-Books;;;;;Technik;;A2
-adjektiv;auténtico;;echt;;;;Ist das echtes Gold?;;Adjektive;;A2
+adjektiv;auténtico;;echt;;;;Ist das echtes Gold?;;Abstrakt;;A2
 nomen;la esquina;die;Ecke;Ecken;;;;;Stadt;;A1
-adjektiv;da lo mismo;;egal;;;;Das ist mir egal.;;Adjektive;;A2
+adjektiv;da lo mismo;;egal;;;;Das ist mir egal.;;Gefühle;;A2
 nomen;el cónyuge;der;Ehepartner;Ehepartner;;;;;Menschen;;A2
-adjektiv;propio;;eigen;;;;Sie hat ein eigenes Auto.;;Adjektive;;A2
-adverb;en realidad;;eigentlich;;;;Eigentlich wollte ich zu Hause bleiben.;;Adverbien;;A2
-adjektiv;con prisa;;eilig;;;;Ich habe es eilig.;;Adjektive;;A1
-verb;hacer la compra;;einkaufen;;ohne Objekt;hat eingekauft;Am Samstag kaufen wir ein.;;Verben;;A1
+adjektiv;propio;;eigen;;;;Sie hat ein eigenes Auto.;;Abstrakt;;A2
+adverb;en realidad;;eigentlich;;;;Eigentlich wollte ich zu Hause bleiben.;;Abstrakt;;A2
+adjektiv;con prisa;;eilig;;;;Ich habe es eilig.;;Abstrakt;;A1
+verb;hacer la compra;;einkaufen;;ohne Objekt;hat eingekauft;Am Samstag kaufen wir ein.;;Einkaufen;;A1
 nomen;el centro comercial;das;Einkaufszentrum;Einkaufszentren;;;;;Stadt;;A2
-adverb;una vez;;einmal;;;;Ich war einmal in Berlin.;;Adverbien;;A2
-verb;empaquetar;;einpacken;;Akkusativ;hat eingepackt;Pack die Geschenke ein!;;Verben;;A2
-verb;anotar (en una lista);;eintragen;;Akkusativ;hat eingetragen;Tragen Sie Ihren Namen ein!;;Verben;;A2
+adverb;una vez;;einmal;;;;Ich war einmal in Berlin.;;Zeit;;A2
+verb;empaquetar;;einpacken;;Akkusativ;hat eingepackt;Pack die Geschenke ein!;;Haushalt;;A2
+verb;anotar (en una lista);;eintragen;;Akkusativ;hat eingetragen;Tragen Sie Ihren Namen ein!;;Bildung;;A2
 nomen;la entrada (acceso);der;Eintritt;Eintritte;;;;;Freizeit;;A1
-adjektiv;de acuerdo;;einverstanden;;;;Ich bin einverstanden.;;Adjektive;;A2
-adjektiv;individual;;einzeln;;;;Bitte einzeln eintreten!;;Adjektive;;A2
+adjektiv;de acuerdo;;einverstanden;;;;Ich bin einverstanden.;;Gefühle;;A2
+adjektiv;individual;;einzeln;;;;Bitte einzeln eintreten!;;Abstrakt;;A2
 nomen;la habitación individual;das;Einzelzimmer;Einzelzimmer;;;;;Verkehr;;A1
-verb;mudarse a (entrar);;einziehen;;ohne Objekt;ist eingezogen;Wir ziehen im Mai ein.;;Verben;;A2
+verb;mudarse a (entrar);;einziehen;;ohne Objekt;ist eingezogen;Wir ziehen im Mai ein.;;Wohnen;;A2
 nomen;el destinatario;der;Empfänger;Empfänger;;;;;Amt;;A1
-verb;acabar (terminarse);;enden;;ohne Objekt;hat geendet;Der Kurs endet im Juni.;;Verben;;A1
-adjektiv;estrecho;;eng;;;;Die Hose ist zu eng.;;Adjektive;;A2
+verb;acabar (terminarse);;enden;;ohne Objekt;hat geendet;Der Kurs endet im Juni.;;Zeit;;A1
+adjektiv;estrecho;;eng;;;;Die Hose ist zu eng.;;Wohnen;;A2
 nomen;la disculpa;die;Entschuldigung;Entschuldigungen;;;;;Abstrakt;;A1
 nomen;la planta baja;das;Erdgeschoss;Erdgeschosse;;;;;Wohnen;;A2
 nomen;la autorización;die;Erlaubnis;Erlaubnisse;;;;;Amt;;A2
 nomen;la tarifa reducida;die;Ermässigung;Ermässigungen;;;;Ermäßigung;Geld;;A2
-verb;alcanzar / localizar;;erreichen;;Akkusativ;hat erreicht;Ich erreiche ihn nicht am Telefon.;;Verben;;A2
-adverb;apenas / recién;;erst;;;;Sie ist erst gestern angekommen.;;Adverbien;;A2
+verb;alcanzar / localizar;;erreichen;;Akkusativ;hat erreicht;Ich erreiche ihn nicht am Telefon.;;Arbeit;;A2
+adverb;apenas / recién;;erst;;;;Sie ist erst gestern angekommen.;;Zeit;;A2
 nomen;el adulto;der;Erwachsene;Erwachsenen;;;;;Menschen;;A1
 nomen;el euro;der;Euro;Euro;;;;;Geld;;A1
 nomen;Europa;das;Europa;nur Singular;;;;;Stadt;;A1
 nomen;el europeo;der;Europäer;Europäer;;;;;Stadt;;A1
-adjektiv;europeo (adj.);;europäisch;;;;Das ist eine europäische Firma.;;Adjektive;;A1
+adjektiv;europeo (adj.);;europäisch;;;;Das ist eine europäische Firma.;;Menschen;;A1
 nomen;la asignatura;das;Fach;Fächer;;;;;Bildung;;A2
 nomen;el horario (transporte);der;Fahrplan;Fahrpläne;;;;;Verkehr;;A2
-verb;caerse;;fallen;;ohne Objekt;ist gefallen;Der Teller ist auf den Boden gefallen.;;Verben;;A2
+verb;caerse;;fallen;;ohne Objekt;ist gefallen;Der Teller ist auf den Boden gefallen.;;Abstrakt;;A2
 nomen;el fan;der;Fan;Fans;;;;;Freizeit;;A2
-adjektiv;fantástico;;fantastisch;;;;Das Konzert war fantastisch.;;Adjektive;;A2
-adverb;casi;;fast;;;;Ich bin fast fertig.;;Adverbien;;A2
+adjektiv;fantástico;;fantastisch;;;;Das Konzert war fantastisch.;;Freizeit;;A2
+adverb;casi;;fast;;;;Ich bin fast fertig.;;Menge & Grad;;A2
 nomen;el fax;das;Fax;Faxe;;;;;Technik;;A1
 nomen;el fin de la jornada;der;Feierabend;Feierabende;;;;;Arbeit;;A1
-verb;celebrar;;feiern;;Akkusativ;hat gefeiert;Wir feiern deinen Geburtstag.;;Verben;;A1
+verb;celebrar;;feiern;;Akkusativ;hat gefeiert;Wir feiern deinen Geburtstag.;;Freizeit;;A1
 nomen;el día festivo;der;Feiertag;Feiertage;;;;;Feste;;A1
-verb;ver la televisión;;fernsehen;;ohne Objekt;hat ferngesehen;Abends sehe ich fern.;;Verben;;A1
+verb;ver la televisión;;fernsehen;;ohne Objekt;hat ferngesehen;Abends sehe ich fern.;;Freizeit;;A1
 nomen;el festival;das;Festival;Festivals;;;;;Freizeit;;A2
-adjektiv;graso;;fett;;;;Das Essen ist zu fett.;;Adjektive;;A2
-adjektiv;en forma;;fit;;;;Nach dem Sport bin ich fit.;;Adjektive;;A2
+adjektiv;graso;;fett;;;;Das Essen ist zu fett.;;Essen;;A2
+adjektiv;en forma;;fit;;;;Nach dem Sport bin ich fit.;;Gesundheit;;A2
 nomen;el mercadillo;der;Flohmarkt;Flohmärkte;;;;;Einkaufen;;A2
 nomen;la cámara de fotos;der;Fotoapparat;Fotoapparate;;;;;Technik;;A2
-verb;fotografiar;;fotografieren;;Akkusativ;hat fotografiert;Sie fotografiert die Kirche.;;Verben;;A2
-adjektiv;voluntario;;freiwillig;;;;Er hilft freiwillig.;;Adjektive;;A2
-adjektiv;ajeno / desconocido;;fremd;;;;Die Stadt ist mir fremd.;;Adjektive;;A1
+verb;fotografiar;;fotografieren;;Akkusativ;hat fotografiert;Sie fotografiert die Kirche.;;Technik;;A2
+adjektiv;voluntario;;freiwillig;;;;Er hilft freiwillig.;;Arbeit;;A2
+adjektiv;ajeno / desconocido;;fremd;;;;Die Stadt ist mir fremd.;;Menschen;;A1
 nomen;la primavera (temporada);das;Frühjahr;Frühjahre;;;;;Kalender;;A1
-verb;desayunar;;frühstücken;;ohne Objekt;hat gefrühstückt;Wir frühstücken um sieben.;;Verben;;A1
+verb;desayunar;;frühstücken;;ohne Objekt;hat gefrühstückt;Wir frühstücken um sieben.;;Essen;;A1
 nomen;el objeto perdido;die;Fundsache;Fundsachen;;;;;Amt;;A2
-adjektiv;espantoso;;furchtbar;;;;Das Wetter ist furchtbar.;;Adjektive;;A2
+adjektiv;espantoso;;furchtbar;;;;Das Wetter ist furchtbar.;;Abstrakt;;A2
 nomen;el fútbol;der;Fussball;nur Singular;;;;Fußball;Freizeit;;A1
 nomen;la visita guiada;die;Führung;Führungen;;;;;Freizeit;;A1
-adjektiv;nacido;;geboren;;;;Ich bin in Bogotá geboren.;;Adjektive;;A1
+adjektiv;nacido;;geboren;;;;Ich bin in Bogotá geboren.;;Menschen;;A1
 nomen;el año de nacimiento;das;Geburtsjahr;Geburtsjahre;;;;;Amt;;A1
 nomen;el lugar de nacimiento;der;Geburtsort;Geburtsorte;;;;;Amt;;A1
 nomen;lo contrario;das;Gegenteil;Gegenteile;;;;;Abstrakt;;A2
 nomen;la vajilla;das;Geschirr;nur Singular;;;;;Haushalt;;A2
-adjektiv;cerrado;;geschlossen;;;;Das Geschäft ist geschlossen.;zu;Adjektive;;A1
+adjektiv;cerrado;;geschlossen;;;;Das Geschäft ist geschlossen.;zu;Wohnen;;A1
 nomen;los hermanos;die;Geschwister;nur Plural;;;;;Menschen;;A1
 nomen;la conversación;das;Gespräch;Gespräche;;;;;Abstrakt;;A1
 nomen;la bebida;das;Getränk;Getränke;;;;;Essen;;A1
-verb;ganar (un premio);;gewinnen;;Akkusativ;hat gewonnen;Sie hat den Preis gewonnen.;;Verben;;A1
+verb;ganar (un premio);;gewinnen;;Akkusativ;hat gewonnen;Sie hat den Preis gewonnen.;;Freizeit;;A1
 nomen;la guitarra;die;Gitarre;Gitarren;;;;;Freizeit;;A2
 nomen;la felicitación;der;Glückwunsch;Glückwünsche;;;;;Feste;;A1
 nomen;el gramo;das;Gramm;Gramm;;;;;Essen;;A1
-verb;hacer una barbacoa;;grillen;;Akkusativ;hat gegrillt;Wir grillen Fleisch im Garten.;;Verben;;A1
+verb;hacer una barbacoa;;grillen;;Akkusativ;hat gegrillt;Wir grillen Fleisch im Garten.;;Essen;;A1
 nomen;la gripe;die;Grippe;Grippen;;;;;Gesundheit;;A2
 nomen;los abuelos;die;Grosseltern;nur Plural;;;;Großeltern;Menschen;;A1
 nomen;el grupo (personas);die;Gruppe;Gruppen;;;;;Menschen;;A1
 nomen;el saludo;der;Gruss;Grüsse;;;;Gruß;Abstrakt;;A1
-adjektiv;válido;;gültig;;;;Das Ticket ist noch gültig.;;Adjektive;;A1
+adjektiv;válido;;gültig;;;;Das Ticket ist noch gültig.;;Einkaufen;;A1
 nomen;la media pensión;die;Halbpension;nur Singular;;;;;Verkehr;;A1
 nomen;el pabellón;die;Halle;Hallen;;;;;Freizeit;;A1
-verb;parar / sujetar;;halten;;Akkusativ;hat gehalten;Der Zug hält in Baden.;;Verben;;A1
+verb;parar / sujetar;;halten;;Akkusativ;hat gehalten;Der Zug hält in Baden.;;Verkehr;;A1
 nomen;la hamburguesa;der;Hamburger;Hamburger;;;;;Essen;;A2
 nomen;la capital;die;Hauptstadt;Hauptstädte;;;;;Stadt;;A2
 nomen;la tarea escolar;die;Hausaufgabe;Hausaufgaben;;;;;Bildung;;A1
@@ -1236,77 +1236,77 @@ nomen;el ama de casa;die;Hausfrau;Hausfrauen;;;;;Menschen;;A1
 nomen;las tareas del hogar;der;Haushalt;Haushalte;;;;;Haushalt;;A2
 nomen;el amo de casa;der;Hausmann;Hausmänner;;;;;Menschen;;A1
 nomen;la tierra natal;die;Heimat;nur Singular;;;;;Abstrakt;;A1
-verb;llamarse;;heissen;;ohne Objekt;hat geheissen;Wie heissen Sie?;heißen;Verben;;A1
-adverb;hacia aquí;;her;;;;Komm her!;;Adverbien;;A2
-adverb;hacia fuera;;heraus;;;;Nimm das Buch heraus!;raus;Adverbien;;A2
-adverb;hacia dentro;;herein;;;;Kommen Sie herein!;rein;Adverbien;;A2
-verb;fabricar;;herstellen;;Akkusativ;hat hergestellt;Die Firma stellt Maschinen her.;;Verben;;A2
-verb;descargar;;herunterladen;;Akkusativ;hat heruntergeladen;Lade die Datei herunter!;;Verben;;A2
-adjektiv;cordial;;herzlich;;;;Herzliche Grüsse aus Baden!;;Adjektive;;A1
-adverb;aquí;;hier;;;;Hier ist die Haltestelle.;;Adverbien;;A1
-adverb;hacia allá;;hin;;;;Wo fährst du hin?;;Adverbien;;A2
-adverb;detrás;;hinten;;;;Die Küche ist hinten.;;Adverbien;;A1
+verb;llamarse;;heissen;;ohne Objekt;hat geheissen;Wie heissen Sie?;heißen;Abstrakt;;A1
+adverb;hacia aquí;;her;;;;Komm her!;;Ort & Richtung;;A2
+adverb;hacia fuera;;heraus;;;;Nimm das Buch heraus!;raus;Ort & Richtung;;A2
+adverb;hacia dentro;;herein;;;;Kommen Sie herein!;rein;Ort & Richtung;;A2
+verb;fabricar;;herstellen;;Akkusativ;hat hergestellt;Die Firma stellt Maschinen her.;;Arbeit;;A2
+verb;descargar;;herunterladen;;Akkusativ;hat heruntergeladen;Lade die Datei herunter!;;Technik;;A2
+adjektiv;cordial;;herzlich;;;;Herzliche Grüsse aus Baden!;;Menschen;;A1
+adverb;aquí;;hier;;;;Hier ist die Haltestelle.;;Ort & Richtung;;A1
+adverb;hacia allá;;hin;;;;Wo fährst du hin?;;Ort & Richtung;;A2
+adverb;detrás;;hinten;;;;Die Küche ist hinten.;;Ort & Richtung;;A1
 nomen;la página web (propia);die;Homepage;Homepages;;;;;Technik;;A2
 nomen;el señor (tratamiento);der;Herr;Herren;;;;;Menschen;;A1
 nomen;el instrumento;das;Instrument;Instrumente;;;;;Freizeit;;A2
 nomen;el interés;das;Interesse;Interessen;;;;;Abstrakt;;A2
-adjektiv;internacional;;international;;;;Die Firma ist international.;;Adjektive;;A1
+adjektiv;internacional;;international;;;;Die Firma ist international.;;Menschen;;A1
 nomen;el internet;das;Internet;nur Singular;;;;;Technik;;A1
 nomen;la entrevista (medios);das;Interview;Interviews;;;;;Technik;;A2
 nomen;el trabajo temporal;der;Job;Jobs;;;;;Arbeit;;A1
-verb;correr (hacer footing);;joggen;;ohne Objekt;ist gejoggt;Sie joggt jeden Morgen.;;Verben;;A2
+verb;correr (hacer footing);;joggen;;ohne Objekt;ist gejoggt;Sie joggt jeden Morgen.;;Freizeit;;A2
 nomen;el albergue juvenil;die;Jugendherberge;Jugendherbergen;;;;;Verkehr;;A2
 nomen;el joven;der;Jugendliche;Jugendlichen;;;;;Menschen;;A1
 nomen;el calendario;der;Kalender;Kalender;;;;;Kalender;;A2
-adjektiv;roto;;kaputt;;;;Der Drucker ist kaputt.;;Adjektive;;A1
+adjektiv;roto;;kaputt;;;;Der Drucker ist kaputt.;;Technik;;A1
 nomen;los grandes almacenes;das;Kaufhaus;Kaufhäuser;;;;;Einkaufen;;A2
 nomen;la cadena (collar);die;Kette;Ketten;;;;;Kleidung;;A2
 nomen;el kilo;das;Kilo;Kilos;;;;Kilogramm;Essen;;A1
 nomen;el kilómetro;der;Kilometer;Kilometer;;;;;Verkehr;;A1
-verb;salir bien (funcionar);;klappen;;ohne Objekt;hat geklappt;Hat es mit dem Termin geklappt?;;Verben;;A2
-adjektiv;claro (¿entendido?);;klar;;;;Alles klar?;;Adjektive;;A1
+verb;salir bien (funcionar);;klappen;;ohne Objekt;hat geklappt;Hat es mit dem Termin geklappt?;;Arbeit;;A2
+adjektiv;claro (¿entendido?);;klar;;;;Alles klar?;;Bildung;;A1
 nomen;la clase (grupo);die;Klasse;Klassen;;;;;Bildung;;A1
 nomen;el piano;das;Klavier;Klaviere;;;;;Freizeit;;A2
 nomen;la colega;die;Kollegin;Kolleginnen;;;;;Arbeit;;A2
 nomen;el contacto;der;Kontakt;Kontakte;;;;;Abstrakt;;A2
 nomen;los cosméticos;die;Kosmetik;nur Singular;;;;;Gesundheit;;A2
 nomen;el cruce;die;Kreuzung;Kreuzungen;;;;;Verkehr;;A2
-verb;conseguir (coloquial);;kriegen;;Akkusativ;hat gekriegt;Ich kriege morgen das Paket.;;Verben;;A1
+verb;conseguir (coloquial);;kriegen;;Akkusativ;hat gekriegt;Ich kriege morgen das Paket.;;Geld;;A1
 nomen;la novela policíaca;der;Krimi;Krimis;;;;;Freizeit;;A2
-adjektiv;fresco (temperatura);;kühl;;;;Heute ist es kühl.;;Adjektive;;A2
-verb;rescindir;;kündigen;;Akkusativ;hat gekündigt;Ich kündige den Vertrag.;;Verben;;A2
-adjektiv;cultural;;kulturell;;;;Das ist ein kulturelles Angebot.;;Adjektive;;A1
+adjektiv;fresco (temperatura);;kühl;;;;Heute ist es kühl.;;Natur;;A2
+verb;rescindir;;kündigen;;Akkusativ;hat gekündigt;Ich kündige den Vertrag.;;Arbeit;;A2
+adjektiv;cultural;;kulturell;;;;Das ist ein kulturelles Angebot.;;Freizeit;;A1
 nomen;la clienta;die;Kundin;Kundinnen;;;;;Arbeit;;A1
 nomen;el arte;die;Kunst;Künste;;;;;Freizeit;;A2
 nomen;el paisaje;die;Landschaft;Landschaften;;;;;Natur;;A2
-adverb;mucho tiempo;;lange;;;;Ich warte schon lange.;;Adverbien;;A1
+adverb;mucho tiempo;;lange;;;;Ich warte schon lange.;;Zeit;;A1
 nomen;el portátil;der;Laptop;Laptops;;;;;Technik;;A2
-verb;dejar (permitir);;lassen;;Akkusativ;hat gelassen;Lass mich bitte in Ruhe!;;Verben;;A2
+verb;dejar (permitir);;lassen;;Akkusativ;hat gelassen;Lass mich bitte in Ruhe!;;Abstrakt;;A2
 nomen;los alimentos;das;Lebensmittel;Lebensmittel;;;;;Essen;;A1
-verb;dar pena;;leidtun;;Dativ;hat leidgetan;Es tut mir leid.;;Verben;;A2
-adjektiv;querido;;lieb;;;;Liebe Grüsse!;;Adjektive;;A1
+verb;dar pena;;leidtun;;Dativ;hat leidgetan;Es tut mir leid.;;Gefühle;;A2
+adjektiv;querido;;lieb;;;;Liebe Grüsse!;;Menschen;;A1
 nomen;la canción favorita;das;Lieblingslied;Lieblingslieder;;;;;Freizeit;;A1
-verb;suministrar;;liefern;;Dativ + Akkusativ;hat geliefert;Die Firma liefert uns die Möbel.;;Verben;;A2
+verb;suministrar;;liefern;;Dativ + Akkusativ;hat geliefert;Die Firma liefert uns die Möbel.;;Arbeit;;A2
 nomen;el enlace (internet);der;Link;Links;;;;;Technik;;A2
 nomen;el litro;der;Liter;Liter;;;;;Essen;;A1
 nomen;el camión (abrev.);der;Lkw;Lkws;;;;;Verkehr;;A1
 nomen;el local (bar);das;Lokal;Lokale;;;;;Essen;;A1
 nomen;las ganas;die;Lust;nur Singular;;;;;Gefühle;;A2
-verb;mentir;;lügen;;ohne Objekt;hat gelogen;Er lügt nie.;;Verben;;A2
+verb;mentir;;lügen;;ohne Objekt;hat gelogen;Er lügt nie.;;Menschen;;A2
 nomen;el correo (mensaje);die;Mail;Mails;;;;;Technik;;A2
 nomen;el buzón de voz;die;Mailbox;Mailboxen;;;;;Technik;;A2
-adverb;una vez (partícula);;mal;;;;Komm mal her!;;Adverbien;;A2
+adverb;una vez (partícula);;mal;;;;Komm mal her!;;Zeit;;A2
 nomen;la máquina;die;Maschine;Maschinen;;;;;Technik;;A1
-verb;opinar;;meinen;;Akkusativ;hat gemeint;Was meinst du dazu?;;Verben;;A2
-adverb;la mayoría de las veces;;meistens;;;;Meistens komme ich zu Fuss.;;Adverbien;;A2
+verb;opinar;;meinen;;Akkusativ;hat gemeint;Was meinst du dazu?;;Bildung;;A2
+adverb;la mayoría de las veces;;meistens;;;;Meistens komme ich zu Fuss.;;Zeit;;A2
 nomen;la cantidad;die;Menge;Mengen;;;;;Abstrakt;;A2
-verb;darse cuenta;;merken;;Akkusativ;hat gemerkt;Ich habe den Fehler gemerkt.;;Verben;;A2
+verb;darse cuenta;;merken;;Akkusativ;hat gemerkt;Ich habe den Fehler gemerkt.;;Bildung;;A2
 nomen;el ser humano;der;Mensch;Menschen;;;;;Menschen;;A1
 nomen;la feria;die;Messe;Messen;;;;;Arbeit;;A2
 nomen;el metro (medida);der;Meter;Meter;;;;;Abstrakt;;A1
 nomen;el agua mineral;das;Mineralwasser;nur Singular;;;;;Essen;;A2
-verb;venir con alguien;;mitkommen;;ohne Objekt;ist mitgekommen;Kommst du mit?;;Verben;;A1
-verb;participar (unirse);;mitmachen;;ohne Objekt;hat mitgemacht;Machst du beim Kurs mit?;;Verben;;A1
+verb;venir con alguien;;mitkommen;;ohne Objekt;ist mitgekommen;Kommst du mit?;;Menschen;;A1
+verb;participar (unirse);;mitmachen;;ohne Objekt;hat mitgemacht;Machst du beim Kurs mit?;;Menschen;;A1
 nomen;el mediodía;der;Mittag;Mittage;;;;;Zeit;;A1
 nomen;el centro (medio);die;Mitte;nur Singular;;;;;Abstrakt;;A1
 nomen;el medio (recurso);das;Mittel;Mittel;;;;;Abstrakt;;A2
@@ -1315,22 +1315,22 @@ nomen;el motor;der;Motor;Motoren;;;;;Verkehr;;A2
 nomen;el escúter;der;Motorroller;Motorroller;;;;;Verkehr;;A2
 adjektiv;masculino;;männlich;;;;Bitte ankreuzen: männlich oder weiblich.;;Amt;;A1
 nomen;la vecina;die;Nachbarin;Nachbarinnen;;;;;Menschen;;A2
-adverb;al lado;;nebenan;;;;Die Bäckerei ist nebenan.;;Adverbien;;A2
+adverb;al lado;;nebenan;;;;Die Bäckerei ist nebenan.;;Ort & Richtung;;A2
 adjektiv;con niebla;;neblig;;;;Im Herbst ist es oft neblig.;nebelig;Natur;;A2
-verb;nombrar;;nennen;;Akkusativ;hat genannt;Nennen Sie bitte Ihren Namen.;;Verben;;A2
-adverb;en ninguna parte;;nirgends;;;;Ich finde den Schlüssel nirgends.;nirgendwo;Adverbien;;A2
-adjektiv;normal;;normal;;;;Das ist ganz normal.;;Adjektive;;A1
+verb;nombrar;;nennen;;Akkusativ;hat genannt;Nennen Sie bitte Ihren Namen.;;Bildung;;A2
+adverb;en ninguna parte;;nirgends;;;;Ich finde den Schlüssel nirgends.;nirgendwo;Ort & Richtung;;A2
+adjektiv;normal;;normal;;;;Das ist ganz normal.;;Abstrakt;;A1
 nomen;el norte;der;Norden;nur Singular;;;;;Natur;;A1
-verb;apuntar;;notieren;;Akkusativ;hat notiert;Ich notiere die Adresse.;;Verben;;A2
+verb;apuntar;;notieren;;Akkusativ;hat notiert;Ich notiere die Adresse.;;Bildung;;A2
 nomen;la nota (apunte);die;Notiz;Notizen;;;;;Bildung;;A2
 nomen;el fideo;die;Nudel;Nudeln;;;;;Essen;;A2
 nomen;la cercanía;die;Nähe;nur Singular;;;;;Abstrakt;;A2
 adverb;en línea;;online;;;;Ich kaufe gern online ein.;;Technik;;A2
 nomen;el lugar (localidad);der;Ort;Orte;;;;;Stadt;;A1
 nomen;el este;der;Osten;nur Singular;;;;;Natur;;A1
-verb;hacer la maleta;;packen;;Akkusativ;hat gepackt;Ich packe den Koffer.;;Verben;;A2
+verb;hacer la maleta;;packen;;Akkusativ;hat gepackt;Ich packe den Koffer.;;Haushalt;;A2
 nomen;el perfume;das;Parfüm;Parfüms;;;;;Gesundheit;;A2
-verb;aparcar;;parken;;ohne Objekt;hat geparkt;Hier darf man nicht parken.;;Verben;;A2
+verb;aparcar;;parken;;ohne Objekt;hat geparkt;Hier darf man nicht parken.;;Verkehr;;A2
 nomen;la pareja (persona);der;Partner;Partner;;;;;Menschen;;A1
 nomen;la compañera;die;Partnerin;Partnerinnen;;;;;Menschen;;A1
 nomen;el pasaporte (abrev.);der;Pass;Pässe;;;;;Amt;;A1
@@ -1338,14 +1338,14 @@ nomen;la persona;die;Person;Personen;;;;;Menschen;;A2
 nomen;la planta (vegetal);die;Pflanze;Pflanzen;;;;;Natur;;A2
 nomen;el cartel;das;Plakat;Plakate;;;;;Stadt;;A2
 nomen;el plan;der;Plan;Pläne;;;;;Abstrakt;;A1
-adjektiv;de repente;;plötzlich;;;;Plötzlich hat es geregnet.;;Adjektive;;A2
+adjektiv;de repente;;plötzlich;;;;Plötzlich hat es geregnet.;;Zeit;;A2
 nomen;la ración;die;Portion;Portionen;;;;;Essen;;A2
 nomen;el póster;das;Poster;Poster;;;;;Wohnen;;A2
 nomen;la postal;die;Postkarte;Postkarten;;;;;Verkehr;;A2
 nomen;el código postal;die;Postleitzahl;Postleitzahlen;;;;;Amt;;A1
 nomen;las prácticas;das;Praktikum;Praktika;;;;;Arbeit;;A1
-adjektiv;económico;;preiswert;;;;Das Hotel ist preiswert.;;Adjektive;;A2
-adjektiv;privado;;privat;;;;Das ist eine private Frage.;;Adjektive;;A2
+adjektiv;económico;;preiswert;;;;Das Hotel ist preiswert.;;Einkaufen;;A2
+adjektiv;privado;;privat;;;;Das ist eine private Frage.;;Abstrakt;;A2
 nomen;el producto;das;Produkt;Produkte;;;;;Arbeit;;A2
 nomen;el programa;das;Programm;Programme;;;;;Technik;;A2
 nomen;el folleto;der;Prospekt;Prospekte;;;;;Einkaufen;;A1
@@ -1353,43 +1353,43 @@ nomen;el porcentaje;das;Prozent;Prozente;;;;;Abstrakt;;A1
 nomen;el metro cuadrado;der;Quadratmeter;Quadratmeter;;;;;Wohnen;;A1
 nomen;la calidad;die;Qualität;Qualitäten;;;;;Arbeit;;A2
 nomen;el concurso de preguntas;das;Quiz;Quiz;;;;;Freizeit;;A2
-verb;aconsejar;;raten;;Dativ;hat geraten;Der Arzt rät mir zu mehr Sport.;;Verben;;A2
-verb;calcular;;rechnen;;ohne Objekt;hat gerechnet;Sie rechnet sehr schnell.;;Verben;;A2
+verb;aconsejar;;raten;;Dativ;hat geraten;Der Arzt rät mir zu mehr Sport.;;Bildung;;A2
+verb;calcular;;rechnen;;ohne Objekt;hat gerechnet;Sie rechnet sehr schnell.;;Bildung;;A2
 nomen;el neumático;der;Reifen;Reifen;;;;;Verkehr;;A2
 nomen;la fila;die;Reihe;Reihen;;;;;Freizeit;;A2
 nomen;la tintorería;die;Reinigung;Reinigungen;;;;;Stadt;;A2
-verb;montar a caballo;;reiten;;ohne Objekt;ist geritten;Sie reitet am Wochenende.;;Verben;;A2
-verb;renovar (una casa);;renovieren;;Akkusativ;hat renoviert;Wir renovieren die Küche.;;Verben;;A2
+verb;montar a caballo;;reiten;;ohne Objekt;ist geritten;Sie reitet am Wochenende.;;Natur;;A2
+verb;renovar (una casa);;renovieren;;Akkusativ;hat renoviert;Wir renovieren die Küche.;;Wohnen;;A2
 nomen;el jubilado;der;Rentner;Rentner;;;;;Menschen;;A2
 nomen;la jubilada;die;Rentnerin;Rentnerinnen;;;;;Menschen;;A2
 nomen;la reparación;die;Reparatur;Reparaturen;;;;;Verkehr;;A1
 nomen;la agencia de viajes;das;Reisebüro;Reisebüros;;;;;Verkehr;;A1
 nomen;la guía de viaje;der;Reiseführer;Reiseführer;;;;;Verkehr;;A1
 nomen;el resto;der;Rest;Reste;;;;;Abstrakt;;A2
-verb;oler;;riechen;;ohne Objekt;hat gerochen;Hier riecht es gut.;;Verben;;A1
+verb;oler;;riechen;;ohne Objekt;hat gerochen;Hier riecht es gut.;;Essen;;A1
 nomen;la carne de res;das;Rind;Rinder;;;;;Essen;;A2
-adjektiv;romántico;;romantisch;;;;Das Restaurant ist romantisch.;;Adjektive;;A2
+adjektiv;romántico;;romantisch;;;;Das Restaurant ist romantisch.;;Freizeit;;A2
 nomen;la rosa;die;Rose;Rosen;;;;;Natur;;A2
-verb;gritar / llamar;;rufen;;Akkusativ;hat gerufen;Ruf bitte einen Arzt!;;Verben;;A2
+verb;gritar / llamar;;rufen;;Akkusativ;hat gerufen;Ruf bitte einen Arzt!;;Menschen;;A2
 nomen;la calma;die;Ruhe;nur Singular;;;;;Abstrakt;;A2
-adjektiv;redondo;;rund;;;;Der Tisch ist rund.;;Adjektive;;A2
+adjektiv;redondo;;rund;;;;Der Tisch ist rund.;;Menge & Grad;;A2
 nomen;el recorrido;der;Rundgang;Rundgänge;;;;;Freizeit;;A2
 nomen;el acertijo;das;Rätsel;Rätsel;;;;;Freizeit;;A2
 nomen;el tren de cercanías;die;S-Bahn;S-Bahnen;;;;;Verkehr;;A1
 nomen;el asunto;die;Sache;Sachen;;;;;Abstrakt;;A2
-verb;coleccionar;;sammeln;;Akkusativ;hat gesammelt;Er sammelt alte Münzen.;;Verben;;A2
-adjektiv;qué lástima;;schade;;;;Schade, dass du nicht kommst.;;Adjektive;;A2
-verb;lograr;;schaffen;;Akkusativ;hat geschafft;Ich schaffe die Prüfung.;;Verben;;A2
+verb;coleccionar;;sammeln;;Akkusativ;hat gesammelt;Er sammelt alte Münzen.;;Freizeit;;A2
+adjektiv;qué lástima;;schade;;;;Schade, dass du nicht kommst.;;Gefühle;;A2
+verb;lograr;;schaffen;;Akkusativ;hat geschafft;Ich schaffe die Prüfung.;;Arbeit;;A2
 nomen;la ventanilla;der;Schalter;Schalter;;;;;Amt;;A1
 nomen;las tijeras;die;Schere;Scheren;;;;;Haushalt;;A2
-verb;regañar;;schimpfen;;ohne Objekt;hat geschimpft;Die Mutter schimpft laut.;;Verben;;A2
+verb;regañar;;schimpfen;;ohne Objekt;hat geschimpft;Die Mutter schimpft laut.;;Menschen;;A2
 nomen;el letrero;das;Schild;Schilder;;;;;Verkehr;;A1
-adjektiv;grave;;schlimm;;;;Das ist nicht so schlimm.;;Adjektive;;A2
-adjektiv;terrible;;schrecklich;;;;Der Unfall war schrecklich.;;Adjektive;;A2
-adjektiv;por escrito;;schriftlich;;;;Bitte antworten Sie schriftlich.;;Adjektive;;A2
+adjektiv;grave;;schlimm;;;;Das ist nicht so schlimm.;;Abstrakt;;A2
+adjektiv;terrible;;schrecklich;;;;Der Unfall war schrecklich.;;Abstrakt;;A2
+adjektiv;por escrito;;schriftlich;;;;Bitte antworten Sie schriftlich.;;Bildung;;A2
 nomen;la alumna;die;Schülerin;Schülerinnen;;;;;Bildung;;A2
-adjektiv;embarazada;;schwanger;;;;Meine Schwester ist schwanger.;;Adjektive;;A2
-adjektiv;dañino;;schädlich;;;;Rauchen ist schädlich.;;Adjektive;;A2
+adjektiv;embarazada;;schwanger;;;;Meine Schwester ist schwanger.;;Menschen;;A2
+adjektiv;dañino;;schädlich;;;;Rauchen ist schädlich.;;Gesundheit;;A2
 nomen;el monumento turístico;die;Sehenswürdigkeit;Sehenswürdigkeiten;;;;;Verkehr;;A1
 nomen;la página;die;Seite;Seiten;;;;;Bildung;;A2
 nomen;el segundo (tiempo);die;Sekunde;Sekunden;;;;;Zeit;;A1
@@ -1399,9 +1399,9 @@ nomen;el servicio;der;Service;nur Singular;;;;;Arbeit;;A2
 nomen;la situación;die;Situation;Situationen;;;;;Abstrakt;;A2
 nomen;el hijo;der;Sohn;Söhne;;;;;Menschen;;A1
 adjektiv;soleado;;sonnig;;;;Morgen wird es sonnig.;;Natur;;A2
-adverb;si no;;sonst;;;;Beeil dich, sonst kommen wir zu spät.;;Adverbien;;A2
+adverb;si no;;sonst;;;;Beeil dich, sonst kommen wir zu spät.;;Abstrakt;;A2
 nomen;la diversión;der;Spass;nur Singular;;;;Spaß;Gefühle;;A2
-adjektiv;deportivo;;sportlich;;;;Sie ist sehr sportlich.;;Adjektive;;A2
+adjektiv;deportivo;;sportlich;;;;Sie ist sehr sportlich.;;Freizeit;;A2
 nomen;el campo deportivo;der;Sportplatz;Sportplätze;;;;;Freizeit;;A2
 nomen;la hora de consulta;die;Sprechstunde;Sprechstunden;;;;;Gesundheit;;A2
 nomen;el plano de la ciudad;der;Stadtplan;Stadtpläne;;;;;Verkehr;;A2
@@ -1410,111 +1410,111 @@ nomen;el puesto (vacante);die;Stelle;Stellen;;;;;Arbeit;;A1
 nomen;la bota;der;Stiefel;Stiefel;;;;;Kleidung;;A2
 nomen;la beca;das;Stipendium;Stipendien;;;;;Bildung;;A2
 nomen;el piso (planta);der;Stock;Stockwerke;;;;Stockwerk;Wohnen;;A1
-adjektiv;estresante;;stressig;;;;Die Woche war stressig.;;Adjektive;;A2
+adjektiv;estresante;;stressig;;;;Die Woche war stressig.;;Arbeit;;A2
 nomen;la estudiante;die;Studentin;Studentinnen;;;;;Bildung;;A2
-verb;estudiar (carrera);;studieren;;Akkusativ;hat studiert;Sie studiert Medizin.;;Verben;;A1
+verb;estudiar (carrera);;studieren;;Akkusativ;hat studiert;Sie studiert Medizin.;;Bildung;;A1
 nomen;la carrera (estudios);das;Studium;Studien;;;;;Bildung;;A1
 nomen;la pieza / el trozo;das;Stück;Stücke;;;;;Abstrakt;;A2
-adjektiv;genial;;super;;;;Das Essen war super.;toll;Adjektive;;A2
-verb;navegar / surfear;;surfen;;ohne Objekt;ist gesurft;Er surft im Internet.;;Verben;;A2
+adjektiv;genial;;super;;;;Das Essen war super.;toll;Freizeit;;A2
+verb;navegar / surfear;;surfen;;ohne Objekt;ist gesurft;Er surft im Internet.;;Technik;;A2
 nomen;el sur;der;Süden;nur Singular;;;;;Natur;;A1
 nomen;el dulce;die;Süssigkeit;Süssigkeiten;;;;Süßigkeit;Essen;;A2
-adjektiv;simpático;;sympathisch;;;;Deine Kollegin ist sympathisch.;;Adjektive;;A2
+adjektiv;simpático;;sympathisch;;;;Deine Kollegin ist sympathisch.;;Menschen;;A2
 nomen;la tableta (aparato);das;Tablet;Tablets;;;;;Technik;;A2
 nomen;la pastilla;die;Tablette;Tabletten;;;;;Gesundheit;;A2
 nomen;la pizarra;die;Tafel;Tafeln;;;;;Bildung;;A2
 nomen;la paga (de bolsillo);das;Taschengeld;nur Singular;;;;;Geld;;A2
-verb;intercambiar (cambiar);;tauschen;;Akkusativ;hat getauscht;Wir tauschen die Plätze.;;Verben;;A2
-verb;compartir;;teilen;;Akkusativ;hat geteilt;Wir teilen die Rechnung.;;Verben;;A2
+verb;intercambiar (cambiar);;tauschen;;Akkusativ;hat getauscht;Wir tauschen die Plätze.;;Geld;;A2
+verb;compartir;;teilen;;Akkusativ;hat geteilt;Wir teilen die Rechnung.;;Abstrakt;;A2
 nomen;el tenis;das;Tennis;nur Singular;;;;;Freizeit;;A2
 nomen;el consejo (tip);der;Tipp;Tipps;;;;;Abstrakt;;A2
 nomen;el título;der;Titel;Titel;;;;;Bildung;;A2
-adjektiv;estupendo;;toll;;;;Das ist eine tolle Idee.;;Adjektive;;A2
+adjektiv;estupendo;;toll;;;;Das ist eine tolle Idee.;;Freizeit;;A2
 nomen;la tarta;die;Torte;Torten;;;;;Essen;;A2
-adjektiv;totalmente;;total;;;;Ich bin total müde.;;Adjektive;;A2
+adjektiv;totalmente;;total;;;;Ich bin total müde.;;Menge & Grad;;A2
 nomen;el tour;die;Tour;Touren;;;;;Verkehr;;A2
 nomen;el turista;der;Tourist;Touristen;;;;;Verkehr;;A2
 nomen;la turista;die;Touristin;Touristinnen;;;;;Verkehr;;A2
-verb;entrenar;;trainieren;;ohne Objekt;hat trainiert;Er trainiert dreimal pro Woche.;;Verben;;A2
+verb;entrenar;;trainieren;;ohne Objekt;hat trainiert;Er trainiert dreimal pro Woche.;;Freizeit;;A2
 nomen;el sueño (lo soñado);der;Traum;Träume;;;;;Gefühle;;A2
-adjektiv;típico;;typisch;;;;Das ist typisch für die Schweiz.;;Adjektive;;A2
+adjektiv;típico;;typisch;;;;Das ist typisch für die Schweiz.;;Freizeit;;A2
 nomen;el teléfono;das;Telefon;Telefone;;;;;Technik;;A1
-verb;telefonear;;telefonieren;;telefonieren mit + Dativ;hat telefoniert;Ich telefoniere mit meiner Mutter.;;Verben;;A1
+verb;telefonear;;telefonieren;;telefonieren mit + Dativ;hat telefoniert;Ich telefoniere mit meiner Mutter.;;Technik;;A1
 nomen;la prueba (test);der;Test;Tests;;;;;Bildung;;A1
 nomen;el texto;der;Text;Texte;;;;;Bildung;;A1
 nomen;el tema;das;Thema;Themen;;;;;Bildung;;A1
 nomen;la hija;die;Tochter;Töchter;;;;;Menschen;;A1
 nomen;el baño (aseo);die;Toilette;Toiletten;;;;WC;Wohnen;;A1
-adjektiv;muerto;;tot;;;;Die Blumen sind tot.;;Adjektive;;A1
-verb;hacer (realizar);;tun;;Akkusativ;hat getan;Was soll ich tun?;;Verben;;A1
+adjektiv;muerto;;tot;;;;Die Blumen sind tot.;;Menschen;;A1
+verb;hacer (realizar);;tun;;Akkusativ;hat getan;Was soll ich tun?;;Abstrakt;;A1
 nomen;el adiós (informal);das;Tschüss;nur Singular;;;;;Redemittel;;A1
-adjektiv;absolutamente;;unbedingt;;;;Du musst unbedingt kommen!;;Adjektive;;A2
-verb;conversar;;sich unterhalten;;sich unterhalten mit + Dativ;hat sich unterhalten;Ich unterhalte mich mit dem Nachbarn.;unterhalten;Verben;;A2
+adjektiv;absolutamente;;unbedingt;;;;Du musst unbedingt kommen!;;Abstrakt;;A2
+verb;conversar;;sich unterhalten;;sich unterhalten mit + Dativ;hat sich unterhalten;Ich unterhalte mich mit dem Nachbarn.;unterhalten;Menschen;;A2
 nomen;el alojamiento;die;Unterkunft;Unterkünfte;;;;;Verkehr;;A2
-verb;examinar (médico);;untersuchen;;Akkusativ;hat untersucht;Der Arzt untersucht das Kind.;;Verben;;A2
-adverb;de camino;;unterwegs;;;;Ich bin gerade unterwegs.;;Adverbien;;A2
+verb;examinar (médico);;untersuchen;;Akkusativ;hat untersucht;Der Arzt untersucht das Kind.;;Gesundheit;;A2
+adverb;de camino;;unterwegs;;;;Ich bin gerade unterwegs.;;Verkehr;;A2
 nomen;el evento;die;Veranstaltung;Veranstaltungen;;;;;Freizeit;;A2
-verb;acordar;;vereinbaren;;Akkusativ;hat vereinbart;Wir vereinbaren einen Termin.;;Verben;;A2
-adjektiv;prohibido;;verboten;;;;Rauchen ist hier verboten.;;Adjektive;;A1
+verb;acordar;;vereinbaren;;Akkusativ;hat vereinbart;Wir vereinbaren einen Termin.;;Arbeit;;A2
+adjektiv;prohibido;;verboten;;;;Rauchen ist hier verboten.;;Amt;;A1
 nomen;el tráfico;der;Verkehr;nur Singular;;;;;Verkehr;;A2
 nomen;el medio de transporte;das;Verkehrsmittel;Verkehrsmittel;;;;;Verkehr;;A2
 nomen;el vendedor;der;Verkäufer;Verkäufer;;;;;Arbeit;;A1
-verb;lesionar;;verletzen;;Akkusativ;hat verletzt;Er hat sich am Fuss verletzt.;;Verben;;A2
-verb;enamorarse de;;sich verlieben;;sich verlieben in + Akkusativ;hat sich verliebt;Sie hat sich in ihn verliebt.;verlieben;Verben;;A2
+verb;lesionar;;verletzen;;Akkusativ;hat verletzt;Er hat sich am Fuss verletzt.;;Gesundheit;;A2
+verb;enamorarse de;;sich verlieben;;sich verlieben in + Akkusativ;hat sich verliebt;Sie hat sich in ihn verliebt.;verlieben;Menschen;;A2
 nomen;la arrendadora;die;Vermieterin;Vermieterinnen;;;;;Wohnen;;A2
-verb;perder (un tren);;verpassen;;Akkusativ;hat verpasst;Ich habe den Bus verpasst.;;Verben;;A2
-verb;irse de viaje;;verreisen;;ohne Objekt;ist verreist;Im Juli verreisen wir.;;Verben;;A2
-verb;intentar;;versuchen;;Akkusativ;hat versucht;Versuch es noch einmal!;;Verben;;A2
+verb;perder (un tren);;verpassen;;Akkusativ;hat verpasst;Ich habe den Bus verpasst.;;Verkehr;;A2
+verb;irse de viaje;;verreisen;;ohne Objekt;ist verreist;Im Juli verreisen wir.;;Verkehr;;A2
+verb;intentar;;versuchen;;Akkusativ;hat versucht;Versuch es noch einmal!;;Abstrakt;;A2
 nomen;el cuarto (1/4);das;Viertel;Viertel;;;;;Zeit;;A1
 nomen;el voleibol;der;Volleyball;nur Singular;;;;;Freizeit;;A2
-adverb;pasado (terminado);;vorbei;;;;Der Winter ist vorbei.;;Adverbien;;A2
-verb;preparar;;vorbereiten;;Akkusativ;hat vorbereitet;Ich bereite das Essen vor.;;Verben;;A2
-adverb;anteayer;;vorgestern;;;;Vorgestern war ich krank.;;Adverbien;;A2
-adverb;antes (previamente);;vorher;;;;Ruf mich vorher an!;;Adverbien;;A2
-adverb;delante;;vorn;;;;Der Fahrer sitzt vorn.;vorne;Adverbien;;A2
+adverb;pasado (terminado);;vorbei;;;;Der Winter ist vorbei.;;Verkehr;;A2
+verb;preparar;;vorbereiten;;Akkusativ;hat vorbereitet;Ich bereite das Essen vor.;;Arbeit;;A2
+adverb;anteayer;;vorgestern;;;;Vorgestern war ich krank.;;Zeit;;A2
+adverb;antes (previamente);;vorher;;;;Ruf mich vorher an!;;Zeit;;A2
+adverb;delante;;vorn;;;;Der Fahrer sitzt vorn.;vorne;Ort & Richtung;;A2
 nomen;la propuesta;der;Vorschlag;Vorschläge;;;;;Abstrakt;;A2
 nomen;la precaución;die;Vorsicht;nur Singular;;;;;Amt;;A1
 nomen;el prefijo telefónico;die;Vorwahl;Vorwahlen;;;;;Technik;;A1
-adverb;hacia adelante;;vorwärts;;;;Gehen Sie vorwärts!;;Adverbien;;A2
-adjektiv;despierto;;wach;;;;Ich bin schon wach.;;Adjektive;;A2
-adjektiv;verdadero;;wahr;;;;Das ist nicht wahr.;;Adjektive;;A2
-adjektiv;probable;;wahrscheinlich;;;;Wahrscheinlich regnet es morgen.;;Adjektive;;A2
-adjektiv;cálido;;warm;;;;Das Wasser ist warm.;;Adjektive;;A2
+adverb;hacia adelante;;vorwärts;;;;Gehen Sie vorwärts!;;Ort & Richtung;;A2
+adjektiv;despierto;;wach;;;;Ich bin schon wach.;;Gesundheit;;A2
+adjektiv;verdadero;;wahr;;;;Das ist nicht wahr.;;Bildung;;A2
+adjektiv;probable;;wahrscheinlich;;;;Wahrscheinlich regnet es morgen.;;Abstrakt;;A2
+adjektiv;cálido;;warm;;;;Das Wasser ist warm.;;Natur;;A2
 nomen;la ropa sucia;die;Wäsche;nur Singular;;;;;Haushalt;;A2
 nomen;la página web;die;Webseite;Webseiten;;;;;Technik;;A2
-verb;cambiar (dinero, sitio);;wechseln;;Akkusativ;hat gewechselt;Ich wechsle Geld am Schalter.;;Verben;;A2
-verb;despertar;;wecken;;Akkusativ;hat geweckt;Weck mich um sechs!;;Verben;;A2
+verb;cambiar (dinero, sitio);;wechseln;;Akkusativ;hat gewechselt;Ich wechsle Geld am Schalter.;;Geld;;A2
+verb;despertar;;wecken;;Akkusativ;hat geweckt;Weck mich um sechs!;;Gesundheit;;A2
 adjektiv;femenino;;weiblich;;;;Bitte ankreuzen: weiblich oder männlich.;;Amt;;A1
-adverb;al menos;;wenigstens;;;;Bleib wenigstens eine Stunde!;;Adverbien;;A2
+adverb;al menos;;wenigstens;;;;Bleib wenigstens eine Stunde!;;Menge & Grad;;A2
 nomen;el taller (mecánico);die;Werkstatt;Werkstätten;;;;;Verkehr;;A2
 nomen;la competición;der;Wettbewerb;Wettbewerbe;;;;;Freizeit;;A2
 adjektiv;ventoso;;windig;;;;Heute ist es sehr windig.;;Natur;;A2
 nomen;el chiste;der;Witz;Witze;;;;;Freizeit;;A2
-adjektiv;gracioso;;witzig;;;;Dein Bruder ist witzig.;;Adjektive;;A2
+adjektiv;gracioso;;witzig;;;;Dein Bruder ist witzig.;;Menschen;;A2
 nomen;el día de la semana;der;Wochentag;Wochentage;;;;;Kalender;;A1
 nomen;el taller (curso);der;Workshop;Workshops;;;;;Arbeit;;A2
-adjektiv;maravilloso;;wunderbar;;;;Das Wetter war wunderbar.;;Adjektive;;A1
+adjektiv;maravilloso;;wunderbar;;;;Das Wetter war wunderbar.;;Freizeit;;A1
 nomen;el oeste;der;Westen;nur Singular;;;;;Natur;;A1
 adjektiv;bienvenido;;willkommen;;;;Herzlich willkommen in Baden!;;Redemittel;;A1
-verb;pagar (abonar);;zahlen;;Akkusativ;hat gezahlt;Ich zahle die Miete am Ersten.;;Verben;;A1
+verb;pagar (abonar);;zahlen;;Akkusativ;hat gezahlt;Ich zahle die Miete am Ersten.;;Geld;;A1
 nomen;la tienda de campaña;das;Zelt;Zelte;;;;;Verkehr;;A2
 nomen;el centímetro;der;Zentimeter;Zentimeter;;;;;Abstrakt;;A1
 nomen;la nota (papelito);der;Zettel;Zettel;;;;;Bildung;;A2
-verb;tirar;;ziehen;;Akkusativ;hat gezogen;Zieh die Tür zu!;;Verben;;A2
+verb;tirar;;ziehen;;Akkusativ;hat gezogen;Zieh die Tür zu!;;Wohnen;;A2
 nomen;el cigarrillo;die;Zigarette;Zigaretten;;;;;Gesundheit;;A1
-adverb;aproximadamente (circa);;zirka;;;;Es dauert zirka zehn Minuten.;circa;Adverbien;;A1
+adverb;aproximadamente (circa);;zirka;;;;Es dauert zirka zehn Minuten.;circa;Menge & Grad;;A1
 nomen;el circo;der;Zirkus;Zirkusse;;;;;Freizeit;;A2
 nomen;el zoo;der;Zoo;Zoos;;;;;Freizeit;;A2
-adverb;en primer lugar;;zuerst;;;;Zuerst lerne ich, dann esse ich.;;Adverbien;;A2
-adverb;por último;;zuletzt;;;;Zuletzt kommt der Nachtisch.;;Adverbien;;A2
-adverb;actualmente;;zurzeit;;;;Zurzeit arbeite ich in Zürich.;;Adverbien;;A1
-verb;regresar (en vehículo);;zurückfahren;;ohne Objekt;ist zurückgefahren;Wir fahren am Sonntag zurück.;;Verben;;A2
-verb;volver (a pie);;zurückgehen;;ohne Objekt;ist zurückgegangen;Geh bitte zurück!;;Verben;;A2
-verb;enfadarse;;sich ärgern;;sich ärgern über + Akkusativ;hat sich geärgert;Ich ärgere mich über den Fehler.;ärgern;Verben;;A2
-adverb;pasado mañana;;übermorgen;;;;Übermorgen habe ich frei.;;Adverbien;;A2
-verb;pernoctar;;übernachten;;ohne Objekt;hat übernachtet;Wir übernachten im Hotel.;;Verben;;A1
+adverb;en primer lugar;;zuerst;;;;Zuerst lerne ich, dann esse ich.;;Zeit;;A2
+adverb;por último;;zuletzt;;;;Zuletzt kommt der Nachtisch.;;Zeit;;A2
+adverb;actualmente;;zurzeit;;;;Zurzeit arbeite ich in Zürich.;;Zeit;;A1
+verb;regresar (en vehículo);;zurückfahren;;ohne Objekt;ist zurückgefahren;Wir fahren am Sonntag zurück.;;Verkehr;;A2
+verb;volver (a pie);;zurückgehen;;ohne Objekt;ist zurückgegangen;Geh bitte zurück!;;Verkehr;;A2
+verb;enfadarse;;sich ärgern;;sich ärgern über + Akkusativ;hat sich geärgert;Ich ärgere mich über den Fehler.;ärgern;Gefühle;;A2
+adverb;pasado mañana;;übermorgen;;;;Übermorgen habe ich frei.;;Zeit;;A2
+verb;pernoctar;;übernachten;;ohne Objekt;hat übernachtet;Wir übernachten im Hotel.;;Verkehr;;A1
 nomen;la traducción;die;Übersetzung;Übersetzungen;;;;;Bildung;;A2
-verb;transferir (dinero);;überweisen;;Akkusativ;hat überwiesen;Ich überweise die Miete.;;Verben;;A1
+verb;transferir (dinero);;überweisen;;Akkusativ;hat überwiesen;Ich überweise die Miete.;;Geld;;A1
 nomen;la audición (¡hasta luego!);das;Wiederhören;nur Singular;;;;;Redemittel;;A1
 nomen;el reencuentro (¡adiós!);das;Wiedersehen;nur Singular;;;;;Redemittel;;A1
 nomen;la conversación telefónica;das;Ferngespräch;Ferngespräche;;;;;Technik;;extra
@@ -1655,14 +1655,14 @@ wendung;¡Feliz cumpleaños!;;Herzlichen Glückwunsch zum Geburtstag;;;;;;Redemi
 wendung;¡Que te mejores!;;Gute Besserung;;bei Krankheit;;;;Redemittel;;extra
 wendung;¡Buen viaje!;;Gute Reise;;;;;;Redemittel;;extra
 wendung;¡Suerte!;;Viel Glück;;;;;;Redemittel;;extra
-adjektiv;mejor;;besser;;;;Dieses Hotel ist besser.;beste;Adjektive;;A1
-adverb;justo ahora;;gerade;;;;Ich bin gerade beim Essen.;;Adverbien;;A1
+adjektiv;mejor;;besser;;;;Dieses Hotel ist besser.;beste;Abstrakt;;A1
+adverb;justo ahora;;gerade;;;;Ich bin gerade beim Essen.;;Zeit;;A1
 nomen;la gente;die;Leute;nur Plural;;;;;Menschen;;A1
 nomen;el tiempo (duración);die;Zeit;Zeiten;;;;;Zeit;;A1
 nomen;el paquete (envío);das;Paket;Pakete;;;;;Amt;;A2
 nomen;la libra (500 g);das;Pfund;Pfund;;;;;Essen;;A1
 nomen;el pariente;der;Verwandte;Verwandten;;;;;Menschen;;A1
-verb;volver corriendo;;zurücklaufen;;ohne Objekt;ist zurückgelaufen;Er ist zum Auto zurückgelaufen.;;Verben;;A2
+verb;volver corriendo;;zurücklaufen;;ohne Objekt;ist zurückgelaufen;Er ist zum Auto zurückgelaufen.;;Verkehr;;A2
 luecke;algo;;etwas;;Indefinitpronomen;;;;Pronomen;Möchtest du ___ trinken?;A2
 luecke;nada;;nichts;;Indefinitpronomen;;;;Pronomen;Ich habe ___ gehört.;A1
 luecke;sí;;ja;;Partikel;;;;Pronomen;Kommst du mit? — ___, gern.;A1
