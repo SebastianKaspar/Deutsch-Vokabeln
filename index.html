@@ -77,6 +77,22 @@ button{cursor:pointer}
 #tablero .leyenda{font-size:12px;color:var(--grau);margin:10px 0 0;display:flex;flex-wrap:wrap;gap:4px 12px}
 #tablero .leyenda i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:4px;vertical-align:-1px}
 
+/* Übungszeit */
+#hoy{background:#fbd9e6;border-radius:12px;padding:12px 14px;margin-bottom:14px}
+#hoy .cabeza{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+#hoy .grande{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums}
+#hoy .sub{font-size:12px;color:var(--grau);text-align:right}
+.semana{display:flex;align-items:flex-end;gap:6px;height:62px;margin-top:12px;position:relative}
+.semana .meta{position:absolute;left:0;right:0;border-top:1px dashed var(--grau);opacity:.55}
+.semana b.logrado{background:var(--gruen)}
+#hoy .medias{font-size:12px;color:var(--grau);margin-top:10px;line-height:1.5}
+#hoy .medias b{color:var(--text)}
+#hoy .medias b.falta{color:var(--rot)}
+#hoy .medias b.logrado{color:var(--gruen)}
+.semana .dia{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.semana b{display:block;width:100%;background:var(--gelb);border-radius:3px 3px 0 0}
+.semana em{font-size:10px;color:var(--grau);font-style:normal;margin-top:3px}
+
 /* Gesamtstand oben */
 #resumen{background:#fbd9e6;border-radius:12px;padding:12px 14px;margin-bottom:12px}
 #resumen .cabeza{display:flex;justify-content:space-between;align-items:baseline}
@@ -158,11 +174,52 @@ function cargar(){
 function guardar(datos){
   try{ localStorage.setItem("fortschritt", JSON.stringify(datos)); }catch(e){}
 }
-const hoy = () => new Date().toISOString().slice(0,10);
+function fecha(d = new Date()){          // lokales Datum, nicht UTC
+  return new Date(d.getTime() - d.getTimezoneOffset()*60000).toISOString().slice(0,10);
+}
+const hoy = () => fecha();
 function masDias(dias){
   const d = new Date(); d.setDate(d.getDate()+dias);
-  return d.toISOString().slice(0,10);
+  return fecha(d);
 }
+
+/* ---------------------------------------------------- Übungszeit pro Tag */
+const META = 60;             // Tagesziel in Minuten
+const PAUSA_MAX = 60;        // Sekunden, die zwischen zwei Aktionen höchstens zählen
+let tiempos = {};
+try{ tiempos = JSON.parse(localStorage.getItem("tiempos") || "{}"); }catch(e){ tiempos = {}; }
+
+/* Gezählt wird ausschliesslich die Spanne zwischen zwei Eingaben. Kein Ticker,
+   keine Zeit fürs blosse Offenhaben der Seite. Liegen mehr als PAUSA_MAX Sekunden
+   zwischen zwei Aktionen, zählt die Spanne gar nicht. */
+let ultimaAccion = 0;        // 0 = seit dem Öffnen noch keine Eingabe
+let ultimoGuardado = 0;
+
+function registroHoy(){
+  const d = hoy();
+  if(!tiempos[d]) tiempos[d] = {seg:0, tarjetas:0};
+  return tiempos[d];
+}
+function guardarTiempos(){
+  const limite = masDias(-60);
+  Object.keys(tiempos).forEach(d => { if(d < limite) delete tiempos[d]; });
+  try{ localStorage.setItem("tiempos", JSON.stringify(tiempos)); }catch(e){}
+}
+function accion(){
+  const ahora = Date.now();
+  if(ultimaAccion){
+    const spanne = (ahora - ultimaAccion) / 1000;
+    if(spanne <= PAUSA_MAX) registroHoy().seg += spanne;
+  }
+  ultimaAccion = ahora;
+  refrescarHoy();
+  if(ahora - ultimoGuardado > 10000){ guardarTiempos(); ultimoGuardado = ahora; }
+}
+
+document.addEventListener("visibilitychange", () => {
+  if(document.hidden){ guardarTiempos(); ultimaAccion = 0; }
+});
+window.addEventListener("pagehide", guardarTiempos);
 
 /* ------------------------------------------------------------ Antwortprüfung */
 function normalizar(t){
@@ -334,6 +391,7 @@ function mostrarPregunta(){
 }
 
 function resolver(){
+  registroHoy().tarjetas++;
   const c = ronda[indice];
   const r = comprobar($("antwort").value, c);
   if(r === "richtig"){ aciertos++; $("urteil").textContent = "¡Correcto!"; $("urteil").style.color = "var(--gruen)"; }
@@ -394,6 +452,7 @@ function terminarRonda(){
 }
 
 function siguiente(){
+  accion();
   if(!resuelto){ resolver(); return; }
   indice++;
   if(indice >= ronda.length) terminarRonda(); else mostrarPregunta();
@@ -422,8 +481,58 @@ function tablero(){
   const nombres = Object.keys(filas)
     .sort((a,b) => filas[b].total - filas[a].total || a.localeCompare(b));
 
+  const r = registroHoy();
+  const min = d => Math.round((tiempos[d]?.seg || 0) / 60);
+
+  const dias = [];
+  for(let i = 6; i >= 0; i--){
+    const d = masDias(-i);
+    dias.push({d, min: min(d), letra: "DLMXJVS"[new Date(d + "T12:00:00").getDay()]});
+  }
+  const tope = Math.max(META, ...dias.map(x => x.min));
+
+  let racha = 0;
+  for(let i = 0; i < 90; i++){
+    const d = masDias(-i);
+    if((tiempos[d]?.seg || 0) >= 60) racha++;
+    else if(i > 0) break;
+  }
+
+  // Mittelwerte: Nulltage zählen mit, sonst schönt der Schnitt
+  const media = n => {
+    let suma = 0;
+    for(let i = 0; i < n; i++) suma += min(masDias(-i));
+    return n ? Math.round(suma / n) : 0;
+  };
+  const fechas = Object.keys(tiempos).sort();
+  const inicio = fechas.length ? fechas[0] : hoy();
+  const diasDesdeInicio = Math.max(1,
+    Math.round((new Date(hoy() + "T12:00:00") - new Date(inicio + "T12:00:00")) / 86400000) + 1);
+  const total = fechas.reduce((a, d) => a + min(d), 0);
+  const mediaTotal = Math.round(total / diasDesdeInicio);
+  const saldo = total - META * diasDesdeInicio;
+  const horas = m => (m < 0 ? "−" : "+") + Math.floor(Math.abs(m) / 60) + " h " + (Math.abs(m) % 60) + " min";
+  const pctMeta = Math.min(100, Math.round(100 * Math.round(r.seg / 60) / META));
+
   $("tablero").innerHTML =
-    `<h2>Tu progreso</h2>`
+    `<h2>Hoy</h2>`
+  + `<div id="hoy">`
+  +   `<div class="cabeza"><span class="grande" id="hoyCifras">${Math.round(r.seg/60)} min</span>`
+  +   `<span class="sub">de ${META} min &middot; ${r.tarjetas} tarjetas`
+  +   `${racha > 1 ? "<br>racha de " + racha + " días" : ""}</span></div>`
+  +   `<div class="pila" style="height:9px;border-radius:5px"><i style="width:${pctMeta}%"></i></div>`
+  +   `<div class="semana"><div class="meta" style="bottom:${Math.round(46 * META / tope) + 15}px"></div>`
+  +     dias.map(x =>
+        `<span class="dia"><b class="${x.min >= META ? "logrado" : ""}" `
+        + `style="height:${Math.max(2, 46 * x.min / tope)}px" title="${x.min} min"></b>`
+        + `<em>${x.letra}</em></span>`).join("")
+  +   `</div>`
+  +   `<div class="medias">media 7 días <b>${media(7)} min</b>`
+  +     ` &middot; media total <b>${mediaTotal} min</b><br>`
+  +     `saldo frente a la meta: <b class="${saldo < 0 ? "falta" : "logrado"}">${horas(saldo)}</b>`
+  +     ` en ${diasDesdeInicio} días</div>`
+  + `</div>`
+  + `<h2>Tu progreso</h2>`
   + `<div id="resumen">`
   +   `<div class="cabeza"><span class="grande">${pct(suma)}%</span>`
   +   `<span class="sub">${suma.sabe} de ${suma.total} palabras</span></div>`
@@ -445,11 +554,17 @@ function tablero(){
   + `</p>`;
 }
 
+function refrescarHoy(){
+  const e = $("hoyCifras");
+  if(e) e.textContent = Math.round(registroHoy().seg/60) + " min";
+}
+
 /* ------------------------------------------------------------------ Bindung */
 ["ä","ö","ü","ß","Ä","Ö","Ü"].forEach(z=>{
   const b = document.createElement("button");
   b.textContent = z;
   b.onclick = () => {
+    accion();
     const i = $("antwort");
     const p = i.selectionStart ?? i.value.length;
     i.value = i.value.slice(0,p) + z + i.value.slice(i.selectionEnd ?? p);
@@ -468,8 +583,9 @@ document.addEventListener("keydown", e => {
   ultimoEnter = ahora;
   siguiente();
 });
-$("ton-palabra").onclick = () => hablar(textoHablado(ronda[indice]));
-$("ton-frase").onclick = () => hablar(ronda[indice].bsp);
+$("antwort").addEventListener("input", accion);
+$("ton-palabra").onclick = () => { accion(); hablar(textoHablado(ronda[indice])); };
+$("ton-frase").onclick = () => { accion(); hablar(ronda[indice].bsp); };
 $("voz").onchange = () => {
   vozActual = voces[+$("voz").value] || null;
   try{ if(vozActual) localStorage.setItem("voz", vozActual.name); }catch(e){}
