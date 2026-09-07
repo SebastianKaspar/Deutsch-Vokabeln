@@ -60,12 +60,11 @@ EDGE_STIMMEN = [
 HINWEIS_KEINE_STIMME = "sin voz alemana — instalar:  pip install edge-tts"
 FAECHER = {1: 0, 2: 1, 3: 3, 4: 7, 5: 21}              # Fach -> Tage bis Wiederholung
 
-FARBE_BG = "#fbe9f0"
-FARBE_KARTE = "#ffffff"
+FARBE_BG = "#f7d4e2"
+FARBE_KARTE = "#fce4ec"
 FARBE_TEXT = "#1c1c1c"
 FARBE_GRAU = "#6b6b6b"
 FARBE_BLAU = "#1f5fa9"
-FARBE_AKTION = "#c2185b"
 FARBE_GRUEN = "#1a7f37"
 FARBE_ROT = "#c22b2b"
 FARBE_GELB = "#a86400"
@@ -496,7 +495,7 @@ class Trainer:
         self.l_punkte.pack(side="right")
 
         karte = tk.Frame(self.w, bg=FARBE_KARTE, highlightthickness=1,
-                         highlightbackground="#f0d5e0")
+                         highlightbackground="#eebcd0")
         karte.pack(fill="both", expand=True, padx=24, pady=6)
 
         self.l_typ = tk.Label(karte, text="", font=self.f_klein,
@@ -507,7 +506,7 @@ class Trainer:
         self.l_frage.pack(pady=(4, 18))
 
         self.e_antwort = tk.Entry(karte, font=self.f_eingabe, justify="center",
-                                  relief="flat", bg="#fdf4f7", fg=FARBE_TEXT,
+                                  relief="flat", bg="#ffffff", fg=FARBE_TEXT,
                                   insertbackground=FARBE_TEXT)
         self.e_antwort.pack(ipady=8, padx=90, fill="x")
 
@@ -515,13 +514,13 @@ class Trainer:
         umlaute.pack(pady=8)
         for zeichen in ("ä", "ö", "ü", "ß", "Ä", "Ö", "Ü"):
             tk.Button(umlaute, text=zeichen, font=self.f_normal, width=3,
-                      relief="flat", bg="#f5dde7", fg=FARBE_TEXT, cursor="hand2",
+                      relief="flat", bg="#f3cadb", fg=FARBE_TEXT, cursor="hand2",
                       command=lambda z=zeichen: self._zeichen_einfuegen(z)
                       ).pack(side="left", padx=3)
 
         self.b_pruefen = tk.Button(karte, text="Comprobar   ⏎", font=self.f_normal,
-                                   relief="flat", bg=FARBE_AKTION, fg="white",
-                                   activebackground="#98134a", activeforeground="white",
+                                   relief="flat", bg=FARBE_BLAU, fg="white",
+                                   activebackground="#17457a", activeforeground="white",
                                    cursor="hand2", padx=22, pady=8,
                                    command=self._weiter)
         self.b_pruefen.pack(pady=(4, 10))
@@ -546,12 +545,12 @@ class Trainer:
         knoepfe = tk.Frame(self.loesung, bg=FARBE_KARTE)
         knoepfe.pack(pady=10)
         self.b_ton_wort = tk.Button(knoepfe, text="🔊 palabra", font=self.f_klein,
-                                    relief="flat", bg="#f5dde7", cursor="hand2",
+                                    relief="flat", bg="#f3cadb", cursor="hand2",
                                     padx=12, pady=5,
                                     command=lambda: self.sprecher.sag(sprechtext(self.karte)))
         self.b_ton_wort.pack(side="left", padx=4)
         self.b_ton_satz = tk.Button(knoepfe, text="🔊 frase", font=self.f_klein,
-                                    relief="flat", bg="#f5dde7", cursor="hand2",
+                                    relief="flat", bg="#f3cadb", cursor="hand2",
                                     padx=12, pady=5,
                                     command=lambda: self.sprecher.sag(self.karte["bsp"]))
         self.b_ton_satz.pack(side="left", padx=4)
@@ -593,7 +592,7 @@ class Trainer:
             auswahl.pack(side="left", padx=6)
             auswahl.bind("<<ComboboxSelected>>", self._stimme_gewechselt)
             tk.Button(fuss, text="probar", font=self.f_klein, relief="flat",
-                      bg="#f5dde7", cursor="hand2", padx=10,
+                      bg="#f3cadb", cursor="hand2", padx=10,
                       command=self._stimme_testen).pack(side="left")
         else:
             tk.Label(fuss, text=HINWEIS_KEINE_STIMME, font=self.f_klein,
@@ -660,7 +659,7 @@ class Trainer:
             etikett.config(text="")
         self.b_ton_wort.pack_forget()
         self.b_ton_satz.pack_forget()
-        self.b_pruefen.config(text="Comprobar   ⏎", bg=FARBE_AKTION)
+        self.b_pruefen.config(text="Comprobar   ⏎", bg=FARBE_BLAU)
         self.e_antwort.config(state="normal")
         self.e_antwort.delete(0, "end")
         self.e_antwort.focus_set()
@@ -740,7 +739,7 @@ class Trainer:
         self.b_ton_wort.pack_forget()
         self.b_ton_satz.pack_forget()
         self.e_antwort.config(state="disabled")
-        self.b_pruefen.config(text="Otra ronda   ⏎", bg=FARBE_AKTION)
+        self.b_pruefen.config(text="Otra ronda   ⏎", bg=FARBE_BLAU)
         self.aufgeloest = False
         self.w.bind("<Return>", lambda e: self._runde_starten())
         self.b_pruefen.config(command=self._neustart)
