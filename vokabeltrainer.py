@@ -306,6 +306,15 @@ def geloester_satz(karte) -> str:
     return karte["satz"].replace("___", karte["de"])
 
 
+def passt_zum_niveau(karte, stufe) -> bool:
+    """stufe ist 'alle', 'A1', 'A2', 'B1' oder eine Kombination wie 'A1+A2+B1'."""
+    return stufe == "alle" or karte["niveau"] in stufe.split("+")
+
+
+NIVEAUS = [("alle", "todo"), ("A1", "A1"), ("A2", "A2"), ("B1", "B1"),
+           ("A1+A2", "A1+A2"), ("A1+A2+B1", "A1+A2+B1")]
+
+
 def sprechtext(karte) -> str:
     """Text, der vorgelesen wird: Nomen mit Artikel und Plural."""
     if karte["satz"]:
@@ -561,7 +570,7 @@ class Trainer:
                  fg=FARBE_GRAU).pack(side="left")
         self.v_niveau = tk.StringVar()
         self.combo_niveau = ttk.Combobox(fuss, textvariable=self.v_niveau, state="readonly",
-                                         width=10, font=self.f_klein)
+                                         width=16, font=self.f_klein)
         self.combo_niveau.pack(side="left", padx=(4, 12))
         self.combo_niveau.bind("<<ComboboxSelected>>", self._niveau_gewechselt)
 
@@ -602,16 +611,15 @@ class Trainer:
 
     def _gefiltert(self):
         karten = self.karten
-        if self.niveau in ("A1", "A2"):
-            karten = [k for k in karten if k["niveau"] == self.niveau]
+        if self.niveau != "alle":
+            karten = [k for k in karten if passt_zum_niveau(k, self.niveau)]
         if self.thema != "alle":
             karten = [k for k in karten if k["thema"] == self.thema]
         return karten
 
     def _beschriftungen_erneuern(self):
         """Kartenzahlen in beiden Auswahlfeldern gegen den jeweils anderen Filter rechnen."""
-        nach_niveau = (self.karten if self.niveau == "alle"
-                       else [k for k in self.karten if k["niveau"] == self.niveau])
+        nach_niveau = [k for k in self.karten if passt_zum_niveau(k, self.niveau)]
         werte = [f"todos ({len(nach_niveau)})"]
         for name in self.themen_namen:
             werte.append(f"{name} ({sum(1 for k in nach_niveau if k['thema'] == name)})")
@@ -621,11 +629,10 @@ class Trainer:
 
         nach_thema = (self.karten if self.thema == "alle"
                       else [k for k in self.karten if k["thema"] == self.thema])
-        stufen = [("alle", "todo"), ("A1", "A1"), ("A2", "A2")]
-        werte = [f"{anzeige} ({len(nach_thema) if s == 'alle' else sum(1 for k in nach_thema if k['niveau'] == s)})"
-                 for s, anzeige in stufen]
+        werte = [f"{anzeige} ({sum(1 for k in nach_thema if passt_zum_niveau(k, stufe))})"
+                 for stufe, anzeige in NIVEAUS]
         self.combo_niveau["values"] = werte
-        self.v_niveau.set(werte[[s for s, _ in stufen].index(self.niveau)])
+        self.v_niveau.set(werte[[stufe for stufe, _ in NIVEAUS].index(self.niveau)])
 
     def _thema_gewechselt(self, _ereignis=None):
         stelle = self.combo_thema.current()
@@ -634,7 +641,7 @@ class Trainer:
         self._runde_starten()
 
     def _niveau_gewechselt(self, _ereignis=None):
-        self.niveau = ["alle", "A1", "A2"][max(0, self.combo_niveau.current())]
+        self.niveau = NIVEAUS[max(0, self.combo_niveau.current())][0]
         self._beschriftungen_erneuern()
         self._runde_starten()
 

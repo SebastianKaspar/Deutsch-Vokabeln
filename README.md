@@ -27,9 +27,13 @@ Zwei Fassungen, eine gemeinsame Quelle:
 | Redemittel | 24 |
 | Konnektoren und Präpositionen | 24 |
 
-Nach Niveau: 759 A1, 572 A2, 343 darüber hinaus.
+Nach Niveau: 794 A1, 575 A2, 726 B1. Jede Karte trägt genau eine Stufe, deshalb ergibt
+`A1+A2+B1` immer die Gesamtzahl. Zuordnung nach den Goethe-Wortlisten; was dort nicht
+steht, gilt als B1 — ausser Redemittel, Zahlen und Lückensätze zu Pronomen, die zum
+Grundwortschatz A1 gehören.
 
-Unten links stehen zwei Filter. **nivel** schaltet zwischen `todo`, `A1` und `A2`.
+Unten links stehen zwei Filter. **nivel** schaltet zwischen `todo`, `A1`, `A2`, `B1`,
+`A1+A2` und `A1+A2+B1`.
 **tema** wählt eines von 30 Sachgebieten, jeweils mit Kartenzahl — von `Abstrakt (159)`
 über `Menschen (121)` und `Essen (116)` bis `Farben (11)`. Jedes Gebiet enthält alle
 Wortarten: unter `Gefühle` stehen `die Angst`, `sich freuen` und `traurig` nebeneinander,

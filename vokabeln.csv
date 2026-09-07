@@ -36,10 +36,10 @@ nomen;la llave;der;Schlüssel;Schlüssel;;;;;Wohnen;;A1
 nomen;el alquiler;die;Miete;Mieten;;;;;Wohnen;;A1
 nomen;el jardín;der;Garten;Gärten;;;;;Wohnen;;A1
 nomen;la lámpara;die;Lampe;Lampen;;;;;Wohnen;;A2
-nomen;la pared;die;Wand;Wände;;;;;Wohnen;;extra
+nomen;la pared;die;Wand;Wände;;;;;Wohnen;;B1
 nomen;el ascensor;der;Aufzug;Aufzüge;;;;Lift;Wohnen;;A1
 nomen;la escalera;die;Treppe;Treppen;;;;;Wohnen;;A1
-nomen;el edificio;das;Gebäude;Gebäude;;;;;Wohnen;;extra
+nomen;el edificio;das;Gebäude;Gebäude;;;;;Wohnen;;B1
 nomen;la mudanza;der;Umzug;Umzüge;;;;;Wohnen;;A2
 nomen;el pan;das;Brot;Brote;;;;;Essen;;A1
 nomen;el panecillo;das;Brötchen;Brötchen;;;;;Essen;;A1
@@ -68,7 +68,7 @@ nomen;la cerveza;das;Bier;Biere;;;;;Essen;;A1
 nomen;el zumo / el jugo;der;Saft;Säfte;;;;;Essen;;A1
 nomen;el desayuno;das;Frühstück;nur Singular;;;;;Essen;;A1
 nomen;el almuerzo;das;Mittagessen;nur Singular;;;;;Essen;;A2
-nomen;la cena;das;Abendessen;nur Singular;;;;;Essen;;extra
+nomen;la cena;das;Abendessen;nur Singular;;;;;Essen;;B1
 nomen;el plato (vajilla);der;Teller;Teller;;;;;Essen;;A2
 nomen;el plato (comida);das;Gericht;Gerichte;;;;;Essen;;A2
 nomen;el vaso;das;Glas;Gläser;;;;;Essen;;A1
@@ -77,7 +77,7 @@ nomen;el cuchillo;das;Messer;Messer;;;;;Essen;;A2
 nomen;el tenedor;die;Gabel;Gabeln;;;;;Essen;;A2
 nomen;la cuchara;der;Löffel;Löffel;;;;;Essen;;A2
 nomen;la cuenta;die;Rechnung;Rechnungen;;;;;Essen;;A1
-nomen;la propina;das;Trinkgeld;Trinkgelder;;;;;Essen;;extra
+nomen;la propina;das;Trinkgeld;Trinkgelder;;;;;Essen;;B1
 nomen;el restaurante;das;Restaurant;Restaurants;;;;;Essen;;A1
 nomen;el pastel;der;Kuchen;Kuchen;;;;Torte;Essen;;A1
 nomen;la sopa;die;Suppe;Suppen;;;;;Essen;;A2
@@ -88,7 +88,7 @@ nomen;la oficina;das;Büro;Büros;;;;;Arbeit;;A2
 nomen;el jefe;der;Chef;Chefs;;;;;Arbeit;;A1
 nomen;el compañero de trabajo;der;Kollege;Kollegen;;;;;Arbeit;;A1
 nomen;el sueldo;das;Gehalt;Gehälter;;;;Lohn;Arbeit;;A2
-nomen;la reunión;die;Besprechung;Besprechungen;;;;Sitzung|Meeting;Arbeit;;extra
+nomen;la reunión;die;Besprechung;Besprechungen;;;;Sitzung|Meeting;Arbeit;;B1
 nomen;la solicitud (de empleo);die;Bewerbung;Bewerbungen;;;;;Arbeit;;A2
 nomen;las vacaciones;der;Urlaub;Urlaube;;;;Ferien;Arbeit;;A1
 nomen;el contrato;der;Vertrag;Verträge;;;;;Arbeit;;A2
@@ -101,11 +101,11 @@ nomen;el mercado;der;Markt;Märkte;;;;;Einkaufen;;A2
 nomen;el precio;der;Preis;Preise;;;;;Einkaufen;;A1
 nomen;el dinero;das;Geld;nur Singular;;;;;Einkaufen;;A1
 nomen;la caja;die;Kasse;Kassen;;;;;Einkaufen;;A1
-nomen;el descuento;der;Rabatt;Rabatte;;;;;Einkaufen;;extra
-nomen;el recibo;die;Quittung;Quittungen;;;;;Einkaufen;;extra
+nomen;el descuento;der;Rabatt;Rabatte;;;;;Einkaufen;;B1
+nomen;el recibo;die;Quittung;Quittungen;;;;;Einkaufen;;B1
 nomen;la tarjeta de crédito;die;Kreditkarte;Kreditkarten;;;;;Einkaufen;;A1
 nomen;la panadería;die;Bäckerei;Bäckereien;;;;;Einkaufen;;A1
-nomen;la carnicería;die;Metzgerei;Metzgereien;;;;;Einkaufen;;extra
+nomen;la carnicería;die;Metzgerei;Metzgereien;;;;;Einkaufen;;B1
 nomen;la ropa;die;Kleidung;nur Singular;;;;;Einkaufen;;A1
 nomen;la camisa;das;Hemd;Hemden;;;;;Einkaufen;;A2
 nomen;los pantalones;die;Hose;Hosen;;;;;Einkaufen;;A2
@@ -129,20 +129,20 @@ nomen;el camino;der;Weg;Wege;;;;;Verkehr;;A2
 nomen;la calle;die;Straße;Straßen;;;;Strasse;Verkehr;;A1
 nomen;el semáforo;die;Ampel;Ampeln;;;;;Verkehr;;A2
 nomen;el carnet de conducir;der;Führerschein;Führerscheine;;;;Fahrausweis;Verkehr;;A2
-nomen;la gasolina;das;Benzin;nur Singular;;;;;Verkehr;;extra
+nomen;la gasolina;das;Benzin;nur Singular;;;;;Verkehr;;B1
 nomen;el retraso;die;Verspätung;Verspätungen;;;;;Verkehr;;A2
 nomen;el hotel;das;Hotel;Hotels;;;;;Verkehr;;A1
-nomen;la reserva;die;Reservierung;Reservierungen;;;;Buchung;Verkehr;;extra
+nomen;la reserva;die;Reservierung;Reservierungen;;;;Buchung;Verkehr;;B1
 nomen;el mapa;die;Karte;Karten;;;;Landkarte;Verkehr;;A1
 nomen;el día;der;Tag;Tage;;;;;Zeit;;A1
 nomen;la semana;die;Woche;Wochen;;;;;Zeit;;A1
-nomen;el mes;der;Monat;Monate;;;;;Zeit;;extra
+nomen;el mes;der;Monat;Monate;;;;;Zeit;;B1
 nomen;el año;das;Jahr;Jahre;;;;;Zeit;;A1
 nomen;la hora (60 min);die;Stunde;Stunden;;;;;Zeit;;A1
 nomen;el minuto;die;Minute;Minuten;;;;;Zeit;;A1
 nomen;la mañana;der;Morgen;Morgen;;;;Vormittag;Zeit;;A1
 nomen;la tarde;der;Nachmittag;Nachmittage;;;;;Zeit;;A1
-nomen;la noche;die;Nacht;Nächte;;;;;Zeit;;extra
+nomen;la noche;die;Nacht;Nächte;;;;;Zeit;;B1
 nomen;el fin de semana;das;Wochenende;Wochenenden;;;;;Zeit;;A1
 nomen;el reloj;die;Uhr;Uhren;;;;;Zeit;;A1
 nomen;el cuerpo;der;Körper;Körper;;;;;Gesundheit;;A2
@@ -163,8 +163,8 @@ nomen;el medicamento;das;Medikament;Medikamente;;;;;Gesundheit;;A2
 nomen;el dolor;der;Schmerz;Schmerzen;;;;;Gesundheit;;A2
 nomen;la enfermedad;die;Krankheit;Krankheiten;;;;;Gesundheit;;A2
 nomen;la fiebre;das;Fieber;nur Singular;;;;;Gesundheit;;A1
-nomen;el resfriado;die;Erkältung;Erkältungen;;;;;Gesundheit;;extra
-nomen;el seguro;die;Versicherung;Versicherungen;;;;;Gesundheit;;extra
+nomen;el resfriado;die;Erkältung;Erkältungen;;;;;Gesundheit;;B1
+nomen;el seguro;die;Versicherung;Versicherungen;;;;;Gesundheit;;B1
 nomen;el tiempo libre;die;Freizeit;nur Singular;;;;;Freizeit;;A1
 nomen;la película;der;Film;Filme;;;;;Freizeit;;A1
 nomen;el libro;das;Buch;Bücher;;;;;Freizeit;;A1
@@ -205,10 +205,10 @@ nomen;la escuela;die;Schule;Schulen;;;;;Stadt;;A1
 nomen;la universidad;die;Universität;Universitäten;;;;Uni;Stadt;;A2
 nomen;la biblioteca;die;Bibliothek;Bibliotheken;;;;;Stadt;;A2
 nomen;el ayuntamiento;das;Rathaus;Rathäuser;;;;;Stadt;;A2
-nomen;el permiso de residencia;die;Aufenthaltsbewilligung;Aufenthaltsbewilligungen;;;;;Stadt;;extra
+nomen;el permiso de residencia;die;Aufenthaltsbewilligung;Aufenthaltsbewilligungen;;;;;Stadt;;B1
 nomen;el formulario;das;Formular;Formulare;;;;;Stadt;;A1
 nomen;el documento de identidad;der;Ausweis;Ausweise;;;;;Stadt;;A1
-nomen;la solicitud (trámite);der;Antrag;Anträge;;;;;Stadt;;extra
+nomen;la solicitud (trámite);der;Antrag;Anträge;;;;;Stadt;;B1
 verb;comprar;;kaufen;;Akkusativ;hat gekauft;Ich kaufe einen Mantel.;;Einkaufen;;A1
 verb;ver;;sehen;;Akkusativ;hat gesehen;Ich sehe den Bus.;;Freizeit;;A1
 verb;oír / escuchar;;hören;;Akkusativ;hat gehört;Ich höre die Musik.;;Freizeit;;A1
@@ -251,8 +251,8 @@ verb;felicitar;;gratulieren;;Dativ;hat gratuliert;Wir gratulieren dir zum Geburt
 verb;escuchar (a alguien);;zuhören;;Dativ;hat zugehört;Hör mir bitte zu!;;Menschen;;A2
 verb;faltar;;fehlen;;Dativ;hat gefehlt;Du fehlst mir.;;Gefühle;;A1
 verb;doler;;wehtun;;Dativ;hat wehgetan;Mein Kopf tut mir weh.;;Gesundheit;;A1
-verb;seguir;;folgen;;Dativ;ist gefolgt;Folgen Sie dem Auto!;;Abstrakt;;extra
-verb;encontrarse con;;begegnen;;Dativ;ist begegnet;Ich bin meinem Nachbarn begegnet.;;Menschen;;extra
+verb;seguir;;folgen;;Dativ;ist gefolgt;Folgen Sie dem Auto!;;Abstrakt;;B1
+verb;encontrarse con;;begegnen;;Dativ;ist begegnet;Ich bin meinem Nachbarn begegnet.;;Menschen;;B1
 verb;suceder / pasar;;passieren;;Dativ;ist passiert;Was ist dir passiert?;;Abstrakt;;A2
 verb;dar;;geben;;Dativ + Akkusativ;hat gegeben;Ich gebe dir das Buch.;;Abstrakt;;A1
 verb;mostrar;;zeigen;;Dativ + Akkusativ;hat gezeigt;Er zeigt mir die Stadt.;;Abstrakt;;A2
@@ -304,7 +304,7 @@ adjektiv;feo;;hässlich;;;;Das Gebäude ist hässlich.;;Abstrakt;;A2
 adjektiv;largo;;lang;;;;Der Weg ist lang.;;Menge & Grad;;A1
 adjektiv;corto;;kurz;;;;Die Hose ist kurz.;;Menge & Grad;;A1
 adjektiv;alto;;hoch;;;;Der Berg ist hoch.;;Menge & Grad;;A1
-adjektiv;bajo;;niedrig;;;;Der Tisch ist niedrig.;;Menge & Grad;;extra
+adjektiv;bajo;;niedrig;;;;Der Tisch ist niedrig.;;Menge & Grad;;B1
 adjektiv;frío;;kalt;;;;Das Wasser ist kalt.;;Natur;;A2
 adjektiv;caliente;;heiß;;;;Der Kaffee ist heiß.;heiss;Natur;;A2
 adjektiv;lleno;;voll;;;;Der Bus ist voll.;;Menge & Grad;;A2
@@ -322,7 +322,7 @@ adjektiv;sucio;;schmutzig;;;;Die Schuhe sind schmutzig.;dreckig;Haushalt;;A2
 adjektiv;ruidoso;;laut;;;;Die Straße ist laut.;;Wohnen;;A1
 adjektiv;tranquilo;;ruhig;;;;Das Zimmer ist ruhig.;leise;Wohnen;;A1
 adjektiv;peligroso;;gefährlich;;;;Das ist gefährlich.;;Abstrakt;;A2
-adjektiv;seguro;;sicher;;;;Hier ist es sicher.;;Abstrakt;;extra
+adjektiv;seguro;;sicher;;;;Hier ist es sicher.;;Abstrakt;;B1
 adjektiv;amable;;freundlich;;;;Der Kollege ist freundlich.;nett;Menschen;;A2
 adjektiv;divertido;;lustig;;;;Der Film ist lustig.;witzig;Menschen;;A1
 adverb;hoy;;heute;;;;Heute habe ich frei.;;Zeit;;A1
@@ -336,179 +336,179 @@ adverb;ahora;;jetzt;;;;Ich muss jetzt gehen.;;Zeit;;A1
 adverb;temprano;;früh;;;;Ich stehe früh auf.;;Zeit;;A2
 adverb;tarde (adv.);;spät;;;;Es ist schon spät.;;Zeit;;A1
 nomen;el sofá;das;Sofa;Sofas;;;;;Wohnen;;A1
-nomen;el sillón;der;Sessel;Sessel;;;;;Wohnen;;extra
-nomen;la alfombra;der;Teppich;Teppiche;;;;;Wohnen;;extra
-nomen;la cortina;der;Vorhang;Vorhänge;;;;;Wohnen;;extra
-nomen;el espejo;der;Spiegel;Spiegel;;;;;Wohnen;;extra
-nomen;el cuadro;das;Gemälde;Gemälde;;;;;Wohnen;;extra
-nomen;la estantería;das;Regal;Regale;;;;;Wohnen;;extra
-nomen;el cajón;die;Schublade;Schubladen;;;;;Wohnen;;extra
-nomen;la almohada;das;Kissen;Kissen;;;;;Wohnen;;extra
-nomen;la manta;die;Decke;Decken;;;;;Wohnen;;extra
-nomen;la sábana;das;Bettlaken;Bettlaken;;;;;Wohnen;;extra
+nomen;el sillón;der;Sessel;Sessel;;;;;Wohnen;;B1
+nomen;la alfombra;der;Teppich;Teppiche;;;;;Wohnen;;B1
+nomen;la cortina;der;Vorhang;Vorhänge;;;;;Wohnen;;B1
+nomen;el espejo;der;Spiegel;Spiegel;;;;;Wohnen;;B1
+nomen;el cuadro;das;Gemälde;Gemälde;;;;;Wohnen;;B1
+nomen;la estantería;das;Regal;Regale;;;;;Wohnen;;B1
+nomen;el cajón;die;Schublade;Schubladen;;;;;Wohnen;;B1
+nomen;la almohada;das;Kissen;Kissen;;;;;Wohnen;;B1
+nomen;la manta;die;Decke;Decken;;;;;Wohnen;;B1
+nomen;la sábana;das;Bettlaken;Bettlaken;;;;;Wohnen;;B1
 nomen;la toalla;das;Handtuch;Handtücher;;;;;Wohnen;;A2
 nomen;el balcón;der;Balkon;Balkone;;;;;Wohnen;;A1
-nomen;la terraza;die;Terrasse;Terrassen;;;;;Wohnen;;extra
+nomen;la terraza;die;Terrasse;Terrassen;;;;;Wohnen;;B1
 nomen;el sótano;der;Keller;Keller;;;;;Wohnen;;A2
-nomen;el desván;der;Dachboden;Dachböden;;;;;Wohnen;;extra
-nomen;el tejado;das;Dach;Dächer;;;;;Wohnen;;extra
+nomen;el desván;der;Dachboden;Dachböden;;;;;Wohnen;;B1
+nomen;el tejado;das;Dach;Dächer;;;;;Wohnen;;B1
 nomen;el garaje;die;Garage;Garagen;;;;;Wohnen;;A2
-nomen;el pasillo;der;Flur;Flure;;;;Gang;Wohnen;;extra
+nomen;el pasillo;der;Flur;Flure;;;;Gang;Wohnen;;B1
 nomen;la entrada;der;Eingang;Eingänge;;;;;Wohnen;;A1
 nomen;la salida;der;Ausgang;Ausgänge;;;;;Wohnen;;A1
-nomen;el timbre;die;Klingel;Klingeln;;;;;Wohnen;;extra
-nomen;el buzón;der;Briefkasten;Briefkästen;;;;;Wohnen;;extra
+nomen;el timbre;die;Klingel;Klingeln;;;;;Wohnen;;B1
+nomen;el buzón;der;Briefkasten;Briefkästen;;;;;Wohnen;;B1
 nomen;la calefacción;die;Heizung;Heizungen;;;;;Wohnen;;A2
 nomen;la luz;das;Licht;Lichter;;;;;Wohnen;;A1
-nomen;la electricidad;der;Strom;nur Singular;;;;;Wohnen;;extra
+nomen;la electricidad;der;Strom;nur Singular;;;;;Wohnen;;B1
 nomen;la basura;der;Müll;nur Singular;;;;Abfall;Wohnen;;A2
-nomen;el ruido;der;Lärm;nur Singular;;;;;Wohnen;;extra
+nomen;el ruido;der;Lärm;nur Singular;;;;;Wohnen;;B1
 nomen;el orden;die;Ordnung;nur Singular;;;;;Wohnen;;A1
 nomen;el mueble;das;Möbel;Möbel;;;;;Wohnen;;A1
-nomen;el suelo;der;Boden;Böden;;;;;Wohnen;;extra
-nomen;el vecindario;die;Nachbarschaft;Nachbarschaften;;;;;Wohnen;;extra
+nomen;el suelo;der;Boden;Böden;;;;;Wohnen;;B1
+nomen;el vecindario;die;Nachbarschaft;Nachbarschaften;;;;;Wohnen;;B1
 nomen;el propietario;der;Vermieter;Vermieter;;;;;Wohnen;;A1
-nomen;el inquilino;der;Mieter;Mieter;;;;;Wohnen;;extra
+nomen;el inquilino;der;Mieter;Mieter;;;;;Wohnen;;B1
 nomen;la nevera;der;Kühlschrank;Kühlschränke;;;;;Haushalt;;A1
-nomen;el horno;der;Backofen;Backöfen;;;;;Haushalt;;extra
+nomen;el horno;der;Backofen;Backöfen;;;;;Haushalt;;B1
 nomen;la cocina (aparato);der;Herd;Herde;;;;;Haushalt;;A1
-nomen;el lavavajillas;die;Spülmaschine;Spülmaschinen;;;;;Haushalt;;extra
-nomen;la lavadora;die;Waschmaschine;Waschmaschinen;;;;;Haushalt;;extra
-nomen;el microondas;die;Mikrowelle;Mikrowellen;;;;;Haushalt;;extra
-nomen;la cafetera;die;Kaffeemaschine;Kaffeemaschinen;;;;;Haushalt;;extra
-nomen;la sartén;die;Pfanne;Pfannen;;;;;Haushalt;;extra
+nomen;el lavavajillas;die;Spülmaschine;Spülmaschinen;;;;;Haushalt;;B1
+nomen;la lavadora;die;Waschmaschine;Waschmaschinen;;;;;Haushalt;;B1
+nomen;el microondas;die;Mikrowelle;Mikrowellen;;;;;Haushalt;;B1
+nomen;la cafetera;die;Kaffeemaschine;Kaffeemaschinen;;;;;Haushalt;;B1
+nomen;la sartén;die;Pfanne;Pfannen;;;;;Haushalt;;B1
 nomen;la olla;der;Topf;Töpfe;;;;;Haushalt;;A2
 nomen;la botella;die;Flasche;Flaschen;;;;;Haushalt;;A1
-nomen;la lata;die;Dose;Dosen;;;;;Haushalt;;extra
-nomen;la bolsa;die;Tüte;Tüten;;;;;Haushalt;;extra
+nomen;la lata;die;Dose;Dosen;;;;;Haushalt;;B1
+nomen;la bolsa;die;Tüte;Tüten;;;;;Haushalt;;B1
 nomen;el paquete;die;Packung;Packungen;;;;Pfund;Haushalt;;A1
-nomen;la aspiradora;der;Staubsauger;Staubsauger;;;;;Haushalt;;extra
-nomen;la plancha;das;Bügeleisen;Bügeleisen;;;;;Haushalt;;extra
-nomen;la herramienta;das;Werkzeug;Werkzeuge;;;;;Haushalt;;extra
+nomen;la aspiradora;der;Staubsauger;Staubsauger;;;;;Haushalt;;B1
+nomen;la plancha;das;Bügeleisen;Bügeleisen;;;;;Haushalt;;B1
+nomen;la herramienta;das;Werkzeug;Werkzeuge;;;;;Haushalt;;B1
 nomen;la receta (de cocina);das;Rezept;Rezepte;;;;;Essen;;A2
-nomen;el ingrediente;die;Zutat;Zutaten;;;;;Essen;;extra
-nomen;el sabor;der;Geschmack;Geschmäcker;;;;;Essen;;extra
+nomen;el ingrediente;die;Zutat;Zutaten;;;;;Essen;;B1
+nomen;el sabor;der;Geschmack;Geschmäcker;;;;;Essen;;B1
 nomen;el hambre;der;Hunger;nur Singular;;;;;Essen;;A1
 nomen;la sed;der;Durst;nur Singular;;;;;Essen;;A1
-nomen;la harina;das;Mehl;nur Singular;;;;;Essen;;extra
-nomen;el pimiento;die;Paprika;Paprikas;;;;;Essen;;extra
-nomen;la cebolla;die;Zwiebel;Zwiebeln;;;;;Essen;;extra
-nomen;el ajo;der;Knoblauch;nur Singular;;;;;Essen;;extra
-nomen;la zanahoria;die;Karotte;Karotten;;;;Möhre|Rüebli;Essen;;extra
+nomen;la harina;das;Mehl;nur Singular;;;;;Essen;;B1
+nomen;el pimiento;die;Paprika;Paprikas;;;;;Essen;;B1
+nomen;la cebolla;die;Zwiebel;Zwiebeln;;;;;Essen;;B1
+nomen;el ajo;der;Knoblauch;nur Singular;;;;;Essen;;B1
+nomen;la zanahoria;die;Karotte;Karotten;;;;Möhre|Rüebli;Essen;;B1
 nomen;la ensalada;der;Salat;Salate;;;;;Essen;;A1
-nomen;el pepino;die;Gurke;Gurken;;;;;Essen;;extra
-nomen;el champiñón;der;Pilz;Pilze;;;;;Essen;;extra
-nomen;la fresa;die;Erdbeere;Erdbeeren;;;;;Essen;;extra
-nomen;la uva;die;Traube;Trauben;;;;;Essen;;extra
+nomen;el pepino;die;Gurke;Gurken;;;;;Essen;;B1
+nomen;el champiñón;der;Pilz;Pilze;;;;;Essen;;B1
+nomen;la fresa;die;Erdbeere;Erdbeeren;;;;;Essen;;B1
+nomen;la uva;die;Traube;Trauben;;;;;Essen;;B1
 nomen;la pera;die;Birne;Birnen;;;;;Essen;;A1
 nomen;el limón;die;Zitrone;Zitronen;;;;;Essen;;A2
-nomen;la cereza;die;Kirsche;Kirschen;;;;;Essen;;extra
-nomen;el melocotón;der;Pfirsich;Pfirsiche;;;;;Essen;;extra
-nomen;la nuez;die;Nuss;Nüsse;;;;;Essen;;extra
+nomen;la cereza;die;Kirsche;Kirschen;;;;;Essen;;B1
+nomen;el melocotón;der;Pfirsich;Pfirsiche;;;;;Essen;;B1
+nomen;la nuez;die;Nuss;Nüsse;;;;;Essen;;B1
 nomen;el chocolate;die;Schokolade;Schokoladen;;;;;Essen;;A2
 nomen;el helado;das;Eis;nur Singular;;;;;Essen;;A2
-nomen;la galleta;der;Keks;Kekse;;;;;Essen;;extra
-nomen;la mermelada;die;Marmelade;Marmeladen;;;;Konfitüre;Essen;;extra
-nomen;la miel;der;Honig;nur Singular;;;;;Essen;;extra
-nomen;el yogur;der;Joghurt;Joghurts;;;;;Essen;;extra
-nomen;la nata;die;Sahne;nur Singular;;;;Rahm;Essen;;extra
+nomen;la galleta;der;Keks;Kekse;;;;;Essen;;B1
+nomen;la mermelada;die;Marmelade;Marmeladen;;;;Konfitüre;Essen;;B1
+nomen;la miel;der;Honig;nur Singular;;;;;Essen;;B1
+nomen;el yogur;der;Joghurt;Joghurts;;;;;Essen;;B1
+nomen;la nata;die;Sahne;nur Singular;;;;Rahm;Essen;;B1
 nomen;el jamón;der;Schinken;Schinken;;;;;Essen;;A1
 nomen;la salchicha;die;Wurst;Würste;;;;;Essen;;A2
-nomen;la pasta (comida);die;Nudeln;nur Plural;;;;;Essen;;extra
+nomen;la pasta (comida);die;Nudeln;nur Plural;;;;;Essen;;B1
 nomen;la pizza;die;Pizza;Pizzen;;;;;Essen;;A2
-nomen;la mostaza;der;Senf;nur Singular;;;;;Essen;;extra
-nomen;el vinagre;der;Essig;nur Singular;;;;;Essen;;extra
-nomen;la pimienta;der;Pfeffer;nur Singular;;;;;Essen;;extra
+nomen;la mostaza;der;Senf;nur Singular;;;;;Essen;;B1
+nomen;el vinagre;der;Essig;nur Singular;;;;;Essen;;B1
+nomen;la pimienta;der;Pfeffer;nur Singular;;;;;Essen;;B1
 nomen;el menú;die;Speisekarte;Speisekarten;;;;;Essen;;A1
-nomen;el camarero;der;Kellner;Kellner;;;;;Essen;;extra
-nomen;la panadera;die;Bäckerin;Bäckerinnen;;;;;Essen;;extra
+nomen;el camarero;der;Kellner;Kellner;;;;;Essen;;B1
+nomen;la panadera;die;Bäckerin;Bäckerinnen;;;;;Essen;;B1
 nomen;el abrigo;der;Mantel;Mäntel;;;;;Kleidung;;A2
 nomen;el jersey;der;Pullover;Pullover;;;;Pulli;Kleidung;;A2
 nomen;la camiseta;das;T-Shirt;T-Shirts;;;;;Kleidung;;A2
 nomen;la falda;der;Rock;Röcke;;;;;Kleidung;;A2
 nomen;los vaqueros;die;Jeans;Jeans;;;;;Kleidung;;A2
-nomen;el calcetín;die;Socke;Socken;;;;;Kleidung;;extra
-nomen;la ropa interior;die;Unterwäsche;nur Singular;;;;;Kleidung;;extra
-nomen;el cinturón;der;Gürtel;Gürtel;;;;;Kleidung;;extra
-nomen;la bufanda;der;Schal;Schals;;;;;Kleidung;;extra
+nomen;el calcetín;die;Socke;Socken;;;;;Kleidung;;B1
+nomen;la ropa interior;die;Unterwäsche;nur Singular;;;;;Kleidung;;B1
+nomen;el cinturón;der;Gürtel;Gürtel;;;;;Kleidung;;B1
+nomen;la bufanda;der;Schal;Schals;;;;;Kleidung;;B1
 nomen;el gorro;die;Mütze;Mützen;;;;;Kleidung;;A2
-nomen;el sombrero;der;Hut;Hüte;;;;;Kleidung;;extra
-nomen;el guante;der;Handschuh;Handschuhe;;;;;Kleidung;;extra
-nomen;la corbata;die;Krawatte;Krawatten;;;;;Kleidung;;extra
+nomen;el sombrero;der;Hut;Hüte;;;;;Kleidung;;B1
+nomen;el guante;der;Handschuh;Handschuhe;;;;;Kleidung;;B1
+nomen;la corbata;die;Krawatte;Krawatten;;;;;Kleidung;;B1
 nomen;las gafas;die;Brille;Brillen;;;;;Kleidung;;A2
 nomen;el anillo;der;Ring;Ringe;;;;;Kleidung;;A2
 nomen;el paraguas;der;Regenschirm;Regenschirme;;;;Schirm;Kleidung;;A2
 nomen;la mochila;der;Rucksack;Rucksäcke;;;;;Kleidung;;A2
 nomen;la cartera (monedero);das;Portemonnaie;Portemonnaies;;;;Geldbeutel|Geldbörse;Kleidung;;A2
-nomen;el botón;der;Knopf;Knöpfe;;;;;Kleidung;;extra
+nomen;el botón;der;Knopf;Knöpfe;;;;;Kleidung;;B1
 nomen;la moda;die;Mode;Moden;;;;;Kleidung;;A2
 nomen;el traje;der;Anzug;Anzüge;;;;;Kleidung;;A2
-nomen;la lana;die;Wolle;nur Singular;;;;;Kleidung;;extra
-nomen;el algodón;die;Baumwolle;nur Singular;;;;;Kleidung;;extra
-nomen;el cuero;das;Leder;nur Singular;;;;;Kleidung;;extra
+nomen;la lana;die;Wolle;nur Singular;;;;;Kleidung;;B1
+nomen;el algodón;die;Baumwolle;nur Singular;;;;;Kleidung;;B1
+nomen;el cuero;das;Leder;nur Singular;;;;;Kleidung;;B1
 nomen;el jabón;die;Seife;Seifen;;;;;Gesundheit;;A2
-nomen;el champú;das;Shampoo;Shampoos;;;;;Gesundheit;;extra
-nomen;el cepillo de dientes;die;Zahnbürste;Zahnbürsten;;;;;Gesundheit;;extra
-nomen;la pasta de dientes;die;Zahnpasta;nur Singular;;;;;Gesundheit;;extra
+nomen;el champú;das;Shampoo;Shampoos;;;;;Gesundheit;;B1
+nomen;el cepillo de dientes;die;Zahnbürste;Zahnbürsten;;;;;Gesundheit;;B1
+nomen;la pasta de dientes;die;Zahnpasta;nur Singular;;;;;Gesundheit;;B1
 nomen;la ducha;die;Dusche;Duschen;;;;;Gesundheit;;A1
-nomen;el peine;der;Kamm;Kämme;;;;;Gesundheit;;extra
+nomen;el peine;der;Kamm;Kämme;;;;;Gesundheit;;B1
 nomen;el pelo;das;Haar;Haare;;;;;Gesundheit;;A1
-nomen;la cara;das;Gesicht;Gesichter;;;;;Gesundheit;;extra
-nomen;la nariz;die;Nase;Nasen;;;;;Gesundheit;;extra
+nomen;la cara;das;Gesicht;Gesichter;;;;;Gesundheit;;B1
+nomen;la nariz;die;Nase;Nasen;;;;;Gesundheit;;B1
 nomen;el cuello;der;Hals;Hälse;;;;;Gesundheit;;A2
-nomen;el dedo;der;Finger;Finger;;;;;Gesundheit;;extra
-nomen;la rodilla;das;Knie;Knie;;;;;Gesundheit;;extra
-nomen;el hombro;die;Schulter;Schultern;;;;;Gesundheit;;extra
-nomen;el corazón;das;Herz;Herzen;;;;;Gesundheit;;extra
+nomen;el dedo;der;Finger;Finger;;;;;Gesundheit;;B1
+nomen;la rodilla;das;Knie;Knie;;;;;Gesundheit;;B1
+nomen;el hombro;die;Schulter;Schultern;;;;;Gesundheit;;B1
+nomen;el corazón;das;Herz;Herzen;;;;;Gesundheit;;B1
 nomen;el estómago;der;Magen;Mägen;;;;;Gesundheit;;A2
 nomen;la barriga;der;Bauch;Bäuche;;;;;Gesundheit;;A1
-nomen;la piel;die;Haut;Häute;;;;;Gesundheit;;extra
-nomen;la sangre;das;Blut;nur Singular;;;;;Gesundheit;;extra
-nomen;el hueso;der;Knochen;Knochen;;;;;Gesundheit;;extra
-nomen;la barba;der;Bart;Bärte;;;;;Gesundheit;;extra
-nomen;la voz;die;Stimme;Stimmen;;;;;Gesundheit;;extra
+nomen;la piel;die;Haut;Häute;;;;;Gesundheit;;B1
+nomen;la sangre;das;Blut;nur Singular;;;;;Gesundheit;;B1
+nomen;el hueso;der;Knochen;Knochen;;;;;Gesundheit;;B1
+nomen;la barba;der;Bart;Bärte;;;;;Gesundheit;;B1
+nomen;la voz;die;Stimme;Stimmen;;;;;Gesundheit;;B1
 nomen;la tos;der;Husten;nur Singular;;;;;Gesundheit;;A2
-nomen;la herida;die;Wunde;Wunden;;;;;Gesundheit;;extra
-nomen;la operación;die;Operation;Operationen;;;;;Gesundheit;;extra
+nomen;la herida;die;Wunde;Wunden;;;;;Gesundheit;;B1
+nomen;la operación;die;Operation;Operationen;;;;;Gesundheit;;B1
 nomen;la consulta;die;Praxis;Praxen;;;;;Gesundheit;;A1
-nomen;el enfermero;der;Krankenpfleger;Krankenpfleger;;;;;Gesundheit;;extra
-nomen;la enfermera;die;Krankenschwester;Krankenschwestern;;;;;Gesundheit;;extra
-nomen;el dentista;der;Zahnarzt;Zahnärzte;;;;;Gesundheit;;extra
-nomen;la ambulancia;der;Krankenwagen;Krankenwagen;;;;;Gesundheit;;extra
-nomen;la receta médica;das;Rezept vom Arzt;Rezepte;;;;;Gesundheit;;extra
-nomen;la vacuna;die;Impfung;Impfungen;;;;;Gesundheit;;extra
+nomen;el enfermero;der;Krankenpfleger;Krankenpfleger;;;;;Gesundheit;;B1
+nomen;la enfermera;die;Krankenschwester;Krankenschwestern;;;;;Gesundheit;;B1
+nomen;el dentista;der;Zahnarzt;Zahnärzte;;;;;Gesundheit;;B1
+nomen;la ambulancia;der;Krankenwagen;Krankenwagen;;;;;Gesundheit;;B1
+nomen;la receta médica;das;Rezept vom Arzt;Rezepte;;;;;Gesundheit;;B1
+nomen;la vacuna;die;Impfung;Impfungen;;;;;Gesundheit;;B1
 nomen;el descanso;die;Pause;Pausen;;;;;Gesundheit;;A1
-nomen;el sueño;der;Schlaf;nur Singular;;;;;Gesundheit;;extra
-nomen;la fuerza;die;Kraft;Kräfte;;;;;Gesundheit;;extra
-nomen;el horario;der;Zeitplan;Zeitpläne;;;;;Arbeit;;extra
+nomen;el sueño;der;Schlaf;nur Singular;;;;;Gesundheit;;B1
+nomen;la fuerza;die;Kraft;Kräfte;;;;;Gesundheit;;B1
+nomen;el horario;der;Zeitplan;Zeitpläne;;;;;Arbeit;;B1
 nomen;la tarea;die;Aufgabe;Aufgaben;;;;;Arbeit;;A1
 nomen;el proyecto;das;Projekt;Projekte;;;;;Arbeit;;A2
 nomen;el equipo (personas);das;Team;Teams;;;;;Arbeit;;A2
 nomen;la experiencia;die;Erfahrung;Erfahrungen;;;;;Arbeit;;A2
-nomen;el currículum;der;Lebenslauf;Lebensläufe;;;;;Arbeit;;extra
-nomen;la entrevista;das;Vorstellungsgespräch;Vorstellungsgespräche;;;;;Arbeit;;extra
+nomen;el currículum;der;Lebenslauf;Lebensläufe;;;;;Arbeit;;B1
+nomen;la entrevista;das;Vorstellungsgespräch;Vorstellungsgespräche;;;;;Arbeit;;B1
 nomen;el empleado;der;Mitarbeiter;Mitarbeiter;;;;Angestellter;Arbeit;;A2
-nomen;el sindicato;die;Gewerkschaft;Gewerkschaften;;;;;Arbeit;;extra
-nomen;el paro;die;Arbeitslosigkeit;nur Singular;;;;;Arbeit;;extra
-nomen;la jubilación;die;Rente;Renten;;;;Pension;Arbeit;;extra
-nomen;la baja por enfermedad;die;Krankmeldung;Krankmeldungen;;;;;Arbeit;;extra
-nomen;el turno;die;Schicht;Schichten;;;;;Arbeit;;extra
-nomen;la hora extra;die;Überstunde;Überstunden;;;;;Arbeit;;extra
-nomen;el aprendiz;der;Lehrling;Lehrlinge;;;;;Arbeit;;extra
+nomen;el sindicato;die;Gewerkschaft;Gewerkschaften;;;;;Arbeit;;B1
+nomen;el paro;die;Arbeitslosigkeit;nur Singular;;;;;Arbeit;;B1
+nomen;la jubilación;die;Rente;Renten;;;;Pension;Arbeit;;B1
+nomen;la baja por enfermedad;die;Krankmeldung;Krankmeldungen;;;;;Arbeit;;B1
+nomen;el turno;die;Schicht;Schichten;;;;;Arbeit;;B1
+nomen;la hora extra;die;Überstunde;Überstunden;;;;;Arbeit;;B1
+nomen;el aprendiz;der;Lehrling;Lehrlinge;;;;;Arbeit;;B1
 nomen;el maestro;der;Lehrer;Lehrer;;;;;Bildung;;A1
-nomen;la maestra;die;Lehrerin;Lehrerinnen;;;;;Bildung;;extra
+nomen;la maestra;die;Lehrerin;Lehrerinnen;;;;;Bildung;;B1
 nomen;el alumno;der;Schüler;Schüler;;;;;Bildung;;A1
 nomen;el estudiante;der;Student;Studenten;;;;;Bildung;;A1
 nomen;la clase (lección);der;Unterricht;nur Singular;;;;;Bildung;;A1
 nomen;el curso;der;Kurs;Kurse;;;;;Bildung;;A1
 nomen;el examen;die;Prüfung;Prüfungen;;;;;Bildung;;A1
 nomen;la nota (calificación);die;Note;Noten;;;;;Bildung;;A2
-nomen;los deberes;die;Hausaufgaben;nur Plural;;;;;Bildung;;extra
+nomen;los deberes;die;Hausaufgaben;nur Plural;;;;;Bildung;;B1
 nomen;el cuaderno;das;Heft;Hefte;;;;;Bildung;;A2
 nomen;el bolígrafo;der;Kugelschreiber;Kugelschreiber;;;;Stift;Bildung;;A1
 nomen;el lápiz;der;Bleistift;Bleistifte;;;;;Bildung;;A1
 nomen;el papel;das;Papier;Papiere;;;;;Bildung;;A1
-nomen;el diccionario;das;Wörterbuch;Wörterbücher;;;;;Bildung;;extra
+nomen;el diccionario;das;Wörterbuch;Wörterbücher;;;;;Bildung;;B1
 nomen;la palabra;das;Wort;Wörter;;;;;Bildung;;A1
 nomen;la frase;der;Satz;Sätze;;;;;Bildung;;A1
 nomen;la pregunta;die;Frage;Fragen;;;;;Bildung;;A1
@@ -516,113 +516,113 @@ nomen;la respuesta;die;Antwort;Antworten;;;;;Bildung;;A1
 nomen;el error;der;Fehler;Fehler;;;;;Bildung;;A1
 nomen;el ejemplo;das;Beispiel;Beispiele;;;;;Bildung;;A1
 nomen;el idioma;die;Sprache;Sprachen;;;;;Bildung;;A1
-nomen;la gramática;die;Grammatik;Grammatiken;;;;;Bildung;;extra
-nomen;el significado;die;Bedeutung;Bedeutungen;;;;;Bildung;;extra
+nomen;la gramática;die;Grammatik;Grammatiken;;;;;Bildung;;B1
+nomen;el significado;die;Bedeutung;Bedeutungen;;;;;Bildung;;B1
 nomen;el certificado;das;Zeugnis;Zeugnisse;;;;;Bildung;;A2
 nomen;la guardería;der;Kindergarten;Kindergärten;;;;;Bildung;;A1
 nomen;el conocimiento;die;Kenntnis;Kenntnisse;;;;;Bildung;;A2
 nomen;el ordenador;der;Computer;Computer;;;;Rechner;Technik;;A1
 nomen;el móvil;das;Handy;Handys;;;;;Technik;;A1
-nomen;la pantalla;der;Bildschirm;Bildschirme;;;;;Technik;;extra
-nomen;el teclado;die;Tastatur;Tastaturen;;;;;Technik;;extra
-nomen;el ratón (informática);die;Maus;Mäuse;;;;;Technik;;extra
+nomen;la pantalla;der;Bildschirm;Bildschirme;;;;;Technik;;B1
+nomen;el teclado;die;Tastatur;Tastaturen;;;;;Technik;;B1
+nomen;el ratón (informática);die;Maus;Mäuse;;;;;Technik;;B1
 nomen;la impresora;der;Drucker;Drucker;;;;;Technik;;A1
 nomen;el archivo;die;Datei;Dateien;;;;;Technik;;A2
-nomen;la carpeta;der;Ordner;Ordner;;;;;Technik;;extra
+nomen;la carpeta;der;Ordner;Ordner;;;;;Technik;;B1
 nomen;la contraseña;das;Passwort;Passwörter;;;;;Technik;;A2
 nomen;el correo electrónico;die;E-Mail;E-Mails;;;;;Technik;;A1
 nomen;el mensaje;die;Nachricht;Nachrichten;;;;;Technik;;A2
 nomen;la llamada;der;Anruf;Anrufe;;;;;Technik;;A1
-nomen;el número de teléfono;die;Telefonnummer;Telefonnummern;;;;;Technik;;extra
-nomen;la conexión;die;Verbindung;Verbindungen;;;;;Technik;;extra
-nomen;la batería;der;Akku;Akkus;;;;;Technik;;extra
-nomen;el cargador;das;Ladegerät;Ladegeräte;;;;;Technik;;extra
-nomen;el enchufe;die;Steckdose;Steckdosen;;;;;Technik;;extra
+nomen;el número de teléfono;die;Telefonnummer;Telefonnummern;;;;;Technik;;B1
+nomen;la conexión;die;Verbindung;Verbindungen;;;;;Technik;;B1
+nomen;la batería;der;Akku;Akkus;;;;;Technik;;B1
+nomen;el cargador;das;Ladegerät;Ladegeräte;;;;;Technik;;B1
+nomen;el enchufe;die;Steckdose;Steckdosen;;;;;Technik;;B1
 nomen;el aparato;das;Gerät;Geräte;;;;;Technik;;A2
-nomen;la televisión;der;Fernseher;Fernseher;;;;;Technik;;extra
+nomen;la televisión;der;Fernseher;Fernseher;;;;;Technik;;B1
 nomen;la radio;das;Radio;Radios;;;;;Technik;;A2
 nomen;la cámara;die;Kamera;Kameras;;;;;Technik;;A2
 nomen;el anuncio;die;Anzeige;Anzeigen;;;;Werbung;Technik;;A1
-nomen;la publicidad;die;Werbung;Werbungen;;;;;Technik;;extra
-nomen;el usuario;der;Benutzer;Benutzer;;;;;Technik;;extra
-nomen;la actualización;das;Update;Updates;;;;;Technik;;extra
-nomen;el sueldo bruto;der;Bruttolohn;Bruttolöhne;;;;;Geld;;extra
-nomen;el impuesto;die;Steuer;Steuern;;;;;Geld;;extra
-nomen;la factura;die;Rechnung vom Amt;Rechnungen;;;;;Geld;;extra
+nomen;la publicidad;die;Werbung;Werbungen;;;;;Technik;;B1
+nomen;el usuario;der;Benutzer;Benutzer;;;;;Technik;;B1
+nomen;la actualización;das;Update;Updates;;;;;Technik;;B1
+nomen;el sueldo bruto;der;Bruttolohn;Bruttolöhne;;;;;Geld;;B1
+nomen;el impuesto;die;Steuer;Steuern;;;;;Geld;;B1
+nomen;la factura;die;Rechnung vom Amt;Rechnungen;;;;;Geld;;B1
 nomen;la cuenta bancaria;das;Konto;Konten;;;;;Geld;;A1
-nomen;la transferencia;die;Überweisung;Überweisungen;;;;;Geld;;extra
+nomen;la transferencia;die;Überweisung;Überweisungen;;;;;Geld;;B1
 nomen;el préstamo;der;Kredit;Kredite;;;;Darlehen;Geld;;A2
-nomen;el ahorro;die;Ersparnis;Ersparnisse;;;;;Geld;;extra
-nomen;la moneda;die;Münze;Münzen;;;;;Geld;;extra
-nomen;el billete (dinero);der;Geldschein;Geldscheine;;;;;Geld;;extra
-nomen;el cajero automático;der;Geldautomat;Geldautomaten;;;;Bancomat;Geld;;extra
+nomen;el ahorro;die;Ersparnis;Ersparnisse;;;;;Geld;;B1
+nomen;la moneda;die;Münze;Münzen;;;;;Geld;;B1
+nomen;el billete (dinero);der;Geldschein;Geldscheine;;;;;Geld;;B1
+nomen;el cajero automático;der;Geldautomat;Geldautomaten;;;;Bancomat;Geld;;B1
 nomen;el coste;die;Kosten;nur Plural;;;;;Geld;;A1
-nomen;el presupuesto;das;Budget;Budgets;;;;;Geld;;extra
-nomen;la deuda;die;Schuld;Schulden;;;;;Geld;;extra
+nomen;el presupuesto;das;Budget;Budgets;;;;;Geld;;B1
+nomen;la deuda;die;Schuld;Schulden;;;;;Geld;;B1
 nomen;el seguro médico;die;Krankenkasse;Krankenkassen;;;;;Geld;;A2
 nomen;la oferta;das;Angebot;Angebote;;;;;Geld;;A1
-nomen;el cliente habitual;der;Stammkunde;Stammkunden;;;;;Geld;;extra
-nomen;la garantía;die;Garantie;Garantien;;;;;Geld;;extra
-nomen;el cambio (divisas);der;Wechselkurs;Wechselkurse;;;;;Geld;;extra
-nomen;el permiso;die;Bewilligung;Bewilligungen;;;;Genehmigung;Amt;;extra
+nomen;el cliente habitual;der;Stammkunde;Stammkunden;;;;;Geld;;B1
+nomen;la garantía;die;Garantie;Garantien;;;;;Geld;;B1
+nomen;el cambio (divisas);der;Wechselkurs;Wechselkurse;;;;;Geld;;B1
+nomen;el permiso;die;Bewilligung;Bewilligungen;;;;Genehmigung;Amt;;B1
 nomen;la firma (rúbrica);die;Unterschrift;Unterschriften;;;;;Amt;;A1
-nomen;el sello;der;Stempel;Stempel;;;;;Amt;;extra
-nomen;la copia;die;Kopie;Kopien;;;;;Amt;;extra
-nomen;el plazo;die;Frist;Fristen;;;;;Amt;;extra
-nomen;la ley;das;Gesetz;Gesetze;;;;;Amt;;extra
-nomen;la norma;die;Regel;Regeln;;;;Vorschrift;Amt;;extra
+nomen;el sello;der;Stempel;Stempel;;;;;Amt;;B1
+nomen;la copia;die;Kopie;Kopien;;;;;Amt;;B1
+nomen;el plazo;die;Frist;Fristen;;;;;Amt;;B1
+nomen;la ley;das;Gesetz;Gesetze;;;;;Amt;;B1
+nomen;la norma;die;Regel;Regeln;;;;Vorschrift;Amt;;B1
 nomen;el derecho;das;Recht;Rechte;;;;;Amt;;A2
-nomen;la multa;die;Busse;Bussen;;;;Geldstrafe;Amt;;extra
-nomen;el pasaporte;der;Reisepass;Reisepässe;;;;;Amt;;extra
-nomen;el certificado de nacimiento;die;Geburtsurkunde;Geburtsurkunden;;;;;Amt;;extra
+nomen;la multa;die;Busse;Bussen;;;;Geldstrafe;Amt;;B1
+nomen;el pasaporte;der;Reisepass;Reisepässe;;;;;Amt;;B1
+nomen;el certificado de nacimiento;die;Geburtsurkunde;Geburtsurkunden;;;;;Amt;;B1
 nomen;el estado civil;der;Zivilstand;Zivilstände;;;;Familienstand;Amt;;A1
-nomen;la ciudadanía;die;Staatsangehörigkeit;Staatsangehörigkeiten;;;;;Amt;;extra
+nomen;la ciudadanía;die;Staatsangehörigkeit;Staatsangehörigkeiten;;;;;Amt;;B1
 nomen;la mudanza (registro);die;Anmeldung;Anmeldungen;;;;;Amt;;A1
-nomen;la cita previa;der;Termin beim Amt;Termine;;;;;Amt;;extra
+nomen;la cita previa;der;Termin beim Amt;Termine;;;;;Amt;;B1
 nomen;el funcionario;der;Beamte;Beamten;;;;;Amt;;A1
 nomen;la policía;die;Polizei;nur Singular;;;;;Amt;;A1
-nomen;los bomberos;die;Feuerwehr;Feuerwehren;;;;;Amt;;extra
-nomen;la emergencia;der;Notfall;Notfälle;;;;;Amt;;extra
-nomen;el barrio;das;Quartier;Quartiere;;;;Stadtteil;Stadt;;extra
+nomen;los bomberos;die;Feuerwehr;Feuerwehren;;;;;Amt;;B1
+nomen;la emergencia;der;Notfall;Notfälle;;;;;Amt;;B1
+nomen;el barrio;das;Quartier;Quartiere;;;;Stadtteil;Stadt;;B1
 nomen;el centro;das;Zentrum;Zentren;;;;;Stadt;;A2
-nomen;las afueras;der;Stadtrand;Stadtränder;;;;;Stadt;;extra
+nomen;las afueras;der;Stadtrand;Stadtränder;;;;;Stadt;;B1
 nomen;el puente;die;Brücke;Brücken;;;;;Stadt;;A2
-nomen;la acera;der;Gehweg;Gehwege;;;;Trottoir;Stadt;;extra
+nomen;la acera;der;Gehweg;Gehwege;;;;Trottoir;Stadt;;B1
 nomen;el parque;der;Park;Parks;;;;;Stadt;;A2
 nomen;el quiosco;der;Kiosk;Kioske;;;;;Stadt;;A1
 nomen;el cine;das;Kino;Kinos;;;;;Stadt;;A1
 nomen;el teatro;das;Theater;Theater;;;;;Stadt;;A2
-nomen;la peluquería;der;Frisör;Frisöre;;;;Coiffeur;Stadt;;extra
-nomen;el hospital de día;die;Klinik;Kliniken;;;;;Stadt;;extra
-nomen;el cementerio;der;Friedhof;Friedhöfe;;;;;Stadt;;extra
-nomen;la fuente;der;Brunnen;Brunnen;;;;;Stadt;;extra
+nomen;la peluquería;der;Frisör;Frisöre;;;;Coiffeur;Stadt;;B1
+nomen;el hospital de día;die;Klinik;Kliniken;;;;;Stadt;;B1
+nomen;el cementerio;der;Friedhof;Friedhöfe;;;;;Stadt;;B1
+nomen;la fuente;der;Brunnen;Brunnen;;;;;Stadt;;B1
 nomen;el castillo;das;Schloss;Schlösser;;;;;Stadt;;A2
-nomen;la torre;der;Turm;Türme;;;;;Stadt;;extra
-nomen;la vista;die;Aussicht;Aussichten;;;;;Stadt;;extra
+nomen;la torre;der;Turm;Türme;;;;;Stadt;;B1
+nomen;la vista;die;Aussicht;Aussichten;;;;;Stadt;;B1
 nomen;el tranvía;das;Tram;Trams;;;;Strassenbahn;Verkehr;;A1
-nomen;el metro;die;U-Bahn;U-Bahnen;;;;;Verkehr;;extra
+nomen;el metro;die;U-Bahn;U-Bahnen;;;;;Verkehr;;B1
 nomen;el barco;das;Schiff;Schiffe;;;;;Verkehr;;A2
-nomen;la moto;das;Motorrad;Motorräder;;;;;Verkehr;;extra
-nomen;el camión;der;Lastwagen;Lastwagen;;;;;Verkehr;;extra
+nomen;la moto;das;Motorrad;Motorräder;;;;;Verkehr;;B1
+nomen;el camión;der;Lastwagen;Lastwagen;;;;;Verkehr;;B1
 nomen;el taxi;das;Taxi;Taxis;;;;;Verkehr;;A1
 nomen;la vía del tren;das;Gleis;Gleise;;;;;Verkehr;;A1
-nomen;el asiento;der;Sitzplatz;Sitzplätze;;;;;Verkehr;;extra
+nomen;el asiento;der;Sitzplatz;Sitzplätze;;;;;Verkehr;;B1
 nomen;el conductor;der;Fahrer;Fahrer;;;;;Verkehr;;A1
-nomen;el pasajero;der;Fahrgast;Fahrgäste;;;;Passagier;Verkehr;;extra
-nomen;el atasco;der;Stau;Staus;;;;;Verkehr;;extra
+nomen;el pasajero;der;Fahrgast;Fahrgäste;;;;Passagier;Verkehr;;B1
+nomen;el atasco;der;Stau;Staus;;;;;Verkehr;;B1
 nomen;el accidente;der;Unfall;Unfälle;;;;;Verkehr;;A2
-nomen;el aparcamiento;der;Parkplatz;Parkplätze;;;;;Verkehr;;extra
-nomen;la velocidad;die;Geschwindigkeit;Geschwindigkeiten;;;;Tempo;Verkehr;;extra
+nomen;el aparcamiento;der;Parkplatz;Parkplätze;;;;;Verkehr;;B1
+nomen;la velocidad;die;Geschwindigkeit;Geschwindigkeiten;;;;Tempo;Verkehr;;B1
 nomen;la dirección (señas);die;Adresse;Adressen;;;;;Verkehr;;A1
 nomen;el equipaje;das;Gepäck;nur Singular;;;;;Verkehr;;A1
 nomen;la llegada;die;Ankunft;Ankünfte;;;;;Verkehr;;A1
 nomen;la salida (avión);der;Abflug;Abflüge;;;;;Verkehr;;A1
 nomen;el vuelo;der;Flug;Flüge;;;;;Verkehr;;A2
-nomen;la frontera;die;Grenze;Grenzen;;;;;Verkehr;;extra
+nomen;la frontera;die;Grenze;Grenzen;;;;;Verkehr;;B1
 nomen;la aduana;der;Zoll;Zölle;;;;;Verkehr;;A1
-nomen;el recuerdo (souvenir);das;Andenken;Andenken;;;;;Verkehr;;extra
+nomen;el recuerdo (souvenir);das;Andenken;Andenken;;;;;Verkehr;;B1
 nomen;la excursión;der;Ausflug;Ausflüge;;;;;Verkehr;;A1
-nomen;el camping;der;Campingplatz;Campingplätze;;;;;Verkehr;;extra
+nomen;el camping;der;Campingplatz;Campingplätze;;;;;Verkehr;;B1
 nomen;la recepción;die;Rezeption;Rezeptionen;;;;;Verkehr;;A1
 nomen;el lunes;der;Montag;Montage;;;;;Kalender;;A1
 nomen;el martes;der;Dienstag;Dienstage;;;;;Kalender;;A1
@@ -648,52 +648,52 @@ nomen;el verano;der;Sommer;Sommer;;;;;Kalender;;A1
 nomen;el otoño;der;Herbst;Herbste;;;;;Kalender;;A1
 nomen;el invierno;der;Winter;Winter;;;;;Kalender;;A1
 nomen;la fecha;das;Datum;Daten;;;;;Kalender;;A1
-nomen;el siglo;das;Jahrhundert;Jahrhunderte;;;;;Kalender;;extra
+nomen;el siglo;das;Jahrhundert;Jahrhunderte;;;;;Kalender;;B1
 nomen;el momento;der;Moment;Momente;;;;Augenblick;Kalender;;A1
-nomen;el futuro;die;Zukunft;nur Singular;;;;;Kalender;;extra
-nomen;el pasado;die;Vergangenheit;nur Singular;;;;;Kalender;;extra
-nomen;el presente;die;Gegenwart;nur Singular;;;;;Kalender;;extra
+nomen;el futuro;die;Zukunft;nur Singular;;;;;Kalender;;B1
+nomen;el pasado;die;Vergangenheit;nur Singular;;;;;Kalender;;B1
+nomen;el presente;die;Gegenwart;nur Singular;;;;;Kalender;;B1
 nomen;el principio;der;Anfang;Anfänge;;;;Beginn;Kalender;;A1
 nomen;el final;das;Ende;Enden;;;;Schluss;Kalender;;A1
-nomen;la Navidad;das;Weihnachten;nur Singular;;;;;Feste;;extra
-nomen;la Pascua;das;Ostern;nur Singular;;;;;Feste;;extra
-nomen;el Año Nuevo;das;Neujahr;nur Singular;;;;;Feste;;extra
+nomen;la Navidad;das;Weihnachten;nur Singular;;;;;Feste;;B1
+nomen;la Pascua;das;Ostern;nur Singular;;;;;Feste;;B1
+nomen;el Año Nuevo;das;Neujahr;nur Singular;;;;;Feste;;B1
 nomen;la boda;die;Hochzeit;Hochzeiten;;;;;Feste;;A1
-nomen;el bautizo;die;Taufe;Taufen;;;;;Feste;;extra
-nomen;el entierro;die;Beerdigung;Beerdigungen;;;;;Feste;;extra
-nomen;el aniversario;der;Jahrestag;Jahrestage;;;;;Feste;;extra
+nomen;el bautizo;die;Taufe;Taufen;;;;;Feste;;B1
+nomen;el entierro;die;Beerdigung;Beerdigungen;;;;;Feste;;B1
+nomen;el aniversario;der;Jahrestag;Jahrestage;;;;;Feste;;B1
 nomen;la invitación;die;Einladung;Einladungen;;;;;Feste;;A1
 nomen;el invitado;der;Gast;Gäste;;;;;Feste;;A1
-nomen;la sorpresa;die;Überraschung;Überraschungen;;;;;Feste;;extra
-nomen;la costumbre;die;Sitte;Sitten;;;;Brauch;Feste;;extra
-nomen;la vaca;die;Kuh;Kühe;;;;;Natur;;extra
+nomen;la sorpresa;die;Überraschung;Überraschungen;;;;;Feste;;B1
+nomen;la costumbre;die;Sitte;Sitten;;;;Brauch;Feste;;B1
+nomen;la vaca;die;Kuh;Kühe;;;;;Natur;;B1
 nomen;el caballo;das;Pferd;Pferde;;;;;Natur;;A2
 nomen;el cerdo;das;Schwein;Schweine;;;;;Natur;;A2
-nomen;la oveja;das;Schaf;Schafe;;;;;Natur;;extra
-nomen;la gallina;das;Huhn;Hühner;;;;;Natur;;extra
+nomen;la oveja;das;Schaf;Schafe;;;;;Natur;;B1
+nomen;la gallina;das;Huhn;Hühner;;;;;Natur;;B1
 nomen;el pájaro;der;Vogel;Vögel;;;;;Natur;;A2
-nomen;el ratón (animal);die;Maus (Tier);Mäuse;;;;;Natur;;extra
-nomen;la abeja;die;Biene;Bienen;;;;;Natur;;extra
-nomen;la mosca;die;Fliege;Fliegen;;;;;Natur;;extra
-nomen;la araña;die;Spinne;Spinnen;;;;;Natur;;extra
+nomen;el ratón (animal);die;Maus (Tier);Mäuse;;;;;Natur;;B1
+nomen;la abeja;die;Biene;Bienen;;;;;Natur;;B1
+nomen;la mosca;die;Fliege;Fliegen;;;;;Natur;;B1
+nomen;la araña;die;Spinne;Spinnen;;;;;Natur;;B1
 nomen;la hoja;das;Blatt;Blätter;;;;;Natur;;A2
-nomen;la hierba;das;Gras;Gräser;;;;;Natur;;extra
-nomen;la piedra;der;Stein;Steine;;;;;Natur;;extra
-nomen;la arena;der;Sand;nur Singular;;;;;Natur;;extra
+nomen;la hierba;das;Gras;Gräser;;;;;Natur;;B1
+nomen;la piedra;der;Stein;Steine;;;;;Natur;;B1
+nomen;la arena;der;Sand;nur Singular;;;;;Natur;;B1
 nomen;la playa;der;Strand;Strände;;;;;Natur;;A2
 nomen;la isla;die;Insel;Inseln;;;;;Natur;;A2
-nomen;el valle;das;Tal;Täler;;;;;Natur;;extra
-nomen;el campo;das;Feld;Felder;;;;;Natur;;extra
+nomen;el valle;das;Tal;Täler;;;;;Natur;;B1
+nomen;el campo;das;Feld;Felder;;;;;Natur;;B1
 nomen;el cielo;der;Himmel;Himmel;;;;;Natur;;A2
-nomen;la luna;der;Mond;Monde;;;;;Natur;;extra
-nomen;la estrella;der;Stern;Sterne;;;;;Natur;;extra
+nomen;la luna;der;Mond;Monde;;;;;Natur;;B1
+nomen;la estrella;der;Stern;Sterne;;;;;Natur;;B1
 nomen;la tormenta;das;Gewitter;Gewitter;;;;;Natur;;A2
-nomen;la niebla;der;Nebel;Nebel;;;;;Natur;;extra
+nomen;la niebla;der;Nebel;Nebel;;;;;Natur;;B1
 nomen;el hielo;das;Eis (gefroren);nur Singular;;;;;Natur;;A2
-nomen;la temperatura;die;Temperatur;Temperaturen;;;;;Natur;;extra
+nomen;la temperatura;die;Temperatur;Temperaturen;;;;;Natur;;B1
 nomen;el grado;der;Grad;Grade;;;;;Natur;;A1
-nomen;el medio ambiente;die;Umwelt;nur Singular;;;;;Natur;;extra
-nomen;el aire;die;Luft;nur Singular;;;;;Natur;;extra
+nomen;el medio ambiente;die;Umwelt;nur Singular;;;;;Natur;;B1
+nomen;el aire;die;Luft;nur Singular;;;;;Natur;;B1
 nomen;el fuego;das;Feuer;Feuer;;;;;Natur;;A1
 nomen;el mundo;die;Welt;Welten;;;;;Natur;;A1
 nomen;la naturaleza;die;Natur;nur Singular;;;;;Natur;;A2
@@ -701,84 +701,84 @@ nomen;el paseo;der;Spaziergang;Spaziergänge;;;;;Freizeit;;A2
 nomen;el pasatiempo;das;Hobby;Hobbys;;;;;Freizeit;;A1
 nomen;el concierto;das;Konzert;Konzerte;;;;;Freizeit;;A2
 nomen;la exposición;die;Ausstellung;Ausstellungen;;;;;Freizeit;;A2
-nomen;el escenario;die;Bühne;Bühnen;;;;;Freizeit;;extra
-nomen;el artista;der;Künstler;Künstler;;;;;Freizeit;;extra
-nomen;el actor;der;Schauspieler;Schauspieler;;;;;Freizeit;;extra
-nomen;el autor;der;Autor;Autoren;;;;Schriftsteller;Freizeit;;extra
+nomen;el escenario;die;Bühne;Bühnen;;;;;Freizeit;;B1
+nomen;el artista;der;Künstler;Künstler;;;;;Freizeit;;B1
+nomen;el actor;der;Schauspieler;Schauspieler;;;;;Freizeit;;B1
+nomen;el autor;der;Autor;Autoren;;;;Schriftsteller;Freizeit;;B1
 nomen;la historia (relato);die;Geschichte;Geschichten;;;;;Freizeit;;A2
 nomen;la revista;die;Zeitschrift;Zeitschriften;;;;;Freizeit;;A2
-nomen;el capítulo;das;Kapitel;Kapitel;;;;;Freizeit;;extra
+nomen;el capítulo;das;Kapitel;Kapitel;;;;;Freizeit;;B1
 nomen;el equipo (deporte);die;Mannschaft;Mannschaften;;;;;Freizeit;;A2
-nomen;el jugador;der;Spieler;Spieler;;;;;Freizeit;;extra
+nomen;el jugador;der;Spieler;Spieler;;;;;Freizeit;;B1
 nomen;el entrenamiento;das;Training;nur Singular;;;;;Freizeit;;A2
-nomen;el gimnasio;das;Fitnessstudio;Fitnessstudios;;;;;Freizeit;;extra
-nomen;la carrera (correr);der;Lauf;Läufe;;;;;Freizeit;;extra
-nomen;el ganador;der;Gewinner;Gewinner;;;;Sieger;Freizeit;;extra
-nomen;la derrota;die;Niederlage;Niederlagen;;;;;Freizeit;;extra
-nomen;la entrada (billete);die;Eintrittskarte;Eintrittskarten;;;;;Freizeit;;extra
+nomen;el gimnasio;das;Fitnessstudio;Fitnessstudios;;;;;Freizeit;;B1
+nomen;la carrera (correr);der;Lauf;Läufe;;;;;Freizeit;;B1
+nomen;el ganador;der;Gewinner;Gewinner;;;;Sieger;Freizeit;;B1
+nomen;la derrota;die;Niederlage;Niederlagen;;;;;Freizeit;;B1
+nomen;la entrada (billete);die;Eintrittskarte;Eintrittskarten;;;;;Freizeit;;B1
 nomen;el club;der;Verein;Vereine;;;;;Freizeit;;A1
-nomen;la vela;die;Kerze;Kerzen;;;;;Freizeit;;extra
-nomen;el juguete;das;Spielzeug;Spielzeuge;;;;;Freizeit;;extra
+nomen;la vela;die;Kerze;Kerzen;;;;;Freizeit;;B1
+nomen;el juguete;das;Spielzeug;Spielzeuge;;;;;Freizeit;;B1
 nomen;el miedo;die;Angst;Ängste;;;;;Gefühle;;A2
-nomen;la alegría;die;Freude;Freuden;;;;;Gefühle;;extra
+nomen;la alegría;die;Freude;Freuden;;;;;Gefühle;;B1
 nomen;el amor;die;Liebe;nur Singular;;;;;Gefühle;;A2
-nomen;la ira;die;Wut;nur Singular;;;;Ärger;Gefühle;;extra
-nomen;la tristeza;die;Trauer;nur Singular;;;;;Gefühle;;extra
-nomen;la esperanza;die;Hoffnung;Hoffnungen;;;;;Gefühle;;extra
-nomen;la preocupación;die;Sorge;Sorgen;;;;;Gefühle;;extra
+nomen;la ira;die;Wut;nur Singular;;;;Ärger;Gefühle;;B1
+nomen;la tristeza;die;Trauer;nur Singular;;;;;Gefühle;;B1
+nomen;la esperanza;die;Hoffnung;Hoffnungen;;;;;Gefühle;;B1
+nomen;la preocupación;die;Sorge;Sorgen;;;;;Gefühle;;B1
 nomen;el estrés;der;Stress;nur Singular;;;;;Gefühle;;A2
-nomen;la confianza;das;Vertrauen;nur Singular;;;;;Gefühle;;extra
-nomen;la paciencia;die;Geduld;nur Singular;;;;;Gefühle;;extra
-nomen;el humor;die;Laune;Launen;;;;Stimmung;Gefühle;;extra
-nomen;el orgullo;der;Stolz;nur Singular;;;;;Gefühle;;extra
-nomen;la vergüenza;die;Scham;nur Singular;;;;;Gefühle;;extra
+nomen;la confianza;das;Vertrauen;nur Singular;;;;;Gefühle;;B1
+nomen;la paciencia;die;Geduld;nur Singular;;;;;Gefühle;;B1
+nomen;el humor;die;Laune;Launen;;;;Stimmung;Gefühle;;B1
+nomen;el orgullo;der;Stolz;nur Singular;;;;;Gefühle;;B1
+nomen;la vergüenza;die;Scham;nur Singular;;;;;Gefühle;;B1
 nomen;el deseo;der;Wunsch;Wünsche;;;;;Gefühle;;A2
 nomen;la opinión;die;Meinung;Meinungen;;;;;Abstrakt;;A2
 nomen;la idea;die;Idee;Ideen;;;;;Abstrakt;;A2
-nomen;la razón;der;Grund;Gründe;;;;;Abstrakt;;extra
-nomen;la posibilidad;die;Möglichkeit;Möglichkeiten;;;;;Abstrakt;;extra
-nomen;la decisión;die;Entscheidung;Entscheidungen;;;;;Abstrakt;;extra
+nomen;la razón;der;Grund;Gründe;;;;;Abstrakt;;B1
+nomen;la posibilidad;die;Möglichkeit;Möglichkeiten;;;;;Abstrakt;;B1
+nomen;la decisión;die;Entscheidung;Entscheidungen;;;;;Abstrakt;;B1
 nomen;el problema;das;Problem;Probleme;;;;;Abstrakt;;A1
 nomen;la solución;die;Lösung;Lösungen;;;;;Abstrakt;;A1
 nomen;la diferencia;der;Unterschied;Unterschiede;;;;;Abstrakt;;A2
-nomen;la ventaja;der;Vorteil;Vorteile;;;;;Abstrakt;;extra
-nomen;la desventaja;der;Nachteil;Nachteile;;;;;Abstrakt;;extra
+nomen;la ventaja;der;Vorteil;Vorteile;;;;;Abstrakt;;B1
+nomen;la desventaja;der;Nachteil;Nachteile;;;;;Abstrakt;;B1
 nomen;el objetivo;das;Ziel;Ziele;;;;;Abstrakt;;A2
 nomen;el resultado;das;Ergebnis;Ergebnisse;;;;;Abstrakt;;A1
-nomen;el ejemplo práctico;der;Fall;Fälle;;;;;Abstrakt;;extra
+nomen;el ejemplo práctico;der;Fall;Fälle;;;;;Abstrakt;;B1
 nomen;la ayuda;die;Hilfe;Hilfen;;;;;Abstrakt;;A1
-nomen;el consejo;der;Rat;Ratschläge;;;;;Abstrakt;;extra
+nomen;el consejo;der;Rat;Ratschläge;;;;;Abstrakt;;B1
 nomen;el favor;der;Gefallen;Gefallen;;;;;Abstrakt;;A1
 nomen;la suerte;das;Glück;nur Singular;;;;;Abstrakt;;A1
-nomen;la mala suerte;das;Pech;nur Singular;;;;;Abstrakt;;extra
-nomen;la verdad;die;Wahrheit;Wahrheiten;;;;;Abstrakt;;extra
+nomen;la mala suerte;das;Pech;nur Singular;;;;;Abstrakt;;B1
+nomen;la verdad;die;Wahrheit;Wahrheiten;;;;;Abstrakt;;B1
 nomen;la mentira;die;Lüge;Lügen;;;;;Abstrakt;;A2
 nomen;la vida;das;Leben;Leben;;;;;Abstrakt;;A1
-nomen;la muerte;der;Tod;nur Singular;;;;;Abstrakt;;extra
+nomen;la muerte;der;Tod;nur Singular;;;;;Abstrakt;;B1
 nomen;la salud;die;Gesundheit;nur Singular;;;;;Abstrakt;;A2
-nomen;el peligro;die;Gefahr;Gefahren;;;;;Abstrakt;;extra
-nomen;la seguridad;die;Sicherheit;nur Singular;;;;;Abstrakt;;extra
-nomen;la libertad;die;Freiheit;Freiheiten;;;;;Abstrakt;;extra
-nomen;la paz;der;Frieden;nur Singular;;;;;Abstrakt;;extra
-nomen;la guerra;der;Krieg;Kriege;;;;;Abstrakt;;extra
-nomen;el poder;die;Macht;Mächte;;;;;Abstrakt;;extra
-nomen;la sociedad;die;Gesellschaft;Gesellschaften;;;;;Abstrakt;;extra
-nomen;la religión;die;Religion;Religionen;;;;;Abstrakt;;extra
+nomen;el peligro;die;Gefahr;Gefahren;;;;;Abstrakt;;B1
+nomen;la seguridad;die;Sicherheit;nur Singular;;;;;Abstrakt;;B1
+nomen;la libertad;die;Freiheit;Freiheiten;;;;;Abstrakt;;B1
+nomen;la paz;der;Frieden;nur Singular;;;;;Abstrakt;;B1
+nomen;la guerra;der;Krieg;Kriege;;;;;Abstrakt;;B1
+nomen;el poder;die;Macht;Mächte;;;;;Abstrakt;;B1
+nomen;la sociedad;die;Gesellschaft;Gesellschaften;;;;;Abstrakt;;B1
+nomen;la religión;die;Religion;Religionen;;;;;Abstrakt;;B1
 nomen;la cultura;die;Kultur;Kulturen;;;;;Abstrakt;;A2
 nomen;la historia (ciencia);die;Geschichte (Fach);nur Singular;;;;;Abstrakt;;A2
-nomen;el cambio;die;Veränderung;Veränderungen;;;;;Abstrakt;;extra
-nomen;el desarrollo;die;Entwicklung;Entwicklungen;;;;;Abstrakt;;extra
+nomen;el cambio;die;Veränderung;Veränderungen;;;;;Abstrakt;;B1
+nomen;el desarrollo;die;Entwicklung;Entwicklungen;;;;;Abstrakt;;B1
 nomen;la parte;der;Teil;Teile;;;;;Abstrakt;;A1
 nomen;el número;die;Zahl;Zahlen;;;;Nummer;Abstrakt;;A1
-nomen;la mitad;die;Hälfte;Hälften;;;;;Abstrakt;;extra
+nomen;la mitad;die;Hälfte;Hälften;;;;;Abstrakt;;B1
 nomen;el peso;das;Gewicht;Gewichte;;;;;Abstrakt;;A1
-nomen;la altura;die;Höhe;Höhen;;;;;Abstrakt;;extra
-nomen;la anchura;die;Breite;Breiten;;;;;Abstrakt;;extra
-nomen;la longitud;die;Länge;Längen;;;;;Abstrakt;;extra
-nomen;la distancia;die;Entfernung;Entfernungen;;;;Distanz;Abstrakt;;extra
+nomen;la altura;die;Höhe;Höhen;;;;;Abstrakt;;B1
+nomen;la anchura;die;Breite;Breiten;;;;;Abstrakt;;B1
+nomen;la longitud;die;Länge;Längen;;;;;Abstrakt;;B1
+nomen;la distancia;die;Entfernung;Entfernungen;;;;Distanz;Abstrakt;;B1
 nomen;el color;die;Farbe;Farben;;;;;Abstrakt;;A1
-nomen;la forma;die;Form;Formen;;;;;Abstrakt;;extra
-nomen;el tipo;die;Art;Arten;;;;Sorte;Abstrakt;;extra
+nomen;la forma;die;Form;Formen;;;;;Abstrakt;;B1
+nomen;el tipo;die;Art;Arten;;;;Sorte;Abstrakt;;B1
 verb;poder;;können;;Modalverb;hat gekonnt;Ich kann gut schwimmen.;;Abstrakt;;A1
 verb;tener que;;müssen;;Modalverb;hat gemusst;Ich muss heute arbeiten.;;Abstrakt;;A1
 verb;querer (hacer algo);;wollen;;Modalverb;hat gewollt;Sie will nach Hause gehen.;;Abstrakt;;A1
@@ -792,7 +792,7 @@ verb;llegar a ser;;werden;;ohne Objekt;ist geworden;Es wird kalt.;;Abstrakt;;A1
 verb;decir;;sagen;;Akkusativ;hat gesagt;Sag mir die Wahrheit!;;Abstrakt;;A1
 verb;saber (un dato);;wissen;;Akkusativ;hat gewusst;Ich weiss die Antwort.;;Bildung;;A1
 verb;quedar con;;treffen;;Akkusativ;hat getroffen;Ich treffe meine Freundin.;;Menschen;;A1
-verb;dejar (un lugar);;verlassen;;Akkusativ;hat verlassen;Er verlässt das Haus.;;Wohnen;;extra
+verb;dejar (un lugar);;verlassen;;Akkusativ;hat verlassen;Er verlässt das Haus.;;Wohnen;;B1
 verb;recibir;;bekommen;;Akkusativ;hat bekommen;Ich bekomme einen Brief.;erhalten;Geld;;A1
 verb;ir a buscar;;holen;;Akkusativ;hat geholt;Ich hole das Paket.;;Verkehr;;A1
 verb;poner (acostado);;legen;;Akkusativ;hat gelegt;Ich lege das Buch auf den Tisch.;;Wohnen;;A1
@@ -812,10 +812,10 @@ verb;jugar / tocar;;spielen;;Akkusativ;hat gespielt;Er spielt Gitarre.;;Freizeit
 verb;practicar;;üben;;Akkusativ;hat geübt;Sie übt die Vokabeln.;;Bildung;;A2
 verb;comprobar;;prüfen;;Akkusativ;hat geprüft;Prüfe die Rechnung!;kontrollieren;Bildung;;A2
 verb;cambiar (algo);;ändern;;Akkusativ;hat geändert;Ich ändere den Termin.;;Abstrakt;;A2
-verb;mejorar;;verbessern;;Akkusativ;hat verbessert;Sie verbessert ihr Deutsch.;;Abstrakt;;extra
+verb;mejorar;;verbessern;;Akkusativ;hat verbessert;Sie verbessert ihr Deutsch.;;Abstrakt;;B1
 verb;planificar;;planen;;Akkusativ;hat geplant;Wir planen die Reise.;;Arbeit;;A2
 verb;organizar;;organisieren;;Akkusativ;hat organisiert;Er organisiert das Fest.;;Arbeit;;A2
-verb;decidir;;entscheiden;;Akkusativ;hat entschieden;Das musst du selbst entscheiden.;;Bildung;;extra
+verb;decidir;;entscheiden;;Akkusativ;hat entschieden;Das musst du selbst entscheiden.;;Bildung;;B1
 verb;elegir;;wählen;;Akkusativ;hat gewählt;Wählen Sie ein Gericht!;;Bildung;;A2
 verb;comparar;;vergleichen;;Akkusativ;hat verglichen;Vergleich die Preise!;;Bildung;;A2
 verb;describir;;beschreiben;;Akkusativ;hat beschrieben;Beschreib das Bild!;;Bildung;;A2
@@ -833,10 +833,10 @@ verb;gastar;;ausgeben;;Akkusativ;hat ausgegeben;Wir geben zu viel Geld aus.;;Gel
 verb;ahorrar;;sparen;;Akkusativ;hat gespart;Sie sparen Geld für ein Haus.;;Geld;;A2
 verb;alquilar (tomar);;mieten;;Akkusativ;hat gemietet;Wir mieten eine Wohnung.;;Wohnen;;A1
 verb;alquilar (dar);;vermieten;;Dativ + Akkusativ;hat vermietet;Er vermietet uns das Zimmer.;;Wohnen;;A1
-verb;cancelar;;absagen;;Akkusativ;hat abgesagt;Ich muss den Termin absagen.;;Arbeit;;extra
+verb;cancelar;;absagen;;Akkusativ;hat abgesagt;Ich muss den Termin absagen.;;Arbeit;;B1
 verb;aplazar;;verschieben;;Akkusativ;hat verschoben;Wir verschieben das Treffen.;;Arbeit;;A2
 verb;molestar;;stören;;Akkusativ;hat gestört;Der Lärm stört mich.;;Gefühle;;A2
-verb;echar de menos;;vermissen;;Akkusativ;hat vermisst;Ich vermisse meine Familie.;;Gefühle;;extra
+verb;echar de menos;;vermissen;;Akkusativ;hat vermisst;Ich vermisse meine Familie.;;Gefühle;;B1
 verb;llevar consigo;;mitnehmen;;Akkusativ;hat mitgenommen;Nimm den Schirm mit!;;Verkehr;;A1
 verb;encender;;anmachen;;Akkusativ;hat angemacht;Mach bitte das Licht an!;einschalten;Wohnen;;A1
 verb;apagar;;ausmachen;;Akkusativ;hat ausgemacht;Mach den Fernseher aus!;ausschalten;Wohnen;;A1
@@ -844,18 +844,18 @@ verb;costar;;kosten;;Akkusativ;hat gekostet;Das Ticket kostet zehn Franken.;;Gel
 verb;fumar;;rauchen;;Akkusativ;hat geraucht;Hier darf man nicht rauchen.;;Gesundheit;;A1
 verb;traer consigo;;mitbringen;;Dativ + Akkusativ;hat mitgebracht;Ich bringe dir einen Kaffee mit.;;Verkehr;;A1
 verb;devolver;;zurückgeben;;Dativ + Akkusativ;hat zurückgegeben;Gib mir das Buch zurück!;;Abstrakt;;A2
-verb;prometer;;versprechen;;Dativ + Akkusativ;hat versprochen;Er verspricht ihr eine Reise.;;Menschen;;extra
+verb;prometer;;versprechen;;Dativ + Akkusativ;hat versprochen;Er verspricht ihr eine Reise.;;Menschen;;B1
 verb;prohibir;;verbieten;;Dativ + Akkusativ;hat verboten;Der Arzt verbietet ihm den Zucker.;;Menschen;;A2
 verb;permitir;;erlauben;;Dativ + Akkusativ;hat erlaubt;Die Eltern erlauben dem Kind das Spiel.;;Menschen;;A1
 verb;desear;;wünschen;;Dativ + Akkusativ;hat gewünscht;Ich wünsche dir viel Glück.;;Menschen;;A2
 verb;ofrecer;;anbieten;;Dativ + Akkusativ;hat angeboten;Sie bietet uns einen Tee an.;;Menschen;;A1
-verb;comunicar;;mitteilen;;Dativ + Akkusativ;hat mitgeteilt;Teilen Sie uns die Adresse mit!;;Arbeit;;extra
-verb;perjudicar;;schaden;;Dativ;hat geschadet;Rauchen schadet der Gesundheit.;;Abstrakt;;extra
-verb;confiar en;;vertrauen;;Dativ;hat vertraut;Ich vertraue meinem Mann.;;Menschen;;extra
-verb;contradecir;;widersprechen;;Dativ;hat widersprochen;Sie widerspricht dem Chef.;;Menschen;;extra
-verb;estar de acuerdo;;zustimmen;;Dativ;hat zugestimmt;Ich stimme dir zu.;;Menschen;;extra
-verb;salir bien;;gelingen;;Dativ;ist gelungen;Der Kuchen ist mir gelungen.;;Abstrakt;;extra
-verb;bastar;;reichen;;Dativ;hat gereicht;Das Geld reicht mir nicht.;;Abstrakt;;extra
+verb;comunicar;;mitteilen;;Dativ + Akkusativ;hat mitgeteilt;Teilen Sie uns die Adresse mit!;;Arbeit;;B1
+verb;perjudicar;;schaden;;Dativ;hat geschadet;Rauchen schadet der Gesundheit.;;Abstrakt;;B1
+verb;confiar en;;vertrauen;;Dativ;hat vertraut;Ich vertraue meinem Mann.;;Menschen;;B1
+verb;contradecir;;widersprechen;;Dativ;hat widersprochen;Sie widerspricht dem Chef.;;Menschen;;B1
+verb;estar de acuerdo;;zustimmen;;Dativ;hat zugestimmt;Ich stimme dir zu.;;Menschen;;B1
+verb;salir bien;;gelingen;;Dativ;ist gelungen;Der Kuchen ist mir gelungen.;;Abstrakt;;B1
+verb;bastar;;reichen;;Dativ;hat gereicht;Das Geld reicht mir nicht.;;Abstrakt;;B1
 verb;darse prisa;;sich beeilen;;ohne Objekt;hat sich beeilt;Beeil dich, der Zug fährt!;beeilen;Gesundheit;;A2
 verb;descansar;;sich ausruhen;;ohne Objekt;hat sich ausgeruht;Ich ruhe mich kurz aus.;ausruhen;Gesundheit;;A2
 verb;vestirse;;sich anziehen;;Akkusativ;hat sich angezogen;Zieh dich warm an!;anziehen;Kleidung;;A1
@@ -866,15 +866,15 @@ verb;quedar con alguien;;sich verabreden;;sich verabreden mit + Dativ;hat sich v
 verb;pelearse;;sich streiten;;sich streiten mit + Dativ;hat sich gestritten;Sie streitet sich mit dem Nachbarn.;streiten;Menschen;;A2
 verb;disculparse;;sich entschuldigen;;sich entschuldigen bei + Dativ;hat sich entschuldigt;Ich entschuldige mich bei dir.;entschuldigen;Menschen;;A1
 verb;quejarse;;sich beschweren;;sich beschweren über + Akkusativ;hat sich beschwert;Er beschwert sich über den Lärm.;beschweren;Menschen;;A2
-verb;acostumbrarse a;;sich gewöhnen;;sich gewöhnen an + Akkusativ;hat sich gewöhnt;Ich gewöhne mich an das Wetter.;gewöhnen;Abstrakt;;extra
+verb;acostumbrarse a;;sich gewöhnen;;sich gewöhnen an + Akkusativ;hat sich gewöhnt;Ich gewöhne mich an das Wetter.;gewöhnen;Abstrakt;;B1
 verb;presentarse;;sich vorstellen;;sich vorstellen bei + Dativ;hat sich vorgestellt;Sie stellt sich bei der Firma vor.;vorstellen;Menschen;;A1
 verb;informarse sobre;;sich informieren;;sich informieren über + Akkusativ;hat sich informiert;Wir informieren uns über den Kurs.;informieren;Bildung;;A2
 verb;solicitar (un empleo);;sich bewerben;;sich bewerben um + Akkusativ;hat sich beworben;Er bewirbt sich um die Stelle.;bewerben;Arbeit;;A2
 verb;inscribirse;;sich anmelden;;sich anmelden bei + Dativ;hat sich angemeldet;Ich melde mich bei der Schule an.;anmelden;Amt;;A1
 verb;agradecer (formal);;sich bedanken;;sich bedanken für + Akkusativ;hat sich bedankt;Sie bedankt sich für das Geschenk.;bedanken;Menschen;;A2
 verb;esperar (desear);;hoffen;;hoffen auf + Akkusativ;hat gehofft;Wir hoffen auf gutes Wetter.;;Gefühle;;A2
-verb;prestar atención;;achten;;achten auf + Akkusativ;hat geachtet;Achte auf die Kinder!;;Abstrakt;;extra
-verb;ocuparse de;;sorgen;;sorgen für + Akkusativ;hat gesorgt;Er sorgt für die Familie.;;Menschen;;extra
+verb;prestar atención;;achten;;achten auf + Akkusativ;hat geachtet;Achte auf die Kinder!;;Abstrakt;;B1
+verb;ocuparse de;;sorgen;;sorgen für + Akkusativ;hat gesorgt;Er sorgt für die Familie.;;Menschen;;B1
 verb;consistir en;;bestehen;;bestehen aus + Dativ;hat bestanden;Das Team besteht aus zehn Personen.;;Einkaufen;;A2
 verb;soñar con;;träumen;;träumen von + Dativ;hat geträumt;Sie träumt von einem Haus.;;Gefühle;;A2
 verb;debatir;;diskutieren;;diskutieren über + Akkusativ;hat diskutiert;Wir diskutieren über den Preis.;;Bildung;;A2
@@ -885,12 +885,12 @@ verb;hacer transbordo;;umsteigen;;ohne Objekt;ist umgestiegen;In Zürich musst d
 verb;llegar;;ankommen;;ohne Objekt;ist angekommen;Der Zug kommt um acht an.;;Verkehr;;A1
 verb;salir (un vehículo);;abfahren;;ohne Objekt;ist abgefahren;Der Bus fährt gleich ab.;;Verkehr;;A1
 verb;volver;;zurückkommen;;ohne Objekt;ist zurückgekommen;Sie kommt am Montag zurück.;;Verkehr;;A2
-verb;irse;;weggehen;;ohne Objekt;ist weggegangen;Er ist früh weggegangen.;;Verkehr;;extra
+verb;irse;;weggehen;;ohne Objekt;ist weggegangen;Er ist früh weggegangen.;;Verkehr;;B1
 verb;pasear;;spazieren gehen;;ohne Objekt;ist spazieren gegangen;Wir gehen im Park spazieren.;spazieren;Stadt;;A2
 verb;hacer senderismo;;wandern;;ohne Objekt;ist gewandert;Sie wandern in den Bergen.;;Verkehr;;A1
 verb;viajar;;reisen;;ohne Objekt;ist gereist;Wir reisen nach Italien.;;Verkehr;;A1
 verb;mudarse;;umziehen;;ohne Objekt;ist umgezogen;Sie ziehen nach Baden um.;;Wohnen;;A1
-verb;crecer;;wachsen;;ohne Objekt;ist gewachsen;Die Kinder wachsen schnell.;;Natur;;extra
+verb;crecer;;wachsen;;ohne Objekt;ist gewachsen;Die Kinder wachsen schnell.;;Natur;;B1
 verb;morir;;sterben;;ohne Objekt;ist gestorben;Ihr Grossvater ist letztes Jahr gestorben.;;Natur;;A2
 verb;estar sentado;;sitzen;;ohne Objekt;hat gesessen;Ich sitze am Tisch.;;Wohnen;;A1
 verb;estar de pie;;stehen;;ohne Objekt;hat gestanden;Er steht vor der Tür.;;Wohnen;;A1
@@ -898,7 +898,7 @@ verb;estar tumbado;;liegen;;ohne Objekt;hat gelegen;Das Buch liegt auf dem Bett.
 verb;vivir (existir);;leben;;ohne Objekt;hat gelebt;Meine Eltern leben in Kolumbien.;;Menschen;;A1
 verb;llorar;;weinen;;ohne Objekt;hat geweint;Das Kind weint.;;Gefühle;;A2
 verb;bailar;;tanzen;;ohne Objekt;hat getanzt;Wir tanzen gern.;;Freizeit;;A1
-verb;funcionar;;funktionieren;;ohne Objekt;hat funktioniert;Der Drucker funktioniert nicht.;;Technik;;extra
+verb;funcionar;;funktionieren;;ohne Objekt;hat funktioniert;Der Drucker funktioniert nicht.;;Technik;;B1
 verb;durar;;dauern;;ohne Objekt;hat gedauert;Der Kurs dauert zwei Stunden.;;Zeit;;A1
 verb;llover;;regnen;;ohne Objekt;hat geregnet;Es regnet seit gestern.;;Natur;;A1
 verb;nevar;;schneien;;ohne Objekt;hat geschneit;Im Januar schneit es oft.;;Natur;;A2
@@ -912,7 +912,7 @@ adjektiv;negro;;schwarz;;;;Ich trinke den Kaffee schwarz.;;Farben;;A1
 adjektiv;blanco;;weiss;;;;Das Hemd ist weiss.;weiß;Farben;;A1
 adjektiv;gris;;grau;;;;Der Himmel ist heute grau.;;Farben;;A1
 adjektiv;marrón;;braun;;;;Sie hat braune Augen.;;Farben;;A1
-adjektiv;rosa;;rosa;;;;Das Kleid ist rosa.;;Farben;;extra
+adjektiv;rosa;;rosa;;;;Das Kleid ist rosa.;;Farben;;B1
 adjektiv;claro;;hell;;;;Das Zimmer ist hell.;;Farben;;A1
 adjektiv;oscuro;;dunkel;;;;Draussen ist es schon dunkel.;;Farben;;A2
 adjektiv;joven;;jung;;;;Sie ist noch jung.;;Menschen;;A1
@@ -926,7 +926,7 @@ adjektiv;duro;;hart;;;;Das Brot ist hart.;;Menge & Grad;;A2
 adjektiv;blando;;weich;;;;Das Bett ist weich.;;Menge & Grad;;A2
 adjektiv;dulce;;süss;;;;Der Kuchen ist süss.;süß;Essen;;A2
 adjektiv;ácido;;sauer;;;;Die Zitrone ist sauer.;;Essen;;A2
-adjektiv;salado;;salzig;;;;Die Suppe ist zu salzig.;;Essen;;extra
+adjektiv;salado;;salzig;;;;Die Suppe ist zu salzig.;;Essen;;B1
 adjektiv;picante;;scharf;;;;Das Essen ist scharf.;;Essen;;A2
 adjektiv;fresco;;frisch;;;;Das Brot ist frisch.;;Essen;;A2
 adjektiv;seco;;trocken;;;;Die Wäsche ist trocken.;;Natur;;A2
@@ -937,11 +937,11 @@ adjektiv;práctico;;praktisch;;;;Die Tasche ist praktisch.;;Wohnen;;A2
 adjektiv;útil;;nützlich;;;;Der Kurs war sehr nützlich.;;Bildung;;A2
 adjektiv;necesario;;nötig;;;;Das ist nicht nötig.;notwendig;Abstrakt;;A2
 adjektiv;posible;;möglich;;;;Ist das möglich?;;Abstrakt;;A1
-adjektiv;imposible;;unmöglich;;;;Das ist leider unmöglich.;;Abstrakt;;extra
+adjektiv;imposible;;unmöglich;;;;Das ist leider unmöglich.;;Abstrakt;;B1
 adjektiv;correcto;;richtig;;;;Die Antwort ist richtig.;;Bildung;;A1
 adjektiv;incorrecto;;falsch;;;;Die Nummer ist falsch.;;Bildung;;A1
 adjektiv;igual;;gleich;;;;Wir haben die gleiche Idee.;;Bildung;;A1
-adjektiv;parecido;;ähnlich;;;;Die Wörter sind ähnlich.;;Bildung;;extra
+adjektiv;parecido;;ähnlich;;;;Die Wörter sind ähnlich.;;Bildung;;B1
 adjektiv;diferente;;verschieden;;;;Die Preise sind verschieden.;unterschiedlich;Bildung;;A2
 adjektiv;entero;;ganz;;;;Ich habe den ganzen Tag gearbeitet.;;Menge & Grad;;A2
 adjektiv;medio;;halb;;;;Ich warte eine halbe Stunde.;;Menge & Grad;;A1
@@ -953,51 +953,51 @@ adjektiv;trabajador;;fleissig;;;;Sie ist eine fleissige Schülerin.;fleißig;Men
 adjektiv;perezoso;;faul;;;;Heute bin ich faul.;;Menschen;;A2
 adjektiv;inteligente;;klug;;;;Das Kind ist sehr klug.;intelligent;Menschen;;A2
 adjektiv;tonto;;dumm;;;;Das war eine dumme Idee.;;Menschen;;A2
-adjektiv;cortés;;höflich;;;;Er ist immer höflich.;;Menschen;;extra
-adjektiv;honesto;;ehrlich;;;;Sei bitte ehrlich!;;Menschen;;extra
+adjektiv;cortés;;höflich;;;;Er ist immer höflich.;;Menschen;;B1
+adjektiv;honesto;;ehrlich;;;;Sei bitte ehrlich!;;Menschen;;B1
 adjektiv;estricto;;streng;;;;Der Lehrer ist streng.;;Menschen;;A2
-adjektiv;paciente;;geduldig;;;;Sie ist sehr geduldig.;;Menschen;;extra
+adjektiv;paciente;;geduldig;;;;Sie ist sehr geduldig.;;Menschen;;B1
 adjektiv;nervioso;;nervös;;;;Vor der Prüfung bin ich nervös.;;Gefühle;;A2
-adjektiv;orgulloso;;stolz;;;;Ich bin stolz auf dich.;;Gefühle;;extra
-adjektiv;curioso;;neugierig;;;;Die Kinder sind neugierig.;;Gefühle;;extra
+adjektiv;orgulloso;;stolz;;;;Ich bin stolz auf dich.;;Gefühle;;B1
+adjektiv;curioso;;neugierig;;;;Die Kinder sind neugierig.;;Gefühle;;B1
 adjektiv;satisfecho;;zufrieden;;;;Der Chef ist zufrieden.;;Gefühle;;A1
 adjektiv;aburrido;;langweilig;;;;Der Film war langweilig.;;Freizeit;;A2
-adjektiv;interesante;;interessant;;;;Das Buch ist interessant.;;Freizeit;;extra
+adjektiv;interesante;;interessant;;;;Das Buch ist interessant.;;Freizeit;;B1
 adjektiv;emocionante;;spannend;;;;Die Geschichte ist spannend.;;Freizeit;;A2
 adjektiv;extraño;;seltsam;;;;Das klingt seltsam.;komisch;Abstrakt;;A2
 adjektiv;famoso;;berühmt;;;;Der Maler ist berühmt.;;Menschen;;A2
 adjektiv;pobre;;arm;;;;Die Familie ist arm.;;Menschen;;A1
 adjektiv;rico;;reich;;;;Sein Onkel ist reich.;;Menschen;;A2
 adjektiv;gratis;;kostenlos;;;;Der Eintritt ist kostenlos.;gratis;Einkaufen;;A2
-adjektiv;lleno (comido);;satt;;;;Ich bin satt, danke.;;Essen;;extra
-adjektiv;hambriento;;hungrig;;;;Die Kinder sind hungrig.;;Essen;;extra
-adjektiv;sediento;;durstig;;;;Nach dem Sport bin ich durstig.;;Essen;;extra
+adjektiv;lleno (comido);;satt;;;;Ich bin satt, danke.;;Essen;;B1
+adjektiv;hambriento;;hungrig;;;;Die Kinder sind hungrig.;;Essen;;B1
+adjektiv;sediento;;durstig;;;;Nach dem Sport bin ich durstig.;;Essen;;B1
 adjektiv;casado;;verheiratet;;;;Wir sind seit August verheiratet.;;Menschen;;A1
 adjektiv;soltero;;ledig;;;;Er ist noch ledig.;;Menschen;;A1
 adjektiv;claro (evidente);;deutlich;;;;Sprich bitte deutlich!;;Bildung;;A2
 adjektiv;exacto;;genau;;;;Ich brauche die genaue Adresse.;;Bildung;;A2
 adjektiv;urgente;;dringend;;;;Der Anruf ist dringend.;;Arbeit;;A2
-adjektiv;ordenado;;ordentlich;;;;Ihr Zimmer ist ordentlich.;;Haushalt;;extra
+adjektiv;ordenado;;ordentlich;;;;Ihr Zimmer ist ordentlich.;;Haushalt;;B1
 adjektiv;lejano;;weit;;;;Der Weg ist weit.;;Ort & Richtung;;A1
-adjektiv;cercano;;nah;;;;Der Bahnhof ist nah.;;Ort & Richtung;;extra
+adjektiv;cercano;;nah;;;;Der Bahnhof ist nah.;;Ort & Richtung;;B1
 konnektor;porque;;weil;;Nebensatz — Verb ans Ende;;Ich bleibe zu Hause, weil ich krank bin.;;Konnektoren;;A2
 konnektor;pues / ya que;;denn;;Hauptsatz — normale Wortstellung;;Ich bleibe zu Hause, denn ich bin krank.;;Konnektoren;;A1
 konnektor;por eso;;deshalb;;Verb direkt danach;;Ich bin krank, deshalb bleibe ich zu Hause.;darum|deswegen;Konnektoren;;A2
-konnektor;aunque;;obwohl;;Nebensatz — Verb ans Ende;;Er arbeitet, obwohl er krank ist.;;Konnektoren;;extra
-konnektor;a pesar de eso;;trotzdem;;Verb direkt danach;;Er ist krank, trotzdem arbeitet er.;;Konnektoren;;extra
+konnektor;aunque;;obwohl;;Nebensatz — Verb ans Ende;;Er arbeitet, obwohl er krank ist.;;Konnektoren;;B1
+konnektor;a pesar de eso;;trotzdem;;Verb direkt danach;;Er ist krank, trotzdem arbeitet er.;;Konnektoren;;B1
 konnektor;pero;;aber;;Hauptsatz;;Ich möchte kommen, aber ich habe keine Zeit.;;Konnektoren;;A1
-konnektor;sino;;sondern;;Hauptsatz — nach Verneinung;;Das ist kein Tee, sondern Kaffee.;;Konnektoren;;extra
+konnektor;sino;;sondern;;Hauptsatz — nach Verneinung;;Das ist kein Tee, sondern Kaffee.;;Konnektoren;;B1
 konnektor;cuando / si;;wenn;;Nebensatz — Verb ans Ende;;Wenn es regnet, bleiben wir zu Hause.;;Konnektoren;;A2
 konnektor;cuando (una vez);;als;;Nebensatz — Verb ans Ende;;Als ich klein war, wohnte ich in Bogotá.;;Konnektoren;;A2
 konnektor;que (conjunción);;dass;;Nebensatz — Verb ans Ende;;Ich weiss, dass du kommst.;;Konnektoren;;A2
-konnektor;para que;;damit;;Nebensatz — Verb ans Ende;;Ich lerne, damit ich die Prüfung bestehe.;;Konnektoren;;extra
+konnektor;para que;;damit;;Nebensatz — Verb ans Ende;;Ich lerne, damit ich die Prüfung bestehe.;;Konnektoren;;B1
 konnektor;además;;ausserdem;;Verb direkt danach;;Es ist teuer, ausserdem ist es weit.;außerdem;Konnektoren;;A2
 adverb;quizás;;vielleicht;;;;Vielleicht kommt sie später.;;Abstrakt;;A1
 adverb;claro que sí;;natürlich;;;;Natürlich helfe ich dir.;;Abstrakt;;A2
 adverb;lamentablemente;;leider;;;;Leider habe ich keine Zeit.;;Abstrakt;;A1
 adverb;ojalá;;hoffentlich;;;;Hoffentlich regnet es nicht.;;Abstrakt;;A2
 adverb;de verdad;;wirklich;;;;Das ist wirklich schön.;;Abstrakt;;A2
-adverb;aproximadamente;;ungefähr;;;;Es dauert ungefähr zehn Minuten.;etwa;Menge & Grad;;extra
+adverb;aproximadamente;;ungefähr;;;;Es dauert ungefähr zehn Minuten.;etwa;Menge & Grad;;B1
 adverb;por lo menos;;mindestens;;;;Wir brauchen mindestens zwei Stunden.;;Menge & Grad;;A2
 adverb;especialmente;;besonders;;;;Heute ist es besonders kalt.;;Menge & Grad;;A2
 adverb;incluso;;sogar;;;;Sogar der Chef war da.;;Menge & Grad;;A2
@@ -1010,7 +1010,7 @@ adverb;pronto;;bald;;;;Wir sehen uns bald.;;Zeit;;A1
 adverb;antes;;früher;;;;Früher habe ich in Cali gewohnt.;;Zeit;;A1
 adverb;después;;später;;;;Wir reden später.;;Zeit;;A1
 adverb;en todas partes;;überall;;;;Überall liegt Schnee.;;Ort & Richtung;;A2
-adverb;en algún sitio;;irgendwo;;;;Der Schlüssel liegt irgendwo hier.;;Ort & Richtung;;extra
+adverb;en algún sitio;;irgendwo;;;;Der Schlüssel liegt irgendwo hier.;;Ort & Richtung;;B1
 adverb;arriba;;oben;;;;Das Bad ist oben.;;Ort & Richtung;;A1
 adverb;abajo;;unten;;;;Die Küche ist unten.;;Ort & Richtung;;A1
 adverb;a la izquierda;;links;;;;Die Post ist links.;;Ort & Richtung;;A1
@@ -1021,7 +1021,7 @@ adverb;dentro;;drinnen;;;;Drinnen ist es warm.;;Ort & Richtung;;A2
 adverb;juntos;;zusammen;;;;Wir lernen zusammen.;;Abstrakt;;A1
 adverb;con gusto;;gern;;;;Ich trinke gern Tee.;gerne;Abstrakt;;A1
 adverb;más bien;;lieber;;;;Ich trinke lieber Kaffee.;;Abstrakt;;A1
-adverb;bastante;;ziemlich;;;;Es ist ziemlich kalt.;;Menge & Grad;;extra
+adverb;bastante;;ziemlich;;;;Es ist ziemlich kalt.;;Menge & Grad;;B1
 adverb;suficiente;;genug;;;;Wir haben genug Zeit.;;Menge & Grad;;A2
 praeposition;sin;;ohne;;immer Akkusativ;;Ich trinke den Kaffee ohne Zucker.;;Präpositionen;;A1
 praeposition;contra;;gegen;;immer Akkusativ;;Wir sind gegen den Plan.;;Präpositionen;;A1
@@ -1517,26 +1517,26 @@ nomen;la traducción;die;Übersetzung;Übersetzungen;;;;;Bildung;;A2
 verb;transferir (dinero);;überweisen;;Akkusativ;hat überwiesen;Ich überweise die Miete.;;Geld;;A1
 nomen;la audición (¡hasta luego!);das;Wiederhören;nur Singular;;;;;Redemittel;;A1
 nomen;el reencuentro (¡adiós!);das;Wiedersehen;nur Singular;;;;;Redemittel;;A1
-nomen;la conversación telefónica;das;Ferngespräch;Ferngespräche;;;;;Technik;;extra
-nomen;el sótano de la casa;das;Untergeschoss;Untergeschosse;;;;;Wohnen;;extra
+nomen;la conversación telefónica;das;Ferngespräch;Ferngespräche;;;;;Technik;;B1
+nomen;el sótano de la casa;das;Untergeschoss;Untergeschosse;;;;;Wohnen;;B1
 luecke;yo;;ich;;Personalpronomen Nominativ;;;;Pronomen;___ wohne in Baden.;A1
-luecke;tú;;du;;Personalpronomen Nominativ;;;;Pronomen;Wo wohnst ___?;extra
+luecke;tú;;du;;Personalpronomen Nominativ;;;;Pronomen;Wo wohnst ___?;A1
 luecke;él;;er;;Personalpronomen Nominativ;;;;Pronomen;Das ist mein Bruder. ___ ist Arzt.;A1
 luecke;ella;;sie;;Personalpronomen Nominativ;;;;Pronomen;Das ist meine Frau. ___ kommt aus Kolumbien.;A1
 luecke;ello (neutro);;es;;Personalpronomen Nominativ;;;;Pronomen;___ regnet seit gestern.;A1
 luecke;nosotros;;wir;;Personalpronomen Nominativ;;;;Pronomen;___ fahren morgen nach Zürich.;A1
 luecke;vosotros;;ihr;;Personalpronomen Nominativ;;;;Pronomen;Kinder, was macht ___ da?;A1
 luecke;usted / ustedes;;Sie;;Personalpronomen Nominativ (Höflichkeitsform);;;;Pronomen;Können ___ mir bitte helfen?;A1
-luecke;a mí (acusativo);;mich;;Personalpronomen Akkusativ;;;;Pronomen;Er ruft ___ jeden Abend an.;extra
+luecke;a mí (acusativo);;mich;;Personalpronomen Akkusativ;;;;Pronomen;Er ruft ___ jeden Abend an.;A1
 luecke;a ti (acusativo);;dich;;Personalpronomen Akkusativ;;;;Pronomen;Ich hole ___ am Bahnhof ab.;A1
 luecke;a él (acusativo);;ihn;;Personalpronomen Akkusativ;;;;Pronomen;Kennst du ___ schon?;A1
-luecke;a nosotros (acusativo);;uns;;Personalpronomen Akkusativ;;;;Pronomen;Sie besucht ___ am Sonntag.;extra
-luecke;a vosotros (acusativo);;euch;;Personalpronomen Akkusativ;;;;Pronomen;Ich lade ___ zum Essen ein.;extra
-luecke;a mí (dativo);;mir;;Personalpronomen Dativ;;;;Pronomen;Kannst du ___ bitte helfen?;extra
+luecke;a nosotros (acusativo);;uns;;Personalpronomen Akkusativ;;;;Pronomen;Sie besucht ___ am Sonntag.;A1
+luecke;a vosotros (acusativo);;euch;;Personalpronomen Akkusativ;;;;Pronomen;Ich lade ___ zum Essen ein.;A1
+luecke;a mí (dativo);;mir;;Personalpronomen Dativ;;;;Pronomen;Kannst du ___ bitte helfen?;A1
 luecke;a ti (dativo);;dir;;Personalpronomen Dativ;;;;Pronomen;Das Kleid steht ___ gut.;A1
 luecke;a él (dativo);;ihm;;Personalpronomen Dativ;;;;Pronomen;Ich schenke ___ eine Uhr.;A1
 luecke;a ella (dativo);;ihr;;Personalpronomen Dativ;;;;Pronomen;Das Buch gehört ___.;A1
-luecke;a ellos (dativo);;ihnen;;Personalpronomen Dativ;;;;Pronomen;Ich danke ___ für die Hilfe.;extra
+luecke;a ellos (dativo);;ihnen;;Personalpronomen Dativ;;;;Pronomen;Ich danke ___ für die Hilfe.;A1
 luecke;mi;;mein;;Possessivpronomen;;;;Pronomen;Das ist ___ Auto.;A1
 luecke;tu;;dein;;Possessivpronomen;;;;Pronomen;Wo ist ___ Schlüssel?;A1
 luecke;su (de él);;sein;;Possessivpronomen;;;;Pronomen;Peter sucht ___ Handy.;A1
@@ -1558,8 +1558,8 @@ luecke;el próximo;;nächste;;Superlativ;;;nächst;Pronomen;Wir treffen uns ___ 
 luecke;el último;;letzte;;Adjektiv;;;letzt;Pronomen;___ Woche war ich krank.;A1
 luecke;mismo (uno mismo);;selbst;;Pronomen;;;;Pronomen;Das musst du ___ entscheiden.;A2
 luecke;quién;;wer;;Fragewort Nominativ;;;;Fragewörter;___ kommt heute Abend?;A1
-luecke;a quién (acusativo);;wen;;Fragewort Akkusativ;;;;Fragewörter;___ hast du eingeladen?;extra
-luecke;a quién (dativo);;wem;;Fragewort Dativ;;;;Fragewörter;___ gehört diese Tasche?;extra
+luecke;a quién (acusativo);;wen;;Fragewort Akkusativ;;;;Fragewörter;___ hast du eingeladen?;A1
+luecke;a quién (dativo);;wem;;Fragewort Dativ;;;;Fragewörter;___ gehört diese Tasche?;A1
 luecke;qué;;was;;Fragewort;;;;Fragewörter;___ machst du am Wochenende?;A1
 luecke;dónde;;wo;;Fragewort (Ort);;;;Fragewörter;___ wohnst du?;A1
 luecke;adónde;;wohin;;Fragewort (Richtung);;;;Fragewörter;___ fährst du in den Ferien?;A1
@@ -1568,7 +1568,7 @@ luecke;cuándo;;wann;;Fragewort;;;;Fragewörter;___ beginnt der Kurs?;A1
 luecke;por qué;;warum;;Fragewort;;;;Fragewörter;___ bist du nicht gekommen?;A1
 luecke;cómo;;wie;;Fragewort;;;;Fragewörter;___ geht es dir?;A1
 luecke;cuál;;welcher;;Fragewort;;;;Fragewörter;___ Zug fährt nach Bern?;A1
-luecke;cuánto;;wie viel;;Fragewort;;;;Fragewörter;___ kostet das Ticket?;extra
+luecke;cuánto;;wie viel;;Fragewort;;;;Fragewörter;___ kostet das Ticket?;A1
 luecke;a partir de;;ab;;Präposition + Dativ;;;;Präpositionen;___ Montag arbeite ich wieder.;A1
 luecke;en / a (vertical);;an;;Wechselpräposition;;;;Präpositionen;Das Bild hängt ___ der Wand.;A1
 luecke;sobre (horizontal);;auf;;Wechselpräposition;;;;Präpositionen;Das Buch liegt ___ dem Tisch.;A1
@@ -1614,7 +1614,7 @@ zahl;17;;siebzehn;;Kardinalzahl — Achtung: nicht «siebenzehn»;;;;Zahlen;;A1
 zahl;18;;achtzehn;;Kardinalzahl;;;;Zahlen;;A1
 zahl;19;;neunzehn;;Kardinalzahl;;;;Zahlen;;A1
 zahl;20;;zwanzig;;Kardinalzahl;;;;Zahlen;;A1
-zahl;21;;einundzwanzig;;Kardinalzahl — Einer zuerst;;;;Zahlen;;extra
+zahl;21;;einundzwanzig;;Kardinalzahl — Einer zuerst;;;;Zahlen;;A1
 zahl;30;;dreissig;;Kardinalzahl;;;dreißig;Zahlen;;A1
 zahl;40;;vierzig;;Kardinalzahl;;;;Zahlen;;A1
 zahl;50;;fünfzig;;Kardinalzahl;;;;Zahlen;;A1
@@ -1630,31 +1630,31 @@ zahl;1.º (primero);;erste;;Ordinalzahl;;;;Zahlen;;A1
 zahl;2.º (segundo);;zweite;;Ordinalzahl;;;;Zahlen;;A1
 zahl;3.º (tercero);;dritte;;Ordinalzahl — unregelmässig;;;;Zahlen;;A1
 zahl;4.º (cuarto);;vierte;;Ordinalzahl;;;;Zahlen;;A1
-zahl;7.º (séptimo);;siebte;;Ordinalzahl — unregelmässig;;;;Zahlen;;extra
-wendung;Buenos días;;Guten Morgen;;Begrüssung am Morgen;;;;Redemittel;;extra
-wendung;Buenos días (mediodía);;Guten Tag;;Begrüssung tagsüber;;;;Redemittel;;extra
-wendung;Buenas noches (despedida);;Gute Nacht;;vor dem Schlafengehen;;;;Redemittel;;extra
+zahl;7.º (séptimo);;siebte;;Ordinalzahl — unregelmässig;;;;Zahlen;;A1
+wendung;Buenos días;;Guten Morgen;;Begrüssung am Morgen;;;;Redemittel;;A1
+wendung;Buenos días (mediodía);;Guten Tag;;Begrüssung tagsüber;;;;Redemittel;;A1
+wendung;Buenas noches (despedida);;Gute Nacht;;vor dem Schlafengehen;;;;Redemittel;;A1
 wendung;Hola;;Hallo;;informelle Begrüssung;;;;Redemittel;;A1
-wendung;Adiós;;Auf Wiedersehen;;formelle Verabschiedung;;;;Redemittel;;extra
-wendung;Hasta luego;;Bis später;;informelle Verabschiedung;;;Bis bald;Redemittel;;extra
+wendung;Adiós;;Auf Wiedersehen;;formelle Verabschiedung;;;;Redemittel;;A1
+wendung;Hasta luego;;Bis später;;informelle Verabschiedung;;;Bis bald;Redemittel;;A1
 wendung;Gracias;;Danke schön;;;;;Danke;Redemittel;;A1
-wendung;De nada;;Bitte schön;;Antwort auf Danke;;;Gern geschehen;Redemittel;;extra
+wendung;De nada;;Bitte schön;;Antwort auf Danke;;;Gern geschehen;Redemittel;;A1
 wendung;Perdón;;Entschuldigung;;;;;Verzeihung;Redemittel;;A1
-wendung;Lo siento;;Es tut mir leid;;;;;;Redemittel;;extra
-wendung;¿Qué tal?;;Wie geht es dir?;;informell;;;Wie geht's;Redemittel;;extra
-wendung;Muy bien, gracias;;Danke, gut;;Antwort auf «Wie geht es dir?»;;;;Redemittel;;extra
-wendung;¿Cómo se llama usted?;;Wie heissen Sie?;;formell;;;Wie heißen Sie;Redemittel;;extra
-wendung;Mucho gusto;;Freut mich;;beim Kennenlernen;;;Sehr erfreut;Redemittel;;extra
-wendung;No entiendo;;Ich verstehe nicht;;;;;;Redemittel;;extra
-wendung;¿Puede repetirlo?;;Können Sie das wiederholen?;;;;;;Redemittel;;extra
-wendung;más despacio, por favor;;Sprechen Sie bitte langsamer;;;;;;Redemittel;;extra
-wendung;¿Cuánto cuesta?;;Was kostet das?;;;;;Wie viel kostet das;Redemittel;;extra
-wendung;La cuenta, por favor;;Die Rechnung, bitte;;im Restaurant;;;Zahlen bitte;Redemittel;;extra
-wendung;¡Que aproveche!;;Guten Appetit;;vor dem Essen;;;;Redemittel;;extra
-wendung;¡Feliz cumpleaños!;;Herzlichen Glückwunsch zum Geburtstag;;;;;;Redemittel;;extra
-wendung;¡Que te mejores!;;Gute Besserung;;bei Krankheit;;;;Redemittel;;extra
-wendung;¡Buen viaje!;;Gute Reise;;;;;;Redemittel;;extra
-wendung;¡Suerte!;;Viel Glück;;;;;;Redemittel;;extra
+wendung;Lo siento;;Es tut mir leid;;;;;;Redemittel;;A1
+wendung;¿Qué tal?;;Wie geht es dir?;;informell;;;Wie geht's;Redemittel;;A1
+wendung;Muy bien, gracias;;Danke, gut;;Antwort auf «Wie geht es dir?»;;;;Redemittel;;A1
+wendung;¿Cómo se llama usted?;;Wie heissen Sie?;;formell;;;Wie heißen Sie;Redemittel;;A1
+wendung;Mucho gusto;;Freut mich;;beim Kennenlernen;;;Sehr erfreut;Redemittel;;A1
+wendung;No entiendo;;Ich verstehe nicht;;;;;;Redemittel;;A1
+wendung;¿Puede repetirlo?;;Können Sie das wiederholen?;;;;;;Redemittel;;A1
+wendung;más despacio, por favor;;Sprechen Sie bitte langsamer;;;;;;Redemittel;;A1
+wendung;¿Cuánto cuesta?;;Was kostet das?;;;;;Wie viel kostet das;Redemittel;;A1
+wendung;La cuenta, por favor;;Die Rechnung, bitte;;im Restaurant;;;Zahlen bitte;Redemittel;;A1
+wendung;¡Que aproveche!;;Guten Appetit;;vor dem Essen;;;;Redemittel;;A1
+wendung;¡Feliz cumpleaños!;;Herzlichen Glückwunsch zum Geburtstag;;;;;;Redemittel;;A1
+wendung;¡Que te mejores!;;Gute Besserung;;bei Krankheit;;;;Redemittel;;A1
+wendung;¡Buen viaje!;;Gute Reise;;;;;;Redemittel;;A1
+wendung;¡Suerte!;;Viel Glück;;;;;;Redemittel;;A1
 adjektiv;mejor;;besser;;;;Dieses Hotel ist besser.;beste;Abstrakt;;A1
 adverb;justo ahora;;gerade;;;;Ich bin gerade beim Essen.;;Zeit;;A1
 nomen;la gente;die;Leute;nur Plural;;;;;Menschen;;A1
@@ -1668,8 +1668,429 @@ luecke;nada;;nichts;;Indefinitpronomen;;;;Pronomen;Ich habe ___ gehört.;A1
 luecke;sí;;ja;;Partikel;;;;Pronomen;Kommst du mit? — ___, gern.;A1
 luecke;no (respuesta);;nein;;Partikel;;;;Pronomen;Hast du Zeit? — ___, leider nicht.;A1
 luecke;cada;;jeder;;Indefinitpronomen;;;;Pronomen;___ Tag lerne ich zwanzig Wörter.;A1
-luecke;algún que otro;;manche;;Indefinitpronomen;;;;Pronomen;___ Leute kommen zu spät.;extra
+luecke;algún que otro;;manche;;Indefinitpronomen;;;;Pronomen;___ Leute kommen zu spät.;A1
 luecke;mucho;;viel;;Indefinitpronomen;;;;Pronomen;Ich habe nicht ___ Zeit.;A1
 luecke;poco;;wenig;;Indefinitpronomen;;;;Pronomen;Er hat nur ___ Geld.;A1
 luecke;se (reflexivo);;sich;;Reflexivpronomen;;;;Pronomen;Sie freut ___ auf die Ferien.;A1
 zahl;1'000'000'000;;Milliarde;;Kardinalzahl — die Milliarde;;;;Zahlen;;A1
+verb;girar (en la calle);;abbiegen;;ohne Objekt;ist abgebogen;Biegen Sie rechts ab!;;Verkehr;;B1
+nomen;la ilustración;die;Abbildung;Abbildungen;;;;;Bildung;;B1
+nomen;la aventura;das;Abenteuer;Abenteuer;;;;;Freizeit;;B1
+nomen;el residuo;der;Abfall;Abfälle;;;;;Haushalt;;B1
+nomen;el cubo de basura;der;Abfalleimer;Abfalleimer;;;;;Haushalt;;B1
+nomen;el gas de escape;das;Abgas;Abgase;;;;;Natur;;B1
+verb;retirar (dinero);;abheben;;Akkusativ;hat abgehoben;Ich hebe Geld am Automaten ab.;;Geld;;B1
+verb;depender de;;abhängen;;abhängen von + Dativ;hat abgehangen;Das hängt vom Wetter ab.;;Abstrakt;;B1
+adjektiv;dependiente;;abhängig;;;;Sie ist finanziell abhängig.;;Abstrakt;;B1
+nomen;la selectividad;das;Abitur;Abiture;;;;Matura;Bildung;;B1
+verb;rechazar;;ablehnen;;Akkusativ;hat abgelehnt;Er hat das Angebot abgelehnt.;;Arbeit;;B1
+verb;acordar (quitar);;abmachen;;Akkusativ;hat abgemacht;Wir haben einen Termin abgemacht.;;Arbeit;;B1
+verb;adelgazar;;abnehmen;;ohne Objekt;hat abgenommen;Sie hat fünf Kilo abgenommen.;;Gesundheit;;B1
+nomen;la suscripción;das;Abonnement;Abonnements;;;;Abo;Technik;;B1
+verb;suscribirse a;;abonnieren;;Akkusativ;hat abonniert;Ich abonniere die Zeitschrift.;;Technik;;B1
+nomen;la despedida;der;Abschied;Abschiede;;;;;Menschen;;B1
+nomen;el título final;der;Abschluss;Abschlüsse;;;;;Bildung;;B1
+nomen;el apartado;der;Abschnitt;Abschnitte;;;;;Bildung;;B1
+verb;copiar (un texto);;abschreiben;;Akkusativ;hat abgeschrieben;Schreib den Satz nicht ab!;;Bildung;;B1
+adjektiv;absoluto;;absolut;;;;Das ist absolut richtig.;;Abstrakt;;B1
+verb;votar;;abstimmen;;abstimmen über + Akkusativ;hat abgestimmt;Wir stimmen über den Vorschlag ab.;;Amt;;B1
+nomen;el departamento;die;Abteilung;Abteilungen;;;;;Arbeit;;B1
+verb;fregar los platos;;abwaschen;;Akkusativ;hat abgewaschen;Ich wasche das Geschirr ab.;;Haushalt;;B1
+adjektiv;ausente;;abwesend;;;;Zwei Schüler sind heute abwesend.;;Bildung;;B1
+adverb;hacia abajo;;abwärts;;;;Der Weg führt abwärts.;;Ort & Richtung;;B1
+nomen;la acción (campaña);die;Aktion;Aktionen;;;;;Arbeit;;B1
+nomen;la actividad;die;Aktivität;Aktivitäten;;;;;Freizeit;;B1
+verb;aceptar;;akzeptieren;;Akkusativ;hat akzeptiert;Wir akzeptieren nur Bargeld.;;Abstrakt;;B1
+nomen;la alarma;der;Alarm;Alarme;;;;;Amt;;B1
+nomen;el alcohol;der;Alkohol;nur Singular;;;;;Essen;;B1
+adverb;sin embargo;;allerdings;;;;Das Hotel ist schön, allerdings teuer.;;Abstrakt;;B1
+adjektiv;general;;allgemein;;;;Das ist ein allgemeines Problem.;;Abstrakt;;B1
+nomen;la vida cotidiana;der;Alltag;nur Singular;;;;;Zeit;;B1
+adjektiv;cotidiano;;alltäglich;;;;Das ist ein alltägliches Problem.;;Zeit;;B1
+nomen;el alfabeto;das;Alphabet;Alphabete;;;;;Bildung;;B1
+adjektiv;alternativo;;alternativ;;;;Gibt es einen alternativen Weg?;;Abstrakt;;B1
+nomen;la alternativa;die;Alternative;Alternativen;;;;;Abstrakt;;B1
+nomen;la residencia de mayores;das;Altersheim;Altersheime;;;;Altenheim;Gesundheit;;B1
+nomen;la oficina pública;das;Amt;Ämter;;;;;Amt;;B1
+verb;divertirse;;sich amüsieren;;ohne Objekt;hat sich amüsiert;Wir haben uns gut amüsiert.;amüsieren;Freizeit;;B1
+verb;analizar;;analysieren;;Akkusativ;hat analysiert;Wir analysieren die Zahlen.;;Arbeit;;B1
+nomen;el proveedor;der;Anbieter;Anbieter;;;;;Technik;;B1
+adverb;por otro lado;;andererseits;;;;Einerseits ist es teuer, andererseits sehr gut.;anderseits;Abstrakt;;B1
+verb;reconocer (oficialmente);;anerkennen;;Akkusativ;hat anerkannt;Mein Diplom wird hier anerkannt.;;Amt;;B1
+adverb;al principio;;anfangs;;;;Anfangs war es schwer.;;Zeit;;B1
+nomen;el dato (indicación);die;Angabe;Angaben;;;;;Amt;;B1
+verb;indicar;;angeben;;Akkusativ;hat angegeben;Geben Sie bitte Ihre Adresse an.;;Amt;;B1
+nomen;el familiar;der;Angehörige;Angehörigen;;;;;Menschen;;B1
+adjektiv;agradable;;angenehm;;;;Die Temperatur ist angenehm.;;Gefühle;;B1
+verb;llevar puesto;;anhaben;;Akkusativ;hat angehabt;Sie hat ein rotes Kleid an.;;Kleidung;;B1
+verb;anunciar;;ankündigen;;Akkusativ;hat angekündigt;Der Chef kündigt eine Änderung an.;;Arbeit;;B1
+nomen;la instalación;die;Anlage;Anlagen;;;;;Technik;;B1
+nomen;las instrucciones;die;Anleitung;Anleitungen;;;;;Technik;;B1
+verb;suponer / aceptar;;annehmen;;Akkusativ;hat angenommen;Ich nehme an, dass er kommt.;;Abstrakt;;B1
+verb;adquirir;;anschaffen;;Akkusativ;hat angeschafft;Wir haben uns ein Auto angeschafft.;;Einkaufen;;B1
+verb;conectar;;anschliessen;;Akkusativ;hat angeschlossen;Schliess den Drucker an!;anschließen;Technik;;B1
+verb;abrocharse;;anschnallen;;Akkusativ;hat angeschnallt;Bitte schnallen Sie sich an!;;Verkehr;;B1
+verb;dirigirse a alguien;;ansprechen;;Akkusativ;hat angesprochen;Er hat mich auf der Strasse angesprochen.;;Menschen;;B1
+nomen;el derecho (a algo);der;Anspruch;Ansprüche;;;;;Amt;;B1
+verb;ponerse en cola;;sich anstellen;;ohne Objekt;hat sich angestellt;Stell dich bitte an!;anstellen;Einkaufen;;B1
+verb;esforzarse;;sich anstrengen;;ohne Objekt;hat sich angestrengt;Er strengt sich sehr an.;anstrengen;Arbeit;;B1
+adjektiv;agotador;;anstrengend;;;;Der Tag war anstrengend.;;Arbeit;;B1
+nomen;el abogado;der;Anwalt;Anwälte;;;;;Amt;;B1
+verb;aplicar;;anwenden;;Akkusativ;hat angewendet;Wende die Regel an!;;Bildung;;B1
+adjektiv;presente;;anwesend;;;;Alle Mitarbeiter sind anwesend.;;Arbeit;;B1
+nomen;la cantidad (número);die;Anzahl;nur Singular;;;;;Menge & Grad;;B1
+verb;denunciar;;anzeigen;;Akkusativ;hat angezeigt;Sie hat den Dieb angezeigt.;;Amt;;B1
+nomen;el albaricoque;die;Aprikose;Aprikosen;;;;;Essen;;B1
+nomen;el obrero;der;Arbeiter;Arbeiter;;;;;Arbeit;;B1
+nomen;el permiso de trabajo;die;Arbeitserlaubnis;Arbeitserlaubnisse;;;;;Amt;;B1
+nomen;el puesto (empleo);die;Arbeitsstelle;Arbeitsstellen;;;;;Arbeit;;B1
+nomen;el arquitecto;der;Architekt;Architekten;;;;;Arbeit;;B1
+nomen;el asilo;das;Asyl;nur Singular;;;;;Amt;;B1
+nomen;el aliento;der;Atem;nur Singular;;;;;Gesundheit;;B1
+verb;respirar;;atmen;;ohne Objekt;hat geatmet;Atmen Sie tief ein!;;Gesundheit;;B1
+nomen;la estancia;der;Aufenthalt;Aufenthalte;;;;;Verkehr;;B1
+verb;llamar la atención;;auffallen;;Dativ;ist aufgefallen;Mir ist ein Fehler aufgefallen.;;Abstrakt;;B1
+verb;instar a;;auffordern;;Akkusativ;hat aufgefordert;Der Lehrer fordert uns zum Lesen auf.;;Bildung;;B1
+nomen;el requerimiento;die;Aufforderung;Aufforderungen;;;;;Amt;;B1
+verb;renunciar / echar al correo;;aufgeben;;Akkusativ;hat aufgegeben;Gib nicht auf!;;Abstrakt;;B1
+verb;detener / entretener;;aufhalten;;Akkusativ;hat aufgehalten;Der Stau hat uns aufgehalten.;;Verkehr;;B1
+verb;levantar (del suelo);;aufheben;;Akkusativ;hat aufgehoben;Heb den Zettel auf!;;Haushalt;;B1
+verb;cargar (batería);;aufladen;;Akkusativ;hat aufgeladen;Ich lade das Handy auf.;;Technik;;B1
+verb;disolver;;auflösen;;Akkusativ;hat aufgelöst;Löse die Tablette in Wasser auf.;;Gesundheit;;B1
+adjektiv;atento;;aufmerksam;;;;Sie hört aufmerksam zu.;;Bildung;;B1
+nomen;la admisión / la grabación;die;Aufnahme;Aufnahmen;;;;;Bildung;;B1
+verb;acoger / grabar;;aufnehmen;;Akkusativ;hat aufgenommen;Die Schule nimmt neue Schüler auf.;;Bildung;;B1
+verb;apuntar (por escrito);;aufschreiben;;Akkusativ;hat aufgeschrieben;Schreib die Nummer auf!;;Bildung;;B1
+nomen;el encargo;der;Auftrag;Aufträge;;;;;Arbeit;;B1
+verb;actuar (en escena);;auftreten;;ohne Objekt;ist aufgetreten;Die Band tritt heute auf.;;Freizeit;;B1
+nomen;la actuación;der;Auftritt;Auftritte;;;;;Freizeit;;B1
+verb;despertarse;;aufwachen;;ohne Objekt;ist aufgewacht;Ich bin um sechs aufgewacht.;;Gesundheit;;B1
+adverb;hacia arriba;;aufwärts;;;;Der Weg geht aufwärts.;;Ort & Richtung;;B1
+nomen;el instante;der;Augenblick;Augenblicke;;;;;Zeit;;B1
+verb;formar (profesionalmente);;ausbilden;;Akkusativ;hat ausgebildet;Die Firma bildet Lehrlinge aus.;;Arbeit;;B1
+nomen;la expresión;der;Ausdruck;Ausdrücke;;;;;Bildung;;B1
+verb;imprimir (un archivo);;ausdrucken;;Akkusativ;hat ausgedruckt;Druck das Formular aus!;;Technik;;B1
+adverb;separados;;auseinander;;;;Die Häuser stehen weit auseinander.;;Ort & Richtung;;B1
+nomen;la salida (autopista);die;Ausfahrt;Ausfahrten;;;;;Verkehr;;B1
+verb;suspenderse;;ausfallen;;ohne Objekt;ist ausgefallen;Der Unterricht fällt heute aus.;;Bildung;;B1
+nomen;el gasto;die;Ausgabe;Ausgaben;;;;;Geld;;B1
+adjektiv;excelente;;ausgezeichnet;;;;Ihr Deutsch ist ausgezeichnet.;;Bildung;;B1
+nomen;la ayuda temporal;die;Aushilfe;Aushilfen;;;;;Arbeit;;B1
+nomen;la excepción;die;Ausnahme;Ausnahmen;;;;;Abstrakt;;B1
+verb;ser suficiente;;ausreichen;;ohne Objekt;hat ausgereicht;Das Geld reicht nicht aus.;;Menge & Grad;;B1
+verb;transmitir (un recado);;ausrichten;;Dativ + Akkusativ;hat ausgerichtet;Ich richte ihm das aus.;;Menschen;;B1
+verb;excluir;;ausschliessen;;Akkusativ;hat ausgeschlossen;Das ist nicht ausgeschlossen.;ausschließen;Abstrakt;;B1
+adverb;exclusivamente;;ausschliesslich;;;;Wir öffnen ausschliesslich am Morgen.;ausschließlich;Menge & Grad;;B1
+nomen;la pronunciación;die;Aussprache;Aussprachen;;;;;Bildung;;B1
+verb;expedir (un documento);;ausstellen;;Akkusativ;hat ausgestellt;Das Amt stellt den Ausweis aus.;;Amt;;B1
+verb;escoger;;aussuchen;;Akkusativ;hat ausgesucht;Such dir ein Buch aus!;;Einkaufen;;B1
+nomen;la selección (oferta);die;Auswahl;nur Singular;;;;;Einkaufen;;B1
+verb;seleccionar;;auswählen;;Akkusativ;hat ausgewählt;Wählen Sie eine Antwort aus.;;Bildung;;B1
+adverb;por fuera;;aussen;;;;Aussen ist das Haus weiss.;außen;Ort & Richtung;;B1
+nomen;la bañera;die;Badewanne;Badewannen;;;;;Wohnen;;B1
+nomen;el ballet;das;Ballett;Ballette;;;;;Freizeit;;B1
+nomen;el número de banco;die;Bankleitzahl;Bankleitzahlen;;;;;Geld;;B1
+nomen;el bar;die;Bar;Bars;;;;;Freizeit;;A1
+nomen;el efectivo;das;Bargeld;nur Singular;;;;;Geld;;B1
+nomen;la pila;die;Batterie;Batterien;;;;;Technik;;B1
+nomen;la construcción;der;Bau;Bauten;;;;;Wohnen;;B1
+nomen;el agricultor;der;Bauer;Bauern;;;;;Arbeit;;B1
+nomen;la granja;der;Bauernhof;Bauernhöfe;;;;;Natur;;B1
+verb;tener en cuenta;;beachten;;Akkusativ;hat beachtet;Beachten Sie die Öffnungszeiten!;;Amt;;B1
+verb;solicitar (oficialmente);;beantragen;;Akkusativ;hat beantragt;Ich beantrage einen neuen Pass.;;Amt;;B1
+nomen;la necesidad (demanda);der;Bedarf;nur Singular;;;;;Arbeit;;B1
+verb;atender / manejar;;bedienen;;Akkusativ;hat bedient;Der Kellner bedient uns freundlich.;;Arbeit;;B1
+nomen;el manual de uso;die;Bedienungsanleitung;Bedienungsanleitungen;;;;Gebrauchsanweisung;Technik;;B1
+nomen;la condición;die;Bedingung;Bedingungen;;;;;Arbeit;;B1
+verb;influir en;;beeinflussen;;Akkusativ;hat beeinflusst;Das Wetter beeinflusst meine Laune.;;Abstrakt;;B1
+verb;encontrarse (situado);;sich befinden;;ohne Objekt;hat sich befunden;Das Büro befindet sich im dritten Stock.;befinden;Ort & Richtung;;B1
+adjektiv;satisfactorio;;befriedigend;;;;Die Note ist befriedigend.;;Bildung;;B1
+adjektiv;entusiasmado;;begeistert;;;;Sie ist von der Stadt begeistert.;;Gefühle;;B1
+nomen;el comienzo;der;Beginn;nur Singular;;;;;Zeit;;B1
+verb;acompañar;;begleiten;;Akkusativ;hat begleitet;Ich begleite dich zum Arzt.;;Menschen;;B1
+adjektiv;limitado;;begrenzt;;;;Die Plätze sind begrenzt.;;Menge & Grad;;B1
+nomen;la justificación;die;Begründung;Begründungen;;;;;Bildung;;B1
+verb;saludar;;begrüssen;;Akkusativ;hat begrüsst;Der Chef begrüsst die Gäste.;begrüßen;Menschen;;B1
+verb;quedarse con;;behalten;;Akkusativ;hat behalten;Du kannst das Buch behalten.;;Abstrakt;;B1
+verb;tratar (a alguien);;behandeln;;Akkusativ;hat behandelt;Der Arzt behandelt den Patienten.;;Gesundheit;;B1
+verb;afirmar;;behaupten;;Akkusativ;hat behauptet;Er behauptet, er sei krank.;;Abstrakt;;B1
+verb;obstaculizar;;behindern;;Akkusativ;hat behindert;Der Stau behindert den Verkehr.;;Verkehr;;B1
+nomen;la autoridad;die;Behörde;Behörden;;;;;Amt;;B1
+adverb;casi (por poco);;beinahe;;;;Ich hätte beinahe den Zug verpasst.;beinah;Menge & Grad;;B1
+nomen;la contribución;der;Beitrag;Beiträge;;;;;Geld;;B1
+verb;morder;;beissen;;Akkusativ;hat gebissen;Der Hund hat mich gebissen.;beißen;Gesundheit;;B1
+nomen;el comprobante;der;Beleg;Belege;;;;;Geld;;B1
+verb;ofender;;beleidigen;;Akkusativ;hat beleidigt;Er hat mich beleidigt.;;Menschen;;B1
+verb;darse cuenta (notar);;bemerken;;Akkusativ;hat bemerkt;Ich habe den Fehler bemerkt.;;Abstrakt;;B1
+verb;esforzarse por;;sich bemühen;;sich bemühen um + Akkusativ;hat sich bemüht;Sie bemüht sich um eine Stelle.;bemühen;Arbeit;;B1
+verb;necesitar (formal);;benötigen;;Akkusativ;hat benötigt;Wir benötigen Ihre Unterschrift.;;Amt;;B1
+verb;observar;;beobachten;;Akkusativ;hat beobachtet;Die Polizei beobachtet das Haus.;;Amt;;B1
+nomen;el asesoramiento;die;Beratung;Beratungen;;;;;Arbeit;;B1
+verb;calcular (facturar);;berechnen;;Akkusativ;hat berechnet;Die Bank berechnet Gebühren.;;Geld;;B1
+nomen;el ámbito;der;Bereich;Bereiche;;;;;Abstrakt;;B1
+adjektiv;dispuesto;;bereit;;;;Ich bin bereit zu gehen.;;Abstrakt;;B1
+adverb;ya (formal);;bereits;;;;Er ist bereits gegangen.;;Zeit;;B1
+nomen;el informe;der;Bericht;Berichte;;;;;Arbeit;;B1
+adjektiv;profesional (laboral);;beruflich;;;;Beruflich läuft es gut.;;Arbeit;;B1
+adjektiv;con empleo;;berufstätig;;;;Beide Eltern sind berufstätig.;;Arbeit;;B1
+verb;calmar;;beruhigen;;Akkusativ;hat beruhigt;Beruhige dich bitte!;;Gefühle;;B1
+verb;resolver (decidir);;beschliessen;;Akkusativ;hat beschlossen;Wir haben beschlossen zu bleiben.;beschließen;Abstrakt;;B1
+nomen;la descripción;die;Beschreibung;Beschreibungen;;;;;Bildung;;B1
+verb;dañar;;beschädigen;;Akkusativ;hat beschädigt;Das Paket wurde beschädigt.;;Verkehr;;B1
+verb;ocupar (dar trabajo);;beschäftigen;;Akkusativ;hat beschäftigt;Die Firma beschäftigt 50 Leute.;;Arbeit;;B1
+nomen;la ocupación;die;Beschäftigung;Beschäftigungen;;;;;Arbeit;;B1
+verb;ocupar (un sitio);;besetzen;;Akkusativ;hat besetzt;Der Platz ist besetzt.;;Verkehr;;B1
+verb;conseguir (traer);;besorgen;;Akkusativ;hat besorgt;Ich besorge die Tickets.;;Einkaufen;;B1
+verb;hablar de (en reunión);;besprechen;;Akkusativ;hat besprochen;Wir besprechen das morgen.;;Arbeit;;B1
+nomen;la mejoría;die;Besserung;nur Singular;;;;;Gesundheit;;B1
+adjektiv;determinado;;bestimmt;;;;Zu einer bestimmten Zeit.;;Abstrakt;;B1
+verb;castigar;;bestrafen;;Akkusativ;hat bestraft;Falschparken wird bestraft.;;Amt;;B1
+nomen;la confirmación;die;Bestätigung;Bestätigungen;;;;;Amt;;B1
+nomen;el importe;der;Betrag;Beträge;;;;;Geld;;B1
+verb;cuidar (atender);;betreuen;;Akkusativ;hat betreut;Sie betreut zwei Kinder.;;Menschen;;B1
+nomen;la empresa (planta);der;Betrieb;Betriebe;;;;;Arbeit;;B1
+adjektiv;borracho;;betrunken;;;;Er war gestern betrunken.;;Gesundheit;;B1
+verb;engañar;;betrügen;;Akkusativ;hat betrogen;Der Verkäufer hat uns betrogen.;;Menschen;;B1
+nomen;la población;die;Bevölkerung;Bevölkerungen;;;;;Stadt;;B1
+nomen;la prueba;der;Beweis;Beweise;;;;;Amt;;B1
+verb;demostrar;;beweisen;;Akkusativ;hat bewiesen;Er kann seine Unschuld beweisen.;;Amt;;B1
+nomen;el habitante (de casa);der;Bewohner;Bewohner;;;;;Wohnen;;B1
+nomen;la relación;die;Beziehung;Beziehungen;;;;;Menschen;;B1
+verb;ofrecer (formal);;bieten;;Dativ + Akkusativ;hat geboten;Die Firma bietet uns gute Konditionen.;;Arbeit;;B1
+adjektiv;biológico;;biologisch;;;;Ich kaufe biologische Produkte.;bio;Essen;;B1
+adverb;hasta ahora;;bisher;;;;Bisher gab es keine Probleme.;;Zeit;;B1
+adjektiv;pálido;;blass;;;;Du siehst blass aus.;;Gesundheit;;B1
+adjektiv;ciego;;blind;;;;Er ist seit Geburt blind.;;Gesundheit;;B1
+nomen;el relámpago;der;Blitz;Blitze;;;;;Natur;;B1
+verb;relampaguear;;blitzen;;ohne Objekt;hat geblitzt;Es blitzt und donnert.;;Natur;;B1
+verb;sangrar;;bluten;;ohne Objekt;hat geblutet;Meine Nase blutet.;;Gesundheit;;B1
+verb;florecer;;blühen;;ohne Objekt;hat geblüht;Die Bäume blühen im Frühling.;;Natur;;B1
+nomen;la barca;das;Boot;Boote;;;;;Verkehr;;B1
+nomen;la embajada;die;Botschaft;Botschaften;;;;;Amt;;B1
+verb;romper;;brechen;;Akkusativ;hat gebrochen;Er hat sich den Arm gebrochen.;;Gesundheit;;B1
+nomen;el freno;die;Bremse;Bremsen;;;;;Verkehr;;B1
+verb;frenar;;bremsen;;ohne Objekt;hat gebremst;Der Fahrer bremst zu spät.;;Verkehr;;B1
+verb;arder;;brennen;;ohne Objekt;hat gebrannt;Das Haus brennt.;;Amt;;B1
+nomen;la cartera (de mano);die;Brieftasche;Brieftaschen;;;;;Kleidung;;B1
+nomen;el cartero;der;Briefträger;Briefträger;;;;;Arbeit;;B1
+nomen;el sobre;der;Briefumschlag;Briefumschläge;;;;Couvert;Amt;;B1
+nomen;el pecho;die;Brust;Brüste;;;;;Gesundheit;;B1
+nomen;la librería;die;Buchhandlung;Buchhandlungen;;;;;Stadt;;B1
+nomen;el bufé;das;Buffet;Buffets;;;;;Essen;;B1
+nomen;el castillo (fortaleza);die;Burg;Burgen;;;;;Stadt;;B1
+nomen;el cepillo;die;Bürste;Bürsten;;;;;Haushalt;;B1
+nomen;el ciudadano;der;Bürger;Bürger;;;;;Amt;;B1
+nomen;la oportunidad;die;Chance;Chancen;;;;;Abstrakt;;B1
+nomen;el peluquero;der;Coiffeur;Coiffeure;;;;Friseur;Arbeit;;B1
+nomen;el sofá (cama);die;Couch;Couchs;;;;;Wohnen;;B1
+nomen;el primo;der;Cousin;Cousins;;;;;Menschen;;B1
+nomen;la prima;die;Cousine;Cousinen;;;;;Menschen;;B1
+adverb;por eso (formal);;daher;;;;Es regnet, daher bleiben wir hier.;;Abstrakt;;B1
+adverb;después de eso;;danach;;;;Zuerst essen wir, danach gehen wir.;;Zeit;;B1
+adjektiv;agradecido;;dankbar;;;;Ich bin dir sehr dankbar.;;Gefühle;;B1
+verb;representar;;darstellen;;Akkusativ;hat dargestellt;Die Grafik stellt die Zahlen dar.;;Bildung;;B1
+nomen;la representación;die;Darstellung;Darstellungen;;;;;Bildung;;B1
+nomen;la duración;die;Dauer;nur Singular;;;;;Zeit;;B1
+adjektiv;constante;;dauernd;;;;Er ruft dauernd an.;;Zeit;;B1
+verb;decorar;;dekorieren;;Akkusativ;hat dekoriert;Wir dekorieren den Saal.;;Freizeit;;B1
+nomen;el monumento;das;Denkmal;Denkmäler;;;;;Stadt;;B1
+nomen;el postre;das;Dessert;Desserts;;;;Nachspeise;Essen;;B1
+nomen;el detalle;das;Detail;Details;;;;Einzelheit;Abstrakt;;B1
+nomen;el dialecto;der;Dialekt;Dialekte;;;;;Bildung;;B1
+nomen;el diálogo;der;Dialog;Dialoge;;;;;Bildung;;B1
+adjektiv;denso;;dicht;;;;Der Verkehr ist dicht.;;Verkehr;;B1
+nomen;el ladrón;der;Dieb;Diebe;;;;;Amt;;B1
+verb;servir para;;dienen;;Dativ;hat gedient;Das dient der Sicherheit.;;Abstrakt;;B1
+nomen;el servicio (guardia);der;Dienst;Dienste;;;;;Arbeit;;B1
+adverb;esta vez;;diesmal;;;;Diesmal fahre ich mit dem Zug.;;Zeit;;B1
+adjektiv;digital;;digital;;;;Wir arbeiten digital.;;Technik;;B1
+nomen;el diploma;das;Diplom;Diplome;;;;;Bildung;;B1
+nomen;el director;der;Direktor;Direktoren;;;;;Arbeit;;B1
+nomen;la discusión;die;Diskussion;Diskussionen;;;;;Bildung;;B1
+nomen;la dieta;die;Diät;Diäten;;;;;Gesundheit;;B1
+nomen;el documento;das;Dokument;Dokumente;;;;;Amt;;B1
+nomen;el trueno;der;Donner;nur Singular;;;;;Natur;;B1
+verb;tronar;;donnern;;ohne Objekt;hat gedonnert;Es donnert schon wieder.;;Natur;;B1
+adjektiv;doble;;doppelt;;;;Ich zahle den doppelten Preis.;;Menge & Grad;;B1
+nomen;la suciedad;der;Dreck;nur Singular;;;;Schmutz;Haushalt;;B1
+verb;girar (algo);;drehen;;Akkusativ;hat gedreht;Dreh den Schlüssel!;;Haushalt;;B1
+nomen;la droga;die;Droge;Drogen;;;;;Gesundheit;;B1
+nomen;la droguería;die;Drogerie;Drogerien;;;;;Stadt;;B1
+nomen;la presión;der;Druck;nur Singular;;;;;Arbeit;;B1
+adverb;en desorden;;durcheinander;;;;Alles liegt durcheinander.;;Haushalt;;B1
+nomen;la media (promedio);der;Durchschnitt;Durchschnitte;;;;;Menge & Grad;;B1
+adjektiv;medio (promedio);;durchschnittlich;;;;Er verdient durchschnittlich gut.;;Menge & Grad;;B1
+verb;tutear;;duzen;;Akkusativ;hat geduzt;Können wir uns duzen?;;Menschen;;B1
+adverb;igualmente;;ebenfalls;;;;Danke, ebenfalls!;;Redemittel;;B1
+adverb;igual de;;ebenso;;;;Sie ist ebenso gross wie ich.;;Menge & Grad;;B1
+adjektiv;anguloso;;eckig;;;;Der Tisch ist eckig.;;Menge & Grad;;B1
+nomen;el matrimonio (unión);die;Ehe;Ehen;;;;;Menschen;;B1
+nomen;el matrimonio (pareja);das;Ehepaar;Ehepaare;;;;;Menschen;;B1
+verb;ser adecuado;;sich eignen;;sich eignen für + Akkusativ;hat sich geeignet;Das Buch eignet sich für Anfänger.;eignen;Abstrakt;;B1
+nomen;la prisa;die;Eile;nur Singular;;;;;Zeit;;B1
+nomen;la calle de sentido único;die;Einbahnstrasse;Einbahnstrassen;;;;Einbahnstraße;Verkehr;;B1
+verb;entrar a robar;;einbrechen;;ohne Objekt;ist eingebrochen;Bei uns wurde eingebrochen.;;Amt;;B1
+nomen;el robo (en casa);der;Einbruch;Einbrüche;;;;;Amt;;B1
+adjektiv;inequívoco;;eindeutig;;;;Die Antwort ist eindeutig.;;Abstrakt;;B1
+nomen;la impresión;der;Eindruck;Eindrücke;;;;;Gefühle;;B1
+adverb;por un lado;;einerseits;;;;Einerseits ja, andererseits nein.;;Abstrakt;;B1
+nomen;la entrada (vehículos);die;Einfahrt;Einfahrten;;;;;Verkehr;;B1
+nomen;la ocurrencia;der;Einfall;Einfälle;;;;;Abstrakt;;B1
+verb;ocurrírsele a alguien;;einfallen;;Dativ;ist eingefallen;Mir fällt der Name nicht ein.;;Abstrakt;;B1
+nomen;la influencia;der;Einfluss;Einflüsse;;;;;Abstrakt;;B1
+verb;insertar;;einfügen;;Akkusativ;hat eingefügt;Füg das Bild hier ein!;;Technik;;B1
+verb;introducir;;einführen;;Akkusativ;hat eingeführt;Die Firma führt neue Regeln ein.;;Arbeit;;B1
+nomen;la introducción;die;Einführung;Einführungen;;;;;Bildung;;B1
+adjektiv;unitario;;einheitlich;;;;Die Preise sind einheitlich.;;Menge & Grad;;B1
+verb;ponerse de acuerdo;;sich einigen;;sich einigen auf + Akkusativ;hat sich geeinigt;Wir einigen uns auf einen Termin.;einigen;Arbeit;;B1
+nomen;la compra;der;Einkauf;Einkäufe;;;;;Einkaufen;;B1
+nomen;los ingresos;das;Einkommen;Einkommen;;;;;Geld;;B1
+verb;tomar (medicamento);;einnehmen;;Akkusativ;hat eingenommen;Nehmen Sie die Tablette dreimal täglich ein.;;Gesundheit;;B1
+verb;amueblar / arreglar;;einrichten;;Akkusativ;hat eingerichtet;Wir richten die Wohnung ein.;;Wohnen;;B1
+nomen;la instalación (centro);die;Einrichtung;Einrichtungen;;;;;Wohnen;;B1
+adjektiv;solitario;;einsam;;;;Sie fühlt sich einsam.;;Gefühle;;B1
+verb;encender (aparato);;einschalten;;Akkusativ;hat eingeschaltet;Schalte den Computer ein!;;Technik;;B1
+nomen;la carta certificada;das;Einschreiben;Einschreiben;;;;;Amt;;B1
+verb;emplear (poner en uso);;einsetzen;;Akkusativ;hat eingesetzt;Wir setzen neue Geräte ein.;;Arbeit;;B1
+verb;ajustar / contratar;;einstellen;;Akkusativ;hat eingestellt;Die Firma stellt zwei Leute ein.;;Arbeit;;B1
+verb;entrar / afiliarse;;eintreten;;ohne Objekt;ist eingetreten;Bitte treten Sie ein!;;Menschen;;B1
+nomen;el habitante (ciudad);der;Einwohner;Einwohner;;;;;Stadt;;B1
+verb;ingresar (dinero);;einzahlen;;Akkusativ;hat eingezahlt;Ich zahle das Geld ein.;;Geld;;B1
+nomen;el ingreso (en cuenta);die;Einzahlung;Einzahlungen;;;;;Geld;;B1
+adjektiv;único;;einzig;;;;Das ist die einzige Möglichkeit.;;Menge & Grad;;B1
+nomen;el ferrocarril (red);die;Eisenbahn;Eisenbahnen;;;;;Verkehr;;B1
+adjektiv;elegante;;elegant;;;;Sie trägt ein elegantes Kleid.;;Kleidung;;B1
+adjektiv;eléctrico;;elektrisch;;;;Wir haben ein elektrisches Auto.;;Technik;;B1
+adjektiv;electrónico;;elektronisch;;;;Die Anmeldung erfolgt elektronisch.;;Technik;;B1
+nomen;la recepción (acto);der;Empfang;Empfänge;;;;;Arbeit;;B1
+verb;recibir (formal);;empfangen;;Akkusativ;hat empfangen;Der Chef empfängt die Gäste.;;Arbeit;;B1
+nomen;la recomendación;die;Empfehlung;Empfehlungen;;;;;Abstrakt;;B1
+adjektiv;definitivo;;endgültig;;;;Das ist meine endgültige Antwort.;;Abstrakt;;B1
+nomen;la energía;die;Energie;Energien;;;;;Technik;;B1
+nomen;el nieto;der;Enkel;Enkel;;;;;Menschen;;B1
+verb;descubrir;;entdecken;;Akkusativ;hat entdeckt;Wir haben ein schönes Café entdeckt.;;Freizeit;;B1
+verb;quitar / alejar;;entfernen;;Akkusativ;hat entfernt;Entferne den Fleck!;;Haushalt;;B1
+verb;contener;;enthalten;;Akkusativ;hat enthalten;Der Preis enthält das Frühstück.;;Einkaufen;;B1
+verb;despedir (del trabajo);;entlassen;;Akkusativ;hat entlassen;Die Firma hat zehn Leute entlassen.;;Arbeit;;B1
+nomen;el despido;die;Entlassung;Entlassungen;;;;;Arbeit;;B1
+verb;decidirse a;;sich entschliessen;;sich entschliessen zu + Dativ;hat sich entschlossen;Ich habe mich zum Umzug entschlossen.;entschließen;Abstrakt;;B1
+verb;eliminar (residuos);;entsorgen;;Akkusativ;hat entsorgt;Wo kann man Altpapier entsorgen?;;Haushalt;;B1
+verb;relajarse;;sich entspannen;;ohne Objekt;hat sich entspannt;Ich entspanne mich im Garten.;entspannen;Gesundheit;;B1
+verb;surgir;;entstehen;;ohne Objekt;ist entstanden;Dabei entstehen hohe Kosten.;;Abstrakt;;B1
+verb;decepcionar;;enttäuschen;;Akkusativ;hat enttäuscht;Das Ergebnis hat mich enttäuscht.;;Gefühle;;B1
+nomen;la decepción;die;Enttäuschung;Enttäuschungen;;;;;Gefühle;;B1
+verb;desarrollar;;entwickeln;;Akkusativ;hat entwickelt;Die Firma entwickelt neue Produkte.;;Arbeit;;B1
+nomen;la tierra (planeta);die;Erde;nur Singular;;;;;Natur;;B1
+verb;suceder (ocurrir);;sich ereignen;;ohne Objekt;hat sich ereignet;Der Unfall hat sich gestern ereignet.;ereignen;Amt;;B1
+nomen;el acontecimiento;das;Ereignis;Ereignisse;;;;;Freizeit;;B1
+verb;enterarse de;;erfahren;;Akkusativ;hat erfahren;Ich habe es gestern erfahren.;;Abstrakt;;B1
+verb;inventar;;erfinden;;Akkusativ;hat erfunden;Wer hat das Telefon erfunden?;;Technik;;B1
+nomen;el invento;die;Erfindung;Erfindungen;;;;;Technik;;B1
+nomen;el éxito;der;Erfolg;Erfolge;;;;;Arbeit;;B1
+adjektiv;exitoso;;erfolgreich;;;;Die Firma ist sehr erfolgreich.;;Arbeit;;B1
+adjektiv;necesario (requerido);;erforderlich;;;;Eine Anmeldung ist erforderlich.;;Amt;;B1
+verb;cumplir (un deseo);;erfüllen;;Akkusativ;hat erfüllt;Sie hat ihren Traum erfüllt.;;Abstrakt;;B1
+verb;completar;;ergänzen;;Akkusativ;hat ergänzt;Ergänzen Sie die Sätze!;;Bildung;;B1
+verb;recibir / conservar;;erhalten;;Akkusativ;hat erhalten;Ich habe Ihren Brief erhalten.;;Amt;;B1
+verb;recuperarse;;sich erholen;;ohne Objekt;hat sich erholt;Im Urlaub erhole ich mich gut.;erholen;Gesundheit;;B1
+nomen;el descanso (recuperación);die;Erholung;nur Singular;;;;;Gesundheit;;B1
+verb;aumentar;;erhöhen;;Akkusativ;hat erhöht;Die Firma erhöht die Löhne.;;Geld;;B1
+nomen;el aumento;die;Erhöhung;Erhöhungen;;;;;Geld;;B1
+nomen;el recuerdo (memoria);die;Erinnerung;Erinnerungen;;;;;Abstrakt;;B1
+verb;reconocer (identificar);;erkennen;;Akkusativ;hat erkannt;Ich habe dich sofort erkannt.;;Abstrakt;;B1
+nomen;la explicación;die;Erklärung;Erklärungen;;;;;Bildung;;B1
+verb;informarse (preguntar);;sich erkundigen;;sich erkundigen nach + Dativ;hat sich erkundigt;Ich erkundige mich nach dem Preis.;erkundigen;Menschen;;B1
+verb;resfriarse;;sich erkälten;;ohne Objekt;hat sich erkältet;Ich habe mich erkältet.;erkälten;Gesundheit;;B1
+verb;vivir (experimentar);;erleben;;Akkusativ;hat erlebt;Wir haben viel erlebt.;;Freizeit;;B1
+nomen;la vivencia;das;Erlebnis;Erlebnisse;;;;;Freizeit;;B1
+verb;despachar (gestionar);;erledigen;;Akkusativ;hat erledigt;Ich erledige das heute noch.;;Arbeit;;B1
+verb;facilitar;;erleichtern;;Akkusativ;hat erleichtert;Das erleichtert die Arbeit.;;Arbeit;;B1
+adjektiv;serio;;ernst;;;;Die Lage ist ernst.;ernsthaft;Abstrakt;;B1
+nomen;la cosecha;die;Ernte;Ernten;;;;;Natur;;B1
+verb;alimentar;;ernähren;;Akkusativ;hat ernährt;Sie ernährt ihre Familie.;;Essen;;B1
+nomen;la alimentación;die;Ernährung;nur Singular;;;;;Essen;;B1
+nomen;el repuesto;der;Ersatz;nur Singular;;;;;Technik;;B1
+verb;asustarse;;erschrecken;;ohne Objekt;ist erschrocken;Ich bin sehr erschrocken.;;Gefühle;;B1
+adjektiv;agotado;;erschöpft;;;;Nach der Arbeit bin ich erschöpft.;;Gesundheit;;B1
+verb;sustituir;;ersetzen;;Akkusativ;hat ersetzt;Wir ersetzen das alte Gerät.;;Technik;;B1
+verb;elaborar;;erstellen;;Akkusativ;hat erstellt;Ich erstelle eine Liste.;;Arbeit;;B1
+adjektiv;adulto;;erwachsen;;;;Meine Kinder sind erwachsen.;;Menschen;;B1
+verb;esperar (contar con);;erwarten;;Akkusativ;hat erwartet;Wir erwarten Gäste.;;Abstrakt;;B1
+verb;educar (criar);;erziehen;;Akkusativ;hat erzogen;Die Eltern erziehen ihre Kinder.;;Menschen;;B1
+nomen;la educación (crianza);die;Erziehung;nur Singular;;;;;Menschen;;B1
+nomen;el relato;die;Erzählung;Erzählungen;;;;;Freizeit;;B1
+verb;inaugurar;;eröffnen;;Akkusativ;hat eröffnet;Wir eröffnen ein Konto.;;Geld;;B1
+nomen;la inauguración;die;Eröffnung;Eröffnungen;;;;;Freizeit;;B1
+nomen;la planta (piso);die;Etage;Etagen;;;;Stockwerk;Wohnen;;A2
+adverb;aproximadamente (formal);;etwa;;;;Das dauert etwa eine Stunde.;;Menge & Grad;;B1
+adjektiv;eventual;;eventuell;;;;Eventuell komme ich später.;;Abstrakt;;B1
+adjektiv;eterno;;ewig;;;;Das dauert ewig.;;Zeit;;B1
+nomen;el experto;der;Experte;Experten;;;;Fachmann;Arbeit;;B1
+nomen;la exportación;der;Export;Exporte;;;;;Arbeit;;B1
+adverb;a propósito / aparte;;extra;;;;Das kostet extra.;;Geld;;B1
+adjektiv;extremo;;extrem;;;;Das Wetter ist extrem.;;Menge & Grad;;B1
+nomen;la fábrica;die;Fabrik;Fabriken;;;;;Arbeit;;B1
+nomen;la calzada;die;Fahrbahn;Fahrbahnen;;;;;Verkehr;;B1
+nomen;el vehículo;das;Fahrzeug;Fahrzeuge;;;;;Verkehr;;B1
+adjektiv;justo (deportivo);;fair;;;;Das Spiel war fair.;;Menschen;;B1
+nomen;el factor;der;Faktor;Faktoren;;;;;Abstrakt;;B1
+konnektor;en caso de que;;falls;;Nebensatz — Verb ans Ende;;Falls es regnet, bleiben wir zu Hause.;;Konnektoren;;B1
+verb;atrapar;;fangen;;Akkusativ;hat gefangen;Die Katze fängt eine Maus.;;Natur;;B1
+nomen;la fantasía;die;Fantasie;Fantasien;;;;Phantasie;Abstrakt;;B1
+adjektiv;de color;;farbig;;;;Bitte ein farbiges Foto.;;Farben;;B1
+nomen;el carnaval;der;Fasching;Faschinge;;;;Karneval|Fasnacht;Feste;;B1
+verb;agarrar / comprender;;fassen;;Akkusativ;hat gefasst;Ich kann es nicht fassen.;;Abstrakt;;B1
+verb;holgazanear;;faulenzen;;ohne Objekt;hat gefaulenzt;Am Sonntag faulenze ich gern.;;Freizeit;;B1
+nomen;el mando a distancia;die;Fernbedienung;Fernbedienungen;;;;;Technik;;B1
+nomen;la televisión (medio);das;Fernsehen;nur Singular;;;;;Technik;;A1
+adjektiv;firme;;fest;;;;Ich habe eine feste Stelle.;;Arbeit;;A2
+verb;sujetar / constatar;;festhalten;;Akkusativ;hat festgehalten;Halt dich gut fest!;;Verkehr;;B1
+verb;fijar (determinar);;festlegen;;Akkusativ;hat festgelegt;Wir legen den Termin fest.;;Arbeit;;B1
+verb;detener (policía);;festnehmen;;Akkusativ;hat festgenommen;Die Polizei hat den Dieb festgenommen.;;Amt;;B1
+nomen;el disco duro;die;Festplatte;Festplatten;;;;;Technik;;B1
+verb;constatar;;feststellen;;Akkusativ;hat festgestellt;Der Arzt stellt eine Grippe fest.;;Gesundheit;;B1
+nomen;la grasa;das;Fett;Fette;;;;;Essen;;A2
+adjektiv;húmedo;;feucht;;;;Die Wäsche ist noch feucht.;;Natur;;B1
+nomen;el mechero;das;Feuerzeug;Feuerzeuge;;;;;Haushalt;;B1
+nomen;la figura;die;Figur;Figuren;;;;;Freizeit;;B1
+adjektiv;financiero;;finanziell;;;;Wir haben finanzielle Probleme.;;Geld;;B1
+verb;financiar;;finanzieren;;Akkusativ;hat finanziert;Die Eltern finanzieren das Studium.;;Geld;;B1
+adjektiv;plano;;flach;;;;Die Landschaft ist flach.;;Natur;;B1
+nomen;la mancha;der;Fleck;Flecken;;;;;Kleidung;;B1
+adjektiv;flexible;;flexibel;;;;Meine Arbeitszeit ist flexibel.;;Arbeit;;B1
+verb;huir;;fliehen;;ohne Objekt;ist geflohen;Sie sind aus dem Land geflohen.;;Amt;;B1
+verb;fluir;;fliessen;;ohne Objekt;ist geflossen;Der Fluss fliesst schnell.;fließen;Natur;;B1
+adjektiv;fluido (idioma);;fliessend;;;;Sie spricht fliessend Deutsch.;fließend;Bildung;;B1
+nomen;la huida;die;Flucht;Fluchten;;;;;Amt;;B1
+nomen;la superficie;die;Fläche;Flächen;;;;;Menge & Grad;;B1
+nomen;la flauta;die;Flöte;Flöten;;;;;Freizeit;;B1
+nomen;el líquido;die;Flüssigkeit;Flüssigkeiten;;;;;Essen;;B1
+nomen;la consecuencia;die;Folge;Folgen;;;;;Abstrakt;;B1
+adjektiv;siguiente;;folgend;;;;Beantworten Sie die folgenden Fragen.;;Bildung;;B1
+verb;exigir;;fordern;;Akkusativ;hat gefordert;Die Gewerkschaft fordert mehr Lohn.;;Arbeit;;B1
+nomen;la exigencia;die;Forderung;Forderungen;;;;;Arbeit;;B1
+nomen;la investigación (ciencia);die;Forschung;Forschungen;;;;;Bildung;;B1
+nomen;la formación continua;die;Fortbildung;Fortbildungen;;;;;Arbeit;;B1
+nomen;el progreso;der;Fortschritt;Fortschritte;;;;;Abstrakt;;B1
+verb;continuar;;fortsetzen;;Akkusativ;hat fortgesetzt;Wir setzen die Arbeit morgen fort.;;Arbeit;;B1
+nomen;la continuación;die;Fortsetzung;Fortsetzungen;;;;;Freizeit;;B1
+nomen;el foro;das;Forum;Foren;;;;;Technik;;B1
+nomen;el fotógrafo;der;Fotograf;Fotografen;;;;;Arbeit;;B1
+nomen;la fotografía;die;Fotografie;Fotografien;;;;;Freizeit;;B1
+adjektiv;descarado;;frech;;;;Das Kind ist frech.;;Menschen;;B1
+nomen;la lengua extranjera;die;Fremdsprache;Fremdsprachen;;;;;Bildung;;B1
+verb;comer (animales);;fressen;;Akkusativ;hat gefressen;Der Hund frisst gern Fleisch.;;Natur;;B1
+nomen;la amistad;die;Freundschaft;Freundschaften;;;;;Menschen;;B1
+verb;tener frío;;frieren;;ohne Objekt;hat gefroren;Ich friere sehr.;;Natur;;B1
+nomen;el peinado;die;Frisur;Frisuren;;;;;Kleidung;;B1
+adjektiv;alegre;;fröhlich;;;;Die Kinder sind fröhlich.;;Gefühle;;B1
+nomen;la oficina de objetos perdidos;das;Fundbüro;Fundbüros;;;;;Amt;;B1
+nomen;el peatón;der;Fussgänger;Fussgänger;;;;Fußgänger;Verkehr;;B1
+nomen;la zona peatonal;die;Fussgängerzone;Fussgängerzonen;;;;Fußgängerzone;Stadt;;B1
+nomen;la capacidad;die;Fähigkeit;Fähigkeiten;;;;;Arbeit;;B1
+nomen;el transbordador;die;Fähre;Fähren;;;;;Verkehr;;B1
+adjektiv;vencido (a pagar);;fällig;;;;Die Miete ist am Ersten fällig.;;Geld;;B1
+verb;fomentar;;fördern;;Akkusativ;hat gefördert;Die Schule fördert die Kinder.;;Bildung;;B1
+verb;llevar / dirigir;;führen;;Akkusativ;hat geführt;Sie führt die Abteilung.;;Arbeit;;B1
+verb;temer;;fürchten;;Akkusativ;hat gefürchtet;Ich fürchte, das geht nicht.;;Gefühle;;B1
+verb;dar de comer;;füttern;;Akkusativ;hat gefüttert;Wir füttern die Vögel.;;Natur;;B1
