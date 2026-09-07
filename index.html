@@ -95,7 +95,7 @@ button{cursor:pointer}
 
 <footer>
   <span>nivel:</span>
-  <select id="nivel"><option value="alle">todo</option><option value="A1">A1</option><option value="A2">A2</option></select>
+  <select id="nivel"></select>
   <span>tema:</span>
   <select id="tema"></select>
   <span>voz:</span>
@@ -396,33 +396,50 @@ $("voz").onchange = () => {
   hablar("Guten Tag. Ich spreche Hochdeutsch.");
 };
 $("probar").onclick = () => hablar("Guten Tag. Ich spreche Hochdeutsch.");
+const TEMAS = (() => {
+  const c = {};
+  VOKABELN.forEach(x => { c[x.thema] = (c[x.thema] || 0) + 1; });
+  return Object.keys(c).sort((a,b) => c[b] - c[a] || a.localeCompare(b));
+})();
+
+/* Zahl in jedem Feld gegen den jeweils anderen Filter rechnen */
+function etiquetas(){
+  const porNivel = (nivel === "alle") ? VOKABELN : VOKABELN.filter(c => c.niveau === nivel);
+  const selT = $("tema");
+  selT.innerHTML = "";
+  selT.appendChild(new Option("todos (" + porNivel.length + ")", "alle"));
+  TEMAS.forEach(n => selT.appendChild(
+    new Option(n + " (" + porNivel.filter(c => c.thema === n).length + ")", n)));
+  selT.value = tema;
+
+  const porTema = (tema === "alle") ? VOKABELN : VOKABELN.filter(c => c.thema === tema);
+  const selN = $("nivel");
+  selN.innerHTML = "";
+  [["alle","todo"],["A1","A1"],["A2","A2"]].forEach(([v, texto]) => {
+    const n = (v === "alle") ? porTema.length : porTema.filter(c => c.niveau === v).length;
+    selN.appendChild(new Option(texto + " (" + n + ")", v));
+  });
+  selN.value = nivel;
+}
+
+try{
+  const gn = localStorage.getItem("nivel"); if(gn) nivel = gn;
+  const gt = localStorage.getItem("tema"); if(gt) tema = gt;
+}catch(e){}
+etiquetas();
+
 $("nivel").onchange = () => {
   nivel = $("nivel").value;
   try{ localStorage.setItem("nivel", nivel); }catch(e){}
+  etiquetas();
   empezarRonda();
 };
 $("tema").onchange = () => {
   tema = $("tema").value;
   try{ localStorage.setItem("tema", tema); }catch(e){}
+  etiquetas();
   empezarRonda();
 };
-(function llenarTemas(){
-  const cuenta = {};
-  VOKABELN.forEach(c => { cuenta[c.thema] = (cuenta[c.thema] || 0) + 1; });
-  const sel = $("tema");
-  const todo = document.createElement("option");
-  todo.value = "alle"; todo.textContent = "todos (" + VOKABELN.length + ")";
-  sel.appendChild(todo);
-  Object.keys(cuenta).sort((a,b) => cuenta[b] - cuenta[a] || a.localeCompare(b)).forEach(n => {
-    const o = document.createElement("option");
-    o.value = n; o.textContent = n + " (" + cuenta[n] + ")";
-    sel.appendChild(o);
-  });
-})();
-try{
-  const gn = localStorage.getItem("nivel"); if(gn){ nivel = gn; $("nivel").value = gn; }
-  const gt = localStorage.getItem("tema"); if(gt){ tema = gt; $("tema").value = gt; }
-}catch(e){}
 
 if(window.speechSynthesis){
   cargarVoces();

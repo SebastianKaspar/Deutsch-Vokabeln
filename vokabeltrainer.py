@@ -559,29 +559,24 @@ class Trainer:
         fuss.pack(fill="x", padx=24, pady=(4, 14))
         tk.Label(fuss, text="nivel:", font=self.f_klein, bg=FARBE_BG,
                  fg=FARBE_GRAU).pack(side="left")
-        self.v_niveau = tk.StringVar(value="alle")
-        stufe = ttk.Combobox(fuss, textvariable=self.v_niveau, state="readonly",
-                             values=["alle", "A1", "A2"], width=5, font=self.f_klein)
-        stufe.pack(side="left", padx=(4, 12))
-        stufe.bind("<<ComboboxSelected>>", self._niveau_gewechselt)
+        self.v_niveau = tk.StringVar()
+        self.combo_niveau = ttk.Combobox(fuss, textvariable=self.v_niveau, state="readonly",
+                                         width=10, font=self.f_klein)
+        self.combo_niveau.pack(side="left", padx=(4, 12))
+        self.combo_niveau.bind("<<ComboboxSelected>>", self._niveau_gewechselt)
 
         zaehler = {}
         for k in self.karten:
             zaehler[k["thema"]] = zaehler.get(k["thema"], 0) + 1
-        alle_label = f"todos ({len(self.karten)})"
-        self.themen_zu_label = {alle_label: "alle"}
-        labels = [alle_label]
-        for name in sorted(zaehler, key=lambda n: (-zaehler[n], n)):
-            label = f"{name} ({zaehler[name]})"
-            self.themen_zu_label[label] = name
-            labels.append(label)
+        self.themen_namen = sorted(zaehler, key=lambda n: (-zaehler[n], n))
         tk.Label(fuss, text="tema:", font=self.f_klein, bg=FARBE_BG,
                  fg=FARBE_GRAU).pack(side="left")
-        self.v_thema = tk.StringVar(value=alle_label)
-        bereich = ttk.Combobox(fuss, textvariable=self.v_thema, state="readonly",
-                               values=labels, width=18, font=self.f_klein)
-        bereich.pack(side="left", padx=(4, 12))
-        bereich.bind("<<ComboboxSelected>>", self._thema_gewechselt)
+        self.v_thema = tk.StringVar()
+        self.combo_thema = ttk.Combobox(fuss, textvariable=self.v_thema, state="readonly",
+                                        width=20, font=self.f_klein)
+        self.combo_thema.pack(side="left", padx=(4, 12))
+        self.combo_thema.bind("<<ComboboxSelected>>", self._thema_gewechselt)
+        self._beschriftungen_erneuern()
         tk.Label(fuss, text="voz:", font=self.f_klein, bg=FARBE_BG,
                  fg=FARBE_GRAU).pack(side="left")
         if self.sprecher.stimmen:
@@ -613,12 +608,34 @@ class Trainer:
             karten = [k for k in karten if k["thema"] == self.thema]
         return karten
 
+    def _beschriftungen_erneuern(self):
+        """Kartenzahlen in beiden Auswahlfeldern gegen den jeweils anderen Filter rechnen."""
+        nach_niveau = (self.karten if self.niveau == "alle"
+                       else [k for k in self.karten if k["niveau"] == self.niveau])
+        werte = [f"todos ({len(nach_niveau)})"]
+        for name in self.themen_namen:
+            werte.append(f"{name} ({sum(1 for k in nach_niveau if k['thema'] == name)})")
+        self.combo_thema["values"] = werte
+        stelle = 0 if self.thema == "alle" else self.themen_namen.index(self.thema) + 1
+        self.v_thema.set(werte[stelle])
+
+        nach_thema = (self.karten if self.thema == "alle"
+                      else [k for k in self.karten if k["thema"] == self.thema])
+        stufen = [("alle", "todo"), ("A1", "A1"), ("A2", "A2")]
+        werte = [f"{anzeige} ({len(nach_thema) if s == 'alle' else sum(1 for k in nach_thema if k['niveau'] == s)})"
+                 for s, anzeige in stufen]
+        self.combo_niveau["values"] = werte
+        self.v_niveau.set(werte[[s for s, _ in stufen].index(self.niveau)])
+
     def _thema_gewechselt(self, _ereignis=None):
-        self.thema = self.themen_zu_label.get(self.v_thema.get(), "alle")
+        stelle = self.combo_thema.current()
+        self.thema = "alle" if stelle <= 0 else self.themen_namen[stelle - 1]
+        self._beschriftungen_erneuern()
         self._runde_starten()
 
     def _niveau_gewechselt(self, _ereignis=None):
-        self.niveau = self.v_niveau.get()
+        self.niveau = ["alle", "A1", "A2"][max(0, self.combo_niveau.current())]
+        self._beschriftungen_erneuern()
         self._runde_starten()
 
     def _stimme_gewechselt(self, _ereignis=None):
