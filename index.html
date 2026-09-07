@@ -104,6 +104,16 @@ button{cursor:pointer}
 #resumen .sub{font-size:12px;color:var(--grau)}
 #resumen .pila{height:12px;border-radius:6px;margin-top:8px}
 
+/* Sicherung */
+#datos{margin-top:16px;padding-top:14px;border-top:1px solid #eebcd0}
+#datos h2{margin:0 0 4px}
+#datos .nota{font-size:12px;color:var(--grau);margin:0 0 8px;line-height:1.45}
+#datos .botones{display:flex;gap:8px;margin-bottom:8px}
+#datos button,#datos .boton{
+  padding:9px 16px;font-size:13px;border:0;border-radius:9px;background:#f3cadb;
+  color:var(--text);font-family:inherit;cursor:pointer;
+}
+
 /* Kacheln je Sachgebiet */
 #fichas{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:8px}
 .ficha{background:#fdeef4;border:1px solid #f6dbe6;border-radius:10px;padding:8px 10px}
@@ -172,10 +182,33 @@ const AVISO_SIN_VOZ = "Ajustes › Accesibilidad › Contenido hablado › Voces
 
 const $ = id => document.getElementById(id);
 
+/* Gerätekennung: einmal erzeugt, bleibt auf diesem Gerät */
+const DISPOSITIVO = (() => {
+  try{
+    let d = localStorage.getItem("dispositivo");
+    if(!d){
+      d = "d-" + Math.random().toString(36).slice(2, 8) + Date.now().toString(36).slice(-4);
+      localStorage.setItem("dispositivo", d);
+    }
+    return d;
+  }catch(e){ return "d-temp"; }
+})();
+
 /* ---------------------------------------------------------------- Fortschritt */
 function cargar(){
-  try{ return JSON.parse(localStorage.getItem("fortschritt") || "{}"); }
-  catch(e){ return {}; }
+  let f = {};
+  try{ f = JSON.parse(localStorage.getItem("fortschritt") || "{}"); }catch(e){ return {}; }
+  // Altbestand ohne Zeitstempel: aus Fälligkeit und Fach zurückgerechnet
+  let migrado = false;
+  Object.values(f).forEach(e => {
+    if(!e.zuletzt){
+      const base = e.faellig ? Date.parse(e.faellig + "T12:00:00") : Date.now();
+      e.zuletzt = base - (FAECHER[e.fach || 1] || 0) * 86400000;
+      migrado = true;
+    }
+  });
+  if(migrado) try{ localStorage.setItem("fortschritt", JSON.stringify(f)); }catch(e){}
+  return f;
 }
 function guardar(datos){
   try{ localStorage.setItem("fortschritt", JSON.stringify(datos)); }catch(e){}
@@ -201,11 +234,27 @@ try{ tiempos = JSON.parse(localStorage.getItem("tiempos") || "{}"); }catch(e){ t
 let ultimaAccion = 0;        // 0 = seit dem Öffnen noch keine Eingabe
 let ultimoGuardado = 0;
 
+function migrarTiempos(){
+  // altes Format {fecha:{seg,tarjetas}} -> {fecha:{geraet:{seg,tarjetas}}}
+  let cambio = false;
+  Object.entries(tiempos).forEach(([d, v]) => {
+    if(v && typeof v.seg === "number"){
+      tiempos[d] = {[DISPOSITIVO]: {seg: v.seg, tarjetas: v.tarjetas || 0}};
+      cambio = true;
+    }
+  });
+  if(cambio) try{ localStorage.setItem("tiempos", JSON.stringify(tiempos)); }catch(e){}
+}
+migrarTiempos();
+
 function registroHoy(){
   const d = hoy();
-  if(!tiempos[d]) tiempos[d] = {seg:0, tarjetas:0};
-  return tiempos[d];
+  if(!tiempos[d]) tiempos[d] = {};
+  if(!tiempos[d][DISPOSITIVO]) tiempos[d][DISPOSITIVO] = {seg:0, tarjetas:0};
+  return tiempos[d][DISPOSITIVO];
 }
+const segDia = d => Object.values(tiempos[d] || {}).reduce((a, x) => a + (x.seg || 0), 0);
+const tarjetasDia = d => Object.values(tiempos[d] || {}).reduce((a, x) => a + (x.tarjetas || 0), 0);
 function guardarTiempos(){
   const limite = masDias(-60);
   Object.keys(tiempos).forEach(d => { if(d < limite) delete tiempos[d]; });
@@ -226,6 +275,95 @@ document.addEventListener("visibilitychange", () => {
   if(document.hidden){ guardarTiempos(); ultimaAccion = 0; }
 });
 window.addEventListener("pagehide", guardarTiempos);
+
+/* --------------------------------------------------- Sicherung und Abgleich */
+const FORMATO = {app: "vokabeltrainer", version: 1};
+
+/* Zusammenführen ohne Verlust:
+   - je Karte gewinnt der jüngere Zeitstempel, Zähler werden maximiert
+   - Übungszeit je Tag und Gerät, deshalb beliebig oft zusammenführbar   */
+function fusionar(local, ajeno){
+  const f = {};
+  Object.entries(local.fortschritt || {}).forEach(([k, v]) => f[k] = Object.assign({}, v));
+  Object.entries(ajeno.fortschritt || {}).forEach(([k, a]) => {
+    const l = f[k];
+    const gana = !l || (a.zuletzt || 0) > (l.zuletzt || 0) ? a : l;
+    f[k] = Object.assign({}, gana, {
+      richtig: Math.max(a.richtig || 0, l ? l.richtig || 0 : 0),
+      falsch:  Math.max(a.falsch  || 0, l ? l.falsch  || 0 : 0)
+    });
+  });
+
+  const t = {};
+  [local.tiempos || {}, ajeno.tiempos || {}].forEach(fuente => {
+    Object.entries(fuente).forEach(([dia, aparatos]) => {
+      t[dia] = t[dia] || {};
+      Object.entries(aparatos || {}).forEach(([g, v]) => {
+        const y = t[dia][g] || {seg:0, tarjetas:0};
+        t[dia][g] = {seg: Math.max(y.seg || 0, v.seg || 0),
+                     tarjetas: Math.max(y.tarjetas || 0, v.tarjetas || 0)};
+      });
+    });
+  });
+  return {fortschritt: f, tiempos: t};
+}
+
+function paquete(){
+  return Object.assign({}, FORMATO, {
+    exportado: new Date().toISOString(),
+    dispositivo: DISPOSITIVO,
+    fortschritt, tiempos
+  });
+}
+
+async function exportar(){
+  const texto = JSON.stringify(paquete());
+  const nombre = "vokabeln-" + hoy() + ".json";
+  const blob = new Blob([texto], {type: "application/json"});
+  try{
+    const archivo = new File([blob], nombre, {type: "application/json"});
+    if(navigator.canShare && navigator.canShare({files: [archivo]})){
+      await navigator.share({files: [archivo], title: nombre});   // iOS: Teilen-Menü
+      return aviso("Copia creada.");
+    }
+  }catch(e){ if(e && e.name === "AbortError") return; }
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = nombre;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  aviso("Copia creada.");
+}
+
+function importar(archivo){
+  const lector = new FileReader();
+  lector.onload = () => {
+    let datos;
+    try{ datos = JSON.parse(lector.result); }
+    catch(e){ return aviso("Archivo ilegible.", true); }
+    if(datos.app !== FORMATO.app) return aviso("Ese archivo no es del vokabeltrainer.", true);
+
+    const antes = Object.keys(fortschritt).length;
+    const unido = fusionar({fortschritt, tiempos}, datos);
+    fortschritt = unido.fortschritt;
+    tiempos = unido.tiempos;
+    guardar(fortschritt);
+    guardarTiempos();
+    const nuevas = Object.keys(fortschritt).length - antes;
+    aviso(`Unido: ${Object.keys(fortschritt).length} tarjetas (${nuevas} nuevas).`);
+    empezarRonda();
+    tablero();
+  };
+  lector.onerror = () => aviso("No se pudo leer el archivo.", true);
+  lector.readAsText(archivo);
+}
+
+function aviso(texto, malo){
+  const e = $("avisoDatos");
+  if(!e) return;
+  e.textContent = texto;
+  e.style.color = malo ? "var(--rot)" : "var(--gruen)";
+}
 
 /* ------------------------------------------------------------ Antwortprüfung */
 function normalizar(t){
@@ -393,6 +531,7 @@ function actualizarEstado(carta, resultado){
   else if(resultado === "falsch"){ fach = 1; e.falsch = (e.falsch||0)+1; }
   e.fach = fach;
   e.faellig = masDias(FAECHER[fach]);
+  e.zuletzt = Date.now();
   fortschritt[carta.id] = e;
   guardar(fortschritt);
   tablero();
@@ -530,7 +669,7 @@ function tablero(){
     .sort((a,b) => filas[b].total - filas[a].total || a.localeCompare(b));
 
   const r = registroHoy();
-  const min = d => Math.round((tiempos[d]?.seg || 0) / 60);
+  const min = d => Math.round(segDia(d) / 60);
 
   const dias = [];
   for(let i = 6; i >= 0; i--){
@@ -542,7 +681,7 @@ function tablero(){
   let racha = 0;
   for(let i = 0; i < 90; i++){
     const d = masDias(-i);
-    if((tiempos[d]?.seg || 0) >= 60) racha++;
+    if(segDia(d) >= 60) racha++;
     else if(i > 0) break;
   }
 
@@ -560,13 +699,13 @@ function tablero(){
   const mediaTotal = Math.round(total / diasDesdeInicio);
   const saldo = total - META * diasDesdeInicio;
   const horas = m => (m < 0 ? "−" : "+") + Math.floor(Math.abs(m) / 60) + " h " + (Math.abs(m) % 60) + " min";
-  const pctMeta = Math.min(100, Math.round(100 * Math.round(r.seg / 60) / META));
+  const pctMeta = Math.min(100, Math.round(100 * Math.round(segDia(hoy()) / 60) / META));
 
   $("tablero").innerHTML =
     `<h2>Hoy</h2>`
   + `<div id="hoy">`
-  +   `<div class="cabeza"><span class="grande" id="hoyCifras">${Math.round(r.seg/60)} min</span>`
-  +   `<span class="sub">de ${META} min &middot; ${r.tarjetas} tarjetas`
+  +   `<div class="cabeza"><span class="grande" id="hoyCifras">${Math.round(segDia(hoy())/60)} min</span>`
+  +   `<span class="sub">de ${META} min &middot; ${tarjetasDia(hoy())} tarjetas`
   +   `${racha > 1 ? "<br>racha de " + racha + " días" : ""}</span></div>`
   +   `<div class="pila" style="height:9px;border-radius:5px"><i style="width:${pctMeta}%"></i></div>`
   +   `<div class="semana"><div class="meta" style="bottom:${Math.round(46 * META / tope) + 15}px"></div>`
@@ -595,16 +734,28 @@ function tablero(){
            + `<div class="cifras">${f.sabe} &middot; ${f.casi} &middot; ${f.total}</div></div>`;
     }).join("")
   + `</div>`
+  + `<div id="datos">`
+  +   `<h2>Copia de seguridad</h2>`
+  +   `<p class="nota">Guarda el progreso en un archivo y llévalo a otro dispositivo. `
+  +   `Al importar, los dos estados se combinan; no se pierde nada.</p>`
+  +   `<div class="botones"><button id="btExportar">exportar</button>`
+  +   `<label class="boton">importar<input type="file" id="btImportar" accept=".json,application/json" hidden></label></div>`
+  +   `<p class="nota" id="avisoDatos"></p>`
+  +   `<p class="nota">dispositivo: ${DISPOSITIVO}</p>`
+  + `</div>`
   + `<p class="leyenda">`
   +   `<span><i style="background:var(--gruen)"></i>sabe (caja 4–5)</span>`
   +   `<span><i style="background:var(--gelb)"></i>casi (caja 2–3)</span>`
   +   `<span><i style="background:#f3cadb"></i>por aprender</span>`
   + `</p>`;
+
+  $("btExportar").onclick = exportar;
+  $("btImportar").onchange = ev => { if(ev.target.files[0]) importar(ev.target.files[0]); ev.target.value = ""; };
 }
 
 function refrescarHoy(){
   const e = $("hoyCifras");
-  if(e) e.textContent = Math.round(registroHoy().seg/60) + " min";
+  if(e) e.textContent = Math.round(segDia(hoy())/60) + " min";
 }
 
 /* ------------------------------------------------------------------ Bindung */

@@ -28,6 +28,7 @@ import shutil
 import subprocess
 import sys
 import threading
+import time
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -459,6 +460,7 @@ def stand_aktualisieren(fortschritt, karte, ergebnis):
         stand["falsch"] = stand.get("falsch", 0) + 1
     stand["fach"] = fach
     stand["faellig"] = (date.today() + timedelta(days=FAECHER[fach])).isoformat()
+    stand["zuletzt"] = int(time.time() * 1000)   # für den späteren Geräteabgleich
     fortschritt[karte["id"]] = stand
     return fortschritt
 
