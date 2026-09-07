@@ -337,15 +337,25 @@ function hablarEs(texto){
     speechSynthesis.speak(u);
   }catch(e){}
 }
+/* Nur echte Synonyme, keine reinen Schreibvarianten wie gross/groß */
+function sinonimos(c){
+  const base = normalizar(c.de);
+  return (c.alt || []).filter(a => normalizar(a) !== base);
+}
 function textoHablado(c){
-  if(c.satz) return fraseCompleta(c);
-  if(c.typ === "nomen"){
-    const p = c.art ? c.art + " " + c.de : c.de;
+  let texto;
+  if(c.satz){
+    texto = fraseCompleta(c);
+  } else if(c.typ === "nomen"){
+    texto = c.art ? c.art + " " + c.de : c.de;
     if(c.plural && c.plural !== "nur Plural" && c.plural !== "nur Singular")
-      return p + ". Plural: die " + c.plural + ".";
-    return p;
+      texto += ". Plural: die " + c.plural + ".";
+  } else {
+    texto = c.de;
   }
-  return c.de;
+  const otros = sinonimos(c);
+  if(otros.length) texto = texto.replace(/\.\s*$/, "") + ". Auch: " + otros.join(", ") + ".";
+  return texto;
 }
 
 /* ------------------------------------------------------------------- Ablauf */

@@ -316,15 +316,21 @@ NIVEAUS = [("alle", "todo"), ("A1", "A1"), ("A2", "A2"), ("B1", "B1"),
 
 
 def sprechtext(karte) -> str:
-    """Text, der vorgelesen wird: Nomen mit Artikel und Plural."""
+    """Nomen mit Artikel und Plural, danach echte Synonyme."""
     if karte["satz"]:
-        return geloester_satz(karte)
-    if karte["typ"] == "nomen":
-        wort = f"{karte['art']} {karte['de']}" if karte["art"] else karte["de"]
+        text = geloester_satz(karte)
+    elif karte["typ"] == "nomen":
+        text = f"{karte['art']} {karte['de']}" if karte["art"] else karte["de"]
         if karte["plural"] and karte["plural"] not in ("nur Plural", "nur Singular"):
-            return f"{wort}. Plural: die {karte['plural']}."
-        return wort
-    return karte["de"]
+            text += f". Plural: die {karte['plural']}."
+    else:
+        text = karte["de"]
+    # reine Schreibvarianten (gross/groß) klingen gleich und bleiben weg
+    basis = normalisieren(karte["de"])
+    synonyme = [a for a in karte["alt"] if normalisieren(a) != basis]
+    if synonyme:
+        text = text.rstrip(". ") + ". Auch: " + ", ".join(synonyme) + "."
+    return text
 
 
 # ------------------------------------------------------------------ Vokabeln
