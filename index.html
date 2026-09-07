@@ -33,6 +33,12 @@ main{
 footer{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;padding:10px 18px 14px;font-size:13px;color:var(--grau)}
 #typ{font-size:13px;color:var(--grau);text-align:center;margin-top:6px}
 #frage{font-size:34px;font-weight:700;text-align:center;margin:6px 0 18px;line-height:1.15}
+#micro{
+  align-self:center;margin:2px 0 10px;padding:10px 20px;font-size:15px;border:0;
+  border-radius:10px;background:#f3cadb;color:var(--text);font-family:inherit;
+}
+#micro.escuchando{background:var(--rot);color:#fff}
+#micronota{font-size:12px;color:var(--grau);text-align:center;margin:0 0 10px}
 #ton-es{
   align-self:center;margin:-8px 0 14px;padding:6px 14px;font-size:13px;border:0;
   border-radius:10px;background:#f3cadb;color:var(--grau);font-family:inherit;
@@ -138,6 +144,8 @@ button{cursor:pointer}
   <input id="antwort" type="text" autocomplete="off" autocorrect="off"
          autocapitalize="off" spellcheck="false" enterkeyhint="go" placeholder="palabra en alemán">
   <div id="umlaute"></div>
+  <button id="micro" hidden>🎤 hablar</button>
+  <p id="micronota" hidden></p>
   <button id="haupt">Comprobar</button>
 
   <section id="loesung" hidden>
@@ -496,6 +504,120 @@ function textoHablado(c){
   return texto;
 }
 
+/* ------------------------------------------------------------------- Diktat */
+/* Dauerhaftes Zuhören. Der erste Start braucht eine Nutzeraktion, danach wird
+   die Erkennung nach jedem Ende selbst neu gestartet.
+   Auf iOS liefert eine vom Home-Bildschirm gestartete App die API zwar aus,
+   startet aber nie — ein Wachhund erkennt das und schaltet ab. */
+const Reconocedor = window.SpeechRecognition || window.webkitSpeechRecognition;
+let microAuto = true, escucha = null, activa = false, roto = false, vigilante = null;
+try{ microAuto = localStorage.getItem("micro") !== "no"; }catch(e){}
+
+function pintarMicro(){
+  const b = $("micro");
+  if(!b) return;
+  b.hidden = !Reconocedor || roto;
+  b.classList.toggle("escuchando", activa);
+  b.textContent = !microAuto ? "🎤 apagado" : (activa ? "🎙 escuchando" : "🎤 auto");
+}
+function apagarDictado(nota){
+  roto = true; activa = false;
+  if(escucha){ try{ escucha.abort(); }catch(e){} escucha = null; }
+  pintarMicro();
+  $("micronota").hidden = false;
+  $("micronota").textContent = nota;
+}
+
+/* Gesprochenes prüfen: auch wenn sie einen ganzen Satz sagt, zählt das Wort */
+function comprobarVoz(texto, carta){
+  const palabras = texto.trim().split(/\s+/);
+  // Nennt sie einen Artikel, wird ab dort geprüft. Sonst würde der
+  // Wortabgleich "der Haus" auf "Haus" kürzen und den Fehler verschlucken.
+  let iArt = -1;
+  palabras.forEach((p, i) => {
+    if(/^(der|die|das)$/i.test(p.replace(/[^a-zA-ZäöüÄÖÜß]/g, ""))) iArt = i;
+  });
+  if(iArt >= 0) return comprobar(palabras.slice(iArt).join(" "), carta);
+
+  let mejor = "falsch";
+  for(let i = 0; i < palabras.length; i++){
+    const r = comprobar(palabras.slice(i).join(" "), carta);
+    if(r === "richtig") return "richtig";
+    if(r === "fast") mejor = "fast";
+  }
+  return mejor;
+}
+
+function escuchar(){
+  if(!Reconocedor || roto || activa || !microAuto) return;
+  let arranco = false;
+  escucha = new Reconocedor();
+  escucha.lang = "de-DE";
+  escucha.interimResults = true;
+  escucha.maxAlternatives = 3;
+  escucha.continuous = false;          // Safari kommt mit continuous nicht zurecht
+
+  escucha.onstart = () => { arranco = true; activa = true; clearTimeout(vigilante); pintarMicro(); };
+
+  escucha.onresult = ev => {
+    if(resuelto) return;               // Lösung steht schon, Gesagtes ignorieren
+    const r = ev.results[ev.results.length - 1];
+    const bruto = (r[0].transcript || "").trim();
+    if(!bruto) return;
+    $("antwort").value = bruto;
+    if(!r.isFinal) return;
+
+    // beste der Alternativen gewinnt: Diktat verhört sich bei Einzelwörtern
+    let texto = bruto, mejor = "falsch";
+    for(let i = 0; i < r.length; i++){
+      const v = comprobarVoz(r[i].transcript, ronda[indice]);
+      if(v === "richtig"){ texto = r[i].transcript; mejor = "richtig"; break; }
+      if(v === "fast" && mejor === "falsch"){ texto = r[i].transcript; mejor = "fast"; }
+    }
+    $("antwort").value = texto.trim();
+    accion();
+    setTimeout(siguiente, 250);
+  };
+
+  escucha.onerror = ev => {
+    if(ev.error === "not-allowed" || ev.error === "service-not-allowed")
+      apagarDictado("Micrófono bloqueado. Ajustes › Safari › Micrófono.");
+    // no-speech, aborted, network: onend startet gleich neu
+  };
+
+  escucha.onend = () => {
+    activa = false; escucha = null; pintarMicro();
+    if(microAuto && !roto) setTimeout(escuchar, 400);
+  };
+
+  try{ escucha.start(); }
+  catch(e){ activa = false; return; }
+
+  vigilante = setTimeout(() => {
+    if(!arranco) apagarDictado("El dictado no funciona en la app del inicio. Abre la página en Safari.");
+  }, 3000);
+}
+
+function alternarMicro(){
+  microAuto = !microAuto;
+  try{ localStorage.setItem("micro", microAuto ? "si" : "no"); }catch(e){}
+  if(microAuto) escuchar();
+  else if(escucha){ try{ escucha.abort(); }catch(e){} escucha = null; activa = false; }
+  pintarMicro();
+}
+
+/* Erster Start braucht eine Nutzeraktion — die erste Berührung genügt */
+function armarMicro(){
+  const arranque = () => {
+    document.removeEventListener("click", arranque);
+    document.removeEventListener("keydown", arranque);
+    escuchar();
+  };
+  document.addEventListener("click", arranque);
+  document.addEventListener("keydown", arranque);
+  escuchar();                          // falls die Berechtigung schon vorliegt
+}
+
 /* ------------------------------------------------------------------- Ablauf */
 let fortschritt = cargar(), ronda = [], indice = 0, aciertos = 0, resuelto = false;
 
@@ -783,6 +905,14 @@ document.addEventListener("keydown", e => {
   siguiente();
 });
 $("antwort").addEventListener("input", accion);
+$("micro").onclick = alternarMicro;
+if(!Reconocedor){
+  $("micronota").hidden = false;
+  $("micronota").textContent = "Este navegador no reconoce voz.";
+}else{
+  pintarMicro();
+  armarMicro();
+}
 $("ton-es").onclick = () => { accion(); hablarEs(textoEs(ronda[indice])); };
 $("autoes").onclick = () => {
   autoEs = !autoEs;
